@@ -1122,6 +1122,246 @@ section {
   gap: 0.3rem;
   color: var(--primary);
 }
+/* Contribute */
+.contribute-page {
+  max-width: 1300px;
+  margin: auto;
+  padding: 4rem 1.5rem 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.contribute-hero {
+  max-width: 58rem;
+}
+.contribute-hero h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2.8rem, 7vw, 5.2rem);
+  line-height: 1.02;
+  margin: 1rem 0 1.5rem;
+}
+.contribute-lede {
+  font-size: 1.12rem;
+  line-height: 1.8;
+  color: var(--muted-foreground);
+  max-width: 46rem;
+}
+.contribute-lede + .contribute-lede {
+  margin-top: 1rem;
+}
+.contribute-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+.way-grid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+.way-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  border: 1px solid var(--border);
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 1.6rem;
+  color: var(--primary);
+}
+.way-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  color: var(--foreground);
+}
+.way-summary {
+  color: var(--muted-foreground);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+.way-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin: 0.25rem 0 0.5rem;
+  flex: 1;
+}
+.way-list li {
+  position: relative;
+  padding-left: 1rem;
+  color: var(--muted-foreground);
+  font-size: 0.85rem;
+  line-height: 1.55;
+}
+.way-list li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+.way-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.way-actions .button-primary,
+.way-actions .button-quiet {
+  padding: 0.6rem 0.9rem;
+  font-size: 0.82rem;
+}
+.way-state {
+  min-height: 1rem;
+  font-size: 0.75rem;
+  color: var(--primary);
+}
+.process-steps {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.process-steps li {
+  display: flex;
+  gap: 0.9rem;
+  border-top: 1px solid var(--border);
+  padding-top: 1rem;
+}
+.process-number {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  color: var(--accent);
+}
+.process-steps h3 {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  margin-bottom: 0.35rem;
+}
+.process-steps p {
+  color: var(--muted-foreground);
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+.process-note {
+  margin-top: 1.75rem;
+  color: var(--muted-foreground);
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+.process-note a {
+  color: var(--primary);
+  text-decoration: underline;
+}
+.contribute-limits {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
+  gap: 2.5rem;
+  background: var(--secondary);
+  border-radius: calc(var(--radius) + 4px);
+  padding: 2.75rem;
+}
+.contribute-limits h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 3.4vw, 2.3rem);
+  margin: 0.75rem 0 0.75rem;
+}
+.contribute-limits p {
+  color: var(--muted-foreground);
+  line-height: 1.75;
+  font-size: 0.95rem;
+}
+.contribute-limits ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.contribute-limits li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  color: var(--muted-foreground);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+.contribute-limits li svg {
+  flex: none;
+  margin-top: 0.2rem;
+  color: var(--primary);
+}
+.recording-intro {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-top: 1.5rem;
+  max-width: 46rem;
+  color: var(--muted-foreground);
+  line-height: 1.8;
+}
+.recording-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.recording-grid article {
+  border-left: 2px solid var(--primary);
+  padding-left: 1rem;
+}
+.recording-grid h3 {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  margin-bottom: 0.35rem;
+}
+.recording-grid p {
+  color: var(--muted-foreground);
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+.contribute-contact {
+  border-top: 1px solid var(--border);
+  padding-top: 3rem;
+}
+.contribute-contact h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.9rem, 4vw, 2.8rem);
+  margin: 0.75rem 0 1rem;
+}
+.contribute-contact p {
+  color: var(--muted-foreground);
+  line-height: 1.8;
+  max-width: 44rem;
+}
+.contribute-safety {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 1rem;
+  font-size: 0.88rem;
+}
+.contribute-safety svg {
+  color: var(--primary);
+  flex: none;
+}
+.contribute-code {
+  margin-top: 1.5rem;
+  font-size: 0.88rem;
+}
+.contribute-code a {
+  color: var(--primary);
+  text-decoration: underline;
+}
+.prose-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
 /* Photography credits */
 .credits-page {
   max-width: 1300px;
@@ -1236,6 +1476,14 @@ section {
 }
 
 @media (max-width: 900px) {
+  .contribute-page {
+    gap: 3.5rem;
+    padding-top: 3rem;
+  }
+  .contribute-limits {
+    grid-template-columns: 1fr;
+    padding: 2rem;
+  }
   .footer-grid {
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -1670,40 +1918,6 @@ section {
 .source-list small {
   color: var(--muted-foreground);
 }
-.contribute-form {
-  display: grid;
-  gap: 1rem;
-  margin-top: 2rem;
-  background: var(--card);
-  border: 1px solid var(--border);
-  padding: 2rem;
-  border-radius: var(--radius);
-}
-.contribute-form label {
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
-  font-size: 0.85rem;
-  font-weight: 600;
-}
-.contribute-form input,
-.contribute-form select,
-.contribute-form textarea {
-  background: var(--background);
-  border: 1px solid var(--border);
-  padding: 0.7rem;
-  border-radius: var(--radius);
-  font-weight: 400;
-  font-size: 1rem;
-  color: var(--foreground);
-}
-.form-done {
-  padding: 1.5rem;
-  background: var(--secondary);
-  border-radius: var(--radius);
-  margin-top: 2rem;
-}
-
 /* Journey — continuous reading */
 html {
   scroll-behavior: smooth;
