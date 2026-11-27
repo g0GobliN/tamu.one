@@ -11,6 +11,7 @@ export const navItems = [
   { to: "/geography", label: "Homeland" },
   { to: "/diaspora", label: "Diaspora" },
   { to: "/archive", label: "The Archive" },
+  { to: "/help", label: "Help" },
 ] as const;
 export function Header() {
   const [open, setOpen] = useState(false);

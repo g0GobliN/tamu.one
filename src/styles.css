@@ -291,6 +291,13 @@ img {
     display: none !important;
   }
 }
+/* Nine nav items fit at 1100px only with a tighter rhythm. */
+@media (min-width: 1100px) and (max-width: 1279px) {
+  .desktop-nav {
+    gap: 0.9rem;
+    font-size: 0.8rem;
+  }
+}
 
 .home-hero {
   position: relative;
