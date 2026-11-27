@@ -16,11 +16,14 @@ import { Route as ContributeRouteImport } from './routes/contribute'
 import { Route as CultureRouteImport } from './routes/culture'
 import { Route as DiasporaRouteImport } from './routes/diaspora'
 import { Route as GeographyRouteImport } from './routes/geography'
+import { Route as HelpRouteImport } from './routes/help'
 import { Route as HistoryRouteImport } from './routes/history'
 import { Route as JourneyRouteImport } from './routes/journey'
 import { Route as LanguageRouteImport } from './routes/language'
 import { Route as OralHistoryRouteImport } from './routes/oral-history'
+import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as SourcesRouteImport } from './routes/sources'
+import { Route as TermsRouteImport } from './routes/terms'
 import { Route as TimelineRouteImport } from './routes/timeline'
 import { Route as LibraryIndexRouteImport } from './routes/library.index'
 import { Route as LibrarySlugRouteImport } from './routes/library.$slug'
@@ -60,6 +63,11 @@ const GeographyRoute = GeographyRouteImport.update({
   path: '/geography',
   getParentRoute: () => rootRouteImport,
 } as any)
+const HelpRoute = HelpRouteImport.update({
+  id: '/help',
+  path: '/help',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const HistoryRoute = HistoryRouteImport.update({
   id: '/history',
   path: '/history',
@@ -80,9 +88,19 @@ const OralHistoryRoute = OralHistoryRouteImport.update({
   path: '/oral-history',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PrivacyRoute = PrivacyRouteImport.update({
+  id: '/privacy',
+  path: '/privacy',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const SourcesRoute = SourcesRouteImport.update({
   id: '/sources',
   path: '/sources',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TermsRoute = TermsRouteImport.update({
+  id: '/terms',
+  path: '/terms',
   getParentRoute: () => rootRouteImport,
 } as any)
 const TimelineRoute = TimelineRouteImport.update({
@@ -109,11 +127,14 @@ export interface FileRoutesByFullPath {
   '/culture': typeof CultureRoute
   '/diaspora': typeof DiasporaRoute
   '/geography': typeof GeographyRoute
+  '/help': typeof HelpRoute
   '/history': typeof HistoryRoute
   '/journey': typeof JourneyRoute
   '/language': typeof LanguageRoute
   '/oral-history': typeof OralHistoryRoute
+  '/privacy': typeof PrivacyRoute
   '/sources': typeof SourcesRoute
+  '/terms': typeof TermsRoute
   '/timeline': typeof TimelineRoute
   '/library/$slug': typeof LibrarySlugRoute
   '/library/': typeof LibraryIndexRoute
@@ -126,11 +147,14 @@ export interface FileRoutesByTo {
   '/culture': typeof CultureRoute
   '/diaspora': typeof DiasporaRoute
   '/geography': typeof GeographyRoute
+  '/help': typeof HelpRoute
   '/history': typeof HistoryRoute
   '/journey': typeof JourneyRoute
   '/language': typeof LanguageRoute
   '/oral-history': typeof OralHistoryRoute
+  '/privacy': typeof PrivacyRoute
   '/sources': typeof SourcesRoute
+  '/terms': typeof TermsRoute
   '/timeline': typeof TimelineRoute
   '/library/$slug': typeof LibrarySlugRoute
   '/library': typeof LibraryIndexRoute
@@ -144,11 +168,14 @@ export interface FileRoutesById {
   '/culture': typeof CultureRoute
   '/diaspora': typeof DiasporaRoute
   '/geography': typeof GeographyRoute
+  '/help': typeof HelpRoute
   '/history': typeof HistoryRoute
   '/journey': typeof JourneyRoute
   '/language': typeof LanguageRoute
   '/oral-history': typeof OralHistoryRoute
+  '/privacy': typeof PrivacyRoute
   '/sources': typeof SourcesRoute
+  '/terms': typeof TermsRoute
   '/timeline': typeof TimelineRoute
   '/library/$slug': typeof LibrarySlugRoute
   '/library/': typeof LibraryIndexRoute
@@ -163,11 +190,14 @@ export interface FileRouteTypes {
     | '/culture'
     | '/diaspora'
     | '/geography'
+    | '/help'
     | '/history'
     | '/journey'
     | '/language'
     | '/oral-history'
+    | '/privacy'
     | '/sources'
+    | '/terms'
     | '/timeline'
     | '/library/$slug'
     | '/library/'
@@ -180,11 +210,14 @@ export interface FileRouteTypes {
     | '/culture'
     | '/diaspora'
     | '/geography'
+    | '/help'
     | '/history'
     | '/journey'
     | '/language'
     | '/oral-history'
+    | '/privacy'
     | '/sources'
+    | '/terms'
     | '/timeline'
     | '/library/$slug'
     | '/library'
@@ -197,11 +230,14 @@ export interface FileRouteTypes {
     | '/culture'
     | '/diaspora'
     | '/geography'
+    | '/help'
     | '/history'
     | '/journey'
     | '/language'
     | '/oral-history'
+    | '/privacy'
     | '/sources'
+    | '/terms'
     | '/timeline'
     | '/library/$slug'
     | '/library/'
@@ -215,11 +251,14 @@ export interface RootRouteChildren {
   CultureRoute: typeof CultureRoute
   DiasporaRoute: typeof DiasporaRoute
   GeographyRoute: typeof GeographyRoute
+  HelpRoute: typeof HelpRoute
   HistoryRoute: typeof HistoryRoute
   JourneyRoute: typeof JourneyRoute
   LanguageRoute: typeof LanguageRoute
   OralHistoryRoute: typeof OralHistoryRoute
+  PrivacyRoute: typeof PrivacyRoute
   SourcesRoute: typeof SourcesRoute
+  TermsRoute: typeof TermsRoute
   TimelineRoute: typeof TimelineRoute
   LibrarySlugRoute: typeof LibrarySlugRoute
   LibraryIndexRoute: typeof LibraryIndexRoute
@@ -276,6 +315,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof GeographyRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/help': {
+      id: '/help'
+      path: '/help'
+      fullPath: '/help'
+      preLoaderRoute: typeof HelpRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/history': {
       id: '/history'
       path: '/history'
@@ -304,11 +350,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof OralHistoryRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/privacy': {
+      id: '/privacy'
+      path: '/privacy'
+      fullPath: '/privacy'
+      preLoaderRoute: typeof PrivacyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/sources': {
       id: '/sources'
       path: '/sources'
       fullPath: '/sources'
       preLoaderRoute: typeof SourcesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/terms': {
+      id: '/terms'
+      path: '/terms'
+      fullPath: '/terms'
+      preLoaderRoute: typeof TermsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/timeline': {
@@ -343,11 +403,14 @@ const rootRouteChildren: RootRouteChildren = {
   CultureRoute: CultureRoute,
   DiasporaRoute: DiasporaRoute,
   GeographyRoute: GeographyRoute,
+  HelpRoute: HelpRoute,
   HistoryRoute: HistoryRoute,
   JourneyRoute: JourneyRoute,
   LanguageRoute: LanguageRoute,
   OralHistoryRoute: OralHistoryRoute,
+  PrivacyRoute: PrivacyRoute,
   SourcesRoute: SourcesRoute,
+  TermsRoute: TermsRoute,
   TimelineRoute: TimelineRoute,
   LibrarySlugRoute: LibrarySlugRoute,
   LibraryIndexRoute: LibraryIndexRoute,
