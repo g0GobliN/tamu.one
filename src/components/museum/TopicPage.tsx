@@ -1,14 +1,22 @@
-import { Link } from "@tanstack/react-router";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { articles } from "@/data/heritage";
 import { getMedia } from "@/data/media";
-import type { Topic } from "@/data/topics";
+import type { TopicKey } from "@/data/topics";
+import { getArticle, getTopic } from "@/i18n/content";
+import { useLocale, useUi } from "@/i18n";
 import { InlineArticle } from "./InlineArticle";
 import { ReadingLayout } from "./ReadingLayout";
+import { AppLink } from "./AppLink";
 
-export function TopicPage({ topic }: { topic: Topic }) {
+export function TopicPage({ topicKey }: { topicKey: TopicKey }) {
+  const locale = useLocale();
+  const ui = useUi();
+  const topic = getTopic(locale, topicKey);
   const photo = topic.image ? getMedia(topic.image) : undefined;
-  const list = articles.filter((a) => topic.categories.includes(a.category));
+  const list = articles
+    .filter((a) => topic.categories.includes(a.category))
+    .map((a) => getArticle(a, locale));
+
   return (
     <main>
       <section className={`topic-hero ${photo ? "" : "topic-plain"}`}>
@@ -40,14 +48,14 @@ export function TopicPage({ topic }: { topic: Topic }) {
                   </h3>
                   <p>{t.text}</p>
                   <span className="theme-cta">
-                    Read below <ArrowRight size={15} />
+                    {ui.topic.readBelow} <ArrowRight size={15} />
                   </span>
                 </a>
               ) : (
                 <div key={t.title} className="theme-card">
                   <h3>{t.title}</h3>
                   <p>{t.text}</p>
-                  <span className="theme-note">In this collection</span>
+                  <span className="theme-note">{ui.topic.inCollection}</span>
                 </div>
               ),
             )}
@@ -70,11 +78,11 @@ export function TopicPage({ topic }: { topic: Topic }) {
           {list.length ? (
             list.map((a) => <InlineArticle key={a.slug} article={a} />)
           ) : (
-            <p className="research-note">Articles for this collection are being prepared.</p>
+            <p className="research-note">{ui.common.preparing}</p>
           )}
-          <Link to="/library" className="text-link">
-            All articles <ArrowRight size={17} />
-          </Link>
+          <AppLink to="/library" className="text-link">
+            {ui.common.allArticles} <ArrowRight size={17} />
+          </AppLink>
         </section>
       </ReadingLayout>
     </main>

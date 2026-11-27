@@ -1,4 +1,3 @@
-import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import {
   ArrowUpRight,
@@ -17,40 +16,31 @@ import {
   X,
 } from "lucide-react";
 import { contact } from "@/data/contact";
-import {
-  contributionLimits,
-  contributionProcess,
-  contributionTypes,
-  recordingTips,
-  type ContributionType,
-} from "@/data/contribute";
+import { useUi } from "@/i18n";
+import { AppLink } from "./AppLink";
 
-const icons: Record<ContributionType["id"], typeof Quote> = {
-  memory: Quote,
-  photograph: Camera,
-  correction: PencilLine,
-  language: Languages,
-  source: Library,
-};
+const typeIcons = [Quote, Camera, PencilLine, Languages, Library] as const;
 
-function mailtoFor(type: ContributionType) {
-  const subject = encodeURIComponent(type.subject);
-  const body = encodeURIComponent(type.body);
-  return `mailto:${contact.email}?subject=${subject}&body=${body}`;
+function mailtoFor(subject: string, body: string) {
+  return `mailto:${contact.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }
 
 export function Contribute() {
-  const [copied, setCopied] = useState<string | null>(null);
+  const ui = useUi();
+  const [copied, setCopied] = useState<number | null>(null);
+  const types = ui.contribute.types;
 
-  async function copyTemplate(type: ContributionType) {
+  async function copyTemplate(index: number) {
+    const type = types[index];
+    if (!type) return;
     try {
       await navigator.clipboard.writeText(
         `To: ${contact.email}\nSubject: ${type.subject}\n\n${type.body}`,
       );
-      setCopied(type.id);
+      setCopied(index);
       window.setTimeout(() => setCopied(null), 2500);
     } catch {
-      window.location.href = mailtoFor(type);
+      window.location.href = mailtoFor(type.subject, type.body);
     }
   }
 
@@ -58,27 +48,20 @@ export function Contribute() {
     <main className="contribute-page">
       <header className="contribute-hero">
         <span className="eyebrow">
-          <span aria-hidden="true" /> A SHARED RESPONSIBILITY
+          <span aria-hidden="true" /> {ui.contribute.eyebrow}
         </span>
-        <h1>Become part of the story</h1>
-        <p className="contribute-lede">
-          Every memory is a thread. A family story, a photograph in a drawer, one word of Tamu Kyi
-          written down for the first time, a correction to something you read here — this museum
-          gets better every time someone sends one.
-        </p>
-        <p className="contribute-lede">
-          Nothing below is a form that swallows your message. Each one opens a real email, already
-          written, so all you have to do is fill in what you know and press send.
-        </p>
+        <h1>{ui.contribute.title}</h1>
+        <p className="contribute-lede">{ui.contribute.lede1}</p>
+        <p className="contribute-lede">{ui.contribute.lede2}</p>
         <div className="contribute-jump">
           <a href="#ways" className="button-primary">
-            Choose what to share <ArrowUpRight size={17} />
+            {ui.contribute.choose} <ArrowUpRight size={17} />
           </a>
           <a href="#how" className="button-quiet">
-            How it works
+            {ui.contribute.howItWorks}
           </a>
           <a href="#recording" className="button-quiet">
-            Recording advice
+            {ui.contribute.recordingAdvice}
           </a>
         </div>
       </header>
@@ -86,16 +69,16 @@ export function Contribute() {
       <section id="ways" className="contribute-ways">
         <div className="section-heading">
           <div>
-            <span className="eyebrow">FIVE WAYS IN</span>
-            <h2>What would you like to share?</h2>
+            <span className="eyebrow">{ui.contribute.waysEyebrow}</span>
+            <h2>{ui.contribute.waysTitle}</h2>
           </div>
         </div>
         <ul className="way-grid">
-          {contributionTypes.map((type) => {
-            const Icon = icons[type.id];
-            const isCopied = copied === type.id;
+          {types.map((type, index) => {
+            const Icon = typeIcons[index] ?? Quote;
+            const isCopied = copied === index;
             return (
-              <li key={type.id} className="way-card">
+              <li key={type.title} className="way-card">
                 <Icon size={22} strokeWidth={1.4} aria-hidden="true" />
                 <h3>{type.title}</h3>
                 <p className="way-summary">{type.summary}</p>
@@ -105,21 +88,21 @@ export function Contribute() {
                   ))}
                 </ul>
                 <div className="way-actions">
-                  <a href={mailtoFor(type)} className="button-primary">
-                    <Mail size={15} /> Open email draft
+                  <a href={mailtoFor(type.subject, type.body)} className="button-primary">
+                    <Mail size={15} /> {ui.contribute.openDraft}
                   </a>
                   <button
                     type="button"
                     className="button-quiet"
-                    onClick={() => copyTemplate(type)}
-                    aria-label={`Copy the ${type.title} template`}
+                    onClick={() => copyTemplate(index)}
+                    aria-label={`${ui.contribute.copyAria}: ${type.title}`}
                   >
                     {isCopied ? <Check size={15} /> : <Copy size={15} />}
-                    {isCopied ? "Copied" : "Copy template"}
+                    {isCopied ? ui.contribute.copied : ui.contribute.copy}
                   </button>
                 </div>
                 <span className="way-state" role="status" aria-live="polite">
-                  {isCopied ? "Template copied — paste it into any email or message." : ""}
+                  {isCopied ? ui.contribute.templateCopied : ""}
                 </span>
               </li>
             );
@@ -130,12 +113,12 @@ export function Contribute() {
       <section id="how" className="contribute-process">
         <div className="section-heading">
           <div>
-            <span className="eyebrow">WHAT HAPPENS NEXT</span>
-            <h2>Three steps, no black box</h2>
+            <span className="eyebrow">{ui.contribute.processEyebrow}</span>
+            <h2>{ui.contribute.processTitle}</h2>
           </div>
         </div>
         <ol className="process-steps">
-          {contributionProcess.map((step, index) => (
+          {ui.contribute.process.map((step, index) => (
             <li key={step.title}>
               <span className="process-number">{String(index + 1).padStart(2, "0")}</span>
               <div>
@@ -146,23 +129,22 @@ export function Contribute() {
           ))}
         </ol>
         <p className="process-note">
-          You keep ownership of what you send, and you can ask for it to be credited differently or
-          removed later. The full arrangement is in the <Link to="/terms">terms</Link> and the{" "}
-          <Link to="/privacy">privacy policy</Link>.
+          {ui.contribute.processNoteA}{" "}
+          <AppLink to="/terms">{ui.contribute.processNoteTerms}</AppLink>{" "}
+          {ui.contribute.processNoteMid}{" "}
+          <AppLink to="/privacy">{ui.contribute.processNotePrivacy}</AppLink>
+          {ui.contribute.processNoteEnd}
         </p>
       </section>
 
       <section id="limits" className="contribute-limits">
         <div>
-          <span className="eyebrow">WHAT WE CAN'T HOLD</span>
-          <h2>Some things stay out of a public museum</h2>
-          <p>
-            Respect is part of the method. These are the contributions that will be declined or kept
-            back, and it is not a judgement on the person offering them.
-          </p>
+          <span className="eyebrow">{ui.contribute.limitsEyebrow}</span>
+          <h2>{ui.contribute.limitsTitle}</h2>
+          <p>{ui.contribute.limitsIntro}</p>
         </div>
         <ul>
-          {contributionLimits.map((limit) => (
+          {ui.contribute.limits.map((limit) => (
             <li key={limit}>
               <X size={15} aria-hidden="true" /> {limit}
             </li>
@@ -173,17 +155,16 @@ export function Contribute() {
       <section id="recording" className="contribute-recording">
         <div className="section-heading">
           <div>
-            <span className="eyebrow">ORAL HISTORY</span>
-            <h2>Recording an elder, this weekend</h2>
+            <span className="eyebrow">{ui.contribute.recordingEyebrow}</span>
+            <h2>{ui.contribute.recordingTitle}</h2>
           </div>
         </div>
         <p className="recording-intro">
-          You do not need equipment or training. <Mic size={16} aria-hidden="true" /> The best
-          recording ever made of a village is usually one somebody took on a phone before it was too
-          late.
+          {ui.contribute.recordingIntroA} <Mic size={16} aria-hidden="true" />{" "}
+          {ui.contribute.recordingIntroB}
         </p>
         <div className="recording-grid">
-          {recordingTips.map((tip) => (
+          {ui.contribute.tips.map((tip) => (
             <article key={tip.title}>
               <h3>{tip.title}</h3>
               <p>{tip.text}</p>
@@ -194,15 +175,11 @@ export function Contribute() {
 
       <section className="contribute-contact">
         <div>
-          <span className="eyebrow">READY, OR JUST CURIOUS?</span>
-          <h2>Write to us first if you would rather ask than send</h2>
-          <p>
-            A short message is enough — “I have photographs from Sikles, can I send them?” is a
-            perfectly good opening. Say what you have and we will tell you what would be useful.
-          </p>
+          <span className="eyebrow">{ui.contribute.contactEyebrow}</span>
+          <h2>{ui.contribute.contactTitle}</h2>
+          <p>{ui.contribute.contactP}</p>
           <p className="contribute-safety">
-            <ShieldCheck size={16} aria-hidden="true" /> We never publish a contribution, or a
-            contributor's details, without your agreement.
+            <ShieldCheck size={16} aria-hidden="true" /> {ui.contribute.safety}
           </p>
         </div>
         <div className="contact-actions">
@@ -217,8 +194,8 @@ export function Contribute() {
           </a>
         </div>
         <p className="contribute-code">
-          Contributing code or reporting a bug works differently: every change starts as an issue,
-          then a pull request. The <Link to="/help">help page</Link> explains both paths.
+          {ui.contribute.codeNoteA} <AppLink to="/help">{ui.contribute.helpLink}</AppLink>{" "}
+          {ui.contribute.codeNoteEnd}
         </p>
       </section>
     </main>

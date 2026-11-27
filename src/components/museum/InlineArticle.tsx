@@ -1,12 +1,16 @@
-import { Link } from "@tanstack/react-router";
-import { sources, type Article } from "@/data/heritage";
+import { sources } from "@/data/heritage";
 import { getMedia } from "@/data/media";
+import type { LocalizedArticle } from "@/i18n/content";
+import { useUi } from "@/i18n";
+import { AppLink } from "./AppLink";
 
-export function InlineArticle({ article: a }: { article: Article }) {
+export function InlineArticle({ article: a }: { article: LocalizedArticle }) {
+  const ui = useUi();
   const photo = a.image ? getMedia(a.image) : undefined;
   const refs = a.sourceIds
     .map((id) => sources.find((s) => s.id === id))
     .filter((s) => s !== undefined);
+
   return (
     <article id={`read-${a.slug}`} className="ency-article">
       <h3 className="ency-title">{a.title}</h3>
@@ -23,17 +27,22 @@ export function InlineArticle({ article: a }: { article: Article }) {
           </figure>
         )}
         <dl>
-          <dt>Subject</dt>
+          <dt>{ui.article.subject}</dt>
           <dd>{a.category}</dd>
-          <dt>Region</dt>
+          <dt>{ui.article.region}</dt>
           <dd>{a.region}</dd>
-          <dt>Period</dt>
+          <dt>{ui.article.period}</dt>
           <dd>{a.period}</dd>
-          <dt>Evidence</dt>
+          <dt>{ui.article.evidence}</dt>
           <dd>{a.evidence}</dd>
         </dl>
       </aside>
       <p className="ency-lead">{a.summary}</p>
+      {!a.bodyTranslated && (
+        <p className="translation-note">
+          {ui.article.englishOnly} <a href={`/library/${a.slug}`}>{ui.article.seeEnglish}</a>
+        </p>
+      )}
       {a.sections.map((s) => (
         <section key={s.title}>
           <h4>{s.title}</h4>
@@ -41,7 +50,7 @@ export function InlineArticle({ article: a }: { article: Article }) {
         </section>
       ))}
       <div className="ency-refs">
-        <h4>References</h4>
+        <h4>{ui.article.references}</h4>
         <ol>
           {refs.map((s) => (
             <li key={s.id}>
@@ -52,9 +61,9 @@ export function InlineArticle({ article: a }: { article: Article }) {
             </li>
           ))}
         </ol>
-        <Link to="/library/$slug" params={{ slug: a.slug }} className="ency-more">
-          Open as its own page →
-        </Link>
+        <AppLink to="/library/$slug" params={{ slug: a.slug }} className="ency-more">
+          {ui.article.openPage} →
+        </AppLink>
       </div>
     </article>
   );

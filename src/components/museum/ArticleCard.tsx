@@ -1,11 +1,14 @@
-import { Link } from "@tanstack/react-router";
 import { ArrowUpRight, BookOpen } from "lucide-react";
 import { getMedia } from "@/data/media";
-import type { Article } from "@/data/heritage";
-export function ArticleCard({ article: a }: { article: Article }) {
+import type { LocalizedArticle } from "@/i18n/content";
+import { useUi } from "@/i18n";
+import { AppLink } from "./AppLink";
+
+export function ArticleCard({ article: a }: { article: LocalizedArticle }) {
+  const ui = useUi();
   const photo = a.image ? getMedia(a.image) : undefined;
   return (
-    <Link
+    <AppLink
       to="/library/$slug"
       params={{ slug: a.slug }}
       className={`article-card ${photo ? "" : "text-card"}`}
@@ -19,7 +22,7 @@ export function ArticleCard({ article: a }: { article: Article }) {
         <div className="card-topic">
           <BookOpen size={27} strokeWidth={1} />
           <span>{a.category}</span>
-          <span className="research-label">RESEARCH COLLECTION</span>
+          <span className="research-label">{ui.common.researchCollection}</span>
         </div>
       )}
       <div className="card-body">
@@ -31,9 +34,9 @@ export function ArticleCard({ article: a }: { article: Article }) {
         <p>{a.summary}</p>
         <div className="card-meta">
           {a.evidence}
-          <span>4 min read</span>
+          <span>{ui.common.readTime}</span>
         </div>
       </div>
-    </Link>
+    </AppLink>
   );
 }

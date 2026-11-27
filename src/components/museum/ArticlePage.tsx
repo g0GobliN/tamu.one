@@ -1,19 +1,40 @@
-import { Link } from "@tanstack/react-router";
 import { ArrowLeft, ArrowUpRight, BookOpen, Check, Link2 } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { sources, articles, type Article } from "@/data/heritage";
+import { sources } from "@/data/heritage";
 import { getMedia } from "@/data/media";
+import { getArticleBySlug, getArticles } from "@/i18n/content";
+import { useLocale, useUi } from "@/i18n";
 import { ArticleCard } from "./ArticleCard";
-export function ArticlePage({ article: a }: { article: Article }) {
-  const photo = a.image ? getMedia(a.image) : undefined;
+import { AppLink } from "./AppLink";
+
+function ArrowRightIcon() {
+  return <ArrowUpRight size={16} />;
+}
+
+export function ArticlePage({ slug }: { slug: string }) {
+  const locale = useLocale();
+  const ui = useUi();
+  const a = getArticleBySlug(slug, locale);
   const [copied, setCopied] = useState(false);
+
+  if (!a) return null;
+
+  const photo = a.image ? getMedia(a.image) : undefined;
+  const continued = getArticles(locale)
+    .filter(
+      (x) =>
+        x.slug !== a.slug &&
+        (x.rawCategory === a.rawCategory || x.sourceIds.some((id) => a.sourceIds.includes(id))),
+    )
+    .slice(0, 3);
+
   return (
     <main className="article-page">
       <div className="article-heading">
-        <Link to="/library" className="text-link">
-          <ArrowLeft size={15} /> Knowledge library
-        </Link>
+        <AppLink to="/library" className="text-link">
+          <ArrowLeft size={15} /> {ui.article.back}
+        </AppLink>
         <span className="eyebrow">
           {a.category} · {a.region}
         </span>
@@ -21,7 +42,7 @@ export function ArticlePage({ article: a }: { article: Article }) {
         <p>{a.summary}</p>
         <div className="article-info">
           <span>
-            <BookOpen size={15} /> Research introduction
+            <BookOpen size={15} /> {ui.article.introduction}
           </span>
           <span>{a.evidence}</span>
           <Button
@@ -36,7 +57,8 @@ export function ArticlePage({ article: a }: { article: Article }) {
               }
             }}
           >
-            {copied ? <Check size={14} /> : <Link2 size={14} />} {copied ? "Link copied" : "Share"}
+            {copied ? <Check size={14} /> : <Link2 size={14} />}{" "}
+            {copied ? ui.article.copied : ui.article.share}
           </Button>
         </div>
       </div>
@@ -54,28 +76,35 @@ export function ArticlePage({ article: a }: { article: Article }) {
               target="_blank"
               rel="noreferrer"
             >
-              Original image
+              {ui.sources.commons}
             </a>
           </figcaption>
         </figure>
       )}
       <div className="article-layout">
         <aside>
-          <span className="eyebrow">IN THIS ARTICLE</span>
+          <span className="eyebrow">{ui.article.inThis}</span>
           {a.sections.map((s, i) => (
             <a key={s.title} href={`#section-${i}`}>
               {String(i + 1).padStart(2, "0")} <span>{s.title}</span>
             </a>
           ))}
-          <a href="#references">References</a>
+          <a href="#references">{ui.article.references}</a>
           <div className="evidence-note">
-            <strong>Research transparency</strong>
+            <strong>{ui.article.transparency}</strong>
             <p>{a.evidence}</p>
-            <p>Last reviewed: {a.reviewed}</p>
-            <p>{a.communityReview}</p>
+            <p>
+              {ui.article.lastReviewed} {a.reviewed}
+            </p>
+            <p>{ui.article.communityReview}</p>
           </div>
         </aside>
         <article className="article-prose">
+          {!a.bodyTranslated && (
+            <p className="translation-note">
+              {ui.article.englishOnly} <a href={`/library/${a.slug}`}>{ui.article.seeEnglish}</a>
+            </p>
+          )}
           {a.sections.map((s, i) => (
             <section id={`section-${i}`} key={s.title}>
               <h2>{s.title}</h2>
@@ -83,8 +112,8 @@ export function ArticlePage({ article: a }: { article: Article }) {
             </section>
           ))}
           <section id="references" className="references">
-            <span className="eyebrow">FOLLOW THE EVIDENCE</span>
-            <h2>Sources & further reading</h2>
+            <span className="eyebrow">{ui.article.evidenceEyebrow}</span>
+            <h2>{ui.article.sourcesTitle}</h2>
             {a.sourceIds.map((id, i) => {
               const source = sources.find((s) => s.id === id);
               return source ? (
@@ -97,9 +126,7 @@ export function ArticlePage({ article: a }: { article: Article }) {
                     <p>{source.title}</p>
                     <small>
                       {source.kind} ·{" "}
-                      {source.id === "moisala"
-                        ? "pp. 152–176"
-                        : "Page-level claim citations not yet supplied"}
+                      {source.id === "moisala" ? "pp. 152–176" : ui.article.citationMissing}
                     </small>
                   </div>
                   <ArrowUpRight size={17} />
@@ -108,34 +135,24 @@ export function ArticlePage({ article: a }: { article: Article }) {
             })}
           </section>
           <div className="correction-note">
-            <h3>Heritage grows through conversation.</h3>
-            <p>Know a different local account, or spotted something that needs correcting?</p>
-            <Link to="/contribute" className="text-link">
-              Share your knowledge <ArrowRightIcon />
-            </Link>
+            <h3>{ui.article.correctionTitle}</h3>
+            <p>{ui.article.correctionText}</p>
+            <AppLink to="/contribute" className="text-link">
+              {ui.article.correctionCta} <ArrowRightIcon />
+            </AppLink>
           </div>
         </article>
       </div>
       <section className="reading-section">
         <div className="section-heading">
-          <h2>Continue exploring</h2>
+          <h2>{ui.article.continue}</h2>
         </div>
         <div className="article-grid">
-          {articles
-            .filter(
-              (x) =>
-                x.slug !== a.slug &&
-                (x.category === a.category || x.sourceIds.some((id) => a.sourceIds.includes(id))),
-            )
-            .slice(0, 3)
-            .map((x) => (
-              <ArticleCard article={x} key={x.slug} />
-            ))}
+          {continued.map((x) => (
+            <ArticleCard article={x} key={x.slug} />
+          ))}
         </div>
       </section>
     </main>
   );
-}
-function ArrowRightIcon() {
-  return <ArrowUpRight size={16} />;
 }

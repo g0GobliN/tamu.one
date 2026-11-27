@@ -1,6 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { TopicPage } from "@/components/museum/TopicPage";
-import { topics } from "@/data/topics";
 import { pageHead } from "@/lib/seo";
 
 export const Route = createFileRoute("/history")({
@@ -10,5 +9,5 @@ export const Route = createFileRoute("/history")({
       "Origins, ancestral landscapes, remembered leadership and modern history of the Gurung people.",
       "/history",
     ),
-  component: () => <TopicPage topic={topics.history} />,
+  component: () => <TopicPage topicKey="history" />,
 });
