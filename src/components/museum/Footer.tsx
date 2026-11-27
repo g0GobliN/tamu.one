@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { ArrowUpRight, Github, Instagram, Mail, Mountain } from "lucide-react";
+import { ArrowUpRight, Github, Globe, Instagram, Mail, Mountain } from "lucide-react";
 import { contact } from "@/data/contact";
 
 const exploreLinks = [
@@ -62,12 +62,18 @@ export function Footer() {
             <a href={contact.githubUrl} target="_blank" rel="noreferrer">
               <Github size={15} /> {contact.githubHandle}
             </a>
+            <a href={contact.portfolioUrl} target="_blank" rel="noreferrer">
+              <Globe size={15} /> {contact.portfolioLabel}
+            </a>
           </div>
         </nav>
       </div>
 
       <div className="footer-bottom">
-        <span>© 2026 TAMU · An independent heritage archive, built in the open</span>
+        <span>
+          © 2026 TAMU · <a href={contact.siteUrl}>{contact.site}</a> · An independent heritage
+          archive, built in the open
+        </span>
         <div>
           <Link to="/privacy">Privacy</Link>
           <Link to="/terms">Terms</Link>

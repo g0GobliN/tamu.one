@@ -905,6 +905,14 @@ section {
 .about-help a {
   color: var(--primary);
 }
+.about-maintained {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+}
+.about-maintained a {
+  color: var(--primary);
+  text-decoration: underline;
+}
 
 /* Legal pages (privacy, terms) */
 .legal-page {

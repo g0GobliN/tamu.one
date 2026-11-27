@@ -20,7 +20,7 @@ Use GitHub's private reporting instead:
 2. Choose **Report a vulnerability**.
 3. Describe the issue in the advisory form.
 
-If private reporting is unavailable, email **hello@vishalgurung.com.np** with the subject
+If private reporting is unavailable, email **hello@tamu.one** with the subject
 `TAMU security`. Encrypt nothing sensitive in the first message — say what you found and a
 maintainer will arrange a safer channel.
 

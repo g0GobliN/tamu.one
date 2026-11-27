@@ -6,6 +6,8 @@
 
 **Not a Wikipedia article. Not a museum plaque. A place to actually read, wander and understand.**
 
+**Live at [tamu.one](https://tamu.one)** · write to [hello@tamu.one](mailto:hello@tamu.one)
+
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 [![Built with TanStack Start](https://img.shields.io/badge/TanStack%20Start-React%2019-0f172a.svg)](https://tanstack.com/start)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)

@@ -2,6 +2,7 @@
   "name": "tamu",
   "description": "A heritage museum for the Gurung (Tamu) people: history, language, culture, geography and the diaspora.",
   "license": "Apache-2.0",
+  "homepage": "https://tamu.one",
   "private": true,
   "sideEffects": false,
   "type": "module",

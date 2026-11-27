@@ -3,6 +3,7 @@ import {
   ArrowUpRight,
   BookOpenCheck,
   Github,
+  Globe,
   Instagram,
   Mail,
   Mountain,
@@ -88,6 +89,13 @@ export function About() {
             The source code is public under the Apache License 2.0, and every change to it moves
             through an issue and a pull request — the same way corrections to the content do.
           </p>
+          <p className="about-maintained">
+            Built and maintained by{" "}
+            <a href={contact.portfolioUrl} target="_blank" rel="noreferrer">
+              Vishal Gurung
+            </a>{" "}
+            · {contact.site}
+          </p>
         </div>
         <dl className="record-facts">
           <div>
@@ -128,6 +136,9 @@ export function About() {
           </a>
           <a href={contact.githubUrl} target="_blank" rel="noreferrer" className="button-quiet">
             <Github size={16} /> {contact.githubHandle}
+          </a>
+          <a href={contact.portfolioUrl} target="_blank" rel="noreferrer" className="button-quiet">
+            <Globe size={16} /> {contact.portfolioLabel}
           </a>
         </div>
         <p className="about-help">
