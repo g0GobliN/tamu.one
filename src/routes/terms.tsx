@@ -7,6 +7,7 @@ export const Route = createFileRoute("/terms")({
     pageHead(
       "Terms of use",
       "How TAMU's content can be read, quoted and reused, and what the project promises — and does not promise — about accuracy.",
+      "/terms",
     ),
   component: Terms,
 });

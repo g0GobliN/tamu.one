@@ -7,6 +7,7 @@ export const Route = createFileRoute("/about")({
     pageHead(
       "About TAMU",
       "Why TAMU exists: an open, growing and transparent archive of Gurung heritage — how it works, what it promises and how to get involved.",
+      "/about",
     ),
   component: About,
 });

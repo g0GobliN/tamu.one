@@ -7,6 +7,7 @@ export const Route = createFileRoute("/library/")({
     pageHead(
       "Knowledge library",
       "Sourced introductions to Gurung history, language, culture, spirituality, homeland and diaspora.",
+      "/library",
     ),
   component: () => <Library />,
 });

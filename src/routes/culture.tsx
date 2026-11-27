@@ -8,6 +8,7 @@ export const Route = createFileRoute("/culture")({
     pageHead(
       "Culture",
       "Gurung traditions, ritual knowledge, music, dance and community life across generations.",
+      "/culture",
     ),
   component: () => <TopicPage topic={topics.culture} />,
 });

@@ -8,6 +8,7 @@ export const Route = createFileRoute("/language")({
     pageHead(
       "Language",
       "Tamu Kyi, the Gurung language: its relationships, regional variation and preservation.",
+      "/language",
     ),
   component: () => <TopicPage topic={topics.language} />,
 });

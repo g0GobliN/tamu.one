@@ -8,6 +8,7 @@ export const Route = createFileRoute("/geography")({
     pageHead(
       "Homeland",
       "The villages, valleys and mountain landscapes of the Gurung homeland in central Nepal.",
+      "/geography",
     ),
   component: () => <TopicPage topic={topics.geography} />,
 });

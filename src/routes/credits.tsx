@@ -7,6 +7,7 @@ export const Route = createFileRoute("/credits")({
     pageHead(
       "Photography credits",
       "Every photograph in the museum with its photographer, licence and original Wikimedia Commons file.",
+      "/credits",
     ),
   component: Credits,
 });

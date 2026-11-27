@@ -9,6 +9,7 @@ export const Route = createFileRoute("/journey")({
     pageHead(
       "The Journey",
       "A guided path through the Gurung story: names, origins, homeland, culture, language and diaspora — with links to each full article.",
+      "/journey",
     ),
   component: Journey,
 });

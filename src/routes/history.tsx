@@ -8,6 +8,7 @@ export const Route = createFileRoute("/history")({
     pageHead(
       "History",
       "Origins, ancestral landscapes, remembered leadership and modern history of the Gurung people.",
+      "/history",
     ),
   component: () => <TopicPage topic={topics.history} />,
 });

@@ -1,6 +1,7 @@
 import { createFileRoute, notFound, Link } from "@tanstack/react-router";
 import { articles } from "@/data/heritage";
 import { ArticlePage } from "@/components/museum/ArticlePage";
+import { absoluteUrl } from "@/lib/seo";
 
 export const Route = createFileRoute("/library/$slug")({
   loader: ({ params }) => {
@@ -14,15 +15,19 @@ export const Route = createFileRoute("/library/$slug")({
       return {
         meta: [{ title: "Article not found · TAMU" }, { name: "robots", content: "noindex" }],
       };
+    const url = absoluteUrl(`/library/${a.slug}`);
     return {
       meta: [
         { title: `${a.title} · TAMU` },
         { name: "description", content: a.summary },
+        { property: "og:url", content: url },
         { property: "og:title", content: a.title },
         { property: "og:description", content: a.summary },
         { property: "og:type", content: "article" },
+        { property: "og:site_name", content: "TAMU" },
         { name: "twitter:card", content: "summary_large_image" },
       ],
+      links: [{ rel: "canonical", href: url }],
     };
   },
   notFoundComponent: () => (

@@ -81,7 +81,8 @@ bun run dev      # http://localhost:3000
 ```
 
 ```sh
-bun run build      # production build
+bun run build      # production build (writes sitemap.xml too)
+bun run sitemap    # regenerate dist/client/sitemap.xml on its own
 bun run preview    # preview the build
 bun run test       # vitest
 bun run typecheck  # tsc --noEmit

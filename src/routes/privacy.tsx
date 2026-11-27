@@ -7,6 +7,7 @@ export const Route = createFileRoute("/privacy")({
     pageHead(
       "Privacy",
       "What TAMU does and does not collect: no accounts, no analytics, no advertising, no tracking cookies.",
+      "/privacy",
     ),
   component: Privacy,
 });

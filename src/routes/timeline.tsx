@@ -10,6 +10,7 @@ export const Route = createFileRoute("/timeline")({
     pageHead(
       "Timeline",
       "Explore Gurung history by date, from ancestral journeys to the worldwide Tamu community today.",
+      "/timeline",
     ),
   component: Timeline,
 });

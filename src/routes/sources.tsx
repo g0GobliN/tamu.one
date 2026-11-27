@@ -8,6 +8,7 @@ export const Route = createFileRoute("/sources")({
     pageHead(
       "Sources & credits",
       "The research and photographs behind the TAMU archive, with full credits and licences.",
+      "/sources",
     ),
   component: Sources,
 });

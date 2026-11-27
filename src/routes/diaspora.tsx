@@ -8,6 +8,7 @@ export const Route = createFileRoute("/diaspora")({
     pageHead(
       "Diaspora",
       "Gurung communities beyond Nepal — in Britain, Hong Kong, Asia and around the world.",
+      "/diaspora",
     ),
   component: () => <TopicPage topic={topics.diaspora} />,
 });

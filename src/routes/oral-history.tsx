@@ -7,6 +7,7 @@ export const Route = createFileRoute("/oral-history")({
     pageHead(
       "Oral histories",
       "Stories from Gurung elders — a growing collection of remembered lives and voices, gathered with consent.",
+      "/oral-history",
     ),
   component: OralHistory,
 });
