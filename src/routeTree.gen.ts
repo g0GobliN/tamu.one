@@ -13,6 +13,7 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as ArchiveRouteImport } from './routes/archive'
 import { Route as ContributeRouteImport } from './routes/contribute'
+import { Route as CreditsRouteImport } from './routes/credits'
 import { Route as CultureRouteImport } from './routes/culture'
 import { Route as DiasporaRouteImport } from './routes/diaspora'
 import { Route as GeographyRouteImport } from './routes/geography'
@@ -46,6 +47,11 @@ const ArchiveRoute = ArchiveRouteImport.update({
 const ContributeRoute = ContributeRouteImport.update({
   id: '/contribute',
   path: '/contribute',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CreditsRoute = CreditsRouteImport.update({
+  id: '/credits',
+  path: '/credits',
   getParentRoute: () => rootRouteImport,
 } as any)
 const CultureRoute = CultureRouteImport.update({
@@ -124,6 +130,7 @@ export interface FileRoutesByFullPath {
   '/about': typeof AboutRoute
   '/archive': typeof ArchiveRoute
   '/contribute': typeof ContributeRoute
+  '/credits': typeof CreditsRoute
   '/culture': typeof CultureRoute
   '/diaspora': typeof DiasporaRoute
   '/geography': typeof GeographyRoute
@@ -144,6 +151,7 @@ export interface FileRoutesByTo {
   '/about': typeof AboutRoute
   '/archive': typeof ArchiveRoute
   '/contribute': typeof ContributeRoute
+  '/credits': typeof CreditsRoute
   '/culture': typeof CultureRoute
   '/diaspora': typeof DiasporaRoute
   '/geography': typeof GeographyRoute
@@ -165,6 +173,7 @@ export interface FileRoutesById {
   '/about': typeof AboutRoute
   '/archive': typeof ArchiveRoute
   '/contribute': typeof ContributeRoute
+  '/credits': typeof CreditsRoute
   '/culture': typeof CultureRoute
   '/diaspora': typeof DiasporaRoute
   '/geography': typeof GeographyRoute
@@ -187,6 +196,7 @@ export interface FileRouteTypes {
     | '/about'
     | '/archive'
     | '/contribute'
+    | '/credits'
     | '/culture'
     | '/diaspora'
     | '/geography'
@@ -207,6 +217,7 @@ export interface FileRouteTypes {
     | '/about'
     | '/archive'
     | '/contribute'
+    | '/credits'
     | '/culture'
     | '/diaspora'
     | '/geography'
@@ -227,6 +238,7 @@ export interface FileRouteTypes {
     | '/about'
     | '/archive'
     | '/contribute'
+    | '/credits'
     | '/culture'
     | '/diaspora'
     | '/geography'
@@ -248,6 +260,7 @@ export interface RootRouteChildren {
   AboutRoute: typeof AboutRoute
   ArchiveRoute: typeof ArchiveRoute
   ContributeRoute: typeof ContributeRoute
+  CreditsRoute: typeof CreditsRoute
   CultureRoute: typeof CultureRoute
   DiasporaRoute: typeof DiasporaRoute
   GeographyRoute: typeof GeographyRoute
@@ -292,6 +305,13 @@ declare module '@tanstack/react-router' {
       path: '/contribute'
       fullPath: '/contribute'
       preLoaderRoute: typeof ContributeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/credits': {
+      id: '/credits'
+      path: '/credits'
+      fullPath: '/credits'
+      preLoaderRoute: typeof CreditsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/culture': {
@@ -400,6 +420,7 @@ const rootRouteChildren: RootRouteChildren = {
   AboutRoute: AboutRoute,
   ArchiveRoute: ArchiveRoute,
   ContributeRoute: ContributeRoute,
+  CreditsRoute: CreditsRoute,
   CultureRoute: CultureRoute,
   DiasporaRoute: DiasporaRoute,
   GeographyRoute: GeographyRoute,

@@ -14,6 +14,7 @@ const projectLinks = [
   { to: "/help", label: "Help & docs" },
   { to: "/contribute", label: "Contribute" },
   { to: "/sources", label: "Sources & credits" },
+  { to: "/credits", label: "Photography credits" },
 ] as const;
 
 export function Footer() {
