@@ -94,21 +94,18 @@ CI runs lint, typecheck, tests and a production build on every pull request.
 
 ## Deploy
 
-The site is a Cloudflare Worker with static assets, so `tamu.one` is served from the edge and every push to `main` goes live.
+TAMU runs as a Cloudflare Worker with static assets: the pages are rendered at the edge, files are served from
+the same deployment, and `tamu.one` is production.
 
 ```sh
-bun run build          # dist/server/server.js (Worker) + dist/client (assets)
-bun run cf:dev         # run that Worker locally in workerd
-bun run deploy         # build and publish with wrangler
+bun run build    # dist/server/server.js (Worker) + dist/client (assets)
+bun run cf:dev   # run the built Worker locally in workerd
+bun run deploy   # build and publish with wrangler
 ```
 
-Connecting the repository, once:
-
-1. **Cloudflare → Workers & Pages → Create → Workers → Connect to Git**, pick this repository and the `main` branch.
-2. Build command `bun run build`, deploy command `bunx wrangler deploy`. `wrangler.jsonc` already points at the built Worker and assets, so nothing else is needed.
-3. **Settings → Domains & Routes → Add custom domain → `tamu.one`** (and `www.tamu.one`). Cloudflare creates the DNS record itself, because the domain's zone lives in the same account.
-
-The domain has to be added to Cloudflare first — registrar → nameservers → the pair Cloudflare gives you — before the custom domain will attach. After that, pushes are production and pull requests get their own preview URL; no deploy keys or secrets are stored in the repository.
+`wrangler.jsonc` names the Worker, its entry point and its assets directory, so a deploy needs no extra flags
+or secrets in the repository. The live site publishes from `main` on every push through Cloudflare Workers
+Builds; a fork deploys the same way into whatever Cloudflare account owns its domain.
 
 ## How it's built
 
