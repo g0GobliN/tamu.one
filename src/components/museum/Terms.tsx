@@ -1,6 +1,7 @@
 import { LegalPage } from "@/components/museum/LegalPage";
-import { termsPage } from "@/data/legal";
+import { getLegal } from "@/i18n/content";
+import { useLocale } from "@/i18n";
 
 export function Terms() {
-  return <LegalPage {...termsPage} />;
+  return <LegalPage {...getLegal(useLocale()).terms} />;
 }

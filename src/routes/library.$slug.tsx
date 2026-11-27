@@ -1,6 +1,8 @@
-import { createFileRoute, notFound, Link } from "@tanstack/react-router";
+import { createFileRoute, notFound } from "@tanstack/react-router";
 import { articles } from "@/data/heritage";
 import { ArticlePage } from "@/components/museum/ArticlePage";
+import { ArticleNotFound } from "@/components/museum/ArticleNotFound";
+import { getArticle } from "@/i18n/content";
 import { absoluteUrl } from "@/lib/seo";
 
 export const Route = createFileRoute("/library/$slug")({
@@ -15,14 +17,15 @@ export const Route = createFileRoute("/library/$slug")({
       return {
         meta: [{ title: "Article not found · TAMU" }, { name: "robots", content: "noindex" }],
       };
+    const localized = getArticle(a, "en");
     const url = absoluteUrl(`/library/${a.slug}`);
     return {
       meta: [
-        { title: `${a.title} · TAMU` },
-        { name: "description", content: a.summary },
+        { title: `${localized.title} · TAMU` },
+        { name: "description", content: localized.summary },
         { property: "og:url", content: url },
-        { property: "og:title", content: a.title },
-        { property: "og:description", content: a.summary },
+        { property: "og:title", content: localized.title },
+        { property: "og:description", content: localized.summary },
         { property: "og:type", content: "article" },
         { property: "og:site_name", content: "TAMU" },
         { name: "twitter:card", content: "summary_large_image" },
@@ -30,18 +33,11 @@ export const Route = createFileRoute("/library/$slug")({
       links: [{ rel: "canonical", href: url }],
     };
   },
-  notFoundComponent: () => (
-    <main className="prose-page">
-      <h1>Article not found</h1>
-      <p>This story isn't in the library yet.</p>
-      <Link to="/library" className="text-link">
-        Back to the library
-      </Link>
-    </main>
-  ),
+  notFoundComponent: ArticleNotFound,
   component: ArticleRoute,
 });
+
 function ArticleRoute() {
   const { article } = Route.useLoaderData();
-  return <ArticlePage article={article} />;
+  return <ArticlePage slug={article.slug} />;
 }

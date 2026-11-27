@@ -1,5 +1,7 @@
 import type { ReactNode } from "react";
 
+import { useUi } from "@/i18n";
+
 export interface TocGroup {
   id: string;
   title: string;
@@ -7,10 +9,11 @@ export interface TocGroup {
 }
 
 export function ReadingLayout({ toc, children }: { toc: TocGroup[]; children: ReactNode }) {
+  const ui = useUi();
   return (
     <div className="ency-layout">
-      <nav className="ency-toc" aria-label="Contents">
-        <span className="eyebrow">CONTENTS</span>
+      <nav className="ency-toc" aria-label={ui.article.contents}>
+        <span className="eyebrow">{ui.article.contents}</span>
         <ol>
           {toc.map((g, i) => (
             <li key={g.id}>

@@ -2363,3 +2363,67 @@ html {
     gap: 0.2rem;
   }
 }
+
+/* ---------------------------------------------------------------------------
+ * Nepali typography and the language switcher
+ * Devanagari has different proportions from Karla and Cormorant, so the Nepali
+ * pages switch to Noto's Devanagari families while keeping the same sizes.
+ * ------------------------------------------------------------------------- */
+html[lang="ne"] {
+  --font-display: "Noto Serif Devanagari", "Cormorant Garamond", Georgia, serif;
+  --font-body: "Noto Sans Devanagari", "Karla", system-ui, sans-serif;
+}
+
+html[lang="ne"] .eyebrow,
+html[lang="ne"] .footer-label,
+html[lang="ne"] .collection-number {
+  letter-spacing: 0.04em;
+  text-transform: none;
+}
+
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.1rem;
+  padding: 0.14rem;
+  border: 1px solid color-mix(in oklab, currentColor 18%, transparent);
+  border-radius: 999px;
+}
+
+.lang-switch a {
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  line-height: 1;
+  padding: 0.32rem 0.5rem;
+  border-radius: 999px;
+  text-decoration: none;
+  opacity: 0.66;
+  transition:
+    background-color 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.lang-switch a:hover {
+  opacity: 1;
+}
+
+.lang-switch a.active {
+  background: var(--foreground);
+  color: var(--background);
+  opacity: 1;
+}
+
+.translation-note {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--muted-foreground);
+  border-left: 2px solid color-mix(in oklab, currentColor 30%, transparent);
+  padding-left: 0.9rem;
+  margin: 1.2rem 0;
+}
+
+.translation-note a {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}

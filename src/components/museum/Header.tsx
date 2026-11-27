@@ -1,71 +1,113 @@
-import { Link, useLocation } from "@tanstack/react-router";
+import { useLocation } from "@tanstack/react-router";
 import { useState } from "react";
 import { Search, Menu, X, ArrowUpRight, Mountain } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { AppLink } from "./AppLink";
+import { localeMeta, locales, pathFor, stripLocale, useLocale, useUi } from "@/i18n";
+
 export const navItems = [
-  { to: "/journey", label: "The Journey" },
-  { to: "/timeline", label: "Timeline" },
-  { to: "/history", label: "History" },
-  { to: "/language", label: "Language" },
-  { to: "/culture", label: "Culture" },
-  { to: "/geography", label: "Homeland" },
-  { to: "/diaspora", label: "Diaspora" },
-  { to: "/archive", label: "The Archive" },
-  { to: "/help", label: "Help" },
+  { to: "/journey", key: "journey" },
+  { to: "/timeline", key: "timeline" },
+  { to: "/history", key: "history" },
+  { to: "/language", key: "language" },
+  { to: "/culture", key: "culture" },
+  { to: "/geography", key: "homeland" },
+  { to: "/diaspora", key: "diaspora" },
+  { to: "/archive", key: "archive" },
+  { to: "/help", key: "help" },
 ] as const;
+
+function LanguageSwitcher() {
+  const locale = useLocale();
+  const pathname = useLocation({ select: (l) => l.pathname });
+  const ui = useUi();
+  const rest = stripLocale(pathname);
+
+  return (
+    <div className="lang-switch" role="group" aria-label={ui.lang.label}>
+      {locales.map((code) => {
+        const meta = localeMeta[code];
+        const active = code === locale;
+        return (
+          <a
+            key={code}
+            href={pathFor(code, rest)}
+            hrefLang={meta.htmlLang}
+            lang={meta.htmlLang}
+            className={active ? "active" : ""}
+            aria-current={active ? "page" : undefined}
+            aria-label={meta.label}
+          >
+            {meta.short}
+          </a>
+        );
+      })}
+    </div>
+  );
+}
+
 export function Header() {
   const [open, setOpen] = useState(false);
-  const { pathname } = useLocation();
+  const pathname = useLocation({ select: (l) => l.pathname });
+  const current = stripLocale(pathname);
+  const ui = useUi();
+
   return (
     <header className="museum-header">
       <div className="header-inner">
-        <Link to="/" className="brand" onClick={() => setOpen(false)}>
+        <AppLink to="/" className="brand" onClick={() => setOpen(false)}>
           <Mountain size={30} strokeWidth={1.2} />
           <span>
-            TAMU<small>A LIVING HERITAGE</small>
+            TAMU<small>{ui.brand.small}</small>
           </span>
-        </Link>
-        <nav className="desktop-nav" aria-label="Main navigation">
+        </AppLink>
+        <nav className="desktop-nav" aria-label={ui.nav.mainLabel}>
           {navItems.map((n) => (
-            <Link key={n.to} to={n.to} className={pathname.startsWith(n.to) ? "active" : ""}>
-              {n.label}
-            </Link>
+            <AppLink
+              key={n.to}
+              to={n.to}
+              className={current === n.to || current.startsWith(`${n.to}/`) ? "active" : ""}
+            >
+              {ui.nav[n.key]}
+            </AppLink>
           ))}
         </nav>
         <div className="header-tools">
-          <Button asChild variant="ghost" size="icon" aria-label="Search the archive">
-            <Link to="/library">
+          <LanguageSwitcher />
+          <span className="header-divider" />
+          <Button asChild variant="ghost" size="icon" aria-label={ui.nav.search}>
+            <AppLink to="/library">
               <Search size={19} />
-            </Link>
+            </AppLink>
           </Button>
           <span className="header-divider" />
           <Button variant="ghost" asChild className="contribute-link">
-            <Link to="/contribute">
-              Contribute <ArrowUpRight size={15} />
-            </Link>
+            <AppLink to="/contribute">
+              {ui.nav.contribute} <ArrowUpRight size={15} />
+            </AppLink>
           </Button>
           <Button
             variant="ghost"
             size="icon"
             className="mobile-menu"
             onClick={() => setOpen(!open)}
-            aria-label={open ? "Close navigation" : "Open navigation"}
+            aria-label={open ? ui.nav.close : ui.nav.open}
           >
             {open ? <X /> : <Menu />}
           </Button>
         </div>
       </div>
       {open && (
-        <nav className="mobile-nav" aria-label="Mobile navigation">
+        <nav className="mobile-nav" aria-label={ui.nav.mobileLabel}>
           {navItems.map((n) => (
-            <Link key={n.to} to={n.to} onClick={() => setOpen(false)}>
-              {n.label}
+            <AppLink key={n.to} to={n.to} onClick={() => setOpen(false)}>
+              {ui.nav[n.key]}
               <ArrowUpRight size={16} />
-            </Link>
+            </AppLink>
           ))}
-          <Link to="/contribute" onClick={() => setOpen(false)}>
-            Contribute
-          </Link>
+          <AppLink to="/contribute" onClick={() => setOpen(false)}>
+            {ui.nav.contribute}
+          </AppLink>
         </nav>
       )}
     </header>

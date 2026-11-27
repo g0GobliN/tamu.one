@@ -2,13 +2,16 @@
 // drift from the app: every top-level route file becomes a URL, and every
 // article in src/data/heritage.ts becomes a /library/<slug> URL.
 //
-// Run directly with: bun scripts/generate-sitemap.ts
+// Each URL is emitted in every supported language, with hreflang alternates.
+//
+// Run directly with: node scripts/generate-sitemap.ts
 
 import { mkdir, readdir, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { articles } from "../src/data/heritage";
+import { locales, pathFor } from "../src/i18n/locales";
 import { absoluteUrl } from "../src/lib/seo";
 
 const root = fileURLToPath(new URL("..", import.meta.url));
@@ -42,12 +45,35 @@ async function collectPaths() {
   return [...paths].sort();
 }
 
+function alternates(path: string) {
+  return [
+    ...locales.map(
+      (code) =>
+        `    <xhtml:link rel="alternate" hreflang="${code}" href="${escapeXml(
+          absoluteUrl(pathFor(code, path)),
+        )}"/>`,
+    ),
+    `    <xhtml:link rel="alternate" hreflang="x-default" href="${escapeXml(
+      absoluteUrl(pathFor("en", path)),
+    )}"/>`,
+  ].join("\n");
+}
+
 const paths = await collectPaths();
 
 const xml = [
   '<?xml version="1.0" encoding="UTF-8"?>',
-  '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-  ...paths.map((path) => `  <url><loc>${escapeXml(absoluteUrl(path))}</loc></url>`),
+  '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">',
+  ...paths.flatMap((path) =>
+    locales.map((code) =>
+      [
+        "  <url>",
+        `    <loc>${escapeXml(absoluteUrl(pathFor(code, path)))}</loc>`,
+        alternates(path),
+        "  </url>",
+      ].join("\n"),
+    ),
+  ),
   "</urlset>",
   "",
 ].join("\n");
@@ -55,4 +81,4 @@ const xml = [
 await mkdir(join(root, "dist/client"), { recursive: true });
 await writeFile(outFile, xml, "utf8");
 
-console.log(`sitemap.xml: ${paths.length} URLs written to ${outFile}`);
+console.log(`sitemap.xml: ${paths.length * locales.length} URLs written to ${outFile}`);

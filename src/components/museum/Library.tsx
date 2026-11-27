@@ -1,30 +1,42 @@
 import { useState } from "react";
 import { Search, SlidersHorizontal, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { categories, articles, searchArticles } from "@/data/heritage";
+import { getArticles } from "@/i18n/content";
+import { useLocale, useUi } from "@/i18n";
 import { ArticleCard } from "./ArticleCard";
-export function Library({
-  initialCategory = "All",
-  title = "The knowledge library",
-  intro = "History, language, places and people. Follow a thread. Discover a connection.",
-}: {
-  initialCategory?: string;
-  title?: string;
-  intro?: string;
-}) {
+
+export function Library({ variant = "library" }: { variant?: "library" | "archive" }) {
+  const ui = useUi();
+  const locale = useLocale();
+  const list = getArticles(locale);
   const [query, setQuery] = useState("");
-  const [category, setCategory] = useState(initialCategory);
+  const [category, setCategory] = useState("All");
   const [filters, setFilters] = useState(false);
   const [region, setRegion] = useState("All");
   const [evidence, setEvidence] = useState("All");
   const [sort, setSort] = useState("collection");
-  const found = searchArticles(query, category, region, evidence);
+
+  const categories = Object.keys(ui.labels.categories);
+  const needle = query.trim().toLocaleLowerCase(locale);
+  const found = list.filter((a) => {
+    if (category !== "All" && a.rawCategory !== category) return false;
+    if (region !== "All" && a.region !== region) return false;
+    if (evidence !== "All" && a.rawEvidence !== evidence) return false;
+    if (!needle) return true;
+    return [a.title, a.summary, a.region, a.period].some((field) =>
+      field.toLocaleLowerCase(locale).includes(needle),
+    );
+  });
   const results =
-    sort === "title" ? [...found].sort((a, b) => a.title.localeCompare(b.title)) : found;
+    sort === "title" ? [...found].sort((a, b) => a.title.localeCompare(b.title, locale)) : found;
+
+  const title = variant === "archive" ? ui.library.archiveTitle : ui.library.title;
+  const intro = variant === "archive" ? ui.library.archiveIntro : ui.library.intro;
+
   return (
     <main className="library-page">
       <section className="page-heading">
-        <span className="eyebrow">TAMU · CONNECTED KNOWLEDGE</span>
+        <span className="eyebrow">{ui.library.eyebrow}</span>
         <h1>{title}</h1>
         <p>{intro}</p>
       </section>
@@ -33,8 +45,8 @@ export function Library({
           <div className="search-input">
             <Search size={20} />
             <input
-              aria-label="Search articles"
-              placeholder="Search history, places, traditions…"
+              aria-label={ui.library.searchLabel}
+              placeholder={ui.library.searchPlaceholder}
               value={query}
               onChange={(e) => setQuery(e.target.value)}
             />
@@ -42,7 +54,7 @@ export function Library({
               <Button
                 size="icon"
                 variant="ghost"
-                aria-label="Clear search"
+                aria-label={ui.library.clearSearch}
                 onClick={() => setQuery("")}
               >
                 <X size={17} />
@@ -50,10 +62,10 @@ export function Library({
             )}
           </div>
           <Button variant="outline" onClick={() => setFilters(!filters)}>
-            <SlidersHorizontal size={17} /> Filters
+            <SlidersHorizontal size={17} /> {ui.library.filters}
           </Button>
         </div>
-        <div className="category-tabs" aria-label="Article categories">
+        <div className="category-tabs" aria-label={ui.library.categoriesLabel}>
           {["All", ...categories].map((c) => (
             <Button
               key={c}
@@ -61,27 +73,31 @@ export function Library({
               className={category === c ? "selected" : ""}
               onClick={() => setCategory(c)}
             >
-              {c === "All" ? "All subjects" : c}
+              {c === "All"
+                ? ui.library.allSubjects
+                : ui.labels.categories[c as keyof typeof ui.labels.categories]}
             </Button>
           ))}
         </div>
         {filters && (
           <div className="filter-panel">
             <label>
-              Region
+              {ui.library.region}
               <select value={region} onChange={(e) => setRegion(e.target.value)}>
-                <option>All</option>
-                {[...new Set(articles.map((a) => a.region))].map((r) => (
+                <option value="All">{ui.library.all}</option>
+                {[...new Set(list.map((a) => a.region))].map((r) => (
                   <option key={r}>{r}</option>
                 ))}
               </select>
             </label>
             <label>
-              Evidence
+              {ui.library.evidence}
               <select value={evidence} onChange={(e) => setEvidence(e.target.value)}>
-                <option>All</option>
-                {[...new Set(articles.map((a) => a.evidence))].map((r) => (
-                  <option key={r}>{r}</option>
+                <option value="All">{ui.library.all}</option>
+                {[...new Set(list.map((a) => a.rawEvidence))].map((r) => (
+                  <option key={r} value={r}>
+                    {ui.labels.evidence[r]}
+                  </option>
                 ))}
               </select>
             </label>
@@ -91,27 +107,27 @@ export function Library({
                 setRegion("All");
                 setEvidence("All");
                 setQuery("");
-                setCategory(initialCategory);
+                setCategory("All");
               }}
             >
-              Reset filters
+              {ui.library.reset}
             </Button>
           </div>
         )}
         <div className="results-heading">
           <span>
-            {results.length} {results.length === 1 ? "article" : "articles"}
-            <small> · Sourced introductions</small>
+            {results.length} {results.length === 1 ? ui.library.resultOne : ui.library.resultMany}
+            <small> {ui.library.sourced}</small>
           </span>
           <label>
-            Sort by{" "}
+            {ui.library.sortBy}{" "}
             <select
-              aria-label="Sort articles"
+              aria-label={ui.library.sortLabel}
               value={sort}
               onChange={(e) => setSort(e.target.value)}
             >
-              <option value="collection">Collection order</option>
-              <option value="title">Title A–Z</option>
+              <option value="collection">{ui.library.collectionOrder}</option>
+              <option value="title">{ui.library.titleAZ}</option>
             </select>
           </label>
         </div>
@@ -124,8 +140,8 @@ export function Library({
         ) : (
           <div className="empty-state">
             <Search size={32} />
-            <h2>No matching articles</h2>
-            <p>Try another subject or clear your filters.</p>
+            <h2>{ui.library.emptyTitle}</h2>
+            <p>{ui.library.emptyText}</p>
             <Button
               variant="outline"
               onClick={() => {
@@ -135,14 +151,11 @@ export function Library({
                 setEvidence("All");
               }}
             >
-              Clear all filters
+              {ui.library.clearAll}
             </Button>
           </div>
         )}
-        <p className="research-note">
-          A growing collection. Each introduction identifies its sources, evidentiary limits and
-          community-review status.
-        </p>
+        <p className="research-note">{ui.library.note}</p>
       </section>
     </main>
   );

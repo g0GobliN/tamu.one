@@ -1,33 +1,29 @@
-import { Link } from "@tanstack/react-router";
 import { ArrowUpRight, Camera, ExternalLink } from "lucide-react";
 import { media } from "@/data/media";
+import { useUi } from "@/i18n";
+import { AppLink } from "./AppLink";
 
 export function Credits() {
+  const ui = useUi();
   return (
     <main className="credits-page">
       <header className="credits-hero">
         <span className="eyebrow">
-          <span aria-hidden="true" /> PHOTOGRAPHY
+          <span aria-hidden="true" /> {ui.credits.eyebrow}
         </span>
-        <h1>Every photograph, and its paperwork</h1>
+        <h1>{ui.credits.title}</h1>
         <p className="credits-lede">
-          {media.length} photographs carry this museum. Each one is the work of a named photographer
-          and is used under a Creative Commons licence — credited here, on the pages that use it,
-          and in the archive. If you reuse an image, credit the photographer and follow the licence
-          linked beneath it.
+          {media.length} {ui.credits.lede}
         </p>
       </header>
 
       <section className="credits-note">
-        <strong>How the licences work</strong>
+        <strong>{ui.credits.howTitle}</strong>
         <p>
-          <em>CC BY</em> asks for attribution only. <em>CC BY-SA</em> asks for attribution and that
-          adaptations be shared under the same licence. None of these images may be relicensed or
-          sold as your own work. The Apache 2.0 licence that covers this project's code does not
-          cover these photographs.{" "}
-          <Link to="/terms" className="text-link">
-            Full terms <ArrowUpRight size={14} />
-          </Link>
+          <em>CC BY</em> {ui.credits.howA} <em>CC BY-SA</em> {ui.credits.howB} {ui.credits.howRest}{" "}
+          <AppLink to="/terms" className="text-link">
+            {ui.credits.terms} <ArrowUpRight size={14} />
+          </AppLink>
         </p>
       </section>
 
@@ -67,11 +63,10 @@ export function Credits() {
 
       <footer className="credits-foot">
         <p>
-          Most of these files come from Wikimedia Commons, where the original description pages hold
-          the full licence deed and revision history. Spot a missing or wrong credit?{" "}
-          <Link to="/contribute" className="text-link">
-            Tell us <ArrowUpRight size={14} />
-          </Link>
+          {ui.credits.foot}{" "}
+          <AppLink to="/contribute" className="text-link">
+            {ui.credits.footCta} <ArrowUpRight size={14} />
+          </AppLink>
         </p>
       </footer>
     </main>

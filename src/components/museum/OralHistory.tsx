@@ -1,46 +1,30 @@
-import { Link } from "@tanstack/react-router";
 import { ArrowUpRight, Mic } from "lucide-react";
-
-const lookingFor = [
-  "Memories of growing up in the villages",
-  "Stories of leaving home and building new lives",
-  "Songs, sayings and words in Tamu Kyi",
-  "Accounts of festivals, rituals and community events",
-  "The ordinary texture of a life: food, work, weather, neighbours",
-];
+import { useUi } from "@/i18n";
+import { AppLink } from "./AppLink";
 
 export function OralHistory() {
+  const ui = useUi();
   return (
     <main className="prose-page">
-      <span className="eyebrow">ORAL HISTORY</span>
-      <h1>Stories from our elders</h1>
-      <p>
-        Much of the Tamu past has never been written down. It lives in the voices of grandparents,
-        in songs sung at festivals and in stories told around the hearth.
-      </p>
-      <p>
-        This collection is just beginning. We are gathering recorded memories — of village life,
-        migration, ritual and change — with the consent and guidance of the people who share them.
-      </p>
-      <h2>What we're looking for</h2>
+      <span className="eyebrow">{ui.oral.eyebrow}</span>
+      <h1>{ui.oral.title}</h1>
+      <p>{ui.oral.p1}</p>
+      <p>{ui.oral.p2}</p>
+      <h2>{ui.oral.lookingForTitle}</h2>
       <ul>
-        {lookingFor.map((item) => (
+        {ui.oral.lookingFor.map((item) => (
           <li key={item}>{item}</li>
         ))}
       </ul>
-      <h2>How a recording becomes part of the museum</h2>
-      <p>
-        Send the file and the story behind it. Nothing is published without agreement, the person
-        recorded can stay anonymous or be named exactly as they wish, and every recording keeps the
-        name of who spoke, who recorded it and when.
-      </p>
+      <h2>{ui.oral.howTitle}</h2>
+      <p>{ui.oral.howText}</p>
       <div className="prose-actions">
-        <Link to="/contribute" className="button-primary">
-          <Mic size={16} /> Share a story
-        </Link>
-        <Link to="/contribute" hash="recording" className="button-quiet">
-          Recording advice <ArrowUpRight size={15} />
-        </Link>
+        <AppLink to="/contribute" className="button-primary">
+          <Mic size={16} /> {ui.oral.share}
+        </AppLink>
+        <AppLink to="/contribute" hash="recording" className="button-quiet">
+          {ui.oral.advice} <ArrowUpRight size={15} />
+        </AppLink>
       </div>
     </main>
   );

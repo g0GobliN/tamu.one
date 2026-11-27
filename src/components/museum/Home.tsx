@@ -1,41 +1,51 @@
-import { Link } from "@tanstack/react-router";
 import { ArrowRight, ArrowDown, Compass, BookOpen, Mic, Globe2, ArrowUpRight } from "lucide-react";
 import { motion } from "motion/react";
 import { Button } from "@/components/ui/button";
-import { articles } from "@/data/heritage";
 import { getMedia } from "@/data/media";
+import { getArticleBySlug, getTopic } from "@/i18n/content";
+import { useLocale, useUi } from "@/i18n";
 import { ArticleCard } from "./ArticleCard";
-const collections = [
-  {
-    number: "01",
-    title: "Our ancestral story",
-    subtitle: "Origins, memory & history",
-    image: "dawn",
-    to: "/history",
-  },
-  {
-    number: "02",
-    title: "A living culture",
-    subtitle: "Traditions across generations",
-    image: "festival",
-    to: "/culture",
-  },
-  {
-    number: "03",
-    title: "The places we call home",
-    subtitle: "Villages, valleys & landscapes",
-    image: "village",
-    to: "/geography",
-  },
-] as const;
+import { AppLink } from "./AppLink";
+
 export function Home() {
+  const ui = useUi();
+  const locale = useLocale();
+
+  const collections = [
+    {
+      number: "01",
+      title: getTopic(locale, "history").title,
+      subtitle: ui.home.collectionSubtitles[0],
+      image: "dawn",
+      to: "/history",
+    },
+    {
+      number: "02",
+      title: getTopic(locale, "culture").title,
+      subtitle: ui.home.collectionSubtitles[1],
+      image: "festival",
+      to: "/culture",
+    },
+    {
+      number: "03",
+      title: getTopic(locale, "geography").title,
+      subtitle: ui.home.collectionSubtitles[2],
+      image: "village",
+      to: "/geography",
+    },
+  ] as const;
+
+  const featured = ["khola-sothar", "gurung-and-tamu", "ghandruk"]
+    .map((slug) => getArticleBySlug(slug, locale))
+    .filter((a) => a !== undefined);
+
   return (
     <main>
       <section className="home-hero">
         <img
           className="hero-photo"
           src={getMedia("mountains").url}
-          alt="Annapurna South and Machapuchare viewed from Ghandruk"
+          alt={ui.home.heroAlt}
           width={2200}
           height={1457}
           fetchPriority="high"
@@ -48,77 +58,72 @@ export function Home() {
           transition={{ duration: 1 }}
         >
           <span className="eyebrow hero-eyebrow">
-            <span /> THE LIVING HISTORY OF THE GURUNG PEOPLE <span />
+            <span /> {ui.home.eyebrow} <span />
           </span>
-          <h1>TAMU</h1>
+          <h1>{ui.home.title}</h1>
           <div className="hero-rule">
             <span />✦<span />
           </div>
           <h2>
-            Our roots run deeper
+            {ui.home.taglineA}
             <br />
-            than the mountains.
+            {ui.home.taglineB}
           </h2>
           <p>
-            A journey through the history, language and living
-            <br className="desktop-break" /> heritage of the Gurung people.
+            {ui.home.ledeA}
+            <br className="desktop-break" /> {ui.home.ledeB}
           </p>
           <div className="hero-actions">
             <Button asChild size="lg" className="hero-primary">
-              <Link to="/journey">
-                <Compass /> Begin the journey <ArrowRight />
-              </Link>
+              <AppLink to="/journey">
+                <Compass /> {ui.home.begin} <ArrowRight />
+              </AppLink>
             </Button>
             <Button asChild variant="outline" size="lg" className="hero-secondary">
-              <Link to="/library">
-                Explore the archive <ArrowUpRight />
-              </Link>
+              <AppLink to="/library">
+                {ui.home.explore} <ArrowUpRight />
+              </AppLink>
             </Button>
           </div>
         </motion.div>
         <div className="hero-foot">
-          <span>ANNAPURNA REGION · NEPAL</span>
-          <a href="#collections" aria-label="Explore collections">
-            <ArrowDown size={17} /> <span>DISCOVER OUR HERITAGE</span>
+          <span>{ui.home.region}</span>
+          <a href="#collections" aria-label={ui.home.exploreAria}>
+            <ArrowDown size={17} /> <span>{ui.home.discover}</span>
           </a>
-          <Link to="/sources">PHOTO: SUDAN SHRESTHA · CC BY-SA 3.0</Link>
+          <AppLink to="/sources">{ui.home.photoCredit}</AppLink>
         </div>
       </section>
       <section className="heritage-intro" id="collections">
         <div className="intro-note">
-          <span className="eyebrow">REMEMBERING. UNDERSTANDING. BELONGING.</span>
+          <span className="eyebrow">{ui.home.introEyebrow}</span>
           <h2>
-            Not just a history.
+            {ui.home.introTitleA}
             <br />
-            <em>A heritage that lives on.</em>
+            <em>{ui.home.introTitleB}</em>
           </h2>
         </div>
         <div className="intro-copy">
-          <p>
-            From the villages beneath Annapurna to communities around the world, the Tamu story is
-            carried in our language, our traditions and the memories of our people.
-          </p>
-          <p>
-            TAMU brings those threads together—an open, growing archive for the generations to come.
-          </p>
-          <Link to="/about" className="text-link">
-            Discover the story behind TAMU <ArrowRight size={17} />
-          </Link>
+          <p>{ui.home.introP1}</p>
+          <p>{ui.home.introP2}</p>
+          <AppLink to="/about" className="text-link">
+            {ui.home.aboutLink} <ArrowRight size={17} />
+          </AppLink>
         </div>
       </section>
       <section className="collection-section">
         <div className="section-heading">
           <div>
-            <span className="eyebrow">MANY THREADS. ONE HERITAGE.</span>
-            <h2>Explore our world</h2>
+            <span className="eyebrow">{ui.home.collectionsEyebrow}</span>
+            <h2>{ui.home.collectionsTitle}</h2>
           </div>
-          <Link to="/library" className="text-link">
-            All collections <ArrowUpRight size={18} />
-          </Link>
+          <AppLink to="/library" className="text-link">
+            {ui.common.allCollections} <ArrowUpRight size={18} />
+          </AppLink>
         </div>
         <div className="collection-grid">
           {collections.map((c) => (
-            <Link key={c.number} to={c.to} className={`collection-tile collection-${c.image}`}>
+            <AppLink key={c.number} to={c.to} className={`collection-tile collection-${c.image}`}>
               <img
                 src={getMedia(c.image).url}
                 alt={getMedia(c.image).title}
@@ -127,7 +132,9 @@ export function Home() {
                 loading="lazy"
               />
               <div className="collection-shade" />
-              <span className="collection-number">{c.number} / COLLECTION</span>
+              <span className="collection-number">
+                {c.number} / {ui.home.collectionWord}
+              </span>
               <div className="collection-title">
                 <small>{c.subtitle}</small>
                 <h3>{c.title}</h3>
@@ -135,66 +142,64 @@ export function Home() {
                   <ArrowUpRight size={22} />
                 </span>
               </div>
-            </Link>
+            </AppLink>
           ))}
         </div>
       </section>
       <section className="discovery-strip">
-        <Link to="/language">
+        <AppLink to="/language">
           <BookOpen strokeWidth={1} />
           <div>
-            <small>TAMU KYI</small>
-            <h3>The language of our people</h3>
+            <small>{ui.home.discovery.language.small}</small>
+            <h3>{ui.home.discovery.language.title}</h3>
           </div>
           <ArrowUpRight />
-        </Link>
-        <Link to="/oral-history">
+        </AppLink>
+        <AppLink to="/oral-history">
           <Mic strokeWidth={1} />
           <div>
-            <small>ORAL HISTORY</small>
-            <h3>Stories from our elders</h3>
+            <small>{ui.home.discovery.oral.small}</small>
+            <h3>{ui.home.discovery.oral.title}</h3>
           </div>
           <ArrowUpRight />
-        </Link>
-        <Link to="/diaspora">
+        </AppLink>
+        <AppLink to="/diaspora">
           <Globe2 strokeWidth={1} />
           <div>
-            <small>BEYOND THE HOMELAND</small>
-            <h3>One heritage, a world of lives</h3>
+            <small>{ui.home.discovery.diaspora.small}</small>
+            <h3>{ui.home.discovery.diaspora.title}</h3>
           </div>
           <ArrowUpRight />
-        </Link>
+        </AppLink>
       </section>
       <section className="reading-section">
         <div className="section-heading">
           <div>
-            <span className="eyebrow">FROM THE KNOWLEDGE LIBRARY</span>
-            <h2>Stories worth discovering</h2>
+            <span className="eyebrow">{ui.home.readingEyebrow}</span>
+            <h2>{ui.home.readingTitle}</h2>
           </div>
-          <Link to="/library" className="text-link">
-            Browse the library <ArrowRight size={17} />
-          </Link>
+          <AppLink to="/library" className="text-link">
+            {ui.home.browse} <ArrowRight size={17} />
+          </AppLink>
         </div>
         <div className="article-grid">
-          {articles
-            .filter((a) => ["khola-sothar", "gurung-and-tamu", "ghandruk"].includes(a.slug))
-            .map((a) => (
-              <ArticleCard key={a.slug} article={a} />
-            ))}
+          {featured.map((a) => (
+            <ArticleCard key={a.slug} article={a} />
+          ))}
         </div>
       </section>
       <section className="community-band">
-        <span className="eyebrow">OUR HERITAGE IS A SHARED RESPONSIBILITY</span>
+        <span className="eyebrow">{ui.home.communityEyebrow}</span>
         <h2>
-          Every memory is a thread.
+          {ui.home.communityTitleA}
           <br />
-          Every voice belongs.
+          {ui.home.communityTitleB}
         </h2>
-        <p>Help preserve a story, share a photograph, or bring your knowledge to the archive.</p>
+        <p>{ui.home.communityP}</p>
         <Button asChild size="lg">
-          <Link to="/contribute">
-            Become part of the story <ArrowUpRight />
-          </Link>
+          <AppLink to="/contribute">
+            {ui.home.communityCta} <ArrowUpRight />
+          </AppLink>
         </Button>
       </section>
     </main>

@@ -1,17 +1,21 @@
-import { Link } from "@tanstack/react-router";
 import { Mail } from "lucide-react";
 import { contact } from "@/data/contact";
 import type { LegalPageContent } from "@/data/legal";
+import { useUi } from "@/i18n";
+import { AppLink } from "./AppLink";
 
 type LegalPageProps = LegalPageContent;
 
 export function LegalPage({ eyebrow, title, updated, intro, sections }: LegalPageProps) {
+  const ui = useUi();
   return (
     <main className="legal-page">
       <header className="legal-head">
         <span className="eyebrow">{eyebrow}</span>
         <h1>{title}</h1>
-        <p className="legal-updated">Last updated {updated}</p>
+        <p className="legal-updated">
+          {ui.legal.updated} {updated}
+        </p>
         <p className="legal-intro">{intro}</p>
       </header>
 
@@ -37,11 +41,11 @@ export function LegalPage({ eyebrow, title, updated, intro, sections }: LegalPag
 
       <footer className="legal-foot">
         <p>
-          Questions about this page? Write to{" "}
+          {ui.legal.footQuestion}{" "}
           <a href={`mailto:${contact.email}`}>
             <Mail size={15} /> {contact.email}
           </a>{" "}
-          or see <Link to="/help">help &amp; docs</Link>.
+          {ui.legal.footOr} <AppLink to="/help">{ui.legal.footHelp}</AppLink>.
         </p>
       </footer>
     </main>

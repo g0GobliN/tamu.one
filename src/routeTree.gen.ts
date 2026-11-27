@@ -26,8 +26,27 @@ import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as SourcesRouteImport } from './routes/sources'
 import { Route as TermsRouteImport } from './routes/terms'
 import { Route as TimelineRouteImport } from './routes/timeline'
+import { Route as LangIndexRouteImport } from './routes/$lang.index'
+import { Route as LangAboutRouteImport } from './routes/$lang.about'
+import { Route as LangArchiveRouteImport } from './routes/$lang.archive'
+import { Route as LangContributeRouteImport } from './routes/$lang.contribute'
+import { Route as LangCreditsRouteImport } from './routes/$lang.credits'
+import { Route as LangCultureRouteImport } from './routes/$lang.culture'
+import { Route as LangDiasporaRouteImport } from './routes/$lang.diaspora'
+import { Route as LangGeographyRouteImport } from './routes/$lang.geography'
+import { Route as LangHelpRouteImport } from './routes/$lang.help'
+import { Route as LangHistoryRouteImport } from './routes/$lang.history'
+import { Route as LangJourneyRouteImport } from './routes/$lang.journey'
+import { Route as LangLanguageRouteImport } from './routes/$lang.language'
+import { Route as LangOralHistoryRouteImport } from './routes/$lang.oral-history'
+import { Route as LangPrivacyRouteImport } from './routes/$lang.privacy'
+import { Route as LangSourcesRouteImport } from './routes/$lang.sources'
+import { Route as LangTermsRouteImport } from './routes/$lang.terms'
+import { Route as LangTimelineRouteImport } from './routes/$lang.timeline'
 import { Route as LibraryIndexRouteImport } from './routes/library.index'
 import { Route as LibrarySlugRouteImport } from './routes/library.$slug'
+import { Route as LangLibraryIndexRouteImport } from './routes/$lang.library.index'
+import { Route as LangLibrarySlugRouteImport } from './routes/$lang.library.$slug'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -114,6 +133,91 @@ const TimelineRoute = TimelineRouteImport.update({
   path: '/timeline',
   getParentRoute: () => rootRouteImport,
 } as any)
+const LangIndexRoute = LangIndexRouteImport.update({
+  id: '/$lang/',
+  path: '/$lang/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LangAboutRoute = LangAboutRouteImport.update({
+  id: '/$lang/about',
+  path: '/$lang/about',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LangArchiveRoute = LangArchiveRouteImport.update({
+  id: '/$lang/archive',
+  path: '/$lang/archive',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LangContributeRoute = LangContributeRouteImport.update({
+  id: '/$lang/contribute',
+  path: '/$lang/contribute',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LangCreditsRoute = LangCreditsRouteImport.update({
+  id: '/$lang/credits',
+  path: '/$lang/credits',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LangCultureRoute = LangCultureRouteImport.update({
+  id: '/$lang/culture',
+  path: '/$lang/culture',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LangDiasporaRoute = LangDiasporaRouteImport.update({
+  id: '/$lang/diaspora',
+  path: '/$lang/diaspora',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LangGeographyRoute = LangGeographyRouteImport.update({
+  id: '/$lang/geography',
+  path: '/$lang/geography',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LangHelpRoute = LangHelpRouteImport.update({
+  id: '/$lang/help',
+  path: '/$lang/help',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LangHistoryRoute = LangHistoryRouteImport.update({
+  id: '/$lang/history',
+  path: '/$lang/history',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LangJourneyRoute = LangJourneyRouteImport.update({
+  id: '/$lang/journey',
+  path: '/$lang/journey',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LangLanguageRoute = LangLanguageRouteImport.update({
+  id: '/$lang/language',
+  path: '/$lang/language',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LangOralHistoryRoute = LangOralHistoryRouteImport.update({
+  id: '/$lang/oral-history',
+  path: '/$lang/oral-history',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LangPrivacyRoute = LangPrivacyRouteImport.update({
+  id: '/$lang/privacy',
+  path: '/$lang/privacy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LangSourcesRoute = LangSourcesRouteImport.update({
+  id: '/$lang/sources',
+  path: '/$lang/sources',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LangTermsRoute = LangTermsRouteImport.update({
+  id: '/$lang/terms',
+  path: '/$lang/terms',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LangTimelineRoute = LangTimelineRouteImport.update({
+  id: '/$lang/timeline',
+  path: '/$lang/timeline',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const LibraryIndexRoute = LibraryIndexRouteImport.update({
   id: '/library/',
   path: '/library/',
@@ -122,6 +226,16 @@ const LibraryIndexRoute = LibraryIndexRouteImport.update({
 const LibrarySlugRoute = LibrarySlugRouteImport.update({
   id: '/library/$slug',
   path: '/library/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LangLibraryIndexRoute = LangLibraryIndexRouteImport.update({
+  id: '/$lang/library/',
+  path: '/$lang/library/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LangLibrarySlugRoute = LangLibrarySlugRouteImport.update({
+  id: '/$lang/library/$slug',
+  path: '/$lang/library/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
 
@@ -143,8 +257,27 @@ export interface FileRoutesByFullPath {
   '/sources': typeof SourcesRoute
   '/terms': typeof TermsRoute
   '/timeline': typeof TimelineRoute
+  '/$lang/about': typeof LangAboutRoute
+  '/$lang/archive': typeof LangArchiveRoute
+  '/$lang/contribute': typeof LangContributeRoute
+  '/$lang/credits': typeof LangCreditsRoute
+  '/$lang/culture': typeof LangCultureRoute
+  '/$lang/diaspora': typeof LangDiasporaRoute
+  '/$lang/geography': typeof LangGeographyRoute
+  '/$lang/help': typeof LangHelpRoute
+  '/$lang/history': typeof LangHistoryRoute
+  '/$lang/journey': typeof LangJourneyRoute
+  '/$lang/language': typeof LangLanguageRoute
+  '/$lang/oral-history': typeof LangOralHistoryRoute
+  '/$lang/privacy': typeof LangPrivacyRoute
+  '/$lang/sources': typeof LangSourcesRoute
+  '/$lang/terms': typeof LangTermsRoute
+  '/$lang/timeline': typeof LangTimelineRoute
   '/library/$slug': typeof LibrarySlugRoute
+  '/$lang/': typeof LangIndexRoute
   '/library/': typeof LibraryIndexRoute
+  '/$lang/library/$slug': typeof LangLibrarySlugRoute
+  '/$lang/library/': typeof LangLibraryIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -164,8 +297,27 @@ export interface FileRoutesByTo {
   '/sources': typeof SourcesRoute
   '/terms': typeof TermsRoute
   '/timeline': typeof TimelineRoute
+  '/$lang/about': typeof LangAboutRoute
+  '/$lang/archive': typeof LangArchiveRoute
+  '/$lang/contribute': typeof LangContributeRoute
+  '/$lang/credits': typeof LangCreditsRoute
+  '/$lang/culture': typeof LangCultureRoute
+  '/$lang/diaspora': typeof LangDiasporaRoute
+  '/$lang/geography': typeof LangGeographyRoute
+  '/$lang/help': typeof LangHelpRoute
+  '/$lang/history': typeof LangHistoryRoute
+  '/$lang/journey': typeof LangJourneyRoute
+  '/$lang/language': typeof LangLanguageRoute
+  '/$lang/oral-history': typeof LangOralHistoryRoute
+  '/$lang/privacy': typeof LangPrivacyRoute
+  '/$lang/sources': typeof LangSourcesRoute
+  '/$lang/terms': typeof LangTermsRoute
+  '/$lang/timeline': typeof LangTimelineRoute
   '/library/$slug': typeof LibrarySlugRoute
+  '/$lang': typeof LangIndexRoute
   '/library': typeof LibraryIndexRoute
+  '/$lang/library/$slug': typeof LangLibrarySlugRoute
+  '/$lang/library': typeof LangLibraryIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -186,8 +338,27 @@ export interface FileRoutesById {
   '/sources': typeof SourcesRoute
   '/terms': typeof TermsRoute
   '/timeline': typeof TimelineRoute
+  '/$lang/about': typeof LangAboutRoute
+  '/$lang/archive': typeof LangArchiveRoute
+  '/$lang/contribute': typeof LangContributeRoute
+  '/$lang/credits': typeof LangCreditsRoute
+  '/$lang/culture': typeof LangCultureRoute
+  '/$lang/diaspora': typeof LangDiasporaRoute
+  '/$lang/geography': typeof LangGeographyRoute
+  '/$lang/help': typeof LangHelpRoute
+  '/$lang/history': typeof LangHistoryRoute
+  '/$lang/journey': typeof LangJourneyRoute
+  '/$lang/language': typeof LangLanguageRoute
+  '/$lang/oral-history': typeof LangOralHistoryRoute
+  '/$lang/privacy': typeof LangPrivacyRoute
+  '/$lang/sources': typeof LangSourcesRoute
+  '/$lang/terms': typeof LangTermsRoute
+  '/$lang/timeline': typeof LangTimelineRoute
   '/library/$slug': typeof LibrarySlugRoute
+  '/$lang/': typeof LangIndexRoute
   '/library/': typeof LibraryIndexRoute
+  '/$lang/library/$slug': typeof LangLibrarySlugRoute
+  '/$lang/library/': typeof LangLibraryIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -209,8 +380,27 @@ export interface FileRouteTypes {
     | '/sources'
     | '/terms'
     | '/timeline'
+    | '/$lang/about'
+    | '/$lang/archive'
+    | '/$lang/contribute'
+    | '/$lang/credits'
+    | '/$lang/culture'
+    | '/$lang/diaspora'
+    | '/$lang/geography'
+    | '/$lang/help'
+    | '/$lang/history'
+    | '/$lang/journey'
+    | '/$lang/language'
+    | '/$lang/oral-history'
+    | '/$lang/privacy'
+    | '/$lang/sources'
+    | '/$lang/terms'
+    | '/$lang/timeline'
     | '/library/$slug'
+    | '/$lang/'
     | '/library/'
+    | '/$lang/library/$slug'
+    | '/$lang/library/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -230,8 +420,27 @@ export interface FileRouteTypes {
     | '/sources'
     | '/terms'
     | '/timeline'
+    | '/$lang/about'
+    | '/$lang/archive'
+    | '/$lang/contribute'
+    | '/$lang/credits'
+    | '/$lang/culture'
+    | '/$lang/diaspora'
+    | '/$lang/geography'
+    | '/$lang/help'
+    | '/$lang/history'
+    | '/$lang/journey'
+    | '/$lang/language'
+    | '/$lang/oral-history'
+    | '/$lang/privacy'
+    | '/$lang/sources'
+    | '/$lang/terms'
+    | '/$lang/timeline'
     | '/library/$slug'
+    | '/$lang'
     | '/library'
+    | '/$lang/library/$slug'
+    | '/$lang/library'
   id:
     | '__root__'
     | '/'
@@ -251,8 +460,27 @@ export interface FileRouteTypes {
     | '/sources'
     | '/terms'
     | '/timeline'
+    | '/$lang/about'
+    | '/$lang/archive'
+    | '/$lang/contribute'
+    | '/$lang/credits'
+    | '/$lang/culture'
+    | '/$lang/diaspora'
+    | '/$lang/geography'
+    | '/$lang/help'
+    | '/$lang/history'
+    | '/$lang/journey'
+    | '/$lang/language'
+    | '/$lang/oral-history'
+    | '/$lang/privacy'
+    | '/$lang/sources'
+    | '/$lang/terms'
+    | '/$lang/timeline'
     | '/library/$slug'
+    | '/$lang/'
     | '/library/'
+    | '/$lang/library/$slug'
+    | '/$lang/library/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -273,8 +501,27 @@ export interface RootRouteChildren {
   SourcesRoute: typeof SourcesRoute
   TermsRoute: typeof TermsRoute
   TimelineRoute: typeof TimelineRoute
+  LangAboutRoute: typeof LangAboutRoute
+  LangArchiveRoute: typeof LangArchiveRoute
+  LangContributeRoute: typeof LangContributeRoute
+  LangCreditsRoute: typeof LangCreditsRoute
+  LangCultureRoute: typeof LangCultureRoute
+  LangDiasporaRoute: typeof LangDiasporaRoute
+  LangGeographyRoute: typeof LangGeographyRoute
+  LangHelpRoute: typeof LangHelpRoute
+  LangHistoryRoute: typeof LangHistoryRoute
+  LangJourneyRoute: typeof LangJourneyRoute
+  LangLanguageRoute: typeof LangLanguageRoute
+  LangOralHistoryRoute: typeof LangOralHistoryRoute
+  LangPrivacyRoute: typeof LangPrivacyRoute
+  LangSourcesRoute: typeof LangSourcesRoute
+  LangTermsRoute: typeof LangTermsRoute
+  LangTimelineRoute: typeof LangTimelineRoute
   LibrarySlugRoute: typeof LibrarySlugRoute
+  LangIndexRoute: typeof LangIndexRoute
   LibraryIndexRoute: typeof LibraryIndexRoute
+  LangLibrarySlugRoute: typeof LangLibrarySlugRoute
+  LangLibraryIndexRoute: typeof LangLibraryIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -398,6 +645,125 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof TimelineRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/$lang/': {
+      id: '/$lang/'
+      path: '/$lang'
+      fullPath: '/$lang/'
+      preLoaderRoute: typeof LangIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$lang/about': {
+      id: '/$lang/about'
+      path: '/$lang/about'
+      fullPath: '/$lang/about'
+      preLoaderRoute: typeof LangAboutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$lang/archive': {
+      id: '/$lang/archive'
+      path: '/$lang/archive'
+      fullPath: '/$lang/archive'
+      preLoaderRoute: typeof LangArchiveRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$lang/contribute': {
+      id: '/$lang/contribute'
+      path: '/$lang/contribute'
+      fullPath: '/$lang/contribute'
+      preLoaderRoute: typeof LangContributeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$lang/credits': {
+      id: '/$lang/credits'
+      path: '/$lang/credits'
+      fullPath: '/$lang/credits'
+      preLoaderRoute: typeof LangCreditsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$lang/culture': {
+      id: '/$lang/culture'
+      path: '/$lang/culture'
+      fullPath: '/$lang/culture'
+      preLoaderRoute: typeof LangCultureRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$lang/diaspora': {
+      id: '/$lang/diaspora'
+      path: '/$lang/diaspora'
+      fullPath: '/$lang/diaspora'
+      preLoaderRoute: typeof LangDiasporaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$lang/geography': {
+      id: '/$lang/geography'
+      path: '/$lang/geography'
+      fullPath: '/$lang/geography'
+      preLoaderRoute: typeof LangGeographyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$lang/help': {
+      id: '/$lang/help'
+      path: '/$lang/help'
+      fullPath: '/$lang/help'
+      preLoaderRoute: typeof LangHelpRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$lang/history': {
+      id: '/$lang/history'
+      path: '/$lang/history'
+      fullPath: '/$lang/history'
+      preLoaderRoute: typeof LangHistoryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$lang/journey': {
+      id: '/$lang/journey'
+      path: '/$lang/journey'
+      fullPath: '/$lang/journey'
+      preLoaderRoute: typeof LangJourneyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$lang/language': {
+      id: '/$lang/language'
+      path: '/$lang/language'
+      fullPath: '/$lang/language'
+      preLoaderRoute: typeof LangLanguageRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$lang/oral-history': {
+      id: '/$lang/oral-history'
+      path: '/$lang/oral-history'
+      fullPath: '/$lang/oral-history'
+      preLoaderRoute: typeof LangOralHistoryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$lang/privacy': {
+      id: '/$lang/privacy'
+      path: '/$lang/privacy'
+      fullPath: '/$lang/privacy'
+      preLoaderRoute: typeof LangPrivacyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$lang/sources': {
+      id: '/$lang/sources'
+      path: '/$lang/sources'
+      fullPath: '/$lang/sources'
+      preLoaderRoute: typeof LangSourcesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$lang/terms': {
+      id: '/$lang/terms'
+      path: '/$lang/terms'
+      fullPath: '/$lang/terms'
+      preLoaderRoute: typeof LangTermsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$lang/timeline': {
+      id: '/$lang/timeline'
+      path: '/$lang/timeline'
+      fullPath: '/$lang/timeline'
+      preLoaderRoute: typeof LangTimelineRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/library/': {
       id: '/library/'
       path: '/library'
@@ -410,6 +776,20 @@ declare module '@tanstack/react-router' {
       path: '/library/$slug'
       fullPath: '/library/$slug'
       preLoaderRoute: typeof LibrarySlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$lang/library/': {
+      id: '/$lang/library/'
+      path: '/$lang/library'
+      fullPath: '/$lang/library/'
+      preLoaderRoute: typeof LangLibraryIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$lang/library/$slug': {
+      id: '/$lang/library/$slug'
+      path: '/$lang/library/$slug'
+      fullPath: '/$lang/library/$slug'
+      preLoaderRoute: typeof LangLibrarySlugRouteImport
       parentRoute: typeof rootRouteImport
     }
   }
@@ -433,8 +813,27 @@ const rootRouteChildren: RootRouteChildren = {
   SourcesRoute: SourcesRoute,
   TermsRoute: TermsRoute,
   TimelineRoute: TimelineRoute,
+  LangAboutRoute: LangAboutRoute,
+  LangArchiveRoute: LangArchiveRoute,
+  LangContributeRoute: LangContributeRoute,
+  LangCreditsRoute: LangCreditsRoute,
+  LangCultureRoute: LangCultureRoute,
+  LangDiasporaRoute: LangDiasporaRoute,
+  LangGeographyRoute: LangGeographyRoute,
+  LangHelpRoute: LangHelpRoute,
+  LangHistoryRoute: LangHistoryRoute,
+  LangJourneyRoute: LangJourneyRoute,
+  LangLanguageRoute: LangLanguageRoute,
+  LangOralHistoryRoute: LangOralHistoryRoute,
+  LangPrivacyRoute: LangPrivacyRoute,
+  LangSourcesRoute: LangSourcesRoute,
+  LangTermsRoute: LangTermsRoute,
+  LangTimelineRoute: LangTimelineRoute,
   LibrarySlugRoute: LibrarySlugRoute,
+  LangIndexRoute: LangIndexRoute,
   LibraryIndexRoute: LibraryIndexRoute,
+  LangLibrarySlugRoute: LangLibrarySlugRoute,
+  LangLibraryIndexRoute: LangLibraryIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

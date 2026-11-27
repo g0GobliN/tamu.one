@@ -1,6 +1,7 @@
 import { LegalPage } from "@/components/museum/LegalPage";
-import { privacyPage } from "@/data/legal";
+import { getLegal } from "@/i18n/content";
+import { useLocale } from "@/i18n";
 
 export function Privacy() {
-  return <LegalPage {...privacyPage} />;
+  return <LegalPage {...getLegal(useLocale()).privacy} />;
 }
