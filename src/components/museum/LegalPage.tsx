@@ -1,20 +1,9 @@
 import { Link } from "@tanstack/react-router";
 import { Mail } from "lucide-react";
 import { contact } from "@/data/contact";
+import type { LegalPageContent } from "@/data/legal";
 
-export interface LegalSection {
-  heading: string;
-  paragraphs?: string[];
-  bullets?: string[];
-}
-
-interface LegalPageProps {
-  eyebrow: string;
-  title: string;
-  updated: string;
-  intro: string;
-  sections: LegalSection[];
-}
+type LegalPageProps = LegalPageContent;
 
 export function LegalPage({ eyebrow, title, updated, intro, sections }: LegalPageProps) {
   return (
