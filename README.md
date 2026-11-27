@@ -36,12 +36,15 @@ bun run dev      # http://localhost:3000
 Other scripts:
 
 ```sh
-bun run build    # production build
-bun run preview  # preview the build
-bun run test     # vitest
-bun run lint     # eslint
-bun run format   # prettier
+bun run build      # production build
+bun run preview    # preview the build
+bun run test       # vitest
+bun run typecheck  # tsc --noEmit
+bun run lint       # eslint (includes prettier)
+bun run format     # prettier --write
 ```
+
+CI runs lint, typecheck, tests and a production build on every pull request.
 
 ## Project structure
 
@@ -74,8 +77,20 @@ that use them. They come from Wikimedia Commons under the licences listed in [`s
 (CC BY, CC BY-SA 2.0/3.0/4.0) — attribution and share-alike terms apply to reuse. Each entry keeps
 the creator, licence, licence URL and original file name.
 
+## Contributing
+
+Contributions go through an issue first, then a pull request — never a direct push to `main`.
+[CONTRIBUTING.md](CONTRIBUTING.md) explains the workflow, the checks CI runs and the sourcing rules
+for new content; [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) applies to every space around the project.
+
+Please report vulnerabilities privately as described in [SECURITY.md](SECURITY.md), never in a
+public issue.
+
 ## Licence
 
-Application code is provided as-is for the TAMU project. Article text and photographs keep their own
-terms: text is editorial content of the project, photographs remain under the licences credited in
-`src/data/media.ts`.
+The application source code is licensed under the [Apache License 2.0](LICENSE).
+
+Editorial content and photographs are not covered by that licence: photographs remain under the
+Creative Commons licences credited in [`src/data/media.ts`](src/data/media.ts) (CC BY and CC BY-SA),
+and article text is editorial content of the project with its sources cited per article. See
+[NOTICE](NOTICE) for the exact scope.

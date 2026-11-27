@@ -6,7 +6,15 @@ import { navItems } from "@/components/museum/Header";
 
 describe("Museum pages", () => {
   const router = createRouter({ routeTree, context: { queryClient: new QueryClient() } });
-  for (const path of [...navItems.map((n) => n.to), "/library", "/library/ghatu", "/contribute", "/about", "/sources", "/oral-history"]) {
+  for (const path of [
+    ...navItems.map((n) => n.to),
+    "/library",
+    "/library/ghatu",
+    "/contribute",
+    "/about",
+    "/sources",
+    "/oral-history",
+  ]) {
     it(`has a page for ${path}`, () => {
       expect(router.matchRoutes(path).at(-1)?.routeId).not.toBe(rootRouteId);
     });

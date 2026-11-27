@@ -1,10 +1,149 @@
-import { useState } from 'react';
-import { Search, SlidersHorizontal, X } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { categories, articles, searchArticles } from '@/data/heritage';
-import { ArticleCard } from './ArticleCard';
-export function Library({initialCategory='All',title='The knowledge library',intro='History, language, places and people. Follow a thread. Discover a connection.'}:{initialCategory?:string;title?:string;intro?:string}){
- const [query,setQuery]=useState(''); const [category,setCategory]=useState(initialCategory);const [filters,setFilters]=useState(false);const [region,setRegion]=useState('All');const [evidence,setEvidence]=useState('All');const [sort,setSort]=useState('collection');
- const found=searchArticles(query,category,region,evidence);const results=sort==='title'?[...found].sort((a,b)=>a.title.localeCompare(b.title)):found;
- return <main className="library-page"><section className="page-heading"><span className="eyebrow">TAMU · CONNECTED KNOWLEDGE</span><h1>{title}</h1><p>{intro}</p></section><section className="library-content"><div className="search-row"><div className="search-input"><Search size={20}/><input aria-label="Search articles" placeholder="Search history, places, traditions…" value={query} onChange={e=>setQuery(e.target.value)}/>{query&&<Button size="icon" variant="ghost" aria-label="Clear search" onClick={()=>setQuery('')}><X size={17}/></Button>}</div><Button variant="outline" onClick={()=>setFilters(!filters)}><SlidersHorizontal size={17}/> Filters</Button></div><div className="category-tabs" aria-label="Article categories">{['All',...categories].map(c=><Button key={c} variant="ghost" className={category===c?'selected':''} onClick={()=>setCategory(c)}>{c==='All'?'All subjects':c}</Button>)}</div>{filters&&<div className="filter-panel"><label>Region<select value={region} onChange={e=>setRegion(e.target.value)}><option>All</option>{[...new Set(articles.map(a=>a.region))].map(r=><option key={r}>{r}</option>)}</select></label><label>Evidence<select value={evidence} onChange={e=>setEvidence(e.target.value)}><option>All</option>{[...new Set(articles.map(a=>a.evidence))].map(r=><option key={r}>{r}</option>)}</select></label><Button variant="ghost" onClick={()=>{setRegion('All');setEvidence('All');setQuery('');setCategory(initialCategory)}}>Reset filters</Button></div>}<div className="results-heading"><span>{results.length} {results.length===1?'article':'articles'}<small> · Sourced introductions</small></span><label>Sort by <select aria-label="Sort articles" value={sort} onChange={e=>setSort(e.target.value)}><option value="collection">Collection order</option><option value="title">Title A–Z</option></select></label></div>{results.length?<div className="article-grid">{results.map(a=><ArticleCard key={a.slug} article={a}/>)}</div>:<div className="empty-state"><Search size={32}/><h2>No matching articles</h2><p>Try another subject or clear your filters.</p><Button variant="outline" onClick={()=>{setQuery('');setCategory('All');setRegion('All');setEvidence('All')}}>Clear all filters</Button></div>}<p className="research-note">A growing collection. Each introduction identifies its sources, evidentiary limits and community-review status.</p></section></main>
+import { useState } from "react";
+import { Search, SlidersHorizontal, X } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { categories, articles, searchArticles } from "@/data/heritage";
+import { ArticleCard } from "./ArticleCard";
+export function Library({
+  initialCategory = "All",
+  title = "The knowledge library",
+  intro = "History, language, places and people. Follow a thread. Discover a connection.",
+}: {
+  initialCategory?: string;
+  title?: string;
+  intro?: string;
+}) {
+  const [query, setQuery] = useState("");
+  const [category, setCategory] = useState(initialCategory);
+  const [filters, setFilters] = useState(false);
+  const [region, setRegion] = useState("All");
+  const [evidence, setEvidence] = useState("All");
+  const [sort, setSort] = useState("collection");
+  const found = searchArticles(query, category, region, evidence);
+  const results =
+    sort === "title" ? [...found].sort((a, b) => a.title.localeCompare(b.title)) : found;
+  return (
+    <main className="library-page">
+      <section className="page-heading">
+        <span className="eyebrow">TAMU · CONNECTED KNOWLEDGE</span>
+        <h1>{title}</h1>
+        <p>{intro}</p>
+      </section>
+      <section className="library-content">
+        <div className="search-row">
+          <div className="search-input">
+            <Search size={20} />
+            <input
+              aria-label="Search articles"
+              placeholder="Search history, places, traditions…"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+            />
+            {query && (
+              <Button
+                size="icon"
+                variant="ghost"
+                aria-label="Clear search"
+                onClick={() => setQuery("")}
+              >
+                <X size={17} />
+              </Button>
+            )}
+          </div>
+          <Button variant="outline" onClick={() => setFilters(!filters)}>
+            <SlidersHorizontal size={17} /> Filters
+          </Button>
+        </div>
+        <div className="category-tabs" aria-label="Article categories">
+          {["All", ...categories].map((c) => (
+            <Button
+              key={c}
+              variant="ghost"
+              className={category === c ? "selected" : ""}
+              onClick={() => setCategory(c)}
+            >
+              {c === "All" ? "All subjects" : c}
+            </Button>
+          ))}
+        </div>
+        {filters && (
+          <div className="filter-panel">
+            <label>
+              Region
+              <select value={region} onChange={(e) => setRegion(e.target.value)}>
+                <option>All</option>
+                {[...new Set(articles.map((a) => a.region))].map((r) => (
+                  <option key={r}>{r}</option>
+                ))}
+              </select>
+            </label>
+            <label>
+              Evidence
+              <select value={evidence} onChange={(e) => setEvidence(e.target.value)}>
+                <option>All</option>
+                {[...new Set(articles.map((a) => a.evidence))].map((r) => (
+                  <option key={r}>{r}</option>
+                ))}
+              </select>
+            </label>
+            <Button
+              variant="ghost"
+              onClick={() => {
+                setRegion("All");
+                setEvidence("All");
+                setQuery("");
+                setCategory(initialCategory);
+              }}
+            >
+              Reset filters
+            </Button>
+          </div>
+        )}
+        <div className="results-heading">
+          <span>
+            {results.length} {results.length === 1 ? "article" : "articles"}
+            <small> · Sourced introductions</small>
+          </span>
+          <label>
+            Sort by{" "}
+            <select
+              aria-label="Sort articles"
+              value={sort}
+              onChange={(e) => setSort(e.target.value)}
+            >
+              <option value="collection">Collection order</option>
+              <option value="title">Title A–Z</option>
+            </select>
+          </label>
+        </div>
+        {results.length ? (
+          <div className="article-grid">
+            {results.map((a) => (
+              <ArticleCard key={a.slug} article={a} />
+            ))}
+          </div>
+        ) : (
+          <div className="empty-state">
+            <Search size={32} />
+            <h2>No matching articles</h2>
+            <p>Try another subject or clear your filters.</p>
+            <Button
+              variant="outline"
+              onClick={() => {
+                setQuery("");
+                setCategory("All");
+                setRegion("All");
+                setEvidence("All");
+              }}
+            >
+              Clear all filters
+            </Button>
+          </div>
+        )}
+        <p className="research-note">
+          A growing collection. Each introduction identifies its sources, evidentiary limits and
+          community-review status.
+        </p>
+      </section>
+    </main>
+  );
 }

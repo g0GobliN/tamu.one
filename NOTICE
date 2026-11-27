@@ -1,0 +1,14 @@
+TAMU
+Copyright 2026 Vishal Gurung
+
+This product includes software developed as part of the TAMU heritage museum project.
+
+The Apache License 2.0 in LICENSE covers the application source code in this repository. It does
+not cover the editorial content or the photographs:
+
+- Photographs in public/images are the work of their respective creators and are used under the
+  Creative Commons licences recorded in src/data/media.ts (CC BY 2.0, CC BY-SA 2.0, CC BY-SA 3.0,
+  CC BY-SA 4.0). Attribution and share-alike terms apply. Each entry keeps the creator, licence,
+  licence URL and original Wikimedia Commons file name.
+- Article text in src/data is editorial content of the project. Quotes, translations and excerpts
+  remain the property of their original authors and are cited in the article sources.

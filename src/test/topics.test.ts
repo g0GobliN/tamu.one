@@ -17,7 +17,9 @@ describe("Topic pages", () => {
     });
 
     it(`${topic.key}: the read-further list has articles`, () => {
-      expect(articles.some((a) => (topic.categories as readonly string[]).includes(a.category))).toBe(true);
+      expect(
+        articles.some((a) => (topic.categories as readonly string[]).includes(a.category)),
+      ).toBe(true);
     });
   }
 });
