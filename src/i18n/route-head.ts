@@ -2,7 +2,7 @@ import { notFound } from "@tanstack/react-router";
 
 import { pageHead } from "@/lib/seo";
 import { getUi, localeFromParams } from ".";
-import { isLocale, pathFor } from "./locales";
+import { isLocale } from "./locales";
 import type { Ui } from "./ui-en";
 
 type SeoKey = Exclude<keyof Ui["seo"], "articleNotFound">;
@@ -11,7 +11,8 @@ type SeoKey = Exclude<keyof Ui["seo"], "articleNotFound">;
 export function localeHead(params: { lang?: string }, key: SeoKey, path: string) {
   const locale = localeFromParams(params);
   const entry = getUi(locale).seo[key];
-  return pageHead(entry.title, entry.description, pathFor(locale, path), locale);
+  // pageHead applies the locale prefix itself, so pass the unprefixed path.
+  return pageHead(entry.title, entry.description, path, locale);
 }
 
 /** Only /ne is a real language prefix; anything else is a 404, not an English page. */
