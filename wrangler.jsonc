@@ -1,0 +1,26 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  // Cloudflare Workers configuration for tamu.one.
+  // `bun run build` emits dist/server/server.js (a fetch-handler Worker) and
+  // dist/client (static assets). Cloudflare serves the static files directly
+  // and hands every other request to the Worker, which renders the page.
+  "name": "tamu",
+  "main": "./dist/server/server.js",
+  "compatibility_date": "2026-11-27",
+  "assets": {
+    "directory": "./dist/client",
+    "binding": "ASSETS",
+    "html_handling": "none",
+    "not_found_handling": "none",
+  },
+  "observability": {
+    "enabled": true,
+  },
+  // Once tamu.one is active in Cloudflare (nameservers pointed at the zone),
+  // `wrangler deploy` can attach the domain itself instead of the dashboard:
+  //
+  // "routes": [
+  //   { "pattern": "tamu.one", "custom_domain": true },
+  //   { "pattern": "www.tamu.one", "custom_domain": true }
+  // ]
+}
