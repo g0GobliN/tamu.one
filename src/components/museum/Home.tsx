@@ -5,6 +5,7 @@ import { getMedia } from "@/data/media";
 import { getArticleBySlug, getTopic } from "@/i18n/content";
 import { useLocale, useUi } from "@/i18n";
 import { localizeMedia } from "@/i18n/media-ne";
+import { readingPath } from "@/data/reading-path";
 import { ArticleCard } from "./ArticleCard";
 import { AppLink } from "./AppLink";
 
@@ -35,6 +36,11 @@ export function Home() {
       to: "/geography",
     },
   ] as const;
+
+  const pathChapters = readingPath.slice(0, 4).flatMap((slug) => {
+    const article = getArticleBySlug(slug, locale);
+    return article ? [article] : [];
+  });
 
   const featured = [
     "first-written-accounts",
@@ -153,6 +159,34 @@ export function Home() {
             </AppLink>
           ))}
         </div>
+      </section>
+      <section className="path-band">
+        <div className="path-band-copy">
+          <span className="eyebrow">{ui.home.pathEyebrow}</span>
+          <h2>{ui.home.pathTitle}</h2>
+          <p>{ui.home.pathIntro}</p>
+          {pathChapters[0] && (
+            <Button asChild size="lg" className="path-cta">
+              <AppLink to="/library/$slug" params={{ slug: pathChapters[0].slug }}>
+                {ui.home.pathCta} <ArrowRight />
+              </AppLink>
+            </Button>
+          )}
+        </div>
+        <ol className="path-list">
+          {pathChapters.map((chapter, index) => (
+            <li key={chapter.slug}>
+              <AppLink to="/library/$slug" params={{ slug: chapter.slug }}>
+                <span>{String(index + 1).padStart(2, "0")}</span>
+                <div>
+                  <strong>{chapter.title}</strong>
+                  <small>{chapter.summary}</small>
+                </div>
+                <ArrowUpRight size={18} />
+              </AppLink>
+            </li>
+          ))}
+        </ol>
       </section>
       <section className="discovery-strip">
         <AppLink to="/language">

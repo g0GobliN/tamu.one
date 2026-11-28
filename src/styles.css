@@ -1585,10 +1585,12 @@ section {
 }
 .search-row {
   display: flex;
+  flex-wrap: wrap;
   gap: 0.6rem;
 }
 .search-input {
   flex: 1;
+  min-width: 0;
   display: flex;
   align-items: center;
   gap: 0.6rem;
@@ -2486,4 +2488,572 @@ html[lang="ne"] .collection-number {
 .translation-note a {
   text-decoration: underline;
   text-underline-offset: 0.2em;
+}
+
+/* ---------------------------------------------------------------------------
+   Reading experience
+   The library is a story, not an encyclopedia: a chapter with a clear opening,
+   a way to search inside it, and a next chapter waiting at the end.
+--------------------------------------------------------------------------- */
+
+.reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: var(--primary);
+  z-index: 999;
+  transition: width 80ms linear;
+}
+
+.reading {
+  display: block;
+}
+
+.reading-heading {
+  max-width: 50rem;
+  margin: 0 auto 1.5rem;
+  padding: 0 1.5rem;
+}
+
+.reading-topline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  justify-content: space-between;
+  font-size: 0.82rem;
+  margin-bottom: 2rem;
+}
+
+.reading-topline a {
+  color: var(--muted-foreground);
+}
+
+.reading-topline a:hover {
+  color: var(--primary);
+}
+
+.reading-heading h1 {
+  font-size: clamp(2.6rem, 6vw, 4.6rem);
+  line-height: 1.04;
+  margin: 0.9rem 0 1.2rem;
+  max-width: 22ch;
+}
+
+.reading-lead {
+  font-size: clamp(1.15rem, 2vw, 1.4rem);
+  line-height: 1.65;
+  color: var(--muted-foreground);
+  max-width: 42rem;
+}
+
+.reading-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1.4rem;
+  margin-top: 1.6rem;
+  font-size: 0.83rem;
+  color: var(--muted-foreground);
+}
+
+.reading-meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.reading-meta .chapter-number {
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.7rem;
+  border: 1px solid color-mix(in oklab, var(--primary) 40%, transparent);
+  border-radius: 999px;
+  padding: 0.25rem 0.7rem;
+}
+
+.reading-tools {
+  max-width: 50rem;
+  margin: 0 auto 3rem;
+  padding: 0 1.5rem;
+  display: grid;
+  gap: 1.25rem;
+  min-width: 0;
+}
+
+.chapter-search {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.5rem;
+  color: var(--muted-foreground);
+}
+
+.chapter-search input {
+  flex: 1;
+  background: transparent;
+  border: 0;
+  outline: none;
+  font-size: 1rem;
+  padding: 0.4rem 0;
+  color: var(--foreground);
+}
+
+.chapter-search button {
+  background: transparent;
+  color: var(--muted-foreground);
+  display: inline-flex;
+}
+
+.chapter-search button:hover {
+  color: var(--primary);
+}
+
+.chapter-map {
+  min-width: 0;
+}
+
+.chapter-map ol {
+  list-style: none;
+  margin: 0.6rem 0 0;
+  padding: 0 0 0.4rem;
+  display: flex;
+  gap: 0.45rem;
+  max-width: 100%;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+@media (min-width: 720px) {
+  .chapter-map ol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.15rem 2rem;
+    padding: 0;
+    overflow: visible;
+  }
+}
+
+.chapter-map a {
+  display: flex;
+  gap: 0.55rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--foreground);
+  font-size: 0.82rem;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+@media (min-width: 720px) {
+  .chapter-map a {
+    border: 0;
+    border-radius: 0;
+    padding: 0.35rem 0;
+    font-size: 0.92rem;
+    white-space: normal;
+  }
+}
+
+.chapter-map a span {
+  color: var(--muted-foreground);
+  font-variant-numeric: tabular-nums;
+  flex: none;
+}
+
+.chapter-map a:hover {
+  color: var(--primary);
+}
+
+.chapter-search-results {
+  display: grid;
+  gap: 0.4rem;
+  background: var(--muted);
+  border-radius: var(--radius);
+  padding: 1rem 1.1rem;
+}
+
+.chapter-search-results p {
+  font-size: 0.9rem;
+  color: var(--muted-foreground);
+  margin: 0;
+}
+
+.chapter-search-results a {
+  display: grid;
+  gap: 0.2rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.chapter-search-results a:last-of-type {
+  border-bottom: 0;
+}
+
+.chapter-search-results strong {
+  font-size: 0.98rem;
+}
+
+.chapter-search-results a span {
+  font-size: 0.85rem;
+  color: var(--muted-foreground);
+  line-height: 1.5;
+}
+
+.chapter-search-results a:hover strong {
+  color: var(--primary);
+}
+
+.reading-body {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  font-size: 1.14rem;
+  line-height: 1.95;
+}
+
+.reading-chapter {
+  position: relative;
+  margin-bottom: 3.5rem;
+  scroll-margin-top: 110px;
+}
+
+.reading-chapter h2 {
+  font-size: clamp(1.7rem, 3.2vw, 2.25rem);
+  line-height: 1.2;
+  margin: 0 0 1.2rem;
+}
+
+.reading-chapter .chapter-index {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  letter-spacing: 0.18em;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 1100px) {
+  .reading-chapter .chapter-index {
+    position: absolute;
+    left: -4.2rem;
+    top: 0.5rem;
+    margin: 0;
+  }
+}
+
+.reading-chapter p {
+  margin-bottom: 1.4rem;
+}
+
+.reading-chapter p:first-of-type {
+  font-size: 1.2rem;
+  color: var(--foreground);
+}
+
+@media (max-width: 719px) {
+  .reading-lead {
+    font-size: 1.12rem;
+    line-height: 1.6;
+  }
+  .reading-body {
+    font-size: 1.06rem;
+    line-height: 1.8;
+  }
+  .reading-chapter p:first-of-type {
+    font-size: 1.12rem;
+  }
+}
+
+.reading-body mark {
+  background: color-mix(in oklab, var(--primary) 25%, transparent);
+  color: inherit;
+  border-radius: 2px;
+  padding: 0 0.1em;
+}
+
+.sources-block {
+  margin: 4rem 0 2rem;
+  border-top: 1px solid var(--border);
+  padding-top: 2rem;
+}
+
+.sources-block h2 {
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+
+.sources-block a {
+  display: flex;
+  gap: 1rem;
+  align-items: start;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.sources-block a > span {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  color: var(--primary);
+  width: 1.5rem;
+  flex: none;
+}
+
+.sources-block a div {
+  flex: 1;
+}
+
+.sources-block p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0.15rem 0;
+}
+
+.sources-block small {
+  color: var(--muted-foreground);
+}
+
+.article-colophon {
+  display: grid;
+  gap: 1rem;
+  padding: 1.4rem 1.6rem;
+  background: var(--muted);
+  border-radius: var(--radius);
+  margin: 2.5rem 0;
+  font-size: 0.82rem;
+  color: var(--muted-foreground);
+}
+
+@media (min-width: 720px) {
+  .article-colophon {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.article-colophon strong {
+  color: var(--foreground);
+  display: block;
+  margin-bottom: 0.2rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.article-colophon p {
+  margin: 0;
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.next-chapter {
+  display: block;
+  max-width: 42rem;
+  margin: 0 auto 5rem;
+  padding: 2.2rem 1.5rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.next-chapter small {
+  display: block;
+  color: var(--primary);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  margin-top: 0.8rem;
+}
+
+.next-chapter h2 {
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  margin: 0.5rem 0 0.8rem;
+  line-height: 1.15;
+}
+
+.next-chapter p {
+  color: var(--muted-foreground);
+  max-width: 36rem;
+  line-height: 1.7;
+}
+
+.next-chapter-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  color: var(--primary);
+  font-size: 0.92rem;
+}
+
+.next-chapter:hover h2 {
+  color: var(--primary);
+}
+
+.start-reading {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem;
+  margin-bottom: 2.5rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: linear-gradient(180deg, var(--card), var(--background));
+}
+
+@media (min-width: 960px) {
+  .start-reading {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+    align-items: start;
+    gap: 3rem;
+  }
+}
+
+.start-reading h2 {
+  font-size: clamp(1.7rem, 3vw, 2.3rem);
+  margin: 0.7rem 0 0.9rem;
+  line-height: 1.15;
+}
+
+.start-reading-copy p {
+  color: var(--muted-foreground);
+  line-height: 1.7;
+  max-width: 34rem;
+}
+
+.start-reading-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.2rem;
+  color: var(--primary);
+  font-size: 0.92rem;
+}
+
+.start-reading-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.1rem;
+}
+
+.start-reading-list a {
+  display: flex;
+  gap: 0.9rem;
+  align-items: baseline;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.start-reading-list li:last-child a {
+  border-bottom: 0;
+}
+
+.start-reading-list a > span {
+  font-family: var(--font-display);
+  color: var(--primary);
+  font-size: 0.85rem;
+  flex: none;
+}
+
+.start-reading-list strong {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
+.start-reading-list small {
+  display: block;
+  color: var(--muted-foreground);
+  font-size: 0.82rem;
+  line-height: 1.5;
+  margin-top: 0.15rem;
+}
+
+.start-reading-list a:hover strong {
+  color: var(--primary);
+}
+
+.path-band {
+  display: grid;
+  gap: 2.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+@media (min-width: 960px) {
+  .path-band {
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    gap: 4rem;
+    align-items: start;
+  }
+}
+
+.path-band h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin: 0.8rem 0 1rem;
+  line-height: 1.1;
+}
+
+.path-band-copy p {
+  color: var(--muted-foreground);
+  line-height: 1.75;
+  max-width: 34rem;
+}
+
+.path-cta {
+  margin-top: 1.4rem;
+}
+
+.path-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.15rem;
+}
+
+.path-list a {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.path-list a > span {
+  font-family: var(--font-display);
+  color: var(--primary);
+  font-size: 0.9rem;
+  flex: none;
+}
+
+.path-list a > div {
+  flex: 1;
+}
+
+.path-list strong {
+  display: block;
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+
+.path-list small {
+  display: block;
+  color: var(--muted-foreground);
+  font-size: 0.84rem;
+  line-height: 1.55;
+  margin-top: 0.25rem;
+}
+
+.path-list a:hover strong {
+  color: var(--primary);
+}
+
+.card-match {
+  font-size: 0.8rem !important;
+  color: var(--primary) !important;
+  margin-top: 0.5rem;
 }
