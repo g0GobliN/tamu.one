@@ -5,7 +5,7 @@ import { getMedia } from "@/data/media";
 import { getArticleBySlug, getTopic } from "@/i18n/content";
 import { useLocale, useUi } from "@/i18n";
 import { localizeMedia } from "@/i18n/media-ne";
-import { readingPath } from "@/data/reading-path";
+import { bookSlugs } from "@/data/book";
 import { ArticleCard } from "./ArticleCard";
 import { AppLink } from "./AppLink";
 
@@ -37,7 +37,7 @@ export function Home() {
     },
   ] as const;
 
-  const pathChapters = readingPath.slice(0, 4).flatMap((slug) => {
+  const pathChapters = bookSlugs.slice(0, 4).flatMap((slug) => {
     const article = getArticleBySlug(slug, locale);
     return article ? [article] : [];
   });
