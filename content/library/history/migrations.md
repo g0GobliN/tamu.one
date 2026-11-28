@@ -22,9 +22,9 @@ summaryNe: पुर्ख्यौली यात्राले पवित�
 
 ## [en] An oral epic of movement
 
-Evans's archaeological and ethnohistorical study includes a translation of the Lẽmakõ Rõh Pye, an oral epic that narrates movement into the region from a distant north. It is an attributed ancestral narrative, not an independently dated itinerary, and it is told as the community's own account of how it came to be where it is.
+Evans's archaeological and ethnohistorical study includes a translation of the Lẽmakõ Rõh Pye, an oral epic that narrates movement into the region from a distant north. It is an attributed ancestral narrative, not an independently dated itinerary: the epic says where the community believes it came from, in the order and the language in which that memory is kept.
 
-Other journeys in the record are walked rather than recited.
+Read that way it is a remarkable document, because it preserves a geography of movement in a form that has survived without writing. Read the other way — as a route map — it will mislead. The epic's places are real to the people who recite it, and some can be matched to the landscape; others cannot, and the poem is not obliged to be consistent about distance or duration. Other journeys in the record are not recited at all. They are walked.
 
 ## [ne] आन्दोलनको मौखिक महाकाव्य
 
@@ -34,9 +34,9 @@ Evans को पुरातात्त्विक र नृवंश-ऐत�
 
 ## [en] Walking sacred landscapes
 
-Pettigrew examines a ritual soul journey and the ways it was physically retraced and brought into wider discussions of Tamu history. A route can carry meanings about ancestors, sacred places and collective belonging without functioning as a modern historical travel record — which is exactly why walking it again can make an argument that a document cannot.
+Pettigrew examines a ritual soul journey and the ways it was physically retraced and brought into wider discussions of Tamu history. The route is not a travel itinerary; it is a sequence of places with meanings attached — where the soul goes, what it meets, which ancestors are encountered on the way.
 
-The uncertainty those routes leave behind has to be stated plainly.
+Walking it again turns an abstraction into an argument. A community that can say "we walked the route our grandparents described" has demonstrated continuity in a way no document could, and the walk itself becomes evidence in debates about history and identity. The uncertainty those routes leave behind has to be stated plainly.
 
 ## [ne] पवित्र भूदृश्यमा हिँड्दै
 
@@ -48,7 +48,7 @@ Pettigrew ले कर्मकाण्डी आत्मा-यात्र�
 
 No map in this collection plots a definitive migration line. The exact starting points, dates and path of ancient population movements remain unresolved, and future routes will require an attributed source, a proposed period and an explicit statement of uncertainty.
 
-What can be described with confidence is the country the movement crossed.
+That is a modest conclusion for a chapter about migration, and it is the right one. What can be described with confidence is not the route but the country it crossed — and that country explains a great deal about how the movement happened.
 
 ## [ne] अनिश्चितताको नक्सा
 
@@ -60,7 +60,7 @@ What can be described with confidence is the country the movement crossed.
 
 Movement in the Gurung past ran along a few corridors. The Kali Gandaki and Marsyangdi valleys connected the Tibetan plateau to the middle hills and the plains beyond; the passes north of Manang and Mustang carried salt, grain, wool and pilgrims; the ridges between the valleys carried herds to summer pastures and families to new fields.
 
-A move from one valley to the next could be a day's walk or a generation's work, and it rarely meant abandoning the old place: households kept land, graves and shrine obligations in one village while living in another. Gurung settlement therefore looks less like a spreading wave than like a network of connected places, each with a story about who came from where and which family stayed behind.
+A move from one valley to the next could be a day's walk or a generation's work, and it rarely meant abandoning the old place. Households kept land, graves and shrine obligations in one village while living in another; a man might farm one valley, trade in a second and marry into a third. Gurung settlement therefore looks less like a spreading wave than like a network of connected places, each with a story about who came from where and which family stayed behind. That shape — connected, circular, never quite finished — is what makes the next question difficult.
 
 ## [ne] भञ्ज्याङ हुँदैका बाटो
 
@@ -70,9 +70,9 @@ A move from one valley to the next could be a day's walk or a generation's work,
 
 ## [en] Why families moved
 
-Families rarely moved for romantic reasons. Land ran out as households divided inheritances; epidemics and landslides destroyed villages; taxes, labour demands and warfare pushed people out; military service, trade and later employment pulled them towards towns, India, Britain and the Gulf. Marriage moved women between villages and sometimes between countries. Each of these has a different rhythm — the slow pressure of inheritance, the sudden shock of disaster, the planned move of a soldier's family — and the community's history is the sum of them. The same family may have moved four times in a century for four different reasons, and the story it tells about itself usually picks the most dignified one.
+Families rarely moved for romantic reasons. Land ran out as households divided inheritances; epidemics and landslides destroyed villages; taxes, labour demands and warfare pushed people out; military service, trade and later employment pulled them towards towns, India, Britain and the Gulf. Marriage moved women between villages and sometimes between countries.
 
-Measuring all that movement is another matter.
+Each of these has a different rhythm — the slow pressure of inheritance, the sudden shock of disaster, the planned move of a soldier's family — and the community's history is the sum of them. The same family may have moved four times in a century for four different reasons, and the story it tells about itself usually picks the most dignified one. Measuring all that movement is another matter entirely.
 
 ## [ne] परिवार किन सरे
 
@@ -82,9 +82,9 @@ Measuring all that movement is another matter.
 
 ## [en] Measuring a migration
 
-Migration is easy to describe and hard to measure. Census data records where people are, not where they came from; remittance figures record money, not movement; oral accounts record what people remember, which is not the same as what happened. Historians therefore triangulate: land records show who held fields in which village; military records show recruitment by district; missionary and travel accounts describe settlements at particular moments; and family genealogies, checked against each other, suggest when a branch left. The picture that emerges is of continuous, local, often circular movement rather than a single migration, and of a community that has been mobile for as long as it has been settled.
+Migration is easy to describe and hard to measure. Census data records where people are, not where they came from; remittance figures record money, not movement; oral accounts record what people remember, which is not the same as what happened.
 
-One family's version of that movement is the subject of the next chapter.
+Historians therefore triangulate. Land records show who held fields in which village; military records show recruitment by district; missionary and travel accounts describe settlements at particular moments; and family genealogies, checked against each other, suggest when a branch left. The picture that emerges is of continuous, local, often circular movement rather than a single migration, and of a community that has been mobile for as long as it has been settled. One family's version of that movement is the subject of the next chapter.
 
 ## [ne] बसाइँसराइ नाप्ने
 

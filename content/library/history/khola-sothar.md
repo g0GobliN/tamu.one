@@ -21,9 +21,9 @@ summaryNe: जहाँ पुरातात्त्विक अन्वे�
 
 ## [en] Kohla, the Three Villages
 
-The Cambridge record of Evans's research calls Kohla Sombre — Kohla, the Three Villages — an ancestral settlement significant to the Tamu community, one that both hosted and instigated the project. The study brought settlement and fort surveys into conversation with ethnography and oral accounts, which is a rarer combination than it sounds.
+The Cambridge record of Evans's research calls Kohla Sombre — Kohla, the Three Villages — an ancestral settlement significant to the Tamu community, one that both hosted and instigated the project. That phrase matters: the village was not merely a site chosen by a university, it was a place whose own people wanted the work done.
 
-The work did not run to completion, and that matters for everything read here.
+The study brought settlement and fort surveys into conversation with ethnography and oral accounts, which is a rarer combination than it sounds. An archaeologist's wall, an elder's genealogy and a British library's file can describe the same ridge, and the value of the project lay in putting them side by side. The work did not run to completion, and that matters for everything read here.
 
 ## [ne] कोह्ला, तीन गाउँ
 
@@ -33,7 +33,9 @@ Evans को अनुसन्धानको क्याम्ब्रिज
 
 ## [en] An interrupted investigation
 
-The project completed one excavation season before political insurgency interrupted it. Physical remains and community interpretations therefore cannot be condensed into a definitive founding date or a fully reconstructed history of the settlement. What can be said is bounded by one season's evidence, and the account says so rather than filling the gap with inference.
+The project completed one excavation season before political insurgency interrupted it. One season is enough to establish a sequence of occupation and to recover pottery, bone and building traces; it is not enough to date a founding, still less to reconstruct the history of a settlement.
+
+Physical remains and community interpretations therefore cannot be condensed into a definitive founding date or a fully reconstructed history of the settlement. What can be said is bounded by one season's evidence, and the account says so rather than filling the gap with inference. A reader who wants a date will not find one here, and that absence is itself part of the record.
 
 ## [ne] अवरुद्ध अन्वेषण
 
@@ -41,9 +43,9 @@ The project completed one excavation season before political insurgency interrup
 
 ## [en] Names and evidence
 
-Kohla and Khola Sothar are names encountered in wider discussion of ancestral places, and a complete account of their local spellings, pronunciations and geographical equivalences needs community verification. No unrelated ruins or mountain photographs are presented here as photographs of Kohla.
+Kohla and Khola Sothar are names encountered in wider discussion of ancestral places, and a complete account of their local spellings, pronunciations and geographical equivalences needs community verification. Names that travel through three languages and two centuries of writing arrive in English with their vowels rearranged, and the version in a book is rarely the version on a signboard.
 
-The second name leads somewhere larger than a village.
+One caution belongs here too. No unrelated ruins or mountain photographs are presented here as photographs of Kohla: a hill village is easy to illustrate and hard to illustrate truthfully, and a generic picture labelled with a real name is a small lie that spreads. The second name, though, leads somewhere larger than a village.
 
 ## [ne] नाम र प्रमाण
 
@@ -55,7 +57,7 @@ The second name leads somewhere larger than a village.
 
 Khola Sothar — "seventeen rivers" or "seventeen ridges", depending on how the term is read — names a confederation of Gurung areas rather than a single territory. Its member groups were distributed across the hills of central Nepal, and its business was collective: settling disputes, organising defence, regulating relations between clans and presenting a common front to neighbouring powers.
 
-It was not a state with a capital and a bureaucracy, and it did not survive as one. What it left behind is a political vocabulary — that Gurung areas share interests, that decisions can be made collectively, that a council of elders can speak for more than one village — and modern organisations draw on that vocabulary even when their structure is entirely new.
+It was not a state with a capital and a bureaucracy, and it did not survive as one. What it left behind is a political vocabulary — that Gurung areas share interests, that decisions can be made collectively, that a council of elders can speak for more than one village — and modern organisations draw on that vocabulary even when their structure is entirely new. A confederation, unlike a kingdom, is remembered as an idea rather than a dynasty.
 
 ## [ne] सत्र क्षेत्र, एउटै इतिहास
 
@@ -65,7 +67,9 @@ It was not a state with a capital and a bureaucracy, and it did not survive as o
 
 ## [en] Names on a map and names in a story
 
-The seventeen names are remembered in different orders and different spellings, and local accounts disagree about which places belong. That is normal for a confederation of villages and clan territories rather than surveyed districts: the list was a political instrument and changed as the balance of power changed. Historians have matched the names to modern locations with partial success, and the exercise matters because land, grazing and marriage rights were tied to membership. A place that can claim membership can claim a share of the confederation's history, so the disagreement is not pedantry; it is a dispute about who belongs to the political community Khola Sothar represents.
+The seventeen names are remembered in different orders and different spellings, and local accounts disagree about which places belong. That is normal for a confederation of villages and clan territories rather than surveyed districts: the list was a political instrument and changed as the balance of power changed.
+
+Historians have matched the names to modern locations with partial success, and the exercise matters because land, grazing and marriage rights were tied to membership. A place that can claim membership can claim a share of the confederation's history, so the disagreement is not pedantry; it is a dispute about who belongs to the political community Khola Sothar represents. Names on a map and names in a story are two different kinds of claim, and this place holds both at once.
 
 ## [ne] नक्साका नाम र कथाका नाम
 
@@ -73,9 +77,9 @@ The seventeen names are remembered in different orders and different spellings, 
 
 ## [en] The confederation in modern politics
 
-Twentieth-century Gurung organisations, and the identity movement after 1990, repeatedly invoked Khola Sothar as evidence that the community had its own political tradition and did not need to be taught how to govern itself. The reference appears in speeches, organisational names and the historical sections of community publications, and in arguments about federalism, where the old confederation is cited as a precedent for autonomy. Whether it functioned as those arguments imply is a separate question on which historians are cautious; but the political use of the past is itself a fact, and it shows what the community wants its history to authorise.
+Twentieth-century Gurung organisations, and the identity movement after 1990, repeatedly invoked Khola Sothar as evidence that the community had its own political tradition and did not need to be taught how to govern itself. The reference appears in speeches, organisational names and the historical sections of community publications, and in arguments about federalism, where the old confederation is cited as a precedent for autonomy.
 
-From a confederation of ridges the book moves to one of its villages.
+Whether it functioned as those arguments imply is a separate question on which historians are cautious. A confederation of ridges that met to settle disputes is not a province with a budget, and the gap between the two is exactly where political memory does its work. But the political use of the past is itself a fact, and it shows what the community wants its history to authorise. From a confederation of ridges the book moves to one of its villages.
 
 ## [ne] आधुनिक राजनीतिमा संघ
 

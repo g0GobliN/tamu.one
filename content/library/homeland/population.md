@@ -22,9 +22,9 @@ summaryNe: नेपालको २०२१ को जनगणनाले �
 
 ## [en] In Nepal
 
-The 2021 National Population and Housing Census counted 543,790 people who identified as Gurung. The largest communities live in Gandaki Province, in Kaski, Lamjung, Syangja, Tanahun, Gorkha, Parbat and Manang, as well as in Kathmandu and Pokhara.
+The 2021 National Population and Housing Census counted 543,790 people who identified as Gurung. That number is the beginning of every count in this chapter, and its limits are worth stating at once: it counts people inside Nepal, it counts them by the name the form offered, and it counts a single moment.
 
-Those two facts — a national count and a map — are the solid ground under every other number in this chapter.
+Within those limits it is solid, and it is the figure to quote when a figure is needed. It is also the reason the next sections have to be careful, because a census counts categories, and a community is not a category. The largest communities live in Gandaki Province, in Kaski, Lamjung, Syangja, Tanahun, Gorkha, Parbat and Manang, as well as in Kathmandu and Pokhara. Those districts are where the book's older chapters take place, and the census shows that the old homeland still holds the largest part of the population.
 
 ## [ne] नेपालमा
 
@@ -34,9 +34,9 @@ Those two facts — a national count and a map — are the solid ground under ev
 
 ## [en] Language and religion
 
-Fewer people speak Gurung as a mother tongue than identify as Gurung, the pattern across Nepal's indigenous languages as Nepali spreads. In the census many Gurungs reported Buddhism, while others reported Hinduism or Bon, and in practice many families mix traditions rather than choosing one.
+Fewer people speak Gurung as a mother tongue than identify as Gurung, the pattern across Nepal's indigenous languages as Nepali spreads through schooling, markets and marriage. The gap between the two numbers is the clearest measure of what is happening to the language, and it is wider among the young and the urban.
 
-Identity, in other words, outlives the language that once carried it, which is why the numbers need care.
+In the census many Gurungs reported Buddhism, while others reported Hinduism or Bon, and in practice many families mix traditions rather than choosing one: a Buddhist household may keep a shamanic rite, and a Hindu one may call a lama. Identity, in other words, outlives the language that once carried it, and the religion of a household is often a set of arrangements rather than a label. Both facts matter for every number that follows.
 
 ## [ne] भाषा र धर्म
 
@@ -46,7 +46,9 @@ Identity, in other words, outlives the language that once carried it, which is w
 
 ## [en] Beyond Nepal
 
-Outside Nepal the counting becomes guesswork. Large communities live in India, especially Sikkim, Darjeeling and the north-east, and in the United Kingdom, Hong Kong, the United States and other countries, but the figures come from different sources and different years and may count people in different ways. They are estimates, not measurements.
+Outside Nepal the counting becomes guesswork. Large communities live in India, especially Sikkim, Darjeeling and the north-east, and in the United Kingdom, Hong Kong, the United States and other countries, but the figures come from different sources and different years and may count people in different ways.
+
+Some count citizenship, some count language, some count membership of an association. They are estimates, not measurements, and a number without its source and year is a rumour with a decimal point. A responsible account says "tens of thousands" and names the survey; an irresponsible one says "one million" and names nothing.
 
 ## [ne] नेपालबाहिर
 
@@ -54,7 +56,9 @@ Outside Nepal the counting becomes guesswork. Large communities live in India, e
 
 ## [en] Where Gurungs live in Nepal
 
-Read the census map and the community looks less like a territory than a set of nodes. Gurungs are concentrated in Gandaki Province and in the cities, and the distribution reflects the historic homeland, military recruitment, labour migration and the pull of towns. Internal migration has been strong for decades: villages lose young adults, towns gain them, and a family may keep a house in the hills while living in Pokhara. The "Gurung area" is now a network of villages, towns and diaspora destinations rather than a contiguous block of land.
+Read the census map and the community looks less like a territory than a set of nodes. Gurungs are concentrated in Gandaki Province and in the cities, and the distribution reflects the historic homeland, military recruitment, labour migration and the pull of towns.
+
+Internal migration has been strong for decades: villages lose young adults, towns gain them, and a family may keep a house in the hills while living in Pokhara, returning for funerals and festivals. The result is a pattern that statistics record badly, because a person is counted where they slept on census night, not where their clan shrine is. The "Gurung area" is therefore not a contiguous block of land any more. It is a network of villages, towns and diaspora destinations, joined by remittances, marriages and the calendar of Lhosar.
 
 ## [ne] नेपालमा गुरुङ कहाँ बस्छन्
 
@@ -62,9 +66,9 @@ Read the census map and the community looks less like a territory than a set of 
 
 ## [en] The diaspora numbers problem
 
-Ask how many Gurung live outside Nepal and the honest answer is that nobody knows. The Indian census does not enumerate Gurungs separately, though Sikkim, Darjeeling, Assam and the cantonment towns have large communities. Britain's Nepali population is estimated rather than counted, and the Gurung share of it is unknown; Hong Kong, the United States, Australia, Japan and the Gulf have smaller communities with no official statistics at all. Community organisations produce estimates that range widely, inflated by enthusiasm or deflated by caution. Any global figure should be treated as an order of magnitude, quoted with its source and year.
+Ask how many Gurung live outside Nepal and the honest answer is that nobody knows. The Indian census does not enumerate Gurungs separately, though Sikkim, Darjeeling, Assam and the cantonment towns have large communities. Britain's Nepali population is estimated rather than counted, and the Gurung share of it is unknown; Hong Kong, the United States, Australia, Japan and the Gulf have smaller communities with no official statistics at all.
 
-What those people inherit — a language, a set of clans, a ritual calendar — is where the book turns next.
+Community organisations produce estimates that range widely, inflated by enthusiasm or deflated by caution. Any global figure should therefore be treated as an order of magnitude, quoted with its source and year, and never used to win an argument. What those people inherit — a language, a set of clans, a ritual calendar — is where the book turns next.
 
 ## [ne] प्रवासको सङ्ख्या-समस्या
 

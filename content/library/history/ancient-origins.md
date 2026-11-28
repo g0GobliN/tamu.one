@@ -22,9 +22,9 @@ summaryNe: चिनियाँ-तिब्बती भाषा-सम्ब
 
 ## [en] Languages are not populations
 
-On a language map, Gurung sits inside the Sino-Tibetan family, in Glottolog's terms, beside Tamang and Thakali. A language family describes relationships between languages, and nothing more: it does not identify an exact birthplace for every speaker's ancestors, nor an uninterrupted ethnic identity reaching back to the family's origin.
+Open a language map of Nepal and Gurung sits inside the Sino-Tibetan family — in Glottolog's classification, beside Tamang and Thakali. The map is a diagram of relatedness among languages, and it is easy to mistake it for a diagram of relatedness among peoples.
 
-The temptation is to read that family tree as a family history. It is not, and the next question is what kind of evidence could say more.
+It is not. A language family says that these languages descend from a common ancestor at some depth of time; it does not say where the speakers of that ancestor lived, when they separated, or that anyone today is the direct descendant of the people who spoke it. The map invites exactly that mistake, which is why the next question has to be what kind of evidence could say more.
 
 ## [ne] भाषा जनसङ्ख्या होइन
 
@@ -34,9 +34,9 @@ The temptation is to read that family tree as a family history. It is not, and t
 
 ## [en] Different kinds of evidence
 
-Around Kohla, Christopher Evans combined archaeological investigation with community ethnohistory rather than treating one as a substitute for the other. Archaeology, historical linguistics, oral narratives and population genetics answer different questions, and each has its own kind of error.
+Around Kohla, Christopher Evans combined archaeological investigation with community ethnohistory rather than treating one as a substitute for the other. That combination is rarer than it sounds: archaeologists usually excavate and ethnographers usually talk, and the two literatures rarely meet.
 
-Keeping them apart is what makes the next section possible.
+Each kind of evidence answers a different question. Archaeology can date a wall and say what was eaten; historical linguistics can say when two languages parted company; oral narratives can say what a community believes about its own past and why that belief matters; population genetics can trace ancestry across continents. Each also has its own characteristic error — a radiocarbon date from a disturbed layer, a loanword borrowed twice, a genealogy polished for prestige, a sample too small to mean anything. Keeping the kinds apart is what makes the rest of the chapter possible.
 
 ## [ne] फरक प्रमाणका किसिम
 
@@ -46,9 +46,9 @@ Keeping them apart is what makes the next section possible.
 
 ## [en] What remains unresolved
 
-A precise ancient homeland, a single migration date and direct descent from a named ancient population are not established by the sources presented here. Yellow River, Tibetan Plateau or Qiang connections require their own critical research; they should not be repeated as settled Gurung genealogy.
+A precise ancient homeland, a single migration date and direct descent from a named ancient population are not established by the sources presented here. Claims of a Yellow River connection, a Tibetan Plateau origin or descent from the Qiang are repeated in popular accounts, and some may have substance, but each requires its own critical research rather than being recited as settled Gurung genealogy.
 
-The deepest reason is what the ground has, and has not, given up.
+The temptation to settle it is strong, because a community that has been told for two centuries that it came from somewhere else wants to know where. The honest answer is that the question is open, and the reason is not caution but the state of the ground.
 
 ## [ne] के अनिर्णीत छ
 
@@ -58,9 +58,9 @@ The deepest reason is what the ground has, and has not, given up.
 
 ## [en] The archaeological silence
 
-No one has excavated a Gurung capital. There are no inscribed royal archives and no cemetery sequence published with radiocarbon dates that could anchor a chronology. What exists is scattered: stone structures and terraces whose dates are uncertain, place names that may preserve older settlement patterns, and comparisons with neighbouring regions where more work has been done. This silence is not evidence that nothing happened; it reflects where research money and archaeological attention have gone, and the fact that hill settlements are hard to excavate and easy to disturb. Any account of origins that claims certainty is therefore overreaching.
+No one has excavated a Gurung capital. There are no inscribed royal archives, no sealed tomb, no cemetery sequence published with radiocarbon dates that could anchor a chronology — the kinds of find that let an archaeologist say "this place was occupied from this century to that one".
 
-Where the ground is silent, the community's own recitation speaks.
+What exists is scattered and suggestive: stone structures and terraces whose dates are uncertain, place names that may preserve older settlement patterns, and comparisons with neighbouring regions where more work has been done. The silence is not evidence that nothing happened. It reflects where research money and archaeological attention have gone, and the fact that hill settlements are hard to excavate and easy to disturb — a terraced slope has been dug over for centuries, and the oldest layers are usually gone. Any account of origins that claims certainty is overreaching, and the reader should treat it as such.
 
 ## [ne] पुरातात्त्विक मौनता
 
@@ -70,9 +70,9 @@ Where the ground is silent, the community's own recitation speaks.
 
 ## [en] What the pye can and cannot say
 
-In a specialist's recitation, the pye carries the community's own account of where it came from. It names places, describes migrations and lists the ancestors who founded clans and settlements, and it is the most important indigenous historical source there is. But a pye is a ritual text, not a chronicle: it was transmitted orally, it varies between specialists, it compresses events into poetry and it cares about legitimacy as much as sequence. A place name in a pye may be a real location, a mythical one, or a real place invested with a story that has moved.
+In a specialist's recitation, the pye carries the community's own account of where it came from. It names places, describes migrations and lists the ancestors who founded clans and settlements, and it is the most important indigenous historical source there is — a text performed by named practitioners, in a fixed language, before an audience that knows the story.
 
-Reading such texts historically means comparing versions, comparing them with the landscape and with other sources, and accepting probabilities instead of dates.
+But a pye is a ritual text, not a chronicle. It was transmitted orally, it varies between specialists, it compresses events into poetry and it cares about legitimacy as much as sequence. A place name in a pye may be a real location, a mythical one, or a real place invested with a story that has moved with the people who tell it. Reading such texts historically means comparing versions, comparing them with the landscape and with other sources, and accepting probabilities instead of dates.
 
 ## [ne] प्येले भन्न सक्ने र नसक्ने
 
@@ -82,9 +82,9 @@ Reading such texts historically means comparing versions, comparing them with th
 
 ## [en] Dating a migration without documents
 
-Ask three specialists when the Gurung reached Nepal and you get three kinds of answer. Glottochronology and the comparative study of the Tamangic languages suggest a separation measured in centuries or more; the study of loanwords can bracket contact with Tibetan and Nepali; place names and land grants give termini ante quos for settlement in particular valleys. None yields a date for "the Gurung arrival", because there was probably no single arrival: the community formed through a long process of movement, intermarriage and political incorporation.
+Ask three specialists when the Gurung reached Nepal and you get three kinds of answer. Glottochronology and the comparative study of the Tamangic languages suggest a separation measured in centuries or more; the study of loanwords can bracket contact with Tibetan and Nepali; place names and land grants give termini ante quos for settlement in particular valleys.
 
-The useful question is therefore not when the Gurung reached Nepal but how the groups that became Gurung came to share a language, a set of clans and a story about themselves — which is where the next chapter begins.
+None of them yields a date for "the Gurung arrival", because there was probably no single arrival. The community formed through a long process of movement, intermarriage and political incorporation, and a process has no birthday. The useful question is therefore not when the Gurung reached Nepal but how the groups that became Gurung came to share a language, a set of clans and a story about themselves — which is what the next chapter follows.
 
 ## [ne] दस्तावेजबिना बसाइँसराइको मिति
 
