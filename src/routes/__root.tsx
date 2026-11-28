@@ -14,6 +14,7 @@ import { Header } from "@/components/museum/Header";
 import { Footer } from "@/components/museum/Footer";
 import { AppLink } from "@/components/museum/AppLink";
 import { localeFromPath, useUi } from "@/i18n";
+import { analyticsHeadScripts } from "@/lib/analytics";
 import appCss from "../styles.css?url";
 
 function NotFoundComponent() {
@@ -107,6 +108,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon", sizes: "256x256" },
       { rel: "apple-touch-icon", href: "/favicon.png" },
     ],
+    // Cloudflare Web Analytics, only when a beacon token is configured.
+    scripts: analyticsHeadScripts(),
   }),
   shellComponent: RootShell,
   component: RootComponent,

@@ -5,7 +5,14 @@ import { useLocale, useUi } from "@/i18n";
 import { localizeMedia } from "@/i18n/media-ne";
 import { AppLink } from "./AppLink";
 
-export function ArticleCard({ article: a }: { article: LocalizedArticle }) {
+export function ArticleCard({
+  article: a,
+  match,
+}: {
+  article: LocalizedArticle;
+  /** Where a library search matched inside the article, when it did. */
+  match?: string | undefined;
+}) {
   const ui = useUi();
   const locale = useLocale();
   const item = a.image ? getMedia(a.image) : undefined;
@@ -35,6 +42,7 @@ export function ArticleCard({ article: a }: { article: LocalizedArticle }) {
         </div>
         <h3>{a.title}</h3>
         <p>{a.summary}</p>
+        {match && <p className="card-match">{match}</p>}
         <div className="card-meta">
           {a.evidence}
           <span>{ui.common.readTime}</span>
