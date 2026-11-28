@@ -402,53 +402,22 @@ export function ArticlePage({ slug }: { slug: string }) {
           </AppLink>
         )}
 
-        <div className="reading-body reading-evidence">
+        <div className="reading-body">
           <section id="references" className="sources-block">
-            <span className="eyebrow">{ui.article.evidenceEyebrow}</span>
-            <h2>{ui.article.sourcesTitle}</h2>
-            {a.sourceIds.map((id, i) => {
-              const source = sources.find((s) => s.id === id);
-              return source ? (
-                <a href={source.url} target="_blank" rel="noreferrer" key={id}>
-                  <span>{i + 1}</span>
-                  <div>
-                    <strong>
-                      {source.author} · {source.year}
-                    </strong>
-                    <p>{source.title}</p>
-                    <small>
-                      {source.kind} ·{" "}
-                      {source.id === "moisala" ? "pp. 152–176" : ui.article.citationMissing}
-                    </small>
-                  </div>
-                  <ArrowUpRight size={17} />
-                </a>
-              ) : null;
-            })}
+            <h2>{ui.article.references}</h2>
+            <ol>
+              {a.sourceIds.map((id) => {
+                const source = sources.find((s) => s.id === id);
+                return source ? (
+                  <li key={id}>
+                    <a href={source.url} target="_blank" rel="noreferrer">
+                      {source.author} · {source.year} — {source.title}
+                    </a>
+                  </li>
+                ) : null;
+              })}
+            </ol>
           </section>
-
-          <div className="article-colophon">
-            <div>
-              <strong>{ui.article.transparency}</strong>
-              <p>{a.evidence}</p>
-            </div>
-            <div>
-              <strong>{ui.article.lastReviewed}</strong>
-              <p>{a.reviewed}</p>
-            </div>
-            <div>
-              <strong>{ui.article.communityReview}</strong>
-              <p>{a.period}</p>
-            </div>
-          </div>
-
-          <div className="correction-note">
-            <h3>{ui.article.correctionTitle}</h3>
-            <p>{ui.article.correctionText}</p>
-            <AppLink to="/contribute" className="text-link">
-              {ui.article.correctionCta} <ArrowUpRight size={16} />
-            </AppLink>
-          </div>
         </div>
       </article>
 
