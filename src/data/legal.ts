@@ -17,14 +17,14 @@ export interface LegalPageContent {
 export const privacyPage: LegalPageContent = {
   eyebrow: "PRIVACY",
   title: "What we collect, and what we don't",
-  updated: "27 November 2026",
+  updated: "28 November 2026",
   intro:
     "TAMU is built to be read without being watched. This page describes, in plain language, the small amount of data that exists when you visit, and what happens to what you send us.",
   sections: [
     {
       heading: "The short version",
       paragraphs: [
-        "TAMU is a reading experience. There are no accounts, no newsletters, no advertising, no analytics and no tracking cookies. You can read every page without identifying yourself.",
+        "TAMU is a reading experience. There are no accounts, no newsletters, no advertising and no tracking cookies, and you can read every page without identifying yourself. To know which pages are read and roughly where readers come from, the site counts visits with Cloudflare Web Analytics — a cookieless, aggregate measurement that cannot identify you.",
         "The only data that exists is what the hosting infrastructure logs to serve a request, and what you choose to send us in an email, direct message or contribution.",
       ],
     },
@@ -32,7 +32,7 @@ export const privacyPage: LegalPageContent = {
       heading: "What the site stores on your device",
       bullets: [
         "No cookies are set by TAMU.",
-        "No local storage or fingerprinting is used to recognise you or build a profile.",
+        "No local storage or fingerprinting is used to recognise you or build a profile. The visit count is aggregate and cookieless.",
         "Your browser may cache pages and images to make repeat visits faster; clearing site data removes it.",
       ],
     },
@@ -41,6 +41,7 @@ export const privacyPage: LegalPageContent = {
       paragraphs: [
         "Pages load their typefaces from Google Fonts. That request is made by your browser to Google and shares your IP address and browser details with them under Google's own privacy terms. Everything else — images, styles, scripts — is served from this site.",
         "The site is hosted on third-party infrastructure, which keeps ordinary access logs (such as IP address, user agent, requested path and response status) for security and operations. TAMU does not combine those logs into user profiles.",
+        "Visits are counted by Cloudflare Web Analytics. It receives the page address, the site that referred you, the country Cloudflare derives from your connection and basic browser details; it sets no cookies, builds no profile, and the reports show aggregate numbers rather than individuals.",
       ],
     },
     {
