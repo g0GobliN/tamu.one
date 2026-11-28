@@ -7,7 +7,7 @@ export interface TopicText {
   intro: string;
   lead: string;
   body: string[];
-  themes: { title: string; text: string }[];
+  themes: { title: string; text: string; slug?: string }[];
 }
 
 export interface TimelineEventText {

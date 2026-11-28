@@ -5,11 +5,44 @@ import { sources } from "@/data/heritage";
 import { getMedia } from "@/data/media";
 import { getArticleBySlug, getArticles } from "@/i18n/content";
 import { useLocale, useUi } from "@/i18n";
+import { localizeMedia } from "@/i18n/media-ne";
 import { ArticleCard } from "./ArticleCard";
 import { AppLink } from "./AppLink";
 
 function ArrowRightIcon() {
   return <ArrowUpRight size={16} />;
+}
+
+/** Renders the light inline Markdown used in the library: **bold** and _italic_. */
+function inline(text: string, keyPrefix: string) {
+  return text
+    .split(/(\*\*[^*]+\*\*|_[^_]+_)/g)
+    .filter(Boolean)
+    .map((part, i) => {
+      const key = `${keyPrefix}-${i}`;
+      if (part.startsWith("**") && part.endsWith("**")) {
+        return <strong key={key}>{part.slice(2, -2)}</strong>;
+      }
+      if (part.startsWith("_") && part.endsWith("_") && part.length > 2) {
+        return <em key={key}>{part.slice(1, -1)}</em>;
+      }
+      return <span key={key}>{part}</span>;
+    });
+}
+
+/** One section body, keeping its blank-line paragraph breaks. */
+function SectionText({ text, sectionKey }: { text: string; sectionKey: string }) {
+  const blocks = text
+    .split(/\n\s*\n/)
+    .map((block) => block.replace(/\s*\n\s*/g, " ").trim())
+    .filter(Boolean);
+  return (
+    <>
+      {blocks.map((block, i) => (
+        <p key={`${sectionKey}-${i}`}>{inline(block, `${sectionKey}-${i}`)}</p>
+      ))}
+    </>
+  );
 }
 
 export function ArticlePage({ slug }: { slug: string }) {
@@ -20,7 +53,8 @@ export function ArticlePage({ slug }: { slug: string }) {
 
   if (!a) return null;
 
-  const photo = a.image ? getMedia(a.image) : undefined;
+  const item = a.image ? getMedia(a.image) : undefined;
+  const photo = item ? localizeMedia(item, locale) : undefined;
   const continued = getArticles(locale)
     .filter(
       (x) =>
@@ -108,7 +142,7 @@ export function ArticlePage({ slug }: { slug: string }) {
           {a.sections.map((s, i) => (
             <section id={`section-${i}`} key={s.title}>
               <h2>{s.title}</h2>
-              <p>{s.text}</p>
+              <SectionText text={s.text} sectionKey={`${i}-${s.title}`} />
             </section>
           ))}
           <section id="references" className="references">

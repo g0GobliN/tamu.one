@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { getMedia } from "@/data/media";
 import { getArticleBySlug, getTopic } from "@/i18n/content";
 import { useLocale, useUi } from "@/i18n";
+import { localizeMedia } from "@/i18n/media-ne";
 import { ArticleCard } from "./ArticleCard";
 import { AppLink } from "./AppLink";
 
@@ -35,7 +36,14 @@ export function Home() {
     },
   ] as const;
 
-  const featured = ["khola-sothar", "gurung-and-tamu", "ghandruk"]
+  const featured = [
+    "first-written-accounts",
+    "origin-traditions-and-evidence",
+    "tamu-kyi-and-kinship",
+    "ethnographers-of-the-gurungs",
+    "hill-economy-and-service",
+    "khola-sothar",
+  ]
     .map((slug) => getArticleBySlug(slug, locale))
     .filter((a) => a !== undefined);
 
@@ -126,7 +134,7 @@ export function Home() {
             <AppLink key={c.number} to={c.to} className={`collection-tile collection-${c.image}`}>
               <img
                 src={getMedia(c.image).url}
-                alt={getMedia(c.image).title}
+                alt={localizeMedia(getMedia(c.image), locale).title}
                 width={650}
                 height={750}
                 loading="lazy"

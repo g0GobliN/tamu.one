@@ -4,8 +4,8 @@
 
 ### The living history of the Gurung people
 
-*Not a Wikipedia article. Not a museum plaque.*  
-*A place to actually read, wander and understand.*
+_Not a Wikipedia article. Not a museum plaque._  
+_A place to actually read, wander and understand._
 
 <br/>
 
@@ -49,7 +49,7 @@ Five collections — **History, Culture, Language, Geography and Diaspora** — 
 
 The idea is simple: make Gurung heritage easier to explore, understand and pass on.
 
-*It's built to be read for an hour, not skimmed for ten seconds.*
+_It's built to be read for an hour, not skimmed for ten seconds._
 
 ## ✦ What makes it different
 
@@ -89,21 +89,21 @@ The museum is built from its own content and code.
 
 ## ✦ Explore the museum
 
-| Collection | What's inside |
-|:--|:--|
-| [`/`](https://tamu.one/) | **The entrance** — five collections, one landscape |
-| [`/journey`](https://tamu.one/journey) | A continuous read from origins to the diaspora |
-| [`/history`](https://tamu.one/history) | Origins, Kohla, Ghale traditions and Gurkha service |
-| [`/culture`](https://tamu.one/culture) | Ghatu, Rodhi, Pachyu and Ghyabre, Tamu Lhosar, weaving and oral literature |
-| [`/language`](https://tamu.one/language) | Tamu Kyi, language variation, Gurung Khema and documentation |
-| [`/geography`](https://tamu.one/geography) | Ghandruk, Manang, Sikles, terraces, pastures and changing villages |
-| [`/diaspora`](https://tamu.one/diaspora) | Britain, Hong Kong, New York, India and beyond |
-| [`/library`](https://tamu.one/library) | Articles searchable by topic, region and evidence |
-| [`/timeline`](https://tamu.one/timeline) | Dated events connected to their sources |
-| [`/archive`](https://tamu.one/archive) | A photographic collection with full credits |
-| [`/sources`](https://tamu.one/sources) | The references behind the museum |
-| [`/contribute`](https://tamu.one/contribute) | A place to share knowledge and stories |
-| [`/about`](https://tamu.one/about) | How the project handles evidence |
+| Collection                                   | What's inside                                                              |
+| :------------------------------------------- | :------------------------------------------------------------------------- |
+| [`/`](https://tamu.one/)                     | **The entrance** — five collections, one landscape                         |
+| [`/journey`](https://tamu.one/journey)       | A continuous read from origins to the diaspora                             |
+| [`/history`](https://tamu.one/history)       | Origins, Kohla, Ghale traditions and Gurkha service                        |
+| [`/culture`](https://tamu.one/culture)       | Ghatu, Rodhi, Pachyu and Ghyabre, Tamu Lhosar, weaving and oral literature |
+| [`/language`](https://tamu.one/language)     | Tamu Kyi, language variation, Gurung Khema and documentation               |
+| [`/geography`](https://tamu.one/geography)   | Ghandruk, Manang, Sikles, terraces, pastures and changing villages         |
+| [`/diaspora`](https://tamu.one/diaspora)     | Britain, Hong Kong, New York, India and beyond                             |
+| [`/library`](https://tamu.one/library)       | Articles searchable by topic, region and evidence                          |
+| [`/timeline`](https://tamu.one/timeline)     | Dated events connected to their sources                                    |
+| [`/archive`](https://tamu.one/archive)       | A photographic collection with full credits                                |
+| [`/sources`](https://tamu.one/sources)       | The references behind the museum                                           |
+| [`/contribute`](https://tamu.one/contribute) | A place to share knowledge and stories                                     |
+| [`/about`](https://tamu.one/about)           | How the project handles evidence                                           |
 
 ---
 
@@ -122,15 +122,15 @@ Open `http://localhost:3000`.
 
 ### Available commands
 
-| Command | Purpose |
-|:--|:--|
-| `bun run build` | Production build (also writes sitemap.xml) |
-| `bun run sitemap` | Regenerate `dist/client/sitemap.xml` |
-| `bun run preview` | Preview the production build |
-| `bun run test` | Run Vitest |
-| `bun run typecheck` | TypeScript checks |
-| `bun run lint` | ESLint + Prettier |
-| `bun run format` | Format source files |
+| Command             | Purpose                                    |
+| :------------------ | :----------------------------------------- |
+| `bun run build`     | Production build (also writes sitemap.xml) |
+| `bun run sitemap`   | Regenerate `dist/client/sitemap.xml`       |
+| `bun run preview`   | Preview the production build               |
+| `bun run test`      | Run Vitest                                 |
+| `bun run typecheck` | TypeScript checks                          |
+| `bun run lint`      | ESLint + Prettier                          |
+| `bun run format`    | Format source files                        |
 
 CI runs lint, typecheck, tests and a production build on every pull request.
 
@@ -158,29 +158,37 @@ The live site publishes from `main` through Cloudflare Workers Builds. Forks can
 
 A little bit of modern web technology, a lot of reading and research.
 
-| Technology | Role |
-|:--|:--|
-| [TanStack Start](https://tanstack.com/start) | Application framework and server rendering |
-| [TanStack Router](https://tanstack.com/router) | Routing |
-| React 19 | UI |
-| Vite 8 | Development and builds |
-| TypeScript | Type safety |
-| Tailwind CSS v4 | Styling |
-| shadcn/ui + Radix | Interface primitives |
-| Motion + GSAP | Animations and interactions |
-| Vitest + Testing Library | Tests |
-| Cloudflare Workers | Production hosting |
+| Technology                                     | Role                                       |
+| :--------------------------------------------- | :----------------------------------------- |
+| [TanStack Start](https://tanstack.com/start)   | Application framework and server rendering |
+| [TanStack Router](https://tanstack.com/router) | Routing                                    |
+| React 19                                       | UI                                         |
+| Vite 8                                         | Development and builds                     |
+| TypeScript                                     | Type safety                                |
+| Tailwind CSS v4                                | Styling                                    |
+| shadcn/ui + Radix                              | Interface primitives                       |
+| Motion + GSAP                                  | Animations and interactions                |
+| Vitest + Testing Library                       | Tests                                      |
+| Cloudflare Workers                             | Production hosting                         |
 
 ### Project structure
 
 ```text
+content/               # All of the words, outside the application code
+├── library/           # One Markdown file per article, English and Nepali
+│   ├── history/  language/  culture/
+│   ├── spirituality/  homeland/  diaspora/
+├── collections/       # Collection-page intros and theme lists (JSON)
+├── timeline.json      # Dated events, both languages
+├── sources.json       # Bibliography cited by the articles
+└── README.md          # How to edit, add and reuse the content
+
 src/
 ├── components/
 │   ├── museum/       # Home, TopicPage, Library, ArticlePage,
 │   │                 # Header, Footer and museum components
 │   └── ui/           # shadcn/ui primitives
-├── data/             # heritage.ts, heritage-more.ts,
-│                     # topics.ts, timeline.ts, media.ts
+├── data/             # Library loaders, media and legal text
 ├── lib/              # SEO, error handling and utilities
 ├── routes/           # Thin routes and page metadata
 └── styles.css        # Theme tokens and museum styles
@@ -189,7 +197,7 @@ public/
 └── images/           # Locally hosted photographs
 ```
 
-Adding an article to `src/data/heritage.ts` makes it available in the library, its subject page and search — one content source, no unnecessary duplication.
+Every article is a single Markdown file in `content/library/<subject>/`, holding its metadata, sources and both language versions. Adding one there makes it available in the library, its subject page, search and the sitemap — no code change. See [`content/README.md`](content/README.md) for the format.
 
 ---
 
@@ -209,15 +217,15 @@ You don't need to be a developer, historian or academic to help.
 
 ### 🌱 What can you contribute?
 
-| Contribution | Examples |
-|:--|:--|
-| Stories | Family memories, village histories, oral traditions |
-| Photographs | Old family photos, historical places, cultural events |
-| Language | Tamu Kyi vocabulary, translations and variations |
-| Culture | Festivals, music, rituals, clothing and traditions |
-| Research | Books, academic papers, documents and references |
-| Corrections | Names, dates, spellings and historical context |
-| Code | Features, accessibility, performance and bug fixes |
+| Contribution | Examples                                              |
+| :----------- | :---------------------------------------------------- |
+| Stories      | Family memories, village histories, oral traditions   |
+| Photographs  | Old family photos, historical places, cultural events |
+| Language     | Tamu Kyi vocabulary, translations and variations      |
+| Culture      | Festivals, music, rituals, clothing and traditions    |
+| Research     | Books, academic papers, documents and references      |
+| Corrections  | Names, dates, spellings and historical context        |
+| Code         | Features, accessibility, performance and bug fixes    |
 
 For knowledge and heritage contributions, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -267,7 +275,7 @@ See [NOTICE](NOTICE) for the exact licensing scope.
 
 ## 🏔️ The mountains are still there. So is the knowledge.
 
-*Our past. Our people. Our stories.*
+_Our past. Our people. Our stories._
 
 <br/>
 

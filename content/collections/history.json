@@ -1,0 +1,271 @@
+{
+  "key": "history",
+  "image": "dawn",
+  "categories": ["History"],
+  "en": {
+    "eyebrow": "COLLECTION 01 · HISTORY",
+    "title": "Our ancestral story",
+    "intro": "Origins, memory and history — told through oral tradition, archaeology and scholarship, with care for what each can and cannot tell us.",
+    "lead": "History held in many hands.",
+    "body": [
+      "The Tamu past is remembered in chanted ritual texts, in the names of ancestral places and in the stories families pass down. Researchers add archaeology, linguistics, chronicles and archival records, and each of these sources answers a different kind of question. A pye recitation can name an ancestor and a route; a radiocarbon date can place a hearth in a century; a land grant can show who owed tax to whom. None of them alone can tell the whole story.",
+      "These sources do not always agree, and the disagreements are often the most interesting part. When a remembered settlement turns out to have real ruins, or a clan title turns out to be a Tibetan office, the convergence is worth recording. When the evidence runs out, as it does for most of the deep past, the honest response is to say so rather than to fill the gap with a confident story.",
+      "This collection therefore moves in both directions at once. It reaches back into oral time, before any kingdom or chronicle, and forward through Ghale chiefs, Khas and Shah rulers, the Gurkha regiments, the identity movement and the worldwide community of today. Along the way it tries to keep the ordinary life of farming, herding, marriage, ritual and craft at the centre, because that is where most Gurung history actually happened."
+    ],
+    "themes": [
+      {
+        "title": "Origins",
+        "text": "Language relationships point to deep Himalayan connections, but cannot settle questions of ancestry on their own.",
+        "slug": "ancient-origins"
+      },
+      {
+        "title": "Deep memory",
+        "text": "Nine ancestors, seven ancestresses and a lake in the north: what the pye remembers before any date.",
+        "slug": "before-the-hills"
+      },
+      {
+        "title": "The northern road",
+        "text": "Salt, rice and monasteries along the Kyirong corridor, and why “we came from Tibet” is true and easy to misread.",
+        "slug": "kyirong-and-the-north"
+      },
+      {
+        "title": "Kohla",
+        "text": "An ancestral settlement remembered in ritual and investigated by archaeologists.",
+        "slug": "khola-sothar"
+      },
+      {
+        "title": "Chronicles & Kirat",
+        "text": "Nepal’s oldest chronicle, its Kirat king-lists and the problem of dates that disagree by centuries.",
+        "slug": "kirat-and-the-chronicles"
+      },
+      {
+        "title": "Ghale kings",
+        "text": "Forts, small courts and the memory of chiefly rule before Kaski and Lamjung belonged to Shahs.",
+        "slug": "ghale-kings"
+      },
+      {
+        "title": "First accounts",
+        "text": "Envoys, residents and recruiting officers: the oldest written descriptions of Gurung life.",
+        "slug": "first-outsiders"
+      },
+      {
+        "title": "Ghale traditions & the memory of leadership",
+        "text": "Remembered authority, local political life and the limits of reconstructing a dynasty.",
+        "slug": "ghale-traditions"
+      },
+      {
+        "title": "Modern history",
+        "text": "Gurkha service, migration and change — important strands, not the whole story.",
+        "slug": "gurkha-history"
+      },
+      {
+        "title": "Today’s Tamu",
+        "text": "Language shift, marriage, religion, work and the politics of being counted.",
+        "slug": "being-tamu-today"
+      },
+      {
+        "title": "Nine ancestors",
+        "text": "Where the pye begins: Khè Ku, Mhā Ngi and the first genealogy.",
+        "slug": "nine-ancestors"
+      },
+      {
+        "title": "Clan origins",
+        "text": "Kle, thar, the four-jat scheme and the stories that disagree.",
+        "slug": "kle-origins"
+      },
+      {
+        "title": "Clan origin stories",
+        "text": "Ghale pads, the nine ku-gi, the sora-jat names and what a family genealogy actually claims.",
+        "slug": "clan-origin-stories"
+      },
+      {
+        "title": "Caravan trade",
+        "text": "Toh-pa partnerships, credit and the barter circuits of the north.",
+        "slug": "toh-pa"
+      },
+      {
+        "title": "Salt and wool",
+        "text": "The Tibet trade, its treaties and its collapse.",
+        "slug": "salt-and-wool"
+      },
+      {
+        "title": "Kaski before Shah",
+        "text": "A Ghale kingdom, its fort and its land grants.",
+        "slug": "kaski-state"
+      },
+      {
+        "title": "Soldiers of Gorkha",
+        "text": "Gurung service in the unification campaigns and the Tibet wars.",
+        "slug": "gorkha-service"
+      },
+      {
+        "title": "The regiments",
+        "text": "Sirmoor, the world wars and two Victoria Crosses.",
+        "slug": "british-regiments"
+      },
+      {
+        "title": "Lahure",
+        "text": "The word, the road to India and the money that came home.",
+        "slug": "lahure"
+      },
+      {
+        "title": "The first written records",
+        "text": "Hamilton, Hodgson, Vansittart and Northey: what the earliest British accounts saw, and what they missed.",
+        "slug": "first-written-accounts"
+      },
+      {
+        "title": "Origins against the evidence",
+        "text": "Nine ancestors, Kohla, the Kyirong road, and what language and archaeology can honestly bear.",
+        "slug": "origin-traditions-and-evidence"
+      },
+      {
+        "title": "Tamu Kyi as a constitution",
+        "text": "Pye recitation, clan exogamy, cross-cousin marriage and the priests who carried the rules.",
+        "slug": "tamu-kyi-and-kinship"
+      },
+      {
+        "title": "What the ethnographers argued",
+        "text": "Bista, Pignède, Höfer, Messerschmidt and Mumford, read against one another.",
+        "slug": "ethnographers-of-the-gurungs"
+      },
+      {
+        "title": "Land, herds and the regiment",
+        "text": "Terraces, transhumance, tax and the household economy behind Gurkha service.",
+        "slug": "hill-economy-and-service"
+      }
+    ]
+  },
+  "ne": {
+    "eyebrow": "सङ्ग्रह ०१ · इतिहास",
+    "title": "हाम्रो पुर्ख्यौली कथा",
+    "intro": "उत्पत्ति, सम्झना र इतिहास — मौखिक परम्परा, पुरातत्त्व र विद्वत्ताबाट भनिएको, हरेक स्रोतले के भन्न सक्छ र के सक्दैन भन्ने ख्याल गर्दै।",
+    "lead": "धेरै हातमा राखिएको इतिहास।",
+    "body": [
+      "तामु विगत गाइने कर्मकाण्डी पाठ, पुर्ख्यौली ठाउँका नाम र परिवारले सुनाउने कथामा सम्झिन्छ। अनुसन्धानकर्ताले पुरातत्त्व, भाषाविज्ञान, वंशावली र अभिलेख थप्छन्, र यी हरेक स्रोतले फरक किसिमको प्रश्नको उत्तर दिन्छ। प्ये पाठले पुर्खाको नाम र बाटो बताउन सक्छ; रेडियोकार्बन मितिले चुल्हो कुन शताब्दीमा पर्छ भन्न सक्छ; भूमिदानपत्रले कसले कसलाई कर तिर्यो देखाउन सक्छ। तीमध्ये कुनै एउटाले मात्र पूरै कथा भन्न सक्दैन।",
+      "यी स्रोत सधैँ मिल्दैनन्, र असहमति नै प्रायः सबैभन्दा रोचक अंश हुन्छ। सम्झिएको बस्तीमा साँच्चै भग्नावशेष भेटिँदा, वा क्लेको पद-नाम तिब्बती कार्यालय निस्कँदा, त्यो मेल रेकर्ड गर्न लायक हुन्छ। प्रमाण सकिँदा — गहिरो विगतमा प्रायः सकिन्छ — इमानदार प्रतिक्रिया आत्मविश्वासी कथाले खाली ठाउँ भर्नु होइन, स्पष्ट भन्नु हो।",
+      "त्यसैले यो सङ्ग्रह एकैचोटि दुई दिशामा हिँड्छ। यो मौखिक कालसम्म, कुनै राज्य वा वंशावलीअघि, पछाडि जान्छ, र घले मुखिया, खस तथा शाह शासक, गोर्खा रेजिमेन्ट, पहिचान आन्दोलन हुँदै आजको विश्वव्यापी समुदायसम्म अगाडि आउँछ। बाटोभर यसले खेती, गोठालो, विवाह, कर्मकाण्ड र शिल्पको साधारण जीवनलाई केन्द्रमा राख्न खोज्छ, किनकि गुरुङ इतिहासको ठूलो हिस्सा वास्तवमा त्यहीँ भएको थियो।"
+    ],
+    "themes": [
+      {
+        "title": "उत्पत्ति",
+        "text": "भाषिक सम्बन्धले गहिरो हिमाली जोड देखाउँछ, तर पुर्ख्यौलीका प्रश्न आफैँ टुङ्ग्याउन सक्दैन।",
+        "slug": "ancient-origins"
+      },
+      {
+        "title": "गहिरो सम्झना",
+        "text": "नौ पुर्खा, सात पुर्खी आमा र उत्तरको एउटा ताल: कुनै मितिअघि प्येले के सम्झिन्छ।",
+        "slug": "before-the-hills"
+      },
+      {
+        "title": "उत्तरी बाटो",
+        "text": "क्यिरोङ कोरिडोरमा नुन, चामल र गुम्बा, र “हामी तिब्बतबाट आयौँ” सत्य हुँदै पनि किन गलत बुझिन सक्छ।",
+        "slug": "kyirong-and-the-north"
+      },
+      {
+        "title": "कोह्ला",
+        "text": "कर्मकाण्डमा सम्झिएको र पुरातत्त्वविद्ले खोतलेको पुर्ख्यौली बस्ती।",
+        "slug": "khola-sothar"
+      },
+      {
+        "title": "वंशावली र किरात",
+        "text": "नेपालको पुरानो वंशावली, किरात राजा-सूची र शताब्दीभर फरक पर्ने मितिको समस्या।",
+        "slug": "kirat-and-the-chronicles"
+      },
+      {
+        "title": "घले राजा",
+        "text": "कास्की र लमजुङ शाहको हातमा जानुअघि किल्ला, साना दरबार र मुखियापनको सम्झना।",
+        "slug": "ghale-kings"
+      },
+      {
+        "title": "पहिला विवरण",
+        "text": "दूत, रेसिडेन्ट र भर्ती अधिकारी: गुरुङ जीवनका सबैभन्दा पुराना लिखित वर्णन।",
+        "slug": "first-outsiders"
+      },
+      {
+        "title": "घले परम्परा",
+        "text": "पहाडमा नेतृत्व र स्थानीय राजनीतिक जीवनका सम्झना।",
+        "slug": "ghale-traditions"
+      },
+      {
+        "title": "आधुनिक इतिहास",
+        "text": "गोर्खा सेवा, बसाइँसराइ र परिवर्तन — महत्त्वपूर्ण धागा, तर सम्पूर्ण कथा होइन।",
+        "slug": "gurkha-history"
+      },
+      {
+        "title": "आजको तामु",
+        "text": "भाषा हराउने क्रम, विवाह, धर्म, काम र गनिने राजनीति।",
+        "slug": "being-tamu-today"
+      },
+      {
+        "title": "नौ पुर्खा",
+        "text": "प्ये कहाँबाट सुरु हुन्छ: खे कु, म्हा ङ्गी र पहिलो वंशावली।",
+        "slug": "nine-ancestors"
+      },
+      {
+        "title": "क्लेको उत्पत्ति",
+        "text": "क्ले, थर, चार जातको योजना र नमिल्ने कथा।",
+        "slug": "kle-origins"
+      },
+      {
+        "title": "क्लेका उत्पत्ति-कथा",
+        "text": "घले पड, नौ कु-गी, सोर्ह जातका नाम र पारिवारिक वंशावलीले वास्तवमा के दाबी गर्छ।",
+        "slug": "clan-origin-stories"
+      },
+      {
+        "title": "काफिला व्यापार",
+        "text": "तोह-पा साझेदारी, ऋण र उत्तरका वस्तु-साटासाट चक्र।",
+        "slug": "toh-pa"
+      },
+      {
+        "title": "नुन र ऊन",
+        "text": "तिब्बत व्यापार, त्यसका सन्धि र पतन।",
+        "slug": "salt-and-wool"
+      },
+      {
+        "title": "शाहअघिको कास्की",
+        "text": "घले राज्य, त्यसको किल्ला र जग्गा-दान।",
+        "slug": "kaski-state"
+      },
+      {
+        "title": "गोर्खाका सिपाही",
+        "text": "एकीकरण अभियान र तिब्बत युद्धमा गुरुङ सेवा।",
+        "slug": "gorkha-service"
+      },
+      {
+        "title": "रेजिमेन्ट",
+        "text": "सिर्मूर, विश्वयुद्ध र दुई भिक्टोरिया क्रस।",
+        "slug": "british-regiments"
+      },
+      {
+        "title": "लाहुरे",
+        "text": "शब्द, भारतको बाटो र घर फर्केको पैसा।",
+        "slug": "lahure"
+      },
+      {
+        "title": "पहिलो लिखित अभिलेख",
+        "text": "ह्यामिल्टन, होजसन, भानसिटार्ट र नर्थी: प्रारम्भिक ब्रिटिश विवरणले के देखे र के छाडे।",
+        "slug": "first-written-accounts"
+      },
+      {
+        "title": "प्रमाणसामु उत्पत्ति",
+        "text": "नौ पुर्खा, कोह्ला, क्यिरोङको बाटो, र भाषा तथा पुरातत्त्वले इमानदारीसाथ के बोक्न सक्छ।",
+        "slug": "origin-traditions-and-evidence"
+      },
+      {
+        "title": "संविधानका रूपमा तामु क्यि",
+        "text": "प्ये वाचन, क्ले-बहिर्विवाह, क्रस-कजिन विवाह र नियम बोक्ने पुरोहित।",
+        "slug": "tamu-kyi-and-kinship"
+      },
+      {
+        "title": "नृवंशविद्हरूले के तर्क गरे",
+        "text": "बिष्ट, पिग्नेड, हेफर, मेसर्समिट र ममफोर्ड, एक-अर्काविरुद्ध पढ्दा।",
+        "slug": "ethnographers-of-the-gurungs"
+      },
+      {
+        "title": "जग्गा, गोठ र रेजिमेन्ट",
+        "text": "खेत, पशुचरन, कर र गोर्खा सेवापछिको घरेलु अर्थतन्त्र।",
+        "slug": "hill-economy-and-service"
+      }
+    ]
+  }
+}

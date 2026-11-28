@@ -276,6 +276,40 @@ export const en = {
         text: "A village name spelled another way, a family account that differs, a photograph credited to the wrong person — those corrections are the point.",
       },
     ],
+    letterEyebrow: "A LETTER FROM THE FOUNDER",
+    letterTitle: "I built this because we were beginning to forget.",
+    letterParagraphs: [
+      "My name is Vishal Gurung. I am a Gurung — a Tamu — and I am the person who builds and maintains this site. TAMU did not begin as a project plan or an institutional grant. It began with a small, uncomfortable realisation: the things I had grown up hearing were no longer being passed on in the same way, and the generation after mine was arriving at adulthood with questions that nobody had a written answer to.",
+      "In many Gurung homes the past arrives in fragments. A grandfather names a village that no longer appears on a map; a song is sung at a funeral and then not sung again for years; a genealogy survives on a sheet of paper that nobody under thirty can read. Then the elders who carried those fragments die, and what remains is a handful of dates copied from a school textbook and a vague sense that we came from somewhere in the north.",
+      "Language is the clearest measure of the loss. Tamu Kyi is being replaced by Nepali and English, not only in the cities but increasingly in the villages, and each generation keeps fewer of its words. When a language goes quiet, the words for kinship, for ritual and for the landscape go with it. Translation can give you the meaning of a word, but it cannot give you the world that word belonged to.",
+      "The second loss is harder to see. A young Gurung who wants to know where the clan names come from, or what the Ghale kings actually ruled, goes online and finds the same three paragraphs copied from site to site — often without a source, sometimes confidently wrong. The serious scholarship exists: Bista, Pignède, Höfer, Messerschmidt, Mumford, Regmi, the regimental histories. But it is scattered across libraries, out of print, written mostly in English and expensive to obtain. A student in Pokhara, a Gurkha family in Aldershot and a teenager in Hong Kong should not have to rebuild a heritage out of broken links.",
+      "So this site is an attempt to put the record in one place, in both languages, and to show its working. I write in English and in Nepali because a heritage explained only in the language of the academy is a heritage only half returned; the Nepali pages are written as Nepali prose, not as a summary of the English. Where the sources disagree, the page says so. Where nothing is known, the page says nothing rather than inventing a name, a date or an event.",
+      "It is also deliberately unfinished. TAMU is independent and self-funded: no advertising, no tracking, no paywall and no institution deciding what may be said. It is meant to be corrected by the people it describes — a village name spelled properly, a family account that differs from the book, a photograph credited to the right person. I do not want this to be the final word on anything. I want it to be the first place a young Tamu looks, and the place where the sources are waiting at the bottom of the page.",
+      "If you are Gurung and have been meaning to ask an elder about a village, a clan or a song, do it this year. If you are not Gurung and have come to understand your neighbours, welcome — the archive is for you as well. What is written here is not mine. It belongs to the people who lived it, and it is being kept for the people who come next.",
+    ],
+    founderName: "Vishal Gurung",
+    founderRole: "Founder and maintainer of TAMU",
+    founderLinks: "Find me here",
+    stakesEyebrow: "WHY IT MATTERS NOW",
+    stakesTitle: "Four things this archive is trying to hold",
+    stakes: [
+      {
+        title: "A generation is asking",
+        text: "The questions arrive in messages and in person: what is my clan, where did we come from, why do we do this at a funeral. They deserve an answer with a source attached, not a copied paragraph.",
+      },
+      {
+        title: "The language is thinning",
+        text: "Every year fewer children speak Tamu Kyi at home. A language disappears quietly, one household at a time, and with it go the words for kinship, ritual and landscape that no translation fully carries.",
+      },
+      {
+        title: "The sources are scattered",
+        text: "The books that document Gurung history are out of print, expensive and mostly in English. A student, a diaspora family or a curious neighbour should not need a university library to reach them.",
+      },
+      {
+        title: "Memory needs a place",
+        text: "Oral accounts survive only while someone records them, names them and credits the person who told them. This site is a place where a family can put what it knows before it is lost.",
+      },
+    ],
     recordEyebrow: "THE RECORD",
     recordTitle: "Open, credited, correctable",
     recordP1:

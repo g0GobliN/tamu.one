@@ -1,0 +1,354 @@
+[
+  {
+    "id": "evans",
+    "author": "Christopher Evans",
+    "title": "Grounding Knowledge/Walking Land: Archaeological Research and Ethno-Historical Identity in Central Nepal",
+    "year": "2009",
+    "url": "https://www.repository.cam.ac.uk/items/34c3df73-0eb4-43b5-af20-cbcf29875fa0",
+    "kind": "Archaeological research"
+  },
+  {
+    "id": "pettigrew",
+    "author": "Judith Pettigrew",
+    "title": "Parallel Landscapes: Ritual and Political Values of a Shamanic Soul Journey",
+    "year": "1999",
+    "url": "https://doi.org/10.34961/7894",
+    "kind": "Ethnographic research"
+  },
+  {
+    "id": "florence",
+    "author": "Florence Gurung",
+    "title": "Religion and Ethnic Identity: Gurung Experiences of Belonging in the UK",
+    "year": "2014",
+    "url": "https://ora.ox.ac.uk/objects/uuid:2df28e60-34b2-488f-ada7-5ebdebf5163a",
+    "kind": "Oxford doctoral thesis"
+  },
+  {
+    "id": "glottolog",
+    "author": "Glottolog",
+    "title": "Gurung (guru1261)",
+    "year": "Version 5.4",
+    "url": "https://glottolog.org/resource/languoid/id/guru1261",
+    "kind": "Linguistic catalogue"
+  },
+  {
+    "id": "mumford",
+    "author": "Stan Royal Mumford",
+    "title": "Spirit Possession and Soul Guidance in a Gurung Death Rite",
+    "year": "1989",
+    "url": "https://digitalcommons.macalester.edu/himalaya/vol9/iss1/7",
+    "kind": "Ethnographic research"
+  },
+  {
+    "id": "ghale",
+    "author": "Mani Raj Gurung",
+    "title": "Historical Processes of Power, Knowledge, and Identity Change in Gurungs",
+    "year": "2023",
+    "url": "https://www.nepjol.info/index.php/ppj/article/download/58942/44006/174829",
+    "kind": "Historical interpretation"
+  },
+  {
+    "id": "moisala",
+    "author": "Pirkko Moisala",
+    "title": "Gurung Cultural Models in the Ghatu",
+    "year": "1997 · EBHR 12–13, pp. 152–176",
+    "url": "https://researchportal.helsinki.fi/en/publications/gurung-cultural-models-in-the-ghatu/",
+    "kind": "Peer-reviewed research"
+  },
+  {
+    "id": "rodhi",
+    "author": "Saroj Raj Panta",
+    "title": "Indigenous Rodhi Culture of Gurung and Factors of its Transform at Ghandruk Kaski in Nepal",
+    "year": "2023",
+    "url": "https://www.nepjol.info/index.php/DSAJ/article/view/61145",
+    "kind": "Local cultural research"
+  },
+  {
+    "id": "tourism",
+    "author": "Yagya Prasad Adhikari & Anton Fischer",
+    "title": "Tourism: Boon for Forest Conservation, Livelihood, and Community Development in Ghandruk VDC, Western Nepal",
+    "year": "2011",
+    "url": "https://www.nepjol.info/index.php/INIT/article/view/5535",
+    "kind": "Livelihood research"
+  },
+  {
+    "id": "kuroda",
+    "author": "Shin’ichirō Kuroda",
+    "title": "The Afterworld View and Its Underlying Ideas of the Gurungs",
+    "year": "1974",
+    "url": "https://www.jstage.jst.go.jp/article/minkennewseries/38/3-4/38_KJ00003548410/_article",
+    "kind": "Ethnographic research"
+  },
+  {
+    "id": "guide",
+    "author": "Alan Macfarlane & Indrabahadur Gurung",
+    "title": "A Guide to the Gurungs (online draft; differs from published edition)",
+    "year": "1990 · second edition 1992",
+    "url": "https://www.alanmacfarlane.com/TEXTS/Gurung_guide.pdf",
+    "kind": "Ethnographic guide"
+  },
+  {
+    "id": "pariyar",
+    "author": "Mitra Pariyar",
+    "title": "Caste, Military, Migration: Nepali Gurkha Communities in Britain",
+    "year": "2020 · online 2019",
+    "url": "https://journals.sagepub.com/doi/10.1177/1468796819890138",
+    "kind": "Peer-reviewed research"
+  },
+  {
+    "id": "ntb",
+    "author": "Nepal Tourism Board",
+    "title": "Tamu Lhosar: A Vibrant Journey into Nepal’s Indigenous Heart",
+    "year": "2025",
+    "url": "https://ntb.gov.np/en/tamu-lhosar-a-vibrant-journey-into-nepals-indigenous-heart",
+    "kind": "Official tourism information"
+  },
+  {
+    "id": "census",
+    "author": "National Statistics Office, Nepal",
+    "title": "National Population and Housing Census 2021: Caste/Ethnicity, Language and Religion",
+    "year": "2021 · published 2023–2025",
+    "url": "https://censusresults.nsonepal.gov.np/files/result-folder/Caste%20Ethnicity_report_NPHC_2021.pdf",
+    "kind": "Government census"
+  },
+  {
+    "id": "shanti",
+    "author": "Shanti Gurung",
+    "title": "Dances in the Name of the Dead: Syarga and Ghyapri/Klepri Rituals Among Gurungs",
+    "year": "2024",
+    "url": "https://nepjol.info/index.php/sijssr/article/view/64804",
+    "kind": "Peer-reviewed research"
+  },
+  {
+    "id": "kinship",
+    "author": "Kailash: Journal of Himalayan Studies",
+    "title": "The Organizing Principles of Gurung Kinship",
+    "year": "1979",
+    "url": "https://www.wisdomlib.org/history/compilation/kailash-journal-of-himalayan-studies/ocr/1602034/28",
+    "kind": "Scholarly journal"
+  },
+  {
+    "id": "lags",
+    "author": "Los Angeles Gurung (Tamu) Society",
+    "title": "Gurung Traditional Dress",
+    "year": "2021",
+    "url": "https://lagurungsociety.org/?page_id=15",
+    "kind": "Community organisation"
+  },
+  {
+    "id": "ela",
+    "author": "Endangered Language Alliance",
+    "title": "Gurung: background, dialect research and documentation in New York",
+    "year": "Undated · consulted November 2026",
+    "url": "https://www.elalliance.org/languages/gurung",
+    "kind": "Language documentation organisation"
+  },
+  {
+    "id": "pe-review",
+    "author": "Mark Turin",
+    "title": "Review: Materials for the Study of Gurung Pe, by Simon Strickland",
+    "year": "2021 · EBHR 56",
+    "url": "https://journals.openedition.org/ebhr/112?lang=en",
+    "kind": "Scholarly book review"
+  },
+  {
+    "id": "world",
+    "author": "Sarah Harrison & Alan Macfarlane",
+    "title": "The World of the Gurungs",
+    "year": "2018 · observations and films from multiple decades",
+    "url": "https://himalaya-arch.com/images/Documentations/PDF/THE-WORLD%20OF-THE-GURUNGS-%28NXPowerLite%29.pdf",
+    "kind": "Longitudinal ethnographic book and film notes"
+  },
+  {
+    "id": "ghatu-full",
+    "author": "Pirkko Moisala",
+    "title": "Gurung Cultural Models in the Ghatu Music and Dance",
+    "year": "1997 · EBHR 12–13, pp. 152–176",
+    "url": "https://d1i1jdw69xsqx0.cloudfront.net/digitalhimalaya/collections/journals/ebhr/pdf/EBHR_12&13_09.pdf",
+    "kind": "Full-text ethnomusicological research"
+  },
+  {
+    "id": "initiation",
+    "author": "Pol Bahadur Gurung",
+    "title": "Haircut and Dress Giving Rituals of the Gurungs of Sikles Village",
+    "year": "2022",
+    "url": "https://doi.org/10.3126/rnjds.v5i1.45951",
+    "kind": "Peer-reviewed research · abstract consulted"
+  },
+  {
+    "id": "khema",
+    "author": "Translation Commons",
+    "title": "Revitalizing Gurung Language",
+    "year": "2026",
+    "url": "https://translationcommons.org/impact-stories-gurung/",
+    "kind": "Language digitisation project report"
+  },
+  {
+    "id": "unicode",
+    "author": "The Unicode Consortium",
+    "title": "The Unicode Standard, Version 16.0.0",
+    "year": "2024",
+    "url": "https://www.unicode.org/versions/Unicode16.0.0/",
+    "kind": "Official technical standard"
+  },
+  {
+    "id": "pignede",
+    "author": "Bernard Pignède",
+    "title": "The Gurungs: A Himalayan Population of Nepal (translation of Les Gurungs, 1966)",
+    "year": "1993 English translation · French original 1966",
+    "url": "https://himalaya-arch.com/images/Documentations/PDF/Pignede_The%20Gurungs_1993.pdf",
+    "kind": "Ethnographic monograph"
+  },
+  {
+    "id": "mumford-book",
+    "author": "Stan Royal Mumford",
+    "title": "Himalayan Dialogue: Tibetan Lamas and Gurung Shamans in Nepal",
+    "year": "1989",
+    "url": "https://pahar.in/pahar/Books%20and%20Articles/Nepal/1989%20Himalayan%20Dialogue--Tibetan%20Lamas%20and%20Gurung%20Shamans%20in%20Nepal%20by%20Mumford%20s.pdf",
+    "kind": "Ethnographic monograph"
+  },
+  {
+    "id": "kirkpatrick",
+    "author": "William Kirkpatrick",
+    "title": "An Account of the Kingdom of Nepaul, Being the Substance of Observations Made During a Mission to that Country, in the Year 1793",
+    "year": "1811 · digitised edition",
+    "url": "https://archive.org/details/accountofkingdom00colo",
+    "kind": "Colonial account"
+  },
+  {
+    "id": "hamilton",
+    "author": "Francis Buchanan Hamilton",
+    "title": "An Account of the Kingdom of Nepal (1819)",
+    "year": "1819 · digitised edition",
+    "url": "https://www.gutenberg.org/ebooks/30364",
+    "kind": "Colonial-era survey"
+  },
+  {
+    "id": "vansittart",
+    "author": "Eden Vansittart",
+    "title": "Notes on Nepal (1896); enlarged from Notes on Gurkhas (1890)",
+    "year": "1896",
+    "url": "https://archive.org/details/notesonnepal00hhri",
+    "kind": "Colonial military handbook"
+  },
+  {
+    "id": "hodgson",
+    "author": "Brian Houghton Hodgson",
+    "title": "Papers, Mss Eur Hodgson/58: ethnography, routes and the customs of Gurungs",
+    "year": "1847–1855 · British Library catalogue",
+    "url": "https://searcharchives.bl.uk/catalog/040-003416342",
+    "kind": "Archival manuscript catalogue"
+  },
+  {
+    "id": "kaski-state",
+    "author": "Bam Bahadur Adhikari",
+    "title": "Culture & Civilization of Kaski State in the History of Nepal",
+    "year": "2017 · Rural Development Journal",
+    "url": "https://www.nepjol.info/index.php/rdj/article/download/67290/51161/196412",
+    "kind": "Peer-reviewed local history"
+  },
+  {
+    "id": "tamu-naxi",
+    "author": "Tek Bahadur Gurung",
+    "title": "Insights from genesis stories of Tamu (Gurung) of Nepal and Naxi of Yunnan (China)",
+    "year": "2024 · Journal of Nepalese Studies",
+    "url": "https://www.nepjol.info/index.php/jofns/article/view/71799",
+    "kind": "Peer-reviewed comparative study"
+  },
+  {
+    "id": "tamu-trek",
+    "author": "Jit Gurung",
+    "title": "The Tamu Trek Trail: Kohla Sonthar and the ancestral routes",
+    "year": "2018 · Nepali Times",
+    "url": "https://nepalitimes.com/the-tamu-trek-trail",
+    "kind": "Photojournalism"
+  },
+  {
+    "id": "vamshavali",
+    "author": "Government of Nepal",
+    "title": "Nepal Parichaya: the Kirat king-lists and the Gopal Raj Vamshavali",
+    "year": "2014",
+    "url": "https://giwmscdnone.gov.np/media/app/public/23/posts/1673539151_17.pdf",
+    "kind": "Government reference publication"
+  },
+  {
+    "id": "sil-survey",
+    "author": "SIL International",
+    "title": "A Sociolinguistic Survey of the Gurung Language",
+    "year": "Survey report · consulted 2026",
+    "url": "https://giwmscdnone.gov.np/media/app/public/62/posts/1709445197_1.pdf",
+    "kind": "Sociolinguistic survey"
+  },
+  {
+    "id": "lhosar-paper",
+    "author": "Humanities and Social Sciences Journal",
+    "title": "The Gurungs and Their Lhosar Festival",
+    "year": "2022 · vol. 13, no. 2",
+    "url": "https://www.nepjol.info/index.php/hssj/article/download/49807/37151/147501",
+    "kind": "Peer-reviewed journal article"
+  },
+  {
+    "id": "regmi",
+    "author": "Mahesh C. Regmi",
+    "title": "A Study in Nepali Economic History, 1768–1846",
+    "year": "1971",
+    "url": "https://search.worldcat.org/search?q=Regmi+Nepali+Economic+History",
+    "kind": "Economic history"
+  },
+  {
+    "id": "unicode-16",
+    "author": "Unicode Consortium",
+    "title": "The Unicode Standard, Version 16.0",
+    "year": "2024",
+    "url": "https://www.unicode.org/versions/Unicode16.0.0/",
+    "kind": "Technical standard"
+  },
+  {
+    "id": "gurkha-brigade",
+    "author": "British Army",
+    "title": "The Brigade of Gurkhas",
+    "year": "accessed 2026",
+    "url": "https://www.army.mod.uk/who-we-are/corps-regiments-and-units/brigade-of-gurkhas/",
+    "kind": "Official military history"
+  },
+  {
+    "id": "nam-gurkha",
+    "author": "National Army Museum",
+    "title": "Gurkhas: 200 years of service to the Crown",
+    "year": "accessed 2026",
+    "url": "https://www.nam.ac.uk/explore/gurkhas",
+    "kind": "Museum history"
+  },
+  {
+    "id": "bista",
+    "author": "Dor Bahadur Bista",
+    "title": "People of Nepal",
+    "year": "1967",
+    "url": "https://ia801509.us.archive.org/22/items/in.ernet.dli.2015.532436/2015.532436.people-of_text.pdf",
+    "kind": "Ethnography"
+  },
+  {
+    "id": "hofer",
+    "author": "András Höfer",
+    "title": "The Caste Hierarchy and the State in Nepal: A Study of the Muluki Ain of 1854",
+    "year": "1979",
+    "url": "https://search.worldcat.org/search?q=H%C3%B6fer+Caste+Hierarchy+and+the+State+in+Nepal",
+    "kind": "Legal anthropology"
+  },
+  {
+    "id": "northey",
+    "author": "W. Brook Northey and C. J. Morris",
+    "title": "The Gurkhas: Their Manners, Customs and Country",
+    "year": "1928",
+    "url": "https://search.worldcat.org/search?q=Northey+Morris+The+Gurkhas",
+    "kind": "Colonial ethnography"
+  },
+  {
+    "id": "messerschmidt",
+    "author": "Donald A. Messerschmidt",
+    "title": "The Gurungs of Nepal: Conflict and Change in a Village Society",
+    "year": "1976",
+    "url": "https://search.worldcat.org/search?q=Messerschmidt+Gurungs+of+Nepal",
+    "kind": "Ethnography"
+  }
+]

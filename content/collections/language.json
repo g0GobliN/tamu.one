@@ -1,0 +1,92 @@
+{
+  "key": "language",
+  "categories": ["Language"],
+  "en": {
+    "eyebrow": "TAMU KYI",
+    "title": "The language of our people",
+    "intro": "A Tibeto-Burman language spoken across the hills of central Nepal and carried by families around the world.",
+    "lead": "Every word carries a place and a people.",
+    "body": [
+      "Tamu Kyi is a Tibeto-Burman language of the Tamangic group, spoken across the middle hills of central Nepal and carried by emigrant families to India, Britain, Hong Kong and beyond. It is a verb-final language with postpositions, a system of numeral classifiers, a tonal contrast that varies between valleys, and an elaborate kinship vocabulary in which the relationship term is often the proper way to address a person. None of this is exotic detail; it is the machinery through which Tamu social life is conducted.",
+      "The language also has a history. Layers of Tibetan vocabulary record centuries of religious and political contact; Nepali supplied the words of the state, land and law; English now supplies the words of school and technology. The choice of script — Devanagari, Roman letters or the Gurung Khema script added to Unicode in 2024 — connects the language to different publics and different futures. Writing Tamu Kyi is therefore not a technical afterthought but part of the argument about what the language is for.",
+      "Tamu Kyi differs from village to village. Older eastern and western groupings are useful reference points, but later research finds a more complex picture of variation and mutual understanding, with no single standard and no academy to fix one. A dictionary entry without tone marks is only half a word, and a grammar written from one village is not a grammar of the whole language.",
+      "Today many young Gurung people grow up speaking Nepali or English first. The census records many more people identifying as Gurung than speaking the language at home, and the gap is widest among the young and the diaspora-born. Recording elders, teaching children, writing the language down and giving it a reason to be used outside the classroom all help keep it alive; none of them alone is enough."
+    ],
+    "themes": [
+      {
+        "title": "Relationships",
+        "text": "Tamu Kyi belongs to the Tamangic group, alongside Tamang, Thakali and Manange.",
+        "slug": "tamu-kyi"
+      },
+      {
+        "title": "How the language works",
+        "text": "Tone, word order, classifiers, kinship words and the verbs that carry a sentence.",
+        "slug": "tamu-kyi-grammar"
+      },
+      {
+        "title": "Variation",
+        "text": "Village voices, tone and the changing understanding of eastern and western Gurung.",
+        "slug": "dialects-and-tone"
+      },
+      {
+        "title": "Gurung Khema",
+        "text": "Community literacy and the script’s addition to Unicode in 2024.",
+        "slug": "gurung-khema"
+      },
+      {
+        "title": "Passing it on",
+        "text": "Speaker-led recordings preserve conversation, stories and everyday knowledge.",
+        "slug": "language-documentation"
+      },
+      {
+        "title": "Writing Tamu Kyi",
+        "text": "Devanagari, Khema, Unicode and a century of orthographies.",
+        "slug": "tamu-script"
+      }
+    ]
+  },
+  "ne": {
+    "eyebrow": "तामु क्यि",
+    "title": "हाम्रा मानिसहरूको भाषा",
+    "intro": "मध्य नेपालका पहाडभर बोलिने र संसारभरका परिवारले बोकेको तिब्बत-बर्मेली भाषा।",
+    "lead": "हरेक शब्दसँग एउटा ठाउँ र मानिसहरू जोडिएका छन्।",
+    "body": [
+      "तामु क्यि तिब्बत-बर्मेली परिवारको तामाङ्गिक समूहमा पर्ने भाषा हो, जो मध्य नेपालका पहाडभर बोलिन्छ र बसाइँसराइसँगै भारत, बेलायत, हङकङलगायतमा पुगेको छ। यो क्रियापद-अन्त्य भाषा हो, जसमा पदयोगी (postposition), संख्यावाचक वर्गीकरण (classifier), उपत्यकाअनुसार फरक पर्ने सुर, र सम्बन्ध-नामले भरिएको शब्दभण्डार छ — जहाँ मानिसलाई नामभन्दा सम्बन्धको शब्दले सम्बोधन गर्नु नै शिष्टाचार हो। यी कुनै विचित्र विवरण होइनन्; तामु सामाजिक जीवन यही मेसिनरीबाट चल्छ।",
+      "भाषाको इतिहास पनि छ। तिब्बती शब्दका तहले शताब्दीयौँको धार्मिक र राजनीतिक सम्पर्क रेकर्ड गर्छन्; नेपालीले राज्य, जग्गा र कानुनका शब्द दियो; अङ्ग्रेजीले विद्यालय र प्रविधिका शब्द दिइरहेको छ। लिपिको छनोट — देवनागरी, रोमन वा सन् २०२४ मा युनिकोडमा परेको गुरुङ खेमा — ले भाषालाई फरक सार्वजनिकसँग जोड्छ, र भाषा केका लागि हो भन्ने बहसको अंश बन्छ।",
+      "तामु क्यि गाउँ-गाउँमा फरक पर्छ। पुराना पूर्वी र पश्चिमी समूह उपयोगी सन्दर्भ हुन्, तर पछिल्ला अनुसन्धानले भिन्नता र आपसी बुझाइको अझ जटिल चित्र भेट्छन् — कुनै एक मानक छैन, र त्यसलाई स्थिर गर्ने अकादमी पनि छैन। सुर-चिन्ह नभएको शब्दकोशको प्रविष्टि आधा शब्द मात्र हो, र एउटै गाउँको व्याकरण पूरै भाषाको व्याकरण होइन।",
+      "आज धेरै युवा गुरुङ पहिले नेपाली वा अङ्ग्रेजी बोल्छन्। जनगणनामा गुरुङ पहिचान गर्नेको सङ्ख्या घरभित्र भाषा बोल्नेभन्दा धेरै छ, र यो खाडल युवा तथा विदेशमा जन्मेकामा सबैभन्दा फराकिलो छ। ज्येष्ठको आवाज रेकर्ड गर्ने, बालबालिकालाई सिकाउने, भाषा लेख्ने र कक्षाकोठाबाहिर पनि प्रयोग गर्ने कारण दिने — सबै आवश्यक छन्, तर कुनै एउटा मात्र पर्याप्त छैन।"
+    ],
+    "themes": [
+      {
+        "title": "सम्बन्ध",
+        "text": "तामु क्यि तामाङ, थकाली र मनाङ्गेसँगै तामाङ्गिक समूहमा पर्छ।",
+        "slug": "tamu-kyi"
+      },
+      {
+        "title": "भाषा कसरी चल्छ",
+        "text": "सुर, वाक्यको क्रम, वर्गीकरण, साइनोका शब्द र क्रियापद।",
+        "slug": "tamu-kyi-grammar"
+      },
+      {
+        "title": "भिन्नता",
+        "text": "गाउँका स्वर, सुर र पूर्वी-पश्चिमी गुरुङबारे बदलिँदो बुझाइ।",
+        "slug": "dialects-and-tone"
+      },
+      {
+        "title": "गुरुङ खेमा",
+        "text": "सामुदायिक साक्षरता र २०२४ मा युनिकोडमा लिपि समावेश।",
+        "slug": "gurung-khema"
+      },
+      {
+        "title": "हस्तान्तरण",
+        "text": "वक्ताले अगुवाइ गरेका रेकर्डिङले संवाद, कथा र दैनिक ज्ञान जोगाउँछन्।",
+        "slug": "language-documentation"
+      },
+      {
+        "title": "तामु क्यि लेख्ने",
+        "text": "देवनागरी, खेमा, युनिकोड र एक शताब्दीका हिज्जे।",
+        "slug": "tamu-script"
+      }
+    ]
+  }
+}

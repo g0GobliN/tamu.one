@@ -914,6 +914,60 @@ section {
   text-decoration: underline;
 }
 
+.about-letter {
+  max-width: 54rem;
+}
+.about-letter h2 {
+  font-family: var(--font-display);
+  font-size: clamp(2.2rem, 5vw, 3.4rem);
+  line-height: 1.1;
+  margin: 0.75rem 0 1.75rem;
+}
+.about-letter-body p {
+  color: var(--muted-foreground);
+  font-size: 1.02rem;
+  line-height: 1.9;
+  margin-bottom: 1.4rem;
+}
+.about-letter-body p:first-child {
+  color: var(--foreground);
+  font-size: 1.12rem;
+}
+.about-signature {
+  border-top: 1px solid var(--border);
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+}
+.about-signature-name {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  margin: 0;
+}
+.about-signature-role {
+  color: var(--muted-foreground);
+  font-size: 0.9rem;
+  margin: 0.25rem 0 1rem;
+}
+.about-signature-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1.25rem;
+  font-size: 0.9rem;
+}
+.about-signature-links span {
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.68rem;
+  color: var(--muted-foreground);
+}
+.about-signature-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--primary);
+}
+
 /* Legal pages (privacy, terms) */
 .legal-page {
   max-width: 860px;
@@ -1664,14 +1718,19 @@ section {
   .article-layout {
     grid-template-columns: 260px 1fr;
   }
+  /* Only the two-column layout has room for a sticky contents rail; in the
+     single-column layout a sticky aside would slide over the article text. */
+  .article-layout aside {
+    position: sticky;
+    top: 90px;
+    align-self: start;
+  }
 }
 .article-layout aside {
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
   align-self: start;
-  position: sticky;
-  top: 90px;
   font-size: 0.88rem;
 }
 .article-layout aside > a {
@@ -1699,6 +1758,7 @@ section {
 }
 .article-prose section {
   margin-bottom: 2.5rem;
+  scroll-margin-top: 110px;
 }
 .article-prose h2 {
   font-size: 2.2rem;

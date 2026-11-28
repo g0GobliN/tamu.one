@@ -1,0 +1,121 @@
+{
+  "key": "diaspora",
+  "image": "annapurna",
+  "categories": ["Diaspora"],
+  "en": {
+    "eyebrow": "BEYOND THE HOMELAND",
+    "title": "One heritage, a world of lives",
+    "intro": "From Pokhara to London, Hong Kong to Sydney — the Tamu story continues wherever our people live.",
+    "lead": "Belonging travels with us.",
+    "body": [
+      "Military service, work and study have carried Gurung families across the world. New communities have built associations, temples and festivals far from the hills, and the shape of those communities tells us as much about the host country as about Nepal: a garrison town in Hampshire, a rented hall in Queens, a block of flats in Hong Kong or a labour camp in the Gulf each produces a different kind of Tamu life.",
+      "The migrations are not all of one kind. Gurkha service produced settlement in Britain and Hong Kong; tea gardens and the Indian Army produced communities in Darjeeling, Sikkim, Assam and the cantonment towns; labour migration produced the Gulf and Malaysia; education and professional work produced North America and Australia. Each wave has its own date, its own route and its own institutions, and later arrivals do not always recognise themselves in the institutions of earlier ones.",
+      "Living abroad raises new questions about language, religion and identity — and new ways of answering them. Lhosar becomes the main public occasion; ritual knowledge thins or is reconstructed; children negotiate names, dress and marriage across cultures; and community organisations take on the work that villages, clans and monasteries once did. The diaspora is not a copy of the homeland but a new edition of it."
+    ],
+    "themes": [
+      {
+        "title": "United Kingdom",
+        "text": "Community-making and belonging among Gurung families in Britain.",
+        "slug": "united-kingdom"
+      },
+      {
+        "title": "Being Tamu today",
+        "text": "Language, marriage, religion and work in a community spread across several countries.",
+        "slug": "being-tamu-today"
+      },
+      {
+        "title": "Lhosar worldwide",
+        "text": "How one date in the Tamu calendar brings scattered families together.",
+        "slug": "lhosar-worldwide"
+      },
+      {
+        "title": "Organisations",
+        "text": "Village societies, national councils and diaspora associations.",
+        "slug": "gurung-organisations"
+      },
+      {
+        "title": "Hong Kong",
+        "text": "A dated account of Thak-connected friendships and civilian working lives.",
+        "slug": "gurungs-hong-kong"
+      },
+      {
+        "title": "New York",
+        "text": "Tamu community life and language documentation in Queens and Ridgewood.",
+        "slug": "gurungs-new-york"
+      },
+      {
+        "title": "India",
+        "text": "A family-level account of work, schooling and return visits near Mumbai.",
+        "slug": "gurung-labour-india"
+      },
+      {
+        "title": "Diaspora institutions",
+        "text": "Dhee, samaj, Lhosar committees and what they cannot do.",
+        "slug": "diaspora-institutions"
+      },
+      {
+        "title": "Burma, Malaya and the garrisons",
+        "text": "The eastern Gurkha world and the families who stayed.",
+        "slug": "burma-malaya"
+      }
+    ]
+  },
+  "ne": {
+    "eyebrow": "मातृभूमिभन्दा पर",
+    "title": "एउटै सम्पदा, संसारभरका जीवन",
+    "intro": "पोखरादेखि लन्डनसम्म, हङकङदेखि सिड्नीसम्म — हाम्रा मानिस जहाँ बस्छन्, तामु कथा त्यहीँ जारी रहन्छ।",
+    "lead": "अपनत्व हामीसँगै हिँड्छ।",
+    "body": [
+      "सैन्य सेवा, काम र पढाइले गुरुङ परिवारलाई संसारभर पुर्‍याएको छ। नयाँ समुदायले पहाडबाट टाढा संस्था, मन्दिर र चाडपर्व खडा गरेका छन्, र ती समुदायको आकारले नेपालबारे जत्तिकै आयोजक देशबारे पनि बताउँछ: ह्याम्पशायरको छाउनी सहर, क्विन्सको भाडाको हल, हङकङको फ्ल्याट वा खाडीको श्रम शिविर — हरेकले फरक किसिमको तामु जीवन बनाउँछ।",
+      "बसाइँसराइ एउटै किसिमको होइन। गोर्खा सेवाले बेलायत र हङकङमा बसोबास दियो; चिया बगान र भारतीय सेनाले दार्जिलिङ, सिक्किम, आसाम र छाउनी सहरमा समुदाय बनाए; कामको खोजीले खाडी र मलेसिया; पढाइ र पेसाले उत्तर अमेरिका र अस्ट्रेलिया। हरेक लहरको आफ्नै मिति, बाटो र संस्था छ, र पछि आउनेहरूले अघि आएकाहरूको संस्थामा आफूलाई सधैँ भेट्दैनन्।",
+      "विदेशमा बाँच्दा भाषा, धर्म र पहिचानबारे नयाँ प्रश्न उठ्छन् — र तिनको नयाँ उत्तर पनि। ल्होसार मुख्य सार्वजनिक अवसर बन्छ; कर्मकाण्डी ज्ञान पातलो हुन्छ वा पुनर्निर्माण हुन्छ; बालबालिकाले नाम, पोसाक र विवाह संस्कृतिहरूबीच मोलमोलाई गर्छन्; र गाउँ, क्ले तथा गुम्बाले गर्ने काम संस्थाले लिन्छ। प्रवास मातृभूमिको प्रतिलिपि होइन, उसको नयाँ संस्करण हो।"
+    ],
+    "themes": [
+      {
+        "title": "संयुक्त अधिराज्य",
+        "text": "बेलायतका गुरुङ परिवारमा समुदाय निर्माण र अपनत्व।",
+        "slug": "united-kingdom"
+      },
+      {
+        "title": "आज तामु हुनु: भाषा, विवाह, काम र अपनत्व",
+        "text": "नेपालको २०२१ जनगणनामा पाँच लाखभन्दा बढीले गुरुङ पहिचान गरे। अब त्यो पहिचानको अर्थ के हो — काठमाडौँमा, खाडीको श्रम शिविरमा, बेलायतको सहरमा — र यसक्रममा के हराइरहेको छ, के नयाँ बन्दै छ?",
+        "slug": "being-tamu-today"
+      },
+      {
+        "title": "संसारभर ल्होसार",
+        "text": "तामु पात्रोको एउटै मितिले छरिएका परिवार कसरी जोड्छ।",
+        "slug": "lhosar-worldwide"
+      },
+      {
+        "title": "संस्थाहरू",
+        "text": "गाउँ समाज, राष्ट्रिय परिषद् र प्रवासी संस्थाहरू।",
+        "slug": "gurung-organisations"
+      },
+      {
+        "title": "हङकङ",
+        "text": "थाकसँग जोडिएका मित्रता र सर्वसाधारण कामकाजी जीवनको एउटा विवरण।",
+        "slug": "gurungs-hong-kong"
+      },
+      {
+        "title": "न्युयोर्क",
+        "text": "Queens र Ridgewood मा तामु सामुदायिक जीवन र भाषा-अभिलेख।",
+        "slug": "gurungs-new-york"
+      },
+      {
+        "title": "भारत",
+        "text": "मुम्बईनजिक काम, पढाइ र घर फर्कने भ्रमणको पारिवारिक विवरण।",
+        "slug": "gurung-labour-india"
+      },
+      {
+        "title": "प्रवासी संस्था",
+        "text": "धी, समाज, ल्होसार समिति र तिनले गर्न नसक्ने।",
+        "slug": "diaspora-institutions"
+      },
+      {
+        "title": "बर्मा, मलाया र छाउनी",
+        "text": "पूर्वी गोर्खा संसार र बसिरहेका परिवार।",
+        "slug": "burma-malaya"
+      }
+    ]
+  }
+}

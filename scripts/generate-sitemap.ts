@@ -1,21 +1,35 @@
 // Generates dist/client/sitemap.xml after `vite build`, so the sitemap can never
 // drift from the app: every top-level route file becomes a URL, and every
-// article in src/data/heritage.ts becomes a /library/<slug> URL.
+// Markdown file in content/library/ becomes a /library/<slug> URL.
 //
 // Each URL is emitted in every supported language, with hreflang alternates.
 //
 // Run directly with: node scripts/generate-sitemap.ts
 
-import { mkdir, readdir, writeFile } from "node:fs/promises";
+import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 
-import { articles } from "../src/data/heritage";
 import { locales, pathFor } from "../src/i18n/locales";
 import { absoluteUrl } from "../src/lib/seo";
 
 const root = fileURLToPath(new URL("..", import.meta.url));
 const routesDir = join(root, "src/routes");
+const libraryDir = join(root, "content/library");
+
+/** Slugs are read from the article files, so the sitemap needs no app code. */
+async function articleSlugs(): Promise<string[]> {
+  const slugs: string[] = [];
+  for (const shelf of await readdir(libraryDir)) {
+    for (const file of await readdir(join(libraryDir, shelf))) {
+      if (!file.endsWith(".md")) continue;
+      const source = await readFile(join(libraryDir, shelf, file), "utf8");
+      const match = source.match(/^slug:\s*(.+)$/m);
+      slugs.push(match?.[1]?.trim() ?? file.slice(0, -".md".length));
+    }
+  }
+  return slugs;
+}
 const outFile = join(root, "dist/client/sitemap.xml");
 
 function escapeXml(value: string) {
@@ -40,7 +54,7 @@ async function collectPaths() {
     paths.add(`/${stem.replace(/\.index$/, "")}`);
   }
 
-  for (const article of articles) paths.add(`/library/${article.slug}`);
+  for (const slug of await articleSlugs()) paths.add(`/library/${slug}`);
 
   return [...paths].sort();
 }

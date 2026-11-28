@@ -1,0 +1,121 @@
+{
+  "key": "geography",
+  "image": "village",
+  "categories": ["Homeland"],
+  "en": {
+    "eyebrow": "COLLECTION 03 · HOMELAND",
+    "title": "The places we call home",
+    "intro": "Villages, valleys and landscapes beneath Annapurna, Lamjung and Manang.",
+    "lead": "Land that remembers.",
+    "body": [
+      "The Gurung homeland stretches across the middle hills of central Nepal — Kaski, Lamjung, Gorkha, Syangja, Tanahun and Manang among them — from the terraced valleys below the Annapurna massif to the high pastures and trans-Himalayan corridors of the north. It is not one landscape but several: irrigated rice land in the lower valleys, millet and maize on the middle slopes, buckwheat and barley above, and grazing grounds that reach the snow line.",
+      "Stone houses, terraced fields and high pastures shape a way of life now changing with tourism, migration and new roads. The old economy of herding, farming and carrying goods over the passes has been largely replaced by remittances, trekking and town work, and villages that once held large households for most of the year may now be inhabited by a few elderly couples. At the same time, pilgrimage routes, conservation areas and community homestays have given some places a new economic reason to exist.",
+      "Land is also memory. Place names record ancestral settlements, clan territories, shrines and events; the pye recitations describe routes through named passes and rivers; and sites such as Kohla are claimed by communities as the places from which they dispersed. This is why a new road, a hydroelectric project or a trekking trail can become a dispute about history as well as about property."
+    ],
+    "themes": [
+      {
+        "title": "Ghandruk",
+        "text": "A mountain village balancing heritage, tourism and community life.",
+        "slug": "ghandruk"
+      },
+      {
+        "title": "Lamjung",
+        "text": "An old heartland of Gurung villages, hill kingdoms and terraced valleys.",
+        "slug": "lamjung"
+      },
+      {
+        "title": "Manang",
+        "text": "Neighbours and shared landscapes in the high valleys.",
+        "slug": "manang"
+      },
+      {
+        "title": "Sikles",
+        "text": "A living village with language documentation and ancestral connections.",
+        "slug": "sikles"
+      },
+      {
+        "title": "Fields & pastures",
+        "text": "Terraced crops, seasonal herding and the relationships behind village livelihoods.",
+        "slug": "terraces-and-crops"
+      },
+      {
+        "title": "Annapurna Conservation Area: people and protected land",
+        "text": "How a conservation project begun in Ghandruk in 1986 tied Gurung villages to forests, trekking and tourism.",
+        "slug": "annapurna-conservation"
+      },
+      {
+        "title": "Changing villages",
+        "text": "Village associations and everyday belonging in Pokhara.",
+        "slug": "pokhara-village-associations"
+      },
+      {
+        "title": "Dhorpatan and the high pastures",
+        "text": "Herding, wool and the reserve that now governs the valley.",
+        "slug": "dhorpatan-herding"
+      },
+      {
+        "title": "Forts on the ridges",
+        "text": "Kaskikot, Ligligkot and the archaeology of hill power.",
+        "slug": "ghale-forts"
+      }
+    ]
+  },
+  "ne": {
+    "eyebrow": "सङ्ग्रह ०३ · मातृभूमि",
+    "title": "हामीले घर भन्ने ठाउँहरू",
+    "intro": "अन्नपूर्ण, लमजुङ र मनाङका मुनि गाउँ, उपत्यका र भूदृश्य।",
+    "lead": "सम्झने भूमि।",
+    "body": [
+      "गुरुङ मातृभूमि मध्य नेपालका पहाडभर फैलिएको छ — कास्की, लमजुङ, गोर्खा, स्याङ्जा, तनहुँ र मनाङमध्येका जिल्लाहरूमा — अन्नपूर्ण हिमालमुनिका पाखो उपत्यकादेखि उत्तरका उच्च चरन र तिब्बत जोड्ने बाटोसम्म। यो एउटै भूदृश्य होइन: तलका उपत्यकामा सिँचाइ हुने धान, बीचका पाखोमा कोदो र मकै, माथि फापर र जौ, र हिउँरेखासम्म पुग्ने चरन।",
+      "ढुङ्गाका घर, पाखो खेत र उच्च चरनले जीवनशैली घडाएका छन्, जो अहिले पर्यटन, बसाइँसराइ र नयाँ सडकसँग बदलिँदै छ। गोठालो, खेती र भञ्ज्याङ हुँदै सामान बोक्ने पुरानो अर्थतन्त्र धेरै हदसम्म रेमिट्यान्स, पदयात्रा र सहरको कामले प्रतिस्थापन गरेको छ, र वर्षभर ठूला घरपरिवार बस्ने गाउँमा अहिले वृद्ध दम्पती मात्र भेटिन सक्छन्। सँगै, तीर्थाटन, संरक्षण क्षेत्र र सामुदायिक होमस्टेले केही ठाउँलाई नयाँ आर्थिक कारण दिएका छन्।",
+      "जग्गा सम्झना पनि हो। ठाउँका नामले पुर्ख्यौली बस्ती, क्ले-क्षेत्र, देवालय र घटना रेकर्ड गर्छन्; प्ये पाठले नाम भएका भञ्ज्याङ र नदी हुँदैको बाटो वर्णन गर्छ; र कोह्लाजस्ता स्थललाई समुदायले आफू छरिएर गएको ठाउँका रूपमा दाबी गर्छ। त्यसैले नयाँ सडक, जलविद्युत् आयोजना वा पदयात्रा मार्ग जग्गाको विवाद मात्र होइन, इतिहासको विवाद पनि बन्न सक्छ।"
+    ],
+    "themes": [
+      {
+        "title": "घान्द्रुक",
+        "text": "सम्पदा, पर्यटन र सामुदायिक जीवनबीच सन्तुलन राख्ने हिमाली गाउँ।",
+        "slug": "ghandruk"
+      },
+      {
+        "title": "लमजुङ",
+        "text": "गुरुङ गाउँ, पहाडी राज्य र पाखो उपत्यकाको पुरानो हृदयभूमि।",
+        "slug": "lamjung"
+      },
+      {
+        "title": "मनाङ",
+        "text": "उच्च उपत्यकामा छिमेकी र साझा भूदृश्य।",
+        "slug": "manang"
+      },
+      {
+        "title": "सिक्लेस",
+        "text": "भाषा-अभिलेख र पुर्ख्यौली सम्बन्ध भएको जीवित गाउँ।",
+        "slug": "sikles"
+      },
+      {
+        "title": "खेत र चरन",
+        "text": "पाखो बाली, मौसमी गोठालो र गाउँको जीविकापछाडिका सम्बन्ध।",
+        "slug": "terraces-and-crops"
+      },
+      {
+        "title": "संरक्षण र पर्यटन",
+        "text": "अन्नपूर्ण संरक्षण क्षेत्रले वन, बाटो र जीविका कसरी जोड्यो।",
+        "slug": "annapurna-conservation"
+      },
+      {
+        "title": "बदलिँदा गाउँहरू",
+        "text": "गाउँ संस्था र पोखरामा दैनिक अपनत्व।",
+        "slug": "pokhara-village-associations"
+      },
+      {
+        "title": "ढोरपाटन र उच्च चरन",
+        "text": "गोठालो, ऊन र अहिले उपत्यका नियमन गर्ने आरक्ष।",
+        "slug": "dhorpatan-herding"
+      },
+      {
+        "title": "डाँडाका किल्ला",
+        "text": "कास्कीकोट, लिगलिगकोट र पहाडी शक्तिको पुरातत्त्व।",
+        "slug": "ghale-forts"
+      }
+    ]
+  }
+}

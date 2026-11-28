@@ -4,6 +4,7 @@ import { getMedia } from "@/data/media";
 import type { TopicKey } from "@/data/topics";
 import { getArticle, getTopic } from "@/i18n/content";
 import { useLocale, useUi } from "@/i18n";
+import { localizeMedia } from "@/i18n/media-ne";
 import { InlineArticle } from "./InlineArticle";
 import { ReadingLayout } from "./ReadingLayout";
 import { AppLink } from "./AppLink";
@@ -12,7 +13,8 @@ export function TopicPage({ topicKey }: { topicKey: TopicKey }) {
   const locale = useLocale();
   const ui = useUi();
   const topic = getTopic(locale, topicKey);
-  const photo = topic.image ? getMedia(topic.image) : undefined;
+  const item = topic.image ? getMedia(topic.image) : undefined;
+  const photo = item ? localizeMedia(item, locale) : undefined;
   const list = articles
     .filter((a) => topic.categories.includes(a.category))
     .map((a) => getArticle(a, locale));
