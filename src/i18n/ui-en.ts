@@ -6,7 +6,7 @@
 export const en = {
   brand: { small: "A LIVING HERITAGE" },
   nav: {
-    journey: "The Journey",
+    journey: "The book",
     timeline: "Timeline",
     history: "History",
     language: "Language",
@@ -40,7 +40,7 @@ export const en = {
     explore: "Explore",
     project: "The project",
     touch: "Stay in touch",
-    journey: "The Journey",
+    journey: "The book",
     timeline: "Timeline",
     library: "Knowledge library",
     archive: "The Archive",
@@ -107,9 +107,14 @@ export const en = {
   },
   topic: {
     readChapter: "Read this chapter",
+    readArticle: "Read this article",
     inCollection: "In this collection",
+    themesTitle: "Themes in this collection",
     chaptersTitle: "Chapters in this collection",
-    bookNote: "These chapters also appear in the book, in reading order.",
+    bookChaptersTitle: "Chapters of the book",
+    moreInLibrary: "More from the library",
+    bookNote:
+      "Numbered chapters appear in the book, in reading order. The rest are library articles you can read on their own.",
   },
   library: {
     eyebrow: "TAMU · CONNECTED KNOWLEDGE",
@@ -142,7 +147,7 @@ export const en = {
     startEyebrow: "NEW HERE? START HERE",
     startTitle: "Read the archive as one story",
     startIntro:
-      "The library is a path, not a shelf. These opening chapters follow the Tamu story from the first written records to the villages and festivals of the present, and each one picks up where the last left off.",
+      "The archive is a shelf; the book is the path. These opening chapters follow the Tamu story from the first written records to the villages and festivals of the present, and each one picks up where the last left off.",
     startCta: "Begin with the first chapter",
     foundIn: "Found in",
   },
@@ -162,6 +167,12 @@ export const en = {
     matchMany: "passages",
     nextEyebrow: "WHERE THE STORY GOES NEXT",
     readNext: "Read the next chapter",
+    endEyebrow: "THE BOOK ENDS HERE",
+    endTitle: "You have reached the end of the book",
+    endText:
+      "All 22 chapters, from the first written record to the Tamu communities beyond the mountains.",
+    backToContents: "Back to the contents",
+    browseLibrary: "Browse the library",
     references: "References",
     transparency: "Research transparency",
     lastReviewed: "Last reviewed:",
@@ -729,7 +740,7 @@ Anything else:
       description: "Gurung communities in Britain, Hong Kong, the United States, India and beyond.",
     },
     journey: {
-      title: "The Journey",
+      title: "The book",
       description:
         "The Gurung story as one book in seven parts — from the first written record to the villages, festivals and families of today.",
     },

@@ -17,6 +17,8 @@ export function ArticleCard({
   const locale = useLocale();
   const item = a.image ? getMedia(a.image) : undefined;
   const photo = item ? localizeMedia(item, locale) : undefined;
+  const words = a.sections.reduce((n, s) => n + s.text.split(/\s+/).filter(Boolean).length, 0);
+  const minutes = Math.max(2, Math.round(words / 220));
   return (
     <AppLink
       to="/library/$slug"
@@ -45,7 +47,9 @@ export function ArticleCard({
         {match && <p className="card-match">{match}</p>}
         <div className="card-meta">
           {a.evidence}
-          <span>{ui.common.readTime}</span>
+          <span>
+            {minutes} {ui.article.minuteRead}
+          </span>
         </div>
       </div>
     </AppLink>

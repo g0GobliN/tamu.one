@@ -12,9 +12,9 @@ sources:
   - pettigrew
   - mumford
 titleEn: Pachyu & Ghyabre: keepers of ritual knowledge
-summaryEn: An introduction grounded in particular studies, with respect for regional terminology and sacred knowledge.
+summaryEn: Pachyu and ghyabre (also written klyepri) are the Gurung ritual specialists who conduct funeral and healing rites. An introduction grounded in particular studies, with respect for regional terminology and sacred knowledge.
 titleNe: पाच्यु र घ्याब्रे: कर्मकाण्डी ज्ञानका रक्षक
-summaryNe: विशेष अध्ययनमा आधारित परिचय, क्षेत्रीय शब्दावली र पवित्र ज्ञानप्रति सम्मानसहित।
+summaryNe: पाच्यु र घ्याब्रे (क्ल्येप्री पनि लेखिन्छ) गुरुङ कर्मकाण्डी विशेषज्ञ हुन्, जसले अन्त्येष्टि र उपचारका विधि गराउँछन्। विशेष अध्ययनमा आधारित परिचय, क्षेत्रीय शब्दावली र पवित्र ज्ञानप्रति सम्मानसहित।
 ---
 
 ## [en] Names across sources
@@ -43,7 +43,9 @@ The presence of a ritual description in a scholarly publication does not mean th
 
 ## [en] Becoming a specialist
 
-Pachyu and klyepri knowledge is not taught in schools and cannot be learned from a book. A future specialist is usually recognised by an elder, sometimes after an illness, a dream or an unusual aptitude, and is then trained over years through apprenticeship. The training includes memorising long texts, learning the ritual sequence for each kind of crisis, mastering the drum and the invocations, and understanding the taboos and restrictions that keep the knowledge effective. Some traditions require a formal initiation; others treat the first successful performance as the moment of recognition. Specialists often combine the role with farming, herding or a trade, because payment for ritual work is modest and irregular. Their number is falling, and the death of a senior specialist can take an irreplaceable corpus with it.
+Pachyu and klyepri knowledge is not taught in schools and cannot be learned from a book. A future specialist is usually recognised by an elder, sometimes after an illness, a dream or an unusual aptitude, and is then trained over years through apprenticeship. The training includes memorising long texts, learning the ritual sequence for each kind of crisis, mastering the drum and the invocations, and understanding the taboos and restrictions that keep the knowledge effective.
+
+Some traditions require a formal initiation; others treat the first successful performance as the moment of recognition. Specialists often combine the role with farming, herding or a trade, because payment for ritual work is modest and irregular. Their number is falling, and the death of a senior specialist can take an irreplaceable corpus with it.
 
 ## [ne] विशेषज्ञ कसरी बनिन्छ
 
@@ -55,11 +57,15 @@ The Tamu ritual world is populated by more than one kind of being. There are anc
 
 ## [ne] मालिक, पुर्खा र आत्माको संसार
 
-तामु कर्मकाण्डी संसारमा एकभन्दा बढी किसिमका सत्ता छन्। पुर्खा छन्, जसको उचित व्यवहार पारिवारिक कल्याणको जग हो; जग्गा, पानी, वन र भञ्ज्याङका स्थानीय मालिक वा रक्षक छन्, जसलाई मानिसले घर बनाउँदा, जङ्गल फाँड्दा वा बाटो तर्दा सम्झनुपर्छ; रोग वा अमंगल ल्याउन सक्ने आत्मा छन्; र गाउँअनुसार नाम र स्थान फरक पर्ने उच्च देवता छन्। विशेषज्ञको काम ती सत्तालाई “हराउनु” विरलै हो। कुन कुरा बिग्रियो, कसलाई के तिर्न बाँकी छ, र अर्पण, पाठ र बलिले सम्बन्ध कसरी पुनर्स्थापित गर्ने भन्ने पत्ता लगाउनु हो। यो रहस्यमयजत्तिकै कारोबारी र कानुनी ब्रह्माण्ड पनि हो, र विधिको भाषा मोलमोलाईले भरिएको छ।
+तामु कर्मकाण्डी संसारमा एकभन्दा बढी किसिमका सत्ता छन्। पुर्खा छन्, जसको उचित व्यवहार पारिवारिक कल्याणको जग हो; जग्गा, पानी, वन र भञ्ज्याङका स्थानीय मालिक वा रक्षक छन्, जसलाई मानिसले घर बनाउँदा, जङ्गल फाँड्दा वा बाटो तर्दा सम्झनुपर्छ; रोग वा अमंगल ल्याउन सक्ने आत्मा छन्; र गाउँअनुसार नाम र स्थान फरक पर्ने उच्च देवता छन्।
+
+विशेषज्ञको काम ती सत्तालाई “हराउनु” विरलै हो। कुन कुरा बिग्रियो, कसलाई के तिर्न बाँकी छ, र अर्पण, पाठ र बलिले सम्बन्ध कसरी पुनर्स्थापित गर्ने भन्ने पत्ता लगाउनु हो। यो रहस्यमयजत्तिकै कारोबारी र कानुनी ब्रह्माण्ड पनि हो, र विधिको भाषा मोलमोलाईले भरिएको छ।
 
 ## [en] A healing session
 
-A typical healing session begins with the family’s account of the problem: illness that has not responded, a run of bad luck, a disturbed dream, a child who will not thrive. The specialist may divine the cause by examining rice, by consulting the dead, or by entering a state in which the patient’s condition is diagnosed. Once a cause is named, the treatment is prescribed: an offering of a particular animal or food, a recitation, a ritual bath, a change in household practice, or a larger ceremony involving relatives. The drum is used both to call the relevant beings and to carry the specialist’s voice into the other world. Sessions can last hours and may be repeated, and their success is judged by whether the situation changes.
+A typical healing session begins with the family’s account of the problem: illness that has not responded, a run of bad luck, a disturbed dream, a child who will not thrive. The specialist may divine the cause by examining rice, by consulting the dead, or by entering a state in which the patient’s condition is diagnosed.
+
+Once a cause is named, the treatment is prescribed: an offering of a particular animal or food, a recitation, a ritual bath, a change in household practice, or a larger ceremony involving relatives. The drum is used both to call the relevant beings and to carry the specialist’s voice into the other world. Sessions can last hours and may be repeated, and their success is judged by whether the situation changes.
 
 ## [ne] उपचारको एउटा सत्र
 

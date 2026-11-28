@@ -54,7 +54,9 @@ Large public Lhosar events in cities such as Kathmandu, Pokhara and London are f
 
 ## [en] Counting age by barga
 
-Because years are counted in a twelve-year cycle, a person’s age is traditionally expressed through the lho of their birth and the number of cycles completed. An elder may say that someone was born in the year of the cat and has seen four lohokor, rather than giving a number. This system is not a substitute for arithmetic; it is a way of placing a person in time that also places them in relation to the calendar’s qualities. Some families consult the birth lho when choosing a marriage partner, naming a child or deciding when to begin a journey, and lamas may be asked to perform rites for people whose year is considered difficult. Modern records use dates, but the barga has not disappeared from family conversation.
+Because years are counted in a twelve-year cycle, a person’s age is traditionally expressed through the lho of their birth and the number of cycles completed. An elder may say that someone was born in the year of the cat and has seen four lohokor, rather than giving a number. This system is not a substitute for arithmetic; it is a way of placing a person in time that also places them in relation to the calendar’s qualities.
+
+Some families consult the birth lho when choosing a marriage partner, naming a child or deciding when to begin a journey, and lamas may be asked to perform rites for people whose year is considered difficult. Modern records use dates, but the barga has not disappeared from family conversation.
 
 ## [ne] बर्गाअनुसार उमेर गन्ने
 

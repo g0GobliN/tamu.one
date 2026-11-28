@@ -83,7 +83,9 @@ Tamu Kyi has never developed in isolation. Centuries of contact with Tibetan-spe
 
 ## [en] What is lost when a language is lost
 
-A language is not only a list of words for things that could be named in another language. It is a system of distinctions. Tamu Kyi encodes kinship relationships that Nepali collapses, distinguishes plants and landscape features that outsiders treat as one category, and carries ritual formulae whose meaning depends on archaic vocabulary. When a language stops being spoken, those distinctions do not transfer intact; they are replaced by the categories of the dominant language. This is why elders often say that certain things cannot really be explained in Nepali. It is also why language loss is a heritage problem and not only a communication problem: the knowledge held by pachyu and klyepri is stored in a language, and a translation is always an interpretation.
+A language is not only a list of words for things that could be named in another language. It is a system of distinctions. Tamu Kyi encodes kinship relationships that Nepali collapses, distinguishes plants and landscape features that outsiders treat as one category, and carries ritual formulae whose meaning depends on archaic vocabulary. When a language stops being spoken, those distinctions do not transfer intact; they are replaced by the categories of the dominant language.
+
+This is why elders often say that certain things cannot really be explained in Nepali. It is also why language loss is a heritage problem and not only a communication problem: the knowledge held by pachyu and klyepri is stored in a language, and a translation is always an interpretation.
 
 ## [ne] भाषा हराउँदा के हराउँछ
 

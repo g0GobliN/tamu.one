@@ -344,6 +344,22 @@ export function ArticlePage({ slug }: { slug: string }) {
           </div>
         </div>
 
+        {place && !next && (
+          <div className="next-chapter end-of-book">
+            <span className="eyebrow">{ui.article.endEyebrow}</span>
+            <h2>{ui.article.endTitle}</h2>
+            <p>{ui.article.endText}</p>
+            <div className="end-of-book-links">
+              <AppLink to="/journey" className="text-link">
+                {ui.article.backToContents} <ArrowUpRight size={16} />
+              </AppLink>
+              <AppLink to="/library" className="text-link">
+                {ui.article.browseLibrary} <ArrowUpRight size={16} />
+              </AppLink>
+            </div>
+          </div>
+        )}
+
         {next && (
           <AppLink to="/library/$slug" params={{ slug: next.slug }} className="next-chapter">
             <span className="eyebrow">{ui.article.nextEyebrow}</span>
