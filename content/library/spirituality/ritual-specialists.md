@@ -19,7 +19,9 @@ summaryNe: पाच्यु र घ्याब्रे (क्ल्ये�
 
 ## [en] Names across sources
 
-Pettigrew writes pachyu and klehbri; Mumford writes Ghyabre and Paju. Terminology varies between publications and communities, and these spellings are kept with the sources that use them rather than combined into an invented standard vocabulary. Different names, but the work described is the same kind of work.
+The first difficulty in writing about Tamu ritual specialists is their names. Pettigrew writes pachyu and klehbri; Mumford writes Ghyabre and Paju. A third spelling appears in community publications, a fourth in an older ethnography, and each is correct in the place it comes from.
+
+Terminology varies between publications and communities, and these spellings are kept with the sources that use them rather than combined into an invented standard vocabulary. The caution is not fussiness. A standardised spelling looks authoritative and can quietly erase the fact that these are regional traditions with regional names, and the differences are part of what the reader needs to know. Different names, but the work described is the same kind of work.
 
 ## [ne] स्रोतअनुसारका नाम
 
@@ -27,7 +29,9 @@ Pettigrew ले pachyu र klehbri लेख्छिन्; Mumford ले Ghy
 
 ## [en] Guidance and sacred geography
 
-A Pachyu funeral in Pettigrew's account is also a journey across a landscape: the chant names the places the soul must pass. Mumford examines a Ghyabre death rite in Tapje, and together the two studies introduce ritual guidance, ancestral geography and relationships with the dead without establishing a rigid division of duties that applies everywhere.
+A Pachyu funeral in Pettigrew's account is also a journey across a landscape: the chant names the places the soul must pass. The route is not decorative. It is a map of the community's world — the ridges, rivers, passes and settlements that lie between a dying house and the land of the ancestors — and it is recited so that the soul can find its way.
+
+Mumford examines a Ghyabre death rite in Tapje, and together the two studies introduce ritual guidance, ancestral geography and relationships with the dead without establishing a rigid division of duties that applies everywhere. In one village the specialist who chants the route may also divine and heal; in another those tasks belong to different people. What is constant is the function: someone must know the way, and someone must be authorised to say it.
 
 ## [ne] मार्गदर्शन र पवित्र भूगोल
 
@@ -37,7 +41,7 @@ Pettigrew को विवरणमा पाच्युको अन्त्�
 
 A description in a scholarly publication is not a licence. That every recording, chant or ceremony is open for unrestricted display does not follow from the fact that a researcher wrote about it, and this introduction publishes no sacred performance recordings or private ritual texts.
 
-What can be described is the people who hold that knowledge.
+The distinction matters in both directions. An archive that reproduces everything it can find may preserve a text and take it away from the people who hold it; an archive that publishes nothing leaves the knowledge undocumented and vulnerable to being lost with its last practitioner. This book's position is to describe what the rites are for, who performs them and how they work, and to leave the words themselves with the specialists. What can be described is the people who hold that knowledge.
 
 ## [ne] सार्वजनिक ज्ञान र अनुमति
 
@@ -47,7 +51,9 @@ What can be described is the people who hold that knowledge.
 
 ## [en] Becoming a specialist
 
-Nobody learns this from a book. Pachyu and klyepri knowledge is not taught in schools; a future specialist is usually recognised by an elder, sometimes after an illness, a dream or an unusual aptitude, and is then trained over years through apprenticeship. The training means memorising long texts, learning the ritual sequence for each kind of crisis, mastering the drum and the invocations, and understanding the taboos that keep the knowledge effective. Some traditions require a formal initiation; others treat the first successful performance as the moment of recognition. Specialists often combine the role with farming, herding or a trade, because payment for ritual work is modest and irregular, and their number is falling: the death of a senior specialist can take an irreplaceable corpus with it.
+Nobody learns this from a book. Pachyu and klyepri knowledge is not taught in schools; a future specialist is usually recognised by an elder, sometimes after an illness, a dream or an unusual aptitude, and is then trained over years through apprenticeship.
+
+The training means memorising long texts, learning the ritual sequence for each kind of crisis, mastering the drum and the invocations, and understanding the taboos that keep the knowledge effective. Some traditions require a formal initiation; others treat the first successful performance as the moment of recognition. Specialists often combine the role with farming, herding or a trade, because payment for ritual work is modest and irregular, and their number is falling: the death of a senior specialist can take an irreplaceable corpus with it. A chant that took forty years to learn has no backup copy, and no one may have been trained to replace it.
 
 ## [ne] विशेषज्ञ कसरी बनिन्छ
 
@@ -55,7 +61,9 @@ Nobody learns this from a book. Pachyu and klyepri knowledge is not taught in sc
 
 ## [en] A world of owners, ancestors and spirits
 
-The Tamu ritual world is crowded. There are ancestors, whose proper treatment is the foundation of family well-being; local owners or guardians of land, water, forests and passes, who must be acknowledged when people build, clear or cross; spirits capable of causing illness or misfortune; and high deities whose names and ranks vary between villages. The specialist's task is rarely to defeat these beings but to establish what has been disturbed, who is owed what, and how the relationship can be restored through offering, recitation and sacrifice. This is a transactional and legalistic universe as much as a mystical one, and the language of the rites is full of negotiation.
+The Tamu ritual world is crowded. There are ancestors, whose proper treatment is the foundation of family well-being; local owners or guardians of land, water, forests and passes, who must be acknowledged when people build, clear or cross; spirits capable of causing illness or misfortune; and high deities whose names and ranks vary between villages.
+
+The specialist's task is rarely to defeat these beings but to establish what has been disturbed, who is owed what, and how the relationship can be restored through offering, recitation and sacrifice. A landslide that takes a field, a fever that will not break, a bride who cannot settle in her husband's house — each is a case to be heard, with a plaintiff, a defendant and a remedy. This is a transactional and legalistic universe as much as a mystical one, and the language of the rites is full of negotiation.
 
 ## [ne] मालिक, पुर्खा र आत्माको संसार
 
@@ -63,7 +71,9 @@ The Tamu ritual world is crowded. There are ancestors, whose proper treatment is
 
 ## [en] A healing session
 
-A session begins with the family's account: illness that has not responded, a run of bad luck, a disturbed dream, a child who will not thrive. The specialist may divine the cause by examining rice, by consulting the dead, or by entering a state in which the patient's condition is diagnosed. Once a cause is named, the treatment is prescribed — an offering of a particular animal or food, a recitation, a ritual bath, a change in household practice, or a larger ceremony involving relatives — and the drum is used both to call the relevant beings and to carry the specialist's voice into the other world. Sessions can last hours, may be repeated, and are judged by whether the situation changes.
+A session begins with the family's account: illness that has not responded, a run of bad luck, a disturbed dream, a child who will not thrive. The specialist may divine the cause by examining rice, by consulting the dead, or by entering a state in which the patient's condition is diagnosed.
+
+Once a cause is named, the treatment is prescribed — an offering of a particular animal or food, a recitation, a ritual bath, a change in household practice, or a larger ceremony involving relatives — and the drum is used both to call the relevant beings and to carry the specialist's voice into the other world. Sessions can last hours, may be repeated, and are judged by whether the situation changes. A rite that fails is not the end of the relationship; the specialist is called again, and the second diagnosis is often more specific than the first.
 
 ## [ne] उपचारको एउटा सत्र
 
@@ -71,9 +81,9 @@ A session begins with the family's account: illness that has not responded, a ru
 
 ## [en] Payment, secrecy and respect
 
-Ritual knowledge is property as well as vocation. Specialists are paid, though the fee is often modest and may be supplemented by food, cloth or labour, and some texts are considered too sacred to be performed outside the proper context. That creates a genuine tension for archives: publishing a text can preserve it and can also remove it from the control of the people who hold it. The position this library takes is to describe the existence and purpose of the rites, to name the specialists and their roles, and not to reproduce ritual formulae or step-by-step instructions. Anyone who wants the knowledge itself should seek out a specialist, with the respect and reciprocity the relationship requires.
+Ritual knowledge is property as well as vocation. Specialists are paid, though the fee is often modest and may be supplemented by food, cloth or labour, and some texts are considered too sacred to be performed outside the proper context.
 
-The largest of those rites has a chapter of its own.
+That creates a genuine tension for archives: publishing a text can preserve it and can also remove it from the control of the people who hold it. The position this library takes is to describe the existence and purpose of the rites, to name the specialists and their roles, and not to reproduce ritual formulae or step-by-step instructions. Anyone who wants the knowledge itself should seek out a specialist, with the respect and reciprocity the relationship requires. The largest of those rites has a chapter of its own.
 
 ## [ne] पारिश्रमिक, गोपनीयता र सम्मान
 

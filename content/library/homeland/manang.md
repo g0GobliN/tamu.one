@@ -19,7 +19,9 @@ summaryNe: मनाङको उत्तरी भेग, ग्यासु�
 
 ## [en] Starting with a situated account
 
-Mumford's study of a Gurung death rite describes Tapje in Gyasumdo, Manang. Gurung residents share the region with Tibetan communities, which makes the account a particular example of relationships across religious and linguistic traditions rather than a description of Manang as a whole.
+Mumford's study of a Gurung death rite describes Tapje in Gyasumdo, Manang. The account follows a funeral — the preparations, the specialists, the offerings, the days of ritual — and in doing so it shows how a household's most private crisis is also a public performance of belonging.
+
+Gurung residents share the region with Tibetan communities, which makes the account a particular example of relationships across religious and linguistic traditions rather than a description of Manang as a whole. A funeral in Gyasumdo is a funeral in Gyasumdo; it is not a template for the district, let alone for the community.
 
 ## [ne] स्थानीय विवरणबाट सुरु
 
@@ -27,9 +29,9 @@ Mumford को गुरुङ मृत्यु-विधिसम्बन्
 
 ## [en] Connections without sameness
 
-His description includes relationships with Ghyabre and Paju practitioners and the occasional participation of Tibetan lamas in household religious life. Shared landscapes and ritual connections do not make all local communities culturally identical.
+His description includes relationships with Ghyabre and Paju practitioners and the occasional participation of Tibetan lamas in household religious life. The same family may call a shaman for one rite and a lama for another, and the choice is not a contradiction but a division of labour between specialists with different mandates.
 
-Holding that distinction is what keeps a village study from turning into a regional claim.
+Shared landscapes and ritual connections do not make all local communities culturally identical. Holding that distinction is what keeps a village study from turning into a regional claim, and it is also what makes the detail interesting: the mixture is the finding, not an impurity in the data.
 
 ## [ne] एकरूपता बिनाका सम्बन्ध
 
@@ -39,7 +41,9 @@ Holding that distinction is what keeps a village study from turning into a regio
 
 ## [en] Avoiding a regional shortcut
 
-One village study cannot establish that all of Manang is Gurung. Future profiles need their own documentation of settlement, local identity, language and livelihood rather than extrapolating a single ethnography to an entire district. The district is, in any case, more mixed than its reputation suggests.
+One village study cannot establish that all of Manang is Gurung. Future profiles need their own documentation of settlement, local identity, language and livelihood rather than extrapolating a single ethnography to an entire district.
+
+The district is, in any case, more mixed than its reputation suggests. Trekking posters present Manang as a single place with a single culture, and the reality is a set of valleys whose villages differ in language, in monastic affiliation and in how they bury their dead. Avoiding a regional shortcut is not pedantry; it is the difference between describing a place and advertising it.
 
 ## [ne] क्षेत्रीय छोटो बाटोबाट बच्ने
 
@@ -47,7 +51,9 @@ One village study cannot establish that all of Manang is Gurung. Future profiles
 
 ## [en] Who lives there
 
-Manang is often described as a Gurung area, and Gurung families are indeed part of its population, but the district is ethnically and linguistically complex. Manangis, Ghale, Gurung, Tibetan and other groups live in the high valleys of the Marsyangdi, and the old trade routes to Tibet shaped settlement, architecture and marriage long before trekking arrived. Mumford's work in Gyasumdo, on the northern edge of the Gurung area, described a society in which Tibetan Buddhist monasticism and Gurung shamanic practice existed in the same households. Any account that treats Manang as simply "Gurung" or simply "Tibetan" loses the mixture that makes the region interesting.
+Manang is often described as a Gurung area, and Gurung families are indeed part of its population, but the district is ethnically and linguistically complex. Manangis, Ghale, Gurung, Tibetan and other groups live in the high valleys of the Marsyangdi, and the old trade routes to Tibet shaped settlement, architecture and marriage long before trekking arrived.
+
+Mumford's work in Gyasumdo, on the northern edge of the Gurung area, described a society in which Tibetan Buddhist monasticism and Gurung shamanic practice existed in the same households. That arrangement is not confusion; it is a working division between two systems that answer different questions. Any account that treats Manang as simply "Gurung" or simply "Tibetan" loses the mixture that makes the region interesting.
 
 ## [ne] त्यहाँ को बस्छ
 
@@ -55,9 +61,9 @@ Manang is often described as a Gurung area, and Gurung families are indeed part 
 
 ## [en] Trade, pilgrimage and change
 
-The Manang valley was a corridor for salt, grain, wool and pilgrims moving between Nepal and Tibet, and its families were traders as much as farmers. The closure of the border in the 1960s, the growth of trekking from the 1970s, the Annapurna circuit and later the road have each transformed the valley's economy. Many Manangi families now live in Kathmandu or abroad and return for festivals and business, and the villages contain both empty traditional houses and new hotels. The old trans-Himalayan world that produced the valley's wealth has gone, but its architecture, its monasteries and its family networks remain as evidence of it.
+The Manang valley was a corridor for salt, grain, wool and pilgrims moving between Nepal and Tibet, and its families were traders as much as farmers. Wealth came down from the plateau and went into houses, monasteries and marriages, and a Manangi family's standing could depend on a route rather than on a field.
 
-From two very different settlements, the book turns to the year the community celebrates together.
+The closure of the border in the 1960s, the growth of trekking from the 1970s, the Annapurna circuit and later the road have each transformed the valley's economy. Many Manangi families now live in Kathmandu or abroad and return for festivals and business, and the villages contain both empty traditional houses and new hotels. The old trans-Himalayan world that produced the valley's wealth has gone, but its architecture, its monasteries and its family networks remain as evidence of it. From two very different settlements, the book turns to the year the community celebrates together.
 
 ## [ne] व्यापार, तीर्थाटन र परिवर्तन
 

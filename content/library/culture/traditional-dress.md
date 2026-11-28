@@ -26,9 +26,9 @@ summaryNe: मखमली चोली, रातो र फिरोजी ग
 
 ## [en] Clothing, occasion and local variation
 
-At Lhosar, in a wedding photograph or on a stage, Gurung dress is instantly recognisable — but there is no single uniform all Tamu wear. The older guide records substantial change in fabrics and everyday clothing, while the Los Angeles Gurung (Tamu) Society presents a community description of ceremonial dress, and the two sources have different purposes and periods. Local names, colours, available cloth and family preferences vary, so a present-day outfit should not be treated as an exact replica of one historical description.
+At Lhosar, in a wedding photograph or on a stage, Gurung dress is instantly recognisable — but there is no single uniform all Tamu wear. The older guide records substantial change in fabrics and everyday clothing, while the Los Angeles Gurung (Tamu) Society presents a community description of ceremonial dress, and the two sources have different purposes and periods.
 
-Start with what a woman actually puts on.
+That gap is the honest starting point. A guide written decades ago describes what people wore then, in the villages its author knew; a community society in California describes what its members wear now, on occasions they choose. Local names, colours, available cloth and family preferences vary, so a present-day outfit should not be treated as an exact replica of one historical description. Start with what a woman actually puts on.
 
 ## [ne] पोसाक, अवसर र स्थानीय भिन्नता
 
@@ -38,7 +38,9 @@ Start with what a woman actually puts on.
 
 ## [en] Women’s garments and jewellery
 
-A full outfit is built in layers: a skirt, a high-necked velvet blouse, a waist wrapping, a velvet cloth over the shoulder and a head cloth. The guide distinguishes a wider pleated traditional skirt from purchased lungi cloth, and mentions gold ornaments and turquoise or other semi-precious necklaces associated with trade and town markets. Garment names need care: ghalek or ghalek-type terms should not be assumed to mean the blouse in every account, since they can refer to a shoulder wrapping. Where terminology needs local verification, this chapter identifies clothing by its function.
+A full outfit is built in layers: a skirt, a high-necked velvet blouse, a waist wrapping, a velvet cloth over the shoulder and a head cloth. Put on in that order, the layers are also a sequence of constraint and display — the skirt and waist wrap hold the body, the blouse and shoulder cloth carry the colour, the head cloth finishes the silhouette.
+
+The guide distinguishes a wider pleated traditional skirt from purchased lungi cloth, and mentions gold ornaments and turquoise or other semi-precious necklaces associated with trade and town markets. Garment names need care: ghalek or ghalek-type terms should not be assumed to mean the blouse in every account, since they can refer to a shoulder wrapping. Where terminology needs local verification, this chapter identifies clothing by its function rather than pretending to a fixed glossary.
 
 ## [ne] महिलाका पोसाक र गहना
 
@@ -46,7 +48,9 @@ A full outfit is built in layers: a skirt, a high-necked velvet blouse, a waist 
 
 ## [en] The bhangra and men’s clothing
 
-The bhangra is the carrying cloth, or back-sack arrangement, that crosses the chest and hangs open at the back. Older descriptions connect carrying garments with woven nettle fibre, alongside a waist wrap, shirt and Nepali cap, and contemporary ceremonial bhangra may use white purchased fabric. Its practical role matters: a familiar festival form grew out of carrying needs, not simply decoration. A khukuri or cap in an outfit is not proof of military service, nor an object every Gurung man must wear.
+The bhangra is the carrying cloth, or back-sack arrangement, that crosses the chest and hangs open at the back. Older descriptions connect carrying garments with woven nettle fibre, alongside a waist wrap, shirt and Nepali cap, and contemporary ceremonial bhangra may use white purchased fabric.
+
+Its practical role matters: a familiar festival form grew out of carrying needs, not simply decoration. A man crossing a valley with a load of grain or a child on his back needed a cloth that would hold and release quickly, and the shape survived the load. The same caution applies to the accessories: a khukuri or cap in an outfit is not proof of military service, nor an object every Gurung man must wear.
 
 ## [ne] भाङ्ग्रा र पुरुषको पोसाक
 
@@ -54,7 +58,9 @@ The bhangra is the carrying cloth, or back-sack arrangement, that crosses the ch
 
 ## [en] Materials tell another history
 
-Look closely at an old garment and the material tells a second history. Harrison and Macfarlane document backstrap weaving and the processing of nettle fibre, while the guide discusses local wool and later imported cotton and wool. Some household textiles were woven at home; others — cotton cloth, imported wool, ready-made garments — were bought from bazaars and later from shops. As materials changed, familiar forms stayed meaningful. Without examining the fibre or knowing the maker, a photograph cannot establish whether an item is handwoven nettle, wool, cotton or a modern substitute.
+Look closely at an old garment and the material tells a second history. Harrison and Macfarlane document backstrap weaving and the processing of nettle fibre, while the guide discusses local wool and later imported cotton and wool.
+
+Some household textiles were woven at home; others — cotton cloth, imported wool, ready-made garments — were bought from bazaars and later from shops. A single outfit may combine both: a home-woven skirt with a blouse of imported velvet, nettle fibre next to chemical dye. As materials changed, familiar forms stayed meaningful, which is how clothing survives an economy. Without examining the fibre or knowing the maker, a photograph cannot establish whether an item is handwoven nettle, wool, cotton or a modern substitute.
 
 ## [ne] सामग्रीले अर्को इतिहास बताउँछ
 
@@ -62,7 +68,9 @@ Look closely at an old garment and the material tells a second history. Harrison
 
 ## [en] Dress as a living choice
 
-The older accounts include young people wearing changing styles and women combining different garments, which should not be reduced to a story that modern clothing destroys identity. Ceremonial dress can communicate belonging even when everyday life uses other clothes, and inherited jewellery may hold family memories beyond its appearance. A detailed catalogue would need a named owner or maker, region, date, garment term and permission, rather than treating one photograph as a national standard.
+The older accounts include young people wearing changing styles and women combining different garments, which should not be reduced to a story that modern clothing destroys identity. A girl in a school uniform and a grandmother in a full ceremonial set are both wearing what their lives require.
+
+Ceremonial dress can communicate belonging even when everyday life uses other clothes, and inherited jewellery may hold family memories beyond its appearance — a grandmother's necklace is an heirloom before it is an ornament. A detailed catalogue would need a named owner or maker, region, date, garment term and permission, rather than treating one photograph as a national standard.
 
 ## [ne] पोसाक जीवित छनोटका रूपमा
 
@@ -70,7 +78,9 @@ The older accounts include young people wearing changing styles and women combin
 
 ## [en] Cloth, wealth and the loom
 
-Dress was also an economic system. Women wove on backstrap looms, turning nettle fibre, sheep's wool and imported cotton into cloth for household use and exchange. The ornaments worn at festivals — coral, turquoise, gold and silver — represented family wealth in a form that could be displayed, inherited and, in hard times, sold. A woman's jewellery was often her own property, distinct from her husband's land, and could serve as savings or insurance. When men left for military service, the ornaments they sent home became visible evidence of remittance income, so the style and quantity of jewellery in a village photograph records migration as well as taste.
+Dress was also an economic system. Women wove on backstrap looms, turning nettle fibre, sheep's wool and imported cotton into cloth for household use and exchange. The ornaments worn at festivals — coral, turquoise, gold and silver — represented family wealth in a form that could be displayed, inherited and, in hard times, sold.
+
+A woman's jewellery was often her own property, distinct from her husband's land, and could serve as savings or insurance. That is a significant fact about power inside a household: wealth a woman could carry, wear and dispose of was wealth she controlled. When men left for military service, the ornaments they sent home became visible evidence of remittance income, so the style and quantity of jewellery in a village photograph records migration as well as taste.
 
 ## [ne] कपडा, सम्पत्ति र तान
 
@@ -78,9 +88,9 @@ Dress was also an economic system. Women wove on backstrap looms, turning nettle
 
 ## [en] Dressing abroad
 
-In the diaspora, traditional dress has become both rarer and more deliberate. Few families own a full set of everyday village clothing, and the elaborate ornaments are usually reserved for weddings and Lhosar. Second-generation children may wear a simplified ghalek or a waistcoat for a school cultural day, and community organisations keep sets of costumes to lend for performances. Dress is no longer what people wear but what they choose to wear to show belonging, which makes it more visible and more self-conscious, and raises practical questions about authenticity, cost and the risk of turning a living tradition into a costume.
+In the diaspora, traditional dress has become both rarer and more deliberate. Few families own a full set of everyday village clothing, and the elaborate ornaments are usually reserved for weddings and Lhosar. Second-generation children may wear a simplified ghalek or a waistcoat for a school cultural day, and community organisations keep sets of costumes to lend for performances.
 
-The next chapter goes to the people who conduct the rites such dress is worn for.
+Dress is no longer what people wear but what they choose to wear to show belonging, which makes it more visible and more self-conscious, and raises practical questions about authenticity, cost and the risk of turning a living tradition into a costume. The next chapter goes to the people who conduct the rites such dress is worn for.
 
 ## [ne] विदेशमा पोसाक
 

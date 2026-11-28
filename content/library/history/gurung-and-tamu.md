@@ -20,9 +20,9 @@ summaryNe: भाषा, परिवार, भूदृश्य र समु
 
 ## [en] Two names, many experiences
 
-Judith Pettigrew, writing about Tamu ritual life, settles the two names into a single phrase: Tamu (Gurung). The brackets are the argument. Gurung and Tamu appear side by side in scholarly writing because both are true, and turning them into a story of one name replacing another on a known date loses what the pairing records. Self-identification is shaped by personal experience, local usage and the settings in which people describe themselves.
+Judith Pettigrew, writing about Tamu ritual life, settles the two names into a single phrase: Tamu (Gurung). The brackets are the argument. Anyone who has filled in a Nepali form and then stood in a ritual, or introduced themselves in Kathmandu and then in a village, has lived the reason they exist: the state knows one name, the rites know another, and neither is a mistake.
 
-The rest of this chapter follows that looseness rather than fighting it.
+Gurung belongs to Nepali and, through Nepali, to English. Tamu belongs to the community's own speech, to its organisations and increasingly to public life. The two have coexisted long enough that treating them as a succession — one replacing the other on a known date — loses the point. People describe themselves according to where they are, who is asking and what the paper in front of them requires, and the same person can be Gurung at the ward office and Tamu at a Lhosar committee without feeling any contradiction.
 
 ## [ne] दुई नाम, धेरै अनुभव
 
@@ -32,9 +32,9 @@ The rest of this chapter follows that looseness rather than fighting it.
 
 ## [en] Belonging in a changing world
 
-In Britain, Florence Gurung studied how religious practice and community institutions take part in ethnic belonging. Family connections, ancestral places, language and ritual all matter, but not in the same combination for everyone. People who share a name do not necessarily share religious commitments or everyday cultural habits, and belonging turns out to survive on thinner threads than outsiders expect.
+Belonging survives distance, but not unchanged. In Britain, Florence Gurung studied how religious practice and community institutions take part in ethnic belonging, and what she found is less tidy than a list of customs. Family connections, ancestral places, language and ritual all matter, yet not in the same combination for every household. People who share a name may keep different festivals, speak different languages at home, and disagree about what a Tamu organisation is for.
 
-Reading the names correctly, then, means keeping two questions apart: what a word means on paper, and what it means to the person filling in the paper.
+That looseness is not a failure of identity. It is what identity looks like when it is carried by people rather than stored in a definition, and it is why this book says "many" where it could say "the".
 
 ## [ne] बदलिँदो संसारमा अपनत्व
 
@@ -44,7 +44,7 @@ Reading the names correctly, then, means keeping two questions apart: what a wor
 
 ## [en] A note on interpretation
 
-This introduction does not propose one universal model of Tamu identity. Community accounts and historical records are read alongside one another here, with attention to region, generation and the context in which an ethnic name is used. Where those sources disagree, the disagreement is left visible instead of being smoothed away.
+This introduction does not propose one universal model of Tamu identity, and it would be dishonest to pretend that one exists. Community accounts and historical records are read alongside each other here, with attention to region, generation and the situation in which an ethnic name is used. A family in Lamjung, a family in Rushmoor and a family in Sikkim may share a clan and disagree about almost everything else. Where the sources disagree, the disagreement stays visible rather than being smoothed into a sentence that pleases everyone.
 
 The first disagreement is the name itself.
 
@@ -56,9 +56,9 @@ The first disagreement is the name itself.
 
 ## [en] Where the name Gurung comes from
 
-The name on a citizenship certificate is Gurung. The name spoken in a ritual is Tamu. Gurung is not the community's own name for itself; it belongs to Nepali and, through Nepali, to English, and its origin is disputed. Some accounts derive it from a place name, some from an occupational or clan label, some from the way neighbouring peoples described the community. Folk etymologies are plentiful and none is firmly established. Tamu, by contrast, is the name used in ritual, in the names of organisations and, increasingly, in public life.
+The name on a citizenship certificate is Gurung. The name spoken in a ritual is Tamu. Gurung is not the community's own name for itself: it belongs to Nepali and, through Nepali, to English, and its origin is disputed. Some accounts derive it from a place, some from an occupation or a clan label, some from the way neighbouring peoples described the community. Folk etymologies are plentiful, and none is firmly established.
 
-Two names have coexisted for a long time. That is what a people does when it deals with states, armies and neighbours in one language while speaking to itself in another.
+Tamu has a different kind of life. It is the name used in ritual, in the names of organisations and, increasingly, in public life, and it carries the sense of a people speaking to itself. Two names have coexisted for a long time, which is what happens when a people deals with states, armies and neighbours in one language while speaking to itself in another. The double life is not a recent invention; it is the oldest thing about the names.
 
 ## [ne] गुरुङ नाम कहाँबाट आयो
 
@@ -68,9 +68,9 @@ Two names have coexisted for a long time. That is what a people does when it dea
 
 ## [en] Tamu in the census and in the movement
 
-Official Nepal uses Gurung as the census category, and the 2021 census form recorded Gurung identity and the Gurung language under that name. Since the 1990s, however, many organisations have preferred Tamu, and some activists have campaigned for the official name to change or for Tamu to be recognised alongside Gurung. The argument is partly about self-definition and partly about the state's power to name. In practice both terms are used: a government office will say Gurung, a community council may say Tamu, and the same person may use either depending on the form they are filling in.
+Official Nepal uses Gurung as the census category, and the 2021 census form recorded Gurung identity and the Gurung language under that name. Since the 1990s, however, many organisations have preferred Tamu, and some activists have campaigned for the official name to change or for Tamu to be recognised alongside Gurung. The argument is partly about self-definition and partly about the state's power to name: who decides what a community is called in the records that allocate rights?
 
-Ethnic labels, in other words, are negotiated rather than fixed — and the negotiation does not stop at the border.
+In practice both terms are used. A government office will say Gurung, a community council may say Tamu, and the same person may use either depending on the form they are filling in. Ethnic labels, in other words, are negotiated rather than fixed — and the negotiation does not stop at the border.
 
 ## [ne] जनगणना र आन्दोलनमा तामु
 
@@ -80,9 +80,9 @@ Ethnic labels, in other words, are negotiated rather than fixed — and the nego
 
 ## [en] Names in a diaspora
 
-A family that arrives in Britain or the United States must fit its names into passport systems, school registers and payroll databases, which often have no field for a clan and no patience for spelling variation. Gurung becomes a surname even when it was a category; clan names move to middle names or disappear; children are given names that work in English and Nepali at once. Some parents deliberately choose Tamu names to mark identity, and community organisations encourage the correct spelling of clan names in directories and memorials. Naming is one of the quiet ways in which a diaspora both loses and asserts its heritage.
+A family that arrives in Britain or the United States must fit its names into passport systems, school registers and payroll databases, which often have no field for a clan and no patience for spelling variation. Gurung becomes a surname even when it was a category; clan names move to middle names or disappear; children are given names that work in English and Nepali at once.
 
-What those surnames carry is the subject of the next chapter.
+Some parents go the other way and choose Tamu names deliberately, and community organisations press for the correct spelling of clan names in directories and on memorials. Naming is one of the quiet places where a diaspora both loses and asserts its heritage — and what those surnames carry is the subject of the next chapter.
 
 ## [ne] प्रवासमा नामहरू
 

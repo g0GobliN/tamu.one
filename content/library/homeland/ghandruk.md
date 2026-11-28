@@ -20,9 +20,9 @@ summaryNe: ढुङ्गाका घर, बदलिँदो जीवि�
 
 ## [en] A place, not a universal model
 
-Ghandruk offers a setting for exploring Gurung heritage alongside contemporary livelihoods, and it is a good setting precisely because it is unusual. Its landscape and architecture should not stand in for every Gurung village; community practices and opportunities differ across valleys and regions.
+Ghandruk offers a setting for exploring Gurung heritage alongside contemporary livelihoods, and it is a good setting precisely because it is unusual. The village sits high on a ridge with Annapurna South in view, it has been photographed for a century, it receives tens of thousands of trekkers, and it has produced soldiers, guides and migrant workers in numbers that a remoter village has not.
 
-Two studies of the village show how much a careful local account can carry.
+All of which means its landscape and architecture should not stand in for every Gurung village. Community practices and opportunities differ across valleys and regions, and a village on a trekking route is a poor guide to one four days' walk from the nearest road. Two studies of Ghandruk show how much a careful local account can carry, and also how much it leaves out.
 
 ## [ne] ठाउँ, सार्वभौमिक ढाँचा होइन
 
@@ -32,7 +32,9 @@ Two studies of the village show how much a careful local account can carry.
 
 ## [en] Tourism and conservation
 
-Adhikari and Fischer's 2011 study examines tourism, forestry and household livelihoods in two wards of Ghandruk. It identifies benefits for livelihoods and conservation while acknowledging environmental and sociocultural trade-offs, and the scope of that household research remains important when interpreting its conclusions: two wards are not a district, and a good season is not a decade.
+Adhikari and Fischer's 2011 study examines tourism, forestry and household livelihoods in two wards of Ghandruk. It identifies benefits for livelihoods and conservation while acknowledging environmental and sociocultural trade-offs: income from lodges, pressure on firewood and water, new committees managing what the forest department once managed alone, and the uneven way a good season reaches different households.
+
+The scope of that household research remains important when interpreting its conclusions. Two wards are not a district, and a good season is not a decade. What the study shows is how a village negotiates a new economy without dissolving, which is more interesting than either of the stories usually told about trekking.
 
 ## [ne] पर्यटन र संरक्षण
 
@@ -40,9 +42,9 @@ Adhikari र Fischer को सन् २०११ को अध्ययनल�
 
 ## [en] Culture in everyday life
 
-Panta's 2023 study of Rodhi adds a locally grounded discussion of cultural transformation. Read together, the two studies resist presenting tourism either as an uncomplicated rescue of heritage or as the sole cause of cultural change.
+Panta's 2023 study of Rodhi adds a locally grounded discussion of cultural transformation. Rodhi, the institution young people once used to meet, sing and court, has changed with the village: it is performed for visitors, remembered by elders, and sometimes revived by associations that want to keep the song tradition alive.
 
-To see why, it helps to know what the village was before the lodges.
+Read together, the two studies resist presenting tourism either as an uncomplicated rescue of heritage or as the sole cause of cultural change. Ghandruk's culture is not a display that tourism switched on, nor a victim it switched off; it is a working set of practices that people adapt as their livelihoods change. To see why, it helps to know what the village was before the lodges.
 
 ## [ne] दैनिक जीवनमा संस्कृति
 
@@ -52,9 +54,9 @@ Panta को सन् २०२३ को रोदी अध्ययनले
 
 ## [en] Before the lodges
 
-For most of its history Ghandruk was a Gurung farming and herding settlement on a ridge below Annapurna South: terraced fields, stone houses, communal labour and seasonal movement to the high pastures. Men served in the Gurkha regiments and sent money home; women managed households and fields; trade routes connected the village to Pokhara and the north. The village's clans, its Rodhi, its festivals and its death rites structured social life, and the surrounding forest supplied fuel, fodder and building material.
+For most of its history Ghandruk was a Gurung farming and herding settlement on a ridge below Annapurna South: terraced fields, stone houses, communal labour and seasonal movement to the high pastures. Men served in the Gurkha regiments and sent money home; women managed households and fields; trade routes connected the village to Pokhara and the north.
 
-The photographs that made Ghandruk famous in the 1970s show a working village, not a heritage site.
+The village's clans, its Rodhi, its festivals and its death rites structured social life, and the surrounding forest supplied fuel, fodder and building material. Labour was exchanged rather than hired, and a household's standing depended on how well it kept its obligations — to ancestors, to shrines, to neighbours. The photographs that made Ghandruk famous in the 1970s show a working village, not a heritage site.
 
 ## [ne] लजअघि
 
@@ -64,9 +66,9 @@ The photographs that made Ghandruk famous in the 1970s show a working village, n
 
 ## [en] A village as a heritage brand
 
-Tourism changed the village's economy and its self-image. Lodges, tea houses and homestays replaced some farm work; the Annapurna Conservation Area brought rules, fees and committees; and the village became a stop on a route travelled by tens of thousands of trekkers each year. Ghandruk now presents its culture to visitors through museums, cultural programmes, dress and dance, and it benefits from the income and attention. The risk is that the version of Gurung life most visible to outsiders is the performed one, while the ordinary work of farming, herding and ritual continues behind it, less photographed and less understood.
+Tourism changed the village's economy and its self-image. Lodges, tea houses and homestays replaced some farm work; the Annapurna Conservation Area brought rules, fees and committees; and the village became a stop on a route travelled by tens of thousands of trekkers each year.
 
-The village is not a museum, even when it is displayed as one — and the next chapter visits a valley where the display is older and the mixture stranger.
+Ghandruk now presents its culture to visitors through museums, cultural programmes, dress and dance, and it benefits from the income and attention. The risk is that the version of Gurung life most visible to outsiders is the performed one, while the ordinary work of farming, herding and ritual continues behind it, less photographed and less understood. The village is not a museum, even when it is displayed as one — and the next chapter visits a valley where the display is older and the mixture stranger.
 
 ## [ne] सम्पदा-ब्रान्ड बनेको गाउँ
 

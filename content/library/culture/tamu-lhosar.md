@@ -22,9 +22,9 @@ summaryNe: हरेक वर्ष पुष १५ गते नेपाल 
 
 ## [en] When it is celebrated
 
-Tamu Lhosar falls on the fifteenth day of the Nepali month of Poush, which usually lands at the end of December. The Nepal Tourism Board calls it the community's most vibrant cultural anchor, and Nepal observes it as a public holiday, which tells you how far a village new year has travelled.
+By the middle of the Nepali month of Poush the mornings in the hills have a hard, clean cold, and the kitchens begin to fill with food that is not cooked on ordinary days. Tamu Lhosar falls on the fifteenth day of that month, which usually lands at the end of December, and it is the new year of the Tamu calendar.
 
-The date is fixed by a calendar older than the holiday.
+The Nepal Tourism Board calls it the community's most vibrant cultural anchor, and Nepal observes it as a public holiday, which tells you how far a village new year has travelled: from a date kept by elders and lamas to a day when offices close and ministers give speeches. Both of those things are now true at once, and the chapter has to hold them together. The date itself is fixed by a calendar older than the holiday.
 
 ## [ne] कहिले मनाइन्छ
 
@@ -34,7 +34,9 @@ The date is fixed by a calendar older than the holiday.
 
 ## [en] A twelve-year cycle
 
-The Tamu calendar counts years in a twelve-year cycle called the lohokor, as the neighbouring Himalayan peoples do. Each year carries an animal: the garuda (eagle), serpent, horse, sheep, monkey, bird, dog, deer, mouse, cow, tiger and cat. The exact names and their order differ between communities, which is worth remembering before any list is treated as the standard one.
+The Tamu calendar counts years in a twelve-year cycle called the lohokor, as the neighbouring Himalayan peoples do. Each year carries an animal: the garuda (eagle), serpent, horse, sheep, monkey, bird, dog, deer, mouse, cow, tiger and cat.
+
+A cycle of twelve is a practical way of keeping time without writing: everyone knows which animal year they were born in, and a person's age can be calculated by counting cycles. It also does something a linear calendar does not, because the same animal returns every twelve years and gathers a generation around it — people speak of "the year the cat came round" as a shared marker. The exact names and their order differ between communities, which is worth remembering before any list is treated as the standard one.
 
 ## [ne] बाह्र वर्षे चक्र
 
@@ -44,7 +46,7 @@ The Tamu calendar counts years in a twelve-year cycle called the lohokor, as the
 
 Around the day, families visit relatives, cook festive food and wear traditional dress. In towns and cities, community organisations hold public gatherings with songs, speeches and dances such as Ghatu and Sorathi. For many people living abroad, Lhosar has become the main occasion to meet other Gurungs and to pass traditions on to children.
 
-That public form is younger than the feast itself.
+The shape of the day differs with the distance from home. In a village, the fifteenth is a round of household visits, offerings and a meal that takes a day to prepare. In Kathmandu or Pokhara, it is a rented ground, a stage, amplified music and a queue of invited guests. In London or Los Angeles, it is a hall booked months in advance, a programme of speeches and dances rehearsed by children who learned the steps at home. The public form is younger than the feast itself, and that difference is the next question.
 
 ## [ne] कसरी मनाइन्छ
 
@@ -56,7 +58,7 @@ That public form is younger than the feast itself.
 
 The large public Lhosar events in Kathmandu, Pokhara and London are fairly recent. They grew alongside indigenous-rights and community movements from the late twentieth century onward, and village observances and urban festivals now sit side by side, each place celebrating in its own way.
 
-The calendar also does something quieter: it counts people.
+That growth is not a corruption of an older rite, and it is not simply a revival either. A public festival does work that a household observance cannot: it puts the community in a hall, in front of officials and cameras, and it gives second-generation children a reason to learn a dance and a language they might otherwise lose. What it cannot do is replace the household rite, which is where the year is actually turned. The calendar also does something quieter than either: it counts people.
 
 ## [ne] पुरानो चलन वा नयाँ भेला?
 
@@ -66,7 +68,9 @@ The calendar also does something quieter: it counts people.
 
 ## [en] Counting age by barga
 
-Because years run in a twelve-year cycle, age is traditionally expressed through the lho of a person's birth and the number of cycles completed. An elder may say that someone was born in the year of the cat and has seen four lohokor rather than give a number: not a substitute for arithmetic but a way of placing a person in time. Families consult the birth lho when choosing a marriage partner, naming a child or beginning a journey, and lamas may be asked to perform rites for people whose year is considered difficult. Modern records use dates, but the barga has not disappeared from family conversation.
+Because years run in a twelve-year cycle, age is traditionally expressed through the lho of a person's birth and the number of cycles completed. An elder may say that someone was born in the year of the cat and has seen four lohokor rather than give a number: not a substitute for arithmetic but a way of placing a person in time.
+
+The birth year is not only a label. Families consult the birth lho when choosing a marriage partner, naming a child or beginning a journey, and lamas may be asked to perform rites for people whose year is considered difficult — the year that returns to one's own animal, or a year that clashes with it. Modern records use dates, and a passport states a birthday to the day, but the barga has not disappeared from family conversation. Parents still know their children's animals; grandparents still count in cycles.
 
 ## [ne] बर्गाअनुसार उमेर गन्ने
 
@@ -74,9 +78,9 @@ Because years run in a twelve-year cycle, age is traditionally expressed through
 
 ## [en] From village rite to public holiday
 
-Lhosar became a national public holiday in Nepal in 2002, the same period in which the Gurung were formally listed as an indigenous nationality. What had been a household and village observance, fixed by the lunar calendar and led by elders and lamas, became also a stage event with speeches, cultural programmes, awards and political guests. In Kathmandu and Pokhara, committees rent grounds and invite officials; abroad, associations book halls and coordinate with schools and employers. The ritual core — blessings, offerings, prayer flags, the family meal — has not disappeared, but it now competes for time with the microphone, and organisers debate how to keep the two in balance.
+Lhosar became a national public holiday in Nepal in 2002, the same period in which the Gurung were formally listed as an indigenous nationality. The timing is not a coincidence: recognition as an indigenous nationality and recognition of a festival were two parts of the same argument about belonging in the Nepali state.
 
-The dress worn on that stage carries its own history.
+What had been a household and village observance, fixed by the lunar calendar and led by elders and lamas, became also a stage event with speeches, cultural programmes, awards and political guests. In Kathmandu and Pokhara, committees rent grounds and invite officials; abroad, associations book halls and coordinate with schools and employers. The ritual core — blessings, offerings, prayer flags, the family meal — has not disappeared, but it now competes for time with the microphone, and organisers debate how to keep the two in balance. The dress worn on that stage carries its own history.
 
 ## [ne] गाउँको विधिबाट सार्वजनिक बिदासम्म
 
