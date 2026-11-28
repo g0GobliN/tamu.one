@@ -1,11 +1,21 @@
-import { ArrowLeft, ArrowRight, ArrowUpRight, Check, Clock, Link2, Search, X } from "lucide-react";
-import { useEffect, useMemo, useState } from "react";
+import {
+  ArrowLeft,
+  ArrowRight,
+  ArrowUpRight,
+  Check,
+  ChevronDown,
+  Clock,
+  Link2,
+  Search,
+  X,
+} from "lucide-react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { getArticleBySlug, getArticles } from "@/i18n/content";
 import { useLocale, useUi } from "@/i18n";
 import { sources } from "@/data/heritage";
 import { getMedia } from "@/data/media";
-import { bookPlace, bookSlugs } from "@/data/book";
+import { bookParts, bookPlace, bookSlugs } from "@/data/book";
 import { localizeMedia } from "@/i18n/media-ne";
 import { ArticleCard } from "./ArticleCard";
 import { AppLink } from "./AppLink";
@@ -110,10 +120,33 @@ export function ArticlePage({ slug }: { slug: string }) {
   const [copied, setCopied] = useState(false);
   const [query, setQuery] = useState("");
   const [progress, setProgress] = useState(0);
+  const [pickerOpen, setPickerOpen] = useState(false);
+  const pickerRef = useRef<HTMLDivElement>(null);
+  const pickerButtonRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
     setQuery("");
+    setPickerOpen(false);
   }, [slug]);
+
+  // The chapter list closes the way a menu should: outside click, or Escape back to its button.
+  useEffect(() => {
+    if (!pickerOpen) return;
+    const closeOnPointerDown = (event: PointerEvent) => {
+      if (!pickerRef.current?.contains(event.target as Node)) setPickerOpen(false);
+    };
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key !== "Escape") return;
+      setPickerOpen(false);
+      pickerButtonRef.current?.focus();
+    };
+    document.addEventListener("pointerdown", closeOnPointerDown);
+    document.addEventListener("keydown", closeOnEscape);
+    return () => {
+      document.removeEventListener("pointerdown", closeOnPointerDown);
+      document.removeEventListener("keydown", closeOnEscape);
+    };
+  }, [pickerOpen]);
 
   useEffect(() => {
     const onScroll = () => {
@@ -183,9 +216,51 @@ export function ArticlePage({ slug }: { slug: string }) {
           <p className="reading-lead">{a.summary}</p>
           <div className="reading-meta">
             {place && (
-              <span className="chapter-number">
-                {ui.article.chapter} {String(place.chapter).padStart(2, "0")} / {place.total}
-              </span>
+              <div className="chapter-picker" ref={pickerRef}>
+                <button
+                  ref={pickerButtonRef}
+                  type="button"
+                  className="chapter-number"
+                  aria-expanded={pickerOpen}
+                  aria-haspopup="true"
+                  onClick={() => setPickerOpen((open) => !open)}
+                >
+                  {ui.article.chapter} {String(place.chapter).padStart(2, "0")} / {place.total}
+                  <ChevronDown size={13} aria-hidden="true" />
+                </button>
+                {pickerOpen && (
+                  <nav className="chapter-picker-menu" aria-label={ui.article.chapterPicker}>
+                    {bookParts.map((part, partIndex) => (
+                      <div key={part.key} className="chapter-picker-group">
+                        <span className="eyebrow">
+                          {ui.book.partWord} {partIndex + 1} · {ui.book.parts[part.key].title}
+                        </span>
+                        <ol>
+                          {part.slugs.map((chapterSlug) => {
+                            const chapter = getArticleBySlug(chapterSlug, locale);
+                            if (!chapter) return null;
+                            return (
+                              <li key={chapterSlug}>
+                                <AppLink
+                                  to="/library/$slug"
+                                  params={{ slug: chapterSlug }}
+                                  aria-current={chapterSlug === a.slug ? "page" : undefined}
+                                  onClick={() => setPickerOpen(false)}
+                                >
+                                  <span className="chapter-picker-number">
+                                    {String(bookSlugs.indexOf(chapterSlug) + 1).padStart(2, "0")}
+                                  </span>
+                                  {chapter.title}
+                                </AppLink>
+                              </li>
+                            );
+                          })}
+                        </ol>
+                      </div>
+                    ))}
+                  </nav>
+                )}
+              </div>
             )}
             <span>
               <Clock size={15} /> {minutes} {ui.article.minuteRead}
