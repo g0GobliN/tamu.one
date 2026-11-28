@@ -22,50 +22,64 @@ summaryNe: हरेक वर्ष पुष १५ गते नेपाल 
 
 ## [en] When it is celebrated
 
-Tamu Lhosar falls on the 15th day of the Nepali month of Poush, which usually lands at the end of December. The Nepal Tourism Board describes it as the community’s most vibrant cultural anchor, and it is observed as a public holiday in Nepal.
+Tamu Lhosar falls on the fifteenth day of the Nepali month of Poush, which usually lands at the end of December. The Nepal Tourism Board calls it the community's most vibrant cultural anchor, and Nepal observes it as a public holiday, which tells you how far a village new year has travelled.
+
+The date is fixed by a calendar older than the holiday.
 
 ## [ne] कहिले मनाइन्छ
 
-तामु ल्होसार नेपाली पुष महिनाको १५ गते पर्छ, जुन प्रायः डिसेम्बरको अन्त्यतिर आउँछ। नेपाल पर्यटन बोर्डले यसलाई समुदायको सबैभन्दा जीवन्त सांस्कृतिक आधार भन्छ, र नेपालमा यो सार्वजनिक बिदा हो।
+तामु ल्होसार नेपाली पुष महिनाको पन्ध्रौँ दिनमा पर्छ, जुन प्रायः डिसेम्बरको अन्त्यमा आउँछ। नेपाल पर्यटन बोर्डले यसलाई समुदायको सबैभन्दा जीवन्त सांस्कृतिक आधार भन्छ, र नेपालले यसलाई सार्वजनिक बिदाका रूपमा मनाउँछ — गाउँको नयाँ वर्ष कति टाढा पुग्यो भन्ने त्यसैबाट थाहा हुन्छ।
+
+मिति भने बिदाभन्दा पुरानो पात्रोले तय गर्छ।
 
 ## [en] A twelve-year cycle
 
-Like the Lhosars of neighbouring Himalayan peoples, the Tamu calendar counts years in a twelve-year cycle called the lohokor. Each year is linked to an animal, such as the garuda (eagle), serpent, horse, sheep, monkey, bird, dog, deer, mouse, cow, tiger and cat. The exact names and order can differ between communities.
+The Tamu calendar counts years in a twelve-year cycle called the lohokor, as the neighbouring Himalayan peoples do. Each year carries an animal: the garuda (eagle), serpent, horse, sheep, monkey, bird, dog, deer, mouse, cow, tiger and cat. The exact names and their order differ between communities, which is worth remembering before any list is treated as the standard one.
 
 ## [ne] बाह्र वर्षे चक्र
 
-छिमेकी हिमाली जनताका ल्होसारजस्तै, तामु पात्रोले वर्षलाई लोहोकोर भनिने बाह्र वर्षे चक्रमा गन्छ। हरेक वर्ष कुनै जनावरसँग जोडिन्छ, जस्तै गरुड, सर्प, घोडा, भेडा, बाँदर, चरा, कुकुर, मृग, मुसा, गाई, बाघ र बिरालो। ठ्याक्कै नाम र क्रम समुदायअनुसार फरक पर्न सक्छ।
+तामु पात्रोले छिमेकी हिमाली जनताले जस्तै ल्होकोर भनिने बाह्र वर्षे चक्रमा वर्ष गन्दछ। हरेक वर्षको एउटा जनावर हुन्छ: गरुड, नाग, घोडा, भेडा, बाँदर, चरा, कुकुर, मृग, मुसा, गाई, बाघ र बिरालो। ठ्याक्कै नाम र क्रम समुदायअनुसार फरक पर्छ, र कुनै सूचीलाई मानक मान्नुअघि यो सम्झनु आवश्यक छ।
 
 ## [en] How people celebrate
 
-Families visit relatives, cook festive food and wear traditional dress. In towns and cities, community organisations hold public gatherings with songs, speeches and dances such as Ghatu and Sorathi. For many people living abroad, Lhosar has become one of the main occasions to meet other Gurungs and pass traditions on to children.
+Around the day, families visit relatives, cook festive food and wear traditional dress. In towns and cities, community organisations hold public gatherings with songs, speeches and dances such as Ghatu and Sorathi. For many people living abroad, Lhosar has become the main occasion to meet other Gurungs and to pass traditions on to children.
+
+That public form is younger than the feast itself.
 
 ## [ne] कसरी मनाइन्छ
 
-परिवारले नातेदार भेट्न जान्छन्, चाडपर्वको खाना पकाउँछन् र परम्परागत पोसाक लगाउँछन्। सहरमा सामुदायिक संस्थाले गीत, भाषण र घाटु तथा सोरठीजस्ता नृत्यसहित सार्वजनिक कार्यक्रम गर्छन्। विदेशमा बस्ने धेरैका लागि ल्होसार अरू गुरुङ भेट्ने र बालबालिकालाई परम्परा सिकाउने मुख्य अवसर बनेको छ।
+त्यो दिनको वरिपरि परिवारले नातेदार भेट्न जान्छन्, चाडपर्वको खाना पकाउँछन् र परम्परागत पोसाक लगाउँछन्। सहरमा सामुदायिक संस्थाले गीत, भाषण र घाटु तथा सोरठीजस्ता नाचसहित सार्वजनिक कार्यक्रम गर्छन्। विदेशमा बस्ने धेरैका लागि ल्होसार अरू गुरुङ भेट्ने र परम्परा बालबालिकालाई सार्ने मुख्य अवसर बनेको छ।
+
+त्यो सार्वजनिक रूप चाड आफैँभन्दा नयाँ हो।
 
 ## [en] Old custom or new gathering?
 
-Large public Lhosar events in cities such as Kathmandu, Pokhara and London are fairly recent. They grew alongside indigenous-rights and community movements from the late twentieth century onward. Village observances and urban festivals sit side by side, and each place may celebrate in its own way.
+The large public Lhosar events in Kathmandu, Pokhara and London are fairly recent. They grew alongside indigenous-rights and community movements from the late twentieth century onward, and village observances and urban festivals now sit side by side, each place celebrating in its own way.
+
+The calendar also does something quieter: it counts people.
 
 ## [ne] पुरानो चलन वा नयाँ भेला?
 
-काठमाडौँ, पोखरा र लन्डनजस्ता सहरमा ठूला सार्वजनिक ल्होसार कार्यक्रम तुलनात्मक रूपमा नयाँ हुन्। ती बीसौँ शताब्दीको उत्तरार्धदेखि आदिवासी अधिकार र सामुदायिक आन्दोलनसँगै बढे। गाउँका अभ्यास र सहरका चाड सँगै छन्, र हरेक ठाउँले आफ्नै तरिकाले मनाउन सक्छ।
+काठमाडौँ, पोखरा र लन्डनका ठूला सार्वजनिक ल्होसार कार्यक्रम निकै नयाँ हुन्। ती बीसौँ शताब्दीको अन्त्यदेखि आदिवासी अधिकार र सामुदायिक आन्दोलनसँगै बढे, र अहिले गाउँका अभ्यास र सहरका चाड सँगै चल्छन्, हरेक ठाउँले आफ्नै तरिकाले मनाउँदै।
+
+पात्रोले अझ शान्त काम पनि गर्छ: यसले मानिस गन्दछ।
 
 ## [en] Counting age by barga
 
-Because years are counted in a twelve-year cycle, a person’s age is traditionally expressed through the lho of their birth and the number of cycles completed. An elder may say that someone was born in the year of the cat and has seen four lohokor, rather than giving a number. This system is not a substitute for arithmetic; it is a way of placing a person in time that also places them in relation to the calendar’s qualities.
-
-Some families consult the birth lho when choosing a marriage partner, naming a child or deciding when to begin a journey, and lamas may be asked to perform rites for people whose year is considered difficult. Modern records use dates, but the barga has not disappeared from family conversation.
+Because years run in a twelve-year cycle, age is traditionally expressed through the lho of a person's birth and the number of cycles completed. An elder may say that someone was born in the year of the cat and has seen four lohokor rather than give a number: not a substitute for arithmetic but a way of placing a person in time. Families consult the birth lho when choosing a marriage partner, naming a child or beginning a journey, and lamas may be asked to perform rites for people whose year is considered difficult. Modern records use dates, but the barga has not disappeared from family conversation.
 
 ## [ne] बर्गाअनुसार उमेर गन्ने
 
-वर्ष बाह्र वर्षे चक्रमा गनिने हुँदा मानिसको उमेर परम्परागत रूपमा जन्मको ल्हो र पूरा भएका चक्रले व्यक्त गरिन्छ। ज्येष्ठले कोही बिरालोको वर्षमा जन्मेको र चार ल्होकोर देखेको भन्न सक्छन्, सङ्ख्या भनेर होइन। यो व्यवस्था अंकगणितको विकल्प होइन; यो मानिसलाई समयमा राख्ने तरिका हो, जसले उसलाई पात्रोका गुणसँग पनि जोड्छ। केही परिवारले विवाह-साथी छान्दा, बालबालिकाको नाम राख्दा वा यात्रा सुरु गर्दा जन्मको ल्हो हेर्छन्, र कठिन वर्ष मानिएकाका लागि लामालाई विधि गर्न लगाउन सक्छन्। आधुनिक अभिलेखले मिति प्रयोग गर्छ, तर बर्गा पारिवारिक कुराकानीबाट हराएको छैन।
+वर्ष बाह्र वर्षे चक्रमा चल्ने हुँदा उमेर परम्परागत रूपमा जन्मको ल्हो र पूरा भएका चक्रबाट भनिन्छ। ज्येष्ठले कसैलाई बिरालोको वर्षमा जन्मेको र चार ल्होकोर देखेको भन्न सक्छन्, सङ्ख्या दिनुभन्दा; यो अंकगणितको विकल्प होइन, मानिसलाई समयमा राख्ने तरिका हो। परिवारले विवाहको जोडी छान्दा, बच्चाको नाम राख्दा वा यात्रा सुरु गर्दा जन्म ल्हो हेर्छन्, र वर्ष कठिन मानिएका मानिसका लागि लामालाई विधि गर्न भनिन्छ। आधुनिक अभिलेखले मिति प्रयोग गर्छ, तर बर्गा पारिवारिक कुराकानीबाट हराएको छैन।
 
 ## [en] From village rite to public holiday
 
-Lhosar became a national public holiday in Nepal in 2002, the same period in which the Gurung were formally listed as an indigenous nationality. That change transformed the festival’s public life. What had been a household and village observance, fixed by the lunar calendar and led by elders and lamas, became also a stage event with speeches, cultural programmes, awards and political guests. In Kathmandu and Pokhara, committees rent grounds and invite officials; abroad, associations book halls and coordinate with schools and employers. The ritual core — blessings, offerings, prayer flags, the family meal — has not disappeared, but it now competes for time with the microphone, and organisers debate how to keep the two in balance.
+Lhosar became a national public holiday in Nepal in 2002, the same period in which the Gurung were formally listed as an indigenous nationality. What had been a household and village observance, fixed by the lunar calendar and led by elders and lamas, became also a stage event with speeches, cultural programmes, awards and political guests. In Kathmandu and Pokhara, committees rent grounds and invite officials; abroad, associations book halls and coordinate with schools and employers. The ritual core — blessings, offerings, prayer flags, the family meal — has not disappeared, but it now competes for time with the microphone, and organisers debate how to keep the two in balance.
+
+The dress worn on that stage carries its own history.
 
 ## [ne] गाउँको विधिबाट सार्वजनिक बिदासम्म
 
-ल्होसार सन् २००२ मा नेपालमा राष्ट्रिय सार्वजनिक बिदा बन्यो — त्यही अवधिमा गुरुङ औपचारिक रूपमा आदिवासी जनजातिमा सूचीबद्ध भए। त्यो परिवर्तनले चाडको सार्वजनिक जीवन नै बदल्यो। चान्द्र पात्रोले तय गर्ने, ज्येष्ठ र लामाले नेतृत्व गर्ने घरायसी तथा गाउँको अभ्यास पनि भाषण, सांस्कृतिक कार्यक्रम, पुरस्कार र राजनीतिक अतिथि भएको मञ्च-कार्यक्रम बन्यो। काठमाडौँ र पोखरामा समितिले मैदान भाडामा लिएर अधिकारीलाई बोलाउँछन्; विदेशमा संस्थाले हल बुक गरेर विद्यालय र रोजगारदातासँग मिलाउँछन्। विधिको केन्द्र — आशीर्वाद, अर्पण, प्रार्थना-ध्वजा, पारिवारिक भोज — हराएको छैन, तर अब माइकसँग समय बाँड्नुपर्छ, र आयोजक दुवैलाई सन्तुलनमा राख्ने उपायबारे बहस गर्छन्।
+सन् २००२ मा नेपालमा ल्होसार राष्ट्रिय सार्वजनिक बिदा बन्यो, त्यही अवधिमा गुरुङलाई औपचारिक रूपमा आदिवासी जनजातिका रूपमा सूचीबद्ध गरियो। चन्द्र पात्रोले तय गर्ने, ज्येष्ठ र लामाले डोर्‍याउने घर तथा गाउँको अभ्यास पनि भाषण, सांस्कृतिक कार्यक्रम, पुरस्कार र राजनीतिक अतिथि भएको मञ्च-कार्यक्रम बन्यो। काठमाडौँ र पोखरामा समितिले चौर भाडामा लिन्छन् र अधिकारी बोलाउँछन्; विदेशमा संस्थाले हल बुक गर्छन् र विद्यालय तथा रोजगारदातासँग समन्वय गर्छन्। कर्मकाण्डी केन्द्र — आशीर्वाद, चढावा, ध्वजा, पारिवारिक भोज — हराएको छैन, तर अब माइक्रोफोनसँग समयका लागि प्रतिस्पर्धा गर्छ, र आयोजक दुवैलाई सन्तुलनमा राख्ने बहस गर्छन्।
+
+त्यो मञ्चमा लगाइने पोसाकको आफ्नै इतिहास छ।

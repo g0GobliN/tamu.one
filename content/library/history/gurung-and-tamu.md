@@ -20,48 +20,72 @@ summaryNe: भाषा, परिवार, भूदृश्य र समु
 
 ## [en] Two names, many experiences
 
-Gurung and Tamu appear together in scholarly writing, including Judith Pettigrew’s account of Tamu (Gurung) ritual life. Their use should not be reduced to a simple story of one name replacing another on a known date. Self-identification is shaped by personal experience, local usage and the settings in which people describe themselves.
+Judith Pettigrew, writing about Tamu ritual life, settles the two names into a single phrase: Tamu (Gurung). The brackets are the argument. Gurung and Tamu appear side by side in scholarly writing because both are true, and turning them into a story of one name replacing another on a known date loses what the pairing records. Self-identification is shaped by personal experience, local usage and the settings in which people describe themselves.
+
+The rest of this chapter follows that looseness rather than fighting it.
 
 ## [ne] दुई नाम, धेरै अनुभव
 
-गुरुङ र तामु विद्वत्तापूर्ण लेखनमा सँगै देखिन्छन्, जसमा Judith Pettigrew को तामु (गुरुङ) कर्मकाण्डी जीवनको विवरण पनि पर्छ। तिनको प्रयोगलाई कुनै ज्ञात मितिमा एउटा नामले अर्कोलाई प्रतिस्थापन गरेको साधारण कथामा खुम्च्याउन हुँदैन। आत्म-पहिचान व्यक्तिगत अनुभव, स्थानीय प्रयोग र मानिसले आफूलाई वर्णन गर्ने परिवेशले घडाउँछ।
+तामु कर्मकाण्डी जीवनबारे लेख्ने Judith Pettigrew ले दुई नामलाई एउटै वाक्यांशमा राख्छिन्: तामु (गुरुङ)। कोष्ठकभित्रको कुरा नै सारा तर्क हो। गुरुङ र तामु विद्वत्तापूर्ण लेखनमा सँगै देखिन्छन् किनकि दुवै सत्य हुन्; कुनै ज्ञात मितिमा एउटा नामले अर्कोलाई प्रतिस्थापन गरेको कथा बनाउँदा यो जोडीले बचाउने कुरा हराउँछ। मानिस आफूलाई कहाँ छन्, कसले सोधिरहेको छ र अगाडि भएको फारमले के माग्छ भन्नेअनुसार वर्णन गर्छन्।
+
+यो अध्याय त्यो खुकुलोपनलाई भत्काउन होइन, बुझ्न लेखिएको हो।
 
 ## [en] Belonging in a changing world
 
-Florence Gurung’s research in Britain examines how religious practice and community institutions participate in ethnic belonging. Family connections, ancestral places, language and ritual can all matter, but people do not necessarily share the same religious commitments or everyday cultural practices.
+In Britain, Florence Gurung studied how religious practice and community institutions take part in ethnic belonging. Family connections, ancestral places, language and ritual all matter, but not in the same combination for everyone. People who share a name do not necessarily share religious commitments or everyday cultural habits, and belonging turns out to survive on thinner threads than outsiders expect.
+
+Reading the names correctly, then, means keeping two questions apart: what a word means on paper, and what it means to the person filling in the paper.
 
 ## [ne] बदलिँदो संसारमा अपनत्व
 
-बेलायतमा Florence Gurung को अनुसन्धानले धार्मिक अभ्यास र सामुदायिक संस्थाहरूले जातीय अपनत्वमा कसरी भाग लिन्छन् हेर्छ। पारिवारिक सम्बन्ध, पुर्ख्यौली ठाउँ, भाषा र कर्मकाण्ड सबै महत्त्वपूर्ण हुन सक्छन्, तर सबैले एउटै धार्मिक प्रतिबद्धता वा दैनिक सांस्कृतिक अभ्यास बाँडेका हुँदैनन्।
+बेलायतमा Florence Gurung ले धार्मिक अभ्यास र सामुदायिक संस्थाहरूले जातीय अपनत्वमा कसरी भाग लिन्छन् भन्ने अध्ययन गरिन्। पारिवारिक सम्बन्ध, पुर्ख्यौली ठाउँ, भाषा र कर्मकाण्ड सबै महत्त्वपूर्ण छन्, तर सबैका लागि एउटै संयोजनमा होइन। एउटै नाम बाँड्ने मानिसहरूले एउटै धार्मिक प्रतिबद्धता वा दैनिक सांस्कृतिक अभ्यास बाँडेका हुँदैनन्, र अपनत्व बाहिरबाट सोचिएभन्दा पातलो धागोमा टिकेको हुन्छ।
+
+नाम ठीकसँग पढ्नु भनेको दुई प्रश्न अलग राख्नु हो: कागजमा शब्दको अर्थ के हो, र कागज भर्ने मानिसका लागि त्यसको अर्थ के हो।
 
 ## [en] A note on interpretation
 
-This introduction does not propose one universal model of Tamu identity. Community accounts and historical records need to be read alongside one another, with attention to region, generation and the context in which an ethnic name is used.
+This introduction does not propose one universal model of Tamu identity. Community accounts and historical records are read alongside one another here, with attention to region, generation and the context in which an ethnic name is used. Where those sources disagree, the disagreement is left visible instead of being smoothed away.
+
+The first disagreement is the name itself.
 
 ## [ne] व्याख्याबारे एउटा टिप्पणी
 
-यो परिचयले तामु पहिचानको एउटै सार्वभौमिक ढाँचा प्रस्ताव गर्दैन। सामुदायिक विवरण र ऐतिहासिक अभिलेखलाई सँगै पढ्नुपर्छ, क्षेत्र, पुस्ता र जातीय नाम प्रयोग हुने परिवेशमा ध्यान दिँदै।
+यो परिचयले तामु पहिचानको एउटै सार्वभौमिक ढाँचा प्रस्ताव गर्दैन। यहाँ सामुदायिक विवरण र ऐतिहासिक अभिलेख सँगै पढिन्छन्, क्षेत्र, पुस्ता र जातीय नाम प्रयोग हुने परिवेशमा ध्यान दिँदै। ती स्रोत असहमत हुँदा असहमति मिलाएर लोप गरिँदैन, देखिने गरी राखिन्छ।
+
+पहिलो असहमति नाम आफैँमा छ।
 
 ## [en] Where the name Gurung comes from
 
-“Gurung” is not the community’s own name for itself. It is the name used in Nepali and, through Nepali, in English, and its origin is disputed. Some accounts derive it from a place name, some from an occupational or clan label, and some from the way neighbouring peoples described the community; folk etymologies are plentiful and none is firmly established. The community’s own name, Tamu, is used in ritual, in the names of organisations and increasingly in public life. The coexistence of two names is not a recent invention: it reflects the double life of a people who have long dealt with states, armies and neighbours in one language while speaking to themselves in another.
+The name on a citizenship certificate is Gurung. The name spoken in a ritual is Tamu. Gurung is not the community's own name for itself; it belongs to Nepali and, through Nepali, to English, and its origin is disputed. Some accounts derive it from a place name, some from an occupational or clan label, some from the way neighbouring peoples described the community. Folk etymologies are plentiful and none is firmly established. Tamu, by contrast, is the name used in ritual, in the names of organisations and, increasingly, in public life.
+
+Two names have coexisted for a long time. That is what a people does when it deals with states, armies and neighbours in one language while speaking to itself in another.
 
 ## [ne] गुरुङ नाम कहाँबाट आयो
 
-“गुरुङ” समुदायको आफ्नै नाम होइन। यो नेपालीमा, र नेपाली हुँदै अङ्ग्रेजीमा प्रयोग हुने नाम हो, र यसको उत्पत्ति विवादित छ। कसैले ठाउँको नामबाट, कसैले पेसा वा क्लेको लेबलबाट, कसैले छिमेकी जनताले समुदायलाई वर्णन गरेको तरिकाबाट व्युत्पन्न भएको भन्छन्; लोक-व्युत्पत्ति धेरै छन् र कुनै पनि पक्का छैन। समुदायको आफ्नै नाम तामु कर्मकाण्ड, संस्थाका नाम र बढ्दो रूपमा सार्वजनिक जीवनमा प्रयोग हुन्छ। दुई नामको सहअस्तित्व नयाँ आविष्कार होइन: यो लामो समयदेखि राज्य, सेना र छिमेकीसँग एउटा भाषामा व्यवहार गर्दै आफूसँग अर्को भाषामा बोल्ने जनताको दोहोरो जीवन प्रतिबिम्बित गर्छ।
+नागरिकतामा लेखिएको नाम गुरुङ हो। कर्मकाण्डमा बोलिने नाम तामु हो। गुरुङ समुदायको आफ्नै नाम होइन; यो नेपालीमा, र नेपाली हुँदै अङ्ग्रेजीमा प्रयोग हुने नाम हो, र यसको उत्पत्ति विवादित छ। कसैले ठाउँको नामबाट, कसैले पेसा वा क्लेको लेबलबाट, कसैले छिमेकी जनताले समुदायलाई वर्णन गरेको तरिकाबाट व्युत्पन्न भएको भन्छन्। लोक-व्युत्पत्ति धेरै छन् र कुनै पनि पक्का छैन। तामु चाहिँ कर्मकाण्डमा, संस्थाका नाममा र बढ्दो रूपमा सार्वजनिक जीवनमा प्रयोग हुन्छ।
+
+दुई नाम लामो समयदेखि सँगै छन्। राज्य, सेना र छिमेकीसँग एउटा भाषामा व्यवहार गर्दै आफूसँग अर्को भाषामा बोल्ने जनताले यही गर्छ।
 
 ## [en] Tamu in the census and in the movement
 
-Official Nepal uses “Gurung” as the census category, and the 2021 census form recorded Gurung identity and the Gurung language under that name. Since the 1990s, however, many organisations have preferred Tamu, and some activists have campaigned for the official name to change or for “Tamu” to be recognised alongside “Gurung”. The argument is partly about self-definition and partly about the state’s power to name. In practice both terms are used: a government office will say Gurung, a community council may say Tamu, and the same person may use either depending on the form they are filling in. The disagreement is a useful reminder that ethnic labels are negotiated, not fixed.
+Official Nepal uses Gurung as the census category, and the 2021 census form recorded Gurung identity and the Gurung language under that name. Since the 1990s, however, many organisations have preferred Tamu, and some activists have campaigned for the official name to change or for Tamu to be recognised alongside Gurung. The argument is partly about self-definition and partly about the state's power to name. In practice both terms are used: a government office will say Gurung, a community council may say Tamu, and the same person may use either depending on the form they are filling in.
+
+Ethnic labels, in other words, are negotiated rather than fixed — and the negotiation does not stop at the border.
 
 ## [ne] जनगणना र आन्दोलनमा तामु
 
-आधिकारिक नेपालले जनगणनाको कोटिका रूपमा “गुरुङ” प्रयोग गर्छ, र २०२१ को फारमले त्यही नाममुनि गुरुङ पहिचान तथा गुरुङ भाषा रेकर्ड गर्‍यो। तर १९९० को दशकदेखि धेरै संस्थाले तामु रुचाएका छन्, र केही कार्यकर्ताले आधिकारिक नाम बदल्न वा “गुरुङ” सँगै “तामु” मान्यता दिन अभियान चलाएका छन्। बहस आत्म-परिभाषा र राज्यको नामकरण गर्ने शक्तिबारे दुवै हो। व्यवहारमा दुवै शब्द प्रयोग हुन्छन्: सरकारी कार्यालयले गुरुङ भन्छ, सामुदायिक परिषद्ले तामु भन्न सक्छ, र एउटै व्यक्तिले भर्ने फारमअनुसार दुवै प्रयोग गर्छ। असहमति याद दिलाउने कुरा हो — जातीय लेबल स्थिर होइन, मोलमोलाई हुन्छ।
+आधिकारिक नेपालले जनगणनाको कोटिका रूपमा गुरुङ प्रयोग गर्छ, र २०२१ को फारमले त्यही नाममुनि गुरुङ पहिचान तथा गुरुङ भाषा रेकर्ड गर्‍यो। तर १९९० को दशकदेखि धेरै संस्थाले तामु रुचाएका छन्, र केही कार्यकर्ताले आधिकारिक नाम बदल्न वा गुरुङसँगै तामु मान्यता दिन अभियान चलाएका छन्। बहस आत्म-परिभाषा र राज्यको नामकरण गर्ने शक्तिबारे दुवै हो। व्यवहारमा दुवै शब्द प्रयोग हुन्छन्: सरकारी कार्यालयले गुरुङ भन्छ, सामुदायिक परिषद्ले तामु भन्न सक्छ, र एउटै व्यक्तिले भर्ने फारमअनुसार दुवै प्रयोग गर्छ।
+
+जातीय लेबल स्थिर होइन, मोलमोलाइ हुन्छ — र त्यो मोलमोलाइ सीमापारि पनि जारी रहन्छ।
 
 ## [en] Names in a diaspora
 
-Migration adds another layer. A family that arrives in Britain or the United States must fit its names into passport systems, school registers and payroll databases, which often have no field for a clan and no patience for spelling variation. “Gurung” becomes a surname even when it was a category; clan names move to middle names or disappear; children are given names that work in English and Nepali at once. At the same time, some parents deliberately choose Tamu names to mark identity, and community organisations encourage the correct spelling of clan names in directories and memorials. Naming is one of the quiet ways in which a diaspora both loses and asserts its heritage.
+A family that arrives in Britain or the United States must fit its names into passport systems, school registers and payroll databases, which often have no field for a clan and no patience for spelling variation. Gurung becomes a surname even when it was a category; clan names move to middle names or disappear; children are given names that work in English and Nepali at once. Some parents deliberately choose Tamu names to mark identity, and community organisations encourage the correct spelling of clan names in directories and memorials. Naming is one of the quiet ways in which a diaspora both loses and asserts its heritage.
+
+What those surnames carry is the subject of the next chapter.
 
 ## [ne] प्रवासमा नामहरू
 
-बसाइँसराइले अर्को तह थप्छ। बेलायत वा अमेरिका पुगेको परिवारले आफ्ना नाम राहदानी प्रणाली, विद्यालय दर्ता र तलब-डेटाबेसमा मिलाउनुपर्छ, जहाँ प्रायः क्लेका लागि फाँट हुँदैन र हिज्जेको भिन्नताका लागि धैर्य हुँदैन। “गुरुङ” कोटि हुँदाहुँदै उपनाम बन्छ; क्लेको नाम बीचको नाममा सर्छ वा हराउँछ; बालबालिकालाई अङ्ग्रेजी र नेपाली दुवैमा चल्ने नाम दिइन्छ। सँगै, केही आमाबुबाले जानाजान तामु नाम छान्छन्, र सामुदायिक संस्थाले निर्देशिका तथा स्मारकमा क्लेको नामको शुद्ध हिज्जे प्रोत्साहित गर्छन्। नामकरण प्रवासले सम्पदा हराउने र दाबी गर्ने शान्त तरिकामध्ये एक हो।
+बेलायत वा अमेरिका पुगेको परिवारले आफ्ना नाम राहदानी प्रणाली, विद्यालय दर्ता र तलब-डेटाबेसमा मिलाउनुपर्छ, जहाँ प्रायः क्लेका लागि फाँट हुँदैन र हिज्जेको भिन्नताका लागि धैर्य हुँदैन। गुरुङ कोटि हुँदाहुँदै उपनाम बन्छ; क्लेको नाम बीचको नाममा सर्छ वा हराउँछ; बालबालिकालाई अङ्ग्रेजी र नेपाली दुवैमा चल्ने नाम दिइन्छ। केही आमाबुबा जानाजान तामु नाम छान्छन्, र सामुदायिक संस्थाले निर्देशिका तथा स्मारकमा क्लेको नामको शुद्ध हिज्जे प्रोत्साहित गर्छन्। नामकरण प्रवासले सम्पदा हराउने र दाबी गर्ने शान्त तरिकामध्ये एक हो।
+
+ती उपनामले बोकेको कुरा अर्को अध्यायको विषय हो।

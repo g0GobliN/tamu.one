@@ -22,40 +22,52 @@ summaryNe: नेपालको २०२१ को जनगणनाले �
 
 ## [en] In Nepal
 
-Nepal’s National Population and Housing Census 2021 recorded 543,790 people identifying as Gurung. The largest communities live in Gandaki Province, in districts such as Kaski, Lamjung, Syangja, Tanahun, Gorkha, Parbat and Manang, as well as in Kathmandu and Pokhara.
+The 2021 National Population and Housing Census counted 543,790 people who identified as Gurung. The largest communities live in Gandaki Province, in Kaski, Lamjung, Syangja, Tanahun, Gorkha, Parbat and Manang, as well as in Kathmandu and Pokhara.
+
+Those two facts — a national count and a map — are the solid ground under every other number in this chapter.
 
 ## [ne] नेपालमा
 
-नेपालको राष्ट्रिय जनगणना २०२१ ले ५,४३,७९० जनाले आफूलाई गुरुङ भनेको देखायो। सबैभन्दा ठूलो जनसङ्ख्या गण्डकी प्रदेशका कास्की, लमजुङ, स्याङ्जा, तनहुँ, गोरखा, पर्वत र मनाङ जिल्लामा, साथै काठमाडौँ र पोखरामा छ।
+नेपालको राष्ट्रिय जनगणना २०२१ ले ५,४३,७९० जनाले आफूलाई गुरुङ भनेको देखायो। सबैभन्दा ठूलो जनसङ्ख्या गण्डकी प्रदेशका कास्की, लमजुङ, स्याङ्जा, तनहुँ, गोर्खा, पर्वत र मनाङ जिल्लामा, साथै काठमाडौँ र पोखरामा छ।
+
+यी दुई तथ्य — राष्ट्रिय गन्ती र नक्सा — यो अध्यायका अरू सबै सङ्ख्याको भरपर्दो आधार हुन्।
 
 ## [en] Language and religion
 
-Fewer people speak Gurung as a mother tongue than identify as Gurung, a common pattern among Nepal’s indigenous languages as Nepali becomes more widely used. In the census, many Gurungs reported Buddhism, while others reported Hinduism or Bon. In practice many families mix traditions.
+Fewer people speak Gurung as a mother tongue than identify as Gurung, the pattern across Nepal's indigenous languages as Nepali spreads. In the census many Gurungs reported Buddhism, while others reported Hinduism or Bon, and in practice many families mix traditions rather than choosing one.
+
+Identity, in other words, outlives the language that once carried it, which is why the numbers need care.
 
 ## [ne] भाषा र धर्म
 
-गुरुङ भाषा मातृभाषाका रूपमा बोल्ने मानिस गुरुङ पहिचान गर्नेभन्दा कम छन् — नेपालीको प्रयोग बढ्दै जाँदा नेपालका आदिवासी भाषामा देखिने सामान्य ढाँचा। जनगणनामा धेरैले बौद्ध धर्म बताए, कोहीले हिन्दु वा बोन। व्यवहारमा धेरै परिवारले परम्परा मिसाउँछन्।
+गुरुङ भाषा मातृभाषाका रूपमा बोल्ने मानिस गुरुङ पहिचान गर्नेभन्दा कम छन् — नेपालीको प्रयोग बढ्दै जाँदा नेपालका आदिवासी भाषामा देखिने सामान्य ढाँचा। जनगणनामा धेरैले बौद्ध धर्म बताए, कोहीले हिन्दु वा बोन, र व्यवहारमा धेरै परिवारले एउटा छान्नुभन्दा परम्परा मिसाउँछन्।
+
+अर्थात् पहिचान आफूलाई बोक्ने भाषाभन्दा लामो आयुको हुन्छ, र त्यसैले सङ्ख्यालाई होसियारीसाथ पढ्नुपर्छ।
 
 ## [en] Beyond Nepal
 
-Large communities also live in India (especially Sikkim, Darjeeling and the north-east), the United Kingdom, Hong Kong, the United States and other countries. Figures for these places come from different sources and years, and may count people in different ways, so they should be treated as estimates.
+Outside Nepal the counting becomes guesswork. Large communities live in India, especially Sikkim, Darjeeling and the north-east, and in the United Kingdom, Hong Kong, the United States and other countries, but the figures come from different sources and different years and may count people in different ways. They are estimates, not measurements.
 
 ## [ne] नेपालबाहिर
 
-ठूला समुदाय भारत (विशेषगरी सिक्किम, दार्जिलिङ र पूर्वोत्तर), बेलायत, हङकङ, अमेरिका र अन्य देशमा पनि बस्छन्। ती ठाउँका सङ्ख्या फरक स्रोत र वर्षबाट आउँछन् र फरक तरिकाले गनिएका हुन सक्छन्, त्यसैले तिनलाई अनुमानका रूपमा लिनुपर्छ।
+नेपालबाहिर गन्दा अनुमानको भर पर्नुपर्छ। ठूला समुदाय भारतमा, विशेषगरी सिक्किम, दार्जिलिङ र पूर्वोत्तरमा, र बेलायत, हङकङ, अमेरिका तथा अन्य देशमा बस्छन्, तर ती सङ्ख्या फरक स्रोत र फरक वर्षबाट आउँछन् र फरक तरिकाले गनिएका हुन सक्छन्। ती अनुमान हुन्, मापन होइनन्।
 
 ## [en] Where Gurungs live in Nepal
 
-The census shows Gurungs concentrated in Gandaki Province, with the largest numbers in Kaski, Lamjung, Syangja, Tanahun, Gorkha, Parbat and Manang, and substantial populations in Kathmandu, Pokhara and the eastern districts. This distribution reflects the historic homeland, military recruitment, labour migration and the pull of the cities. Internal migration has been strong for decades: villages lose young adults, towns gain them, and a family may keep a house in the hills while living in Pokhara. The result is that the “Gurung area” is now a network of villages, towns and diaspora destinations rather than a contiguous territory.
+Read the census map and the community looks less like a territory than a set of nodes. Gurungs are concentrated in Gandaki Province and in the cities, and the distribution reflects the historic homeland, military recruitment, labour migration and the pull of towns. Internal migration has been strong for decades: villages lose young adults, towns gain them, and a family may keep a house in the hills while living in Pokhara. The "Gurung area" is now a network of villages, towns and diaspora destinations rather than a contiguous block of land.
 
 ## [ne] नेपालमा गुरुङ कहाँ बस्छन्
 
-जनगणनाले गुरुङ मुख्यतः गण्डकी प्रदेशमा केन्द्रित देखाउँछ, सबैभन्दा ठूलो सङ्ख्या कास्की, लमजुङ, स्याङ्जा, तनहुँ, गोर्खा, पर्वत र मनाङमा, र काठमाडौँ, पोखरा तथा पूर्वी जिल्लामा उल्लेख्य जनसङ्ख्या। यो वितरण ऐतिहासिक मातृभूमि, सैनिक भर्ती, श्रम-बसाइँसराइ र सहरको तानले देखाउँछ। आन्तरिक बसाइँसराइ दशकौँदेखि बलियो छ: गाउँले युवा गुमाउँछन्, सहरले पाउँछ, र परिवारले पहाडमा घर राख्दै पोखरामा बस्न सक्छ। नतिजा यही हो — “गुरुङ क्षेत्र” अब एउटा निरन्तर भूभाग होइन, गाउँ, सहर र प्रवास-गन्तव्यको सञ्जाल हो।
+जनगणनाको नक्सा पढ्दा समुदाय निरन्तर भूभागजस्तो होइन, जोडिएका केन्द्रजस्तो देखिन्छ। गुरुङ मुख्यतः गण्डकी प्रदेश र सहरमा केन्द्रित छन्, र यो वितरणले ऐतिहासिक मातृभूमि, सैनिक भर्ती, श्रम-बसाइँसराइ र सहरको तान देखाउँछ। आन्तरिक बसाइँसराइ दशकौँदेखि बलियो छ: गाउँले युवा गुमाउँछन्, सहरले पाउँछ, र परिवारले पहाडमा घर राख्दै पोखरामा बस्न सक्छ। "गुरुङ क्षेत्र" अब एउटा निरन्तर भूभाग होइन, गाउँ, सहर र प्रवास-गन्तव्यको सञ्जाल हो।
 
 ## [en] The diaspora numbers problem
 
-There is no reliable count of Gurungs outside Nepal. India has large communities in Sikkim, Darjeeling, Assam and the cantonment towns, but the Indian census does not enumerate Gurungs separately. Britain’s Nepali population is estimated rather than counted, and the Gurung share of it is unknown. Hong Kong, the United States, Australia, Japan and the Gulf have smaller communities with no official statistics at all. Community organisations produce estimates that range widely and are often inflated by enthusiasm or deflated by caution. Any figure for the global Gurung population should therefore be treated as an order of magnitude, not a measurement, and quoted with its source and year.
+Ask how many Gurung live outside Nepal and the honest answer is that nobody knows. The Indian census does not enumerate Gurungs separately, though Sikkim, Darjeeling, Assam and the cantonment towns have large communities. Britain's Nepali population is estimated rather than counted, and the Gurung share of it is unknown; Hong Kong, the United States, Australia, Japan and the Gulf have smaller communities with no official statistics at all. Community organisations produce estimates that range widely, inflated by enthusiasm or deflated by caution. Any global figure should be treated as an order of magnitude, quoted with its source and year.
+
+What those people inherit — a language, a set of clans, a ritual calendar — is where the book turns next.
 
 ## [ne] प्रवासको सङ्ख्या-समस्या
 
-नेपालबाहिर कति गुरुङ छन् भन्ने भरपर्दो गन्ती छैन। भारतमा सिक्किम, दार्जिलिङ, आसाम र छाउनी सहरमा ठूला समुदाय छन्, तर भारतीय जनगणनाले गुरुङलाई छुट्टै गन्दैन। बेलायतको नेपाली जनसङ्ख्या गनिएको होइन, अनुमान गरिएको हो, र त्यसमा गुरुङको अंश अज्ञात छ। हङकङ, अमेरिका, अस्ट्रेलिया, जापान र खाडीमा साना समुदाय छन्, जसको आधिकारिक तथ्याङ्क नै छैन। सामुदायिक संस्थाले उत्साहले बढाएको वा सतर्कताले घटाएको फराकिलो दायराको अनुमान दिन्छन्। त्यसैले विश्वव्यापी गुरुङ जनसङ्ख्याको कुनै पनि सङ्ख्यालाई मापन होइन, परिमाणको कोटि मान्नुपर्छ, र स्रोत तथा वर्षसहित उद्धृत गर्नुपर्छ।
+नेपालबाहिर कति गुरुङ छन् भनेर सोध्नुहोस्, इमानदार जवाफ हो — कसैलाई थाहा छैन। भारतीय जनगणनाले गुरुङलाई छुट्टै गन्दैन, यद्यपि सिक्किम, दार्जिलिङ, आसाम र छाउनी सहरमा ठूला समुदाय छन्। बेलायतको नेपाली जनसङ्ख्या गनिएको होइन, अनुमान गरिएको हो, र त्यसमा गुरुङको अंश अज्ञात छ; हङकङ, अमेरिका, अस्ट्रेलिया, जापान र खाडीमा साना समुदाय छन्, जसको आधिकारिक तथ्याङ्क नै छैन। सामुदायिक संस्थाका अनुमान फराकिलो दायरामा छन् — उत्साहले बढेको वा सतर्कताले घटेको। त्यसैले विश्वव्यापी कुनै पनि सङ्ख्यालाई मापन होइन, परिमाणको कोटि मान्नुपर्छ, र स्रोत तथा वर्षसहित उद्धृत गर्नुपर्छ।
+
+ती मानिसले के पाइन्छ — भाषा, क्ले-समूह, कर्मकाण्डी पात्रो — अब पुस्तक त्यतै फर्कन्छ।
