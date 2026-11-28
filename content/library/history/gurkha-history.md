@@ -22,27 +22,31 @@ summaryNe: सैन्य सेवा कथाको महत्त्वप
 
 ## [en] Gurung is not Gurkha
 
-Gurung or Tamu describes a community identity. Gurkha belongs to a wider military history involving more than one community. Macfarlane and Indrabahadur Gurung describe Gurungs as one of the major groups from which Gurkha soldiers were recruited, not the only group.
+Gurung or Tamu describes a community identity; Gurkha belongs to a wider military history involving more than one community. Macfarlane and Indrabahadur Gurung describe Gurungs as one of the major groups from which Gurkha soldiers were recruited, not the only group.
+
+Getting that distinction right matters before any of the history is told.
 
 ## [ne] गुरुङ गोर्खा होइन
 
-गुरुङ वा तामु समुदायको पहिचान बताउँछ। गोर्खा एकभन्दा बढी समुदाय समावेश हुने फराकिलो सैन्य इतिहाससँग सम्बन्धित छ। Macfarlane र Indrabahadur Gurung ले गुरुङलाई गोर्खा सिपाही भर्ती गरिने प्रमुख समूहमध्ये एक भन्छन्, एकमात्र समूह होइन।
+गुरुङ वा तामु सामुदायिक पहिचान हो; गुरुखा एउटा समुदायभन्दा फराकिलो सैनिक इतिहाससँग सम्बन्धित छ। Macfarlane र Indrabahadur Gurung ले गुरुङलाई गुरुखा सिपाही भर्ना गरिने प्रमुख समूहमध्ये एक भन्छन्, एक्लो समूह होइन।
+
+इतिहास सुरु गर्नुअघि यो भेद ठीकसँग बुझ्नु जरुरी छ।
 
 ## [en] Service and settlement
 
-Pariyar’s research examines military recruitment and the formation of Nepali Gurkha communities in Britain. Military institutions, caste relationships and migration policy all participate in this history, which cannot be told solely through battlefield reputation.
+Pariyar's research examines military recruitment and the formation of Nepali Gurkha communities in Britain. Military institutions, caste relationships and migration policy all take part in that history, which cannot be told solely through battlefield reputation.
 
 ## [ne] सेवा र बस्ती
 
-Pariyar को अनुसन्धानले सैन्य भर्ती र बेलायतमा नेपाली गोर्खा समुदायको निर्माण हेर्छ। सैन्य संस्था, जातीय सम्बन्ध र बसाइँसराइ नीति सबै यो इतिहासमा सहभागी छन्, जुन युद्धभूमिको प्रतिष्ठाबाट मात्र भन्न सकिँदैन।
+Pariyar को अनुसन्धानले सैनिक भर्ती र बेलायतमा नेपाली गुरुखा समुदायको निर्माण हेर्छ। सैनिक संस्था, जातीय सम्बन्ध र बसाइँसराइ नीति सबै त्यो इतिहासमा भाग लिन्छन्, जुन युद्धभूमिको ख्यातिले मात्र भन्न सकिँदैन।
 
 ## [en] Lives beyond service
 
-Veterans, families and civilian communities have distinct experiences. This archive will add biographies and military records only where identities and sources can be verified. The online version of A Guide to the Gurungs is labelled a draft that differs from the published edition.
+Veterans, families and civilian communities have distinct experiences, and this archive will add biographies and military records only where identities and sources can be verified. The online version of A Guide to the Gurungs, for instance, is labelled a draft that differs from the published edition.
 
 ## [ne] सेवाभन्दा परको जीवन
 
-भूतपूर्व सैनिक, परिवार र नागरिक समुदायका अनुभव फरक छन्। यो अभिलेखले पहिचान र स्रोत जाँच्न सकिएका ठाउँमा मात्र जीवनी र सैन्य अभिलेख थप्नेछ। A Guide to the Gurungs को अनलाइन संस्करण प्रकाशित संस्करणभन्दा फरक मस्यौदा भनी चिन्हित छ।
+भूतपूर्व सैनिक, परिवार र नागरिक समुदायका अनुभव फरक छन्, र यो सङ्ग्रहले पहिचान तथा स्रोत पुष्टि भएको खण्डमा मात्र जीवनी र सैनिक अभिलेख थप्नेछ। उदाहरणका लागि A Guide to the Gurungs को अनलाइन संस्करण प्रकाशित संस्करणभन्दा फरक मस्यौदा भनी लेबल गरिएको छ।
 
 ## [en] Before the Gurkhas: hill soldiers of the eighteenth century
 

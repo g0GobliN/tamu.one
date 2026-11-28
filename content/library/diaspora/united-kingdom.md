@@ -19,27 +19,31 @@ summaryNe: नेपालबाहिर समुदाय निर्मा�
 
 ## [en] Belonging beyond the homeland
 
-Florence Gurung’s Oxford thesis explores Gurung experiences of belonging in Britain, including settlement in Rushmoor, religious institutions and community identity. Its British setting is explicit; the findings are not assumed to describe every overseas Tamu community.
+Florence Gurung's Oxford thesis explores Gurung experiences of belonging in Britain, including settlement in Rushmoor, religious institutions and community identity. Its British setting is explicit, and its findings are not assumed to describe every overseas Tamu community.
+
+How those communities came to exist is a story of soldiers and policy.
 
 ## [ne] मातृभूमिभन्दा परको अपनत्व
 
-Florence Gurung को अक्सफर्डको शोधले बेलायतमा गुरुङको अपनत्व-अनुभव हेर्छ, जसमा Rushmoor मा बसोबास, धार्मिक संस्था र सामुदायिक पहिचान पर्छ। यसको बेलायती परिवेश स्पष्ट छ; निष्कर्षले हरेक विदेशी तामु समुदायको वर्णन गर्छ भनी मानिँदैन।
+Florence Gurung को अक्सफोर्ड शोधले बेलायतमा गुरुङको अपनत्व-अनुभव हेर्छ, Rushmoor मा बसोबास, धार्मिक संस्था र सामुदायिक पहिचानसमेत। यसको बेलायती परिवेश स्पष्ट छ, र यसका निष्कर्षले हरेक विदेशी तामु समुदाय वर्णन गर्छ भन्ने मानिँदैन।
+
+ती समुदाय कसरी बने भन्ने कथा सिपाही र नीतिको कथा हो।
 
 ## [en] Military and family migration
 
-Pariyar connects settlement-policy changes with the growth of veterans’ communities and examines the social bonds and exclusions that can accompany them. This gives context for military-linked migration without reducing the entire diaspora to service personnel.
+Pariyar connects settlement-policy changes with the growth of veterans' communities and examines the social bonds and exclusions that can accompany them — context for military-linked migration without reducing the entire diaspora to service personnel.
 
 ## [ne] सैन्य र पारिवारिक बसाइँसराइ
 
-Pariyar ले बसोबास नीतिका परिवर्तनलाई भूतपूर्व सैनिक समुदायको वृद्धिसँग जोड्छ र तिनसँगै आउन सक्ने सामाजिक बन्धन तथा बहिष्कार हेर्छ। यसले सैन्यसँग जोडिएको बसाइँसराइको परिवेश दिन्छ, तर सम्पूर्ण प्रवासीलाई सैनिक कर्मचारीमा सीमित गर्दैन।
+Pariyar ले बसोबास-नीतिको परिवर्तनलाई पूर्वसैनिक समुदायको वृद्धिसँग जोड्छ र तिनसँगै आउन सक्ने सामाजिक बन्धन तथा बहिष्कार हेर्छ — सैनिकसँग जोडिएको आवागमनको सन्दर्भ, तर सम्पूर्ण प्रवासलाई सैनिकमा खुम्च्याइन।
 
 ## [en] A living, varied community
 
-People preserve and reinterpret heritage through family life, organizations and religious practice. No population estimate is provided here without a defined source, year and denominator. Other country profiles will be added when adequate Gurung-specific documentation is available.
+People preserve and reinterpret heritage through family life, organisations and religious practice. No population estimate appears here without a defined source, year and denominator, and other country profiles will be added when adequate Gurung-specific documentation is available.
 
 ## [ne] जीवित, विविध समुदाय
 
-मानिसहरूले पारिवारिक जीवन, संस्था र धार्मिक अभ्यासमार्फत सम्पदा जोगाउँछन् र पुनर्व्याख्या गर्छन्। यहाँ परिभाषित स्रोत, वर्ष र हतारको अनुमान नभई कुनै जनसङ्ख्या-अनुमान दिइएको छैन। पर्याप्त गुरुङ-विशेष कागजात उपलब्ध हुँदा अन्य देशका परिचय थपिनेछन्।
+मानिसले पारिवारिक जीवन, संस्था र धार्मिक अभ्यासमार्फत सम्पदा जोगाउँछन् र पुनर्व्याख्या गर्छन्। यहाँ परिभाषित स्रोत, वर्ष र हरसम्मिलित सङ्ख्याबिना कुनै जनसङ्ख्या-अनुमान दिइँदैन, र पर्याप्त गुरुङ-विशिष्ट अभिलेख भएपछि अरू देशका परिचय थपिनेछन्।
 
 ## [en] From barracks to settlement
 
