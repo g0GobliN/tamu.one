@@ -1,9 +1,11 @@
 import { useState } from "react";
-import { Search, SlidersHorizontal, X } from "lucide-react";
+import { ArrowRight, Search, SlidersHorizontal, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { getArticles } from "@/i18n/content";
+import { readingPath } from "@/data/reading-path";
 import { useLocale, useUi } from "@/i18n";
 import { ArticleCard } from "./ArticleCard";
+import { AppLink } from "./AppLink";
 
 export function Library({ variant = "library" }: { variant?: "library" | "archive" }) {
   const ui = useUi();
@@ -23,8 +25,10 @@ export function Library({ variant = "library" }: { variant?: "library" | "archiv
     if (region !== "All" && a.region !== region) return false;
     if (evidence !== "All" && a.rawEvidence !== evidence) return false;
     if (!needle) return true;
-    return [a.title, a.summary, a.region, a.period].some((field) =>
-      field.toLocaleLowerCase(locale).includes(needle),
+    return (
+      [a.title, a.summary, a.region, a.period].some((field) =>
+        field.toLocaleLowerCase(locale).includes(needle),
+      ) || a.sections.some((s) => `${s.title} ${s.text}`.toLocaleLowerCase(locale).includes(needle))
     );
   });
   const results =
@@ -32,6 +36,20 @@ export function Library({ variant = "library" }: { variant?: "library" | "archiv
 
   const title = variant === "archive" ? ui.library.archiveTitle : ui.library.title;
   const intro = variant === "archive" ? ui.library.archiveIntro : ui.library.intro;
+
+  /** The section a search matched, so a result can send the reader straight there. */
+  const matchFor = (article: (typeof list)[number]) => {
+    if (!needle) return undefined;
+    const section = article.sections.find((s) =>
+      `${s.title} ${s.text}`.toLocaleLowerCase(locale).includes(needle),
+    );
+    return section ? `${ui.library.foundIn}: ${section.title}` : undefined;
+  };
+  const startChapters = readingPath
+    .slice(0, 5)
+    .flatMap((slug) => list.filter((article) => article.slug === slug).slice(0, 1));
+  const readingQuietly = !needle && category === "All" && region === "All" && evidence === "All";
+  const openingChapter = startChapters[0];
 
   return (
     <main className="library-page">
@@ -41,6 +59,37 @@ export function Library({ variant = "library" }: { variant?: "library" | "archiv
         <p>{intro}</p>
       </section>
       <section className="library-content">
+        {variant === "library" && readingQuietly && startChapters.length > 0 && (
+          <section className="start-reading">
+            <div className="start-reading-copy">
+              <span className="eyebrow">{ui.library.startEyebrow}</span>
+              <h2>{ui.library.startTitle}</h2>
+              <p>{ui.library.startIntro}</p>
+              {openingChapter && (
+                <AppLink
+                  to="/library/$slug"
+                  params={{ slug: openingChapter.slug }}
+                  className="start-reading-cta"
+                >
+                  {ui.library.startCta} <ArrowRight size={17} />
+                </AppLink>
+              )}
+            </div>
+            <ol className="start-reading-list">
+              {startChapters.map((chapter, index) => (
+                <li key={chapter.slug}>
+                  <AppLink to="/library/$slug" params={{ slug: chapter.slug }}>
+                    <span>{String(index + 1).padStart(2, "0")}</span>
+                    <div>
+                      <strong>{chapter.title}</strong>
+                      <small>{chapter.summary}</small>
+                    </div>
+                  </AppLink>
+                </li>
+              ))}
+            </ol>
+          </section>
+        )}
         <div className="search-row">
           <div className="search-input">
             <Search size={20} />
@@ -134,7 +183,7 @@ export function Library({ variant = "library" }: { variant?: "library" | "archiv
         {results.length ? (
           <div className="article-grid">
             {results.map((a) => (
-              <ArticleCard key={a.slug} article={a} />
+              <ArticleCard key={a.slug} article={a} match={matchFor(a)} />
             ))}
           </div>
         ) : (

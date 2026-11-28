@@ -81,7 +81,7 @@ No anonymous image collections. No pretending someone else's work is ours.
 
 ### ⚡ Fast, static and private
 
-Server-rendered pages, no visitor accounts, no tracking and no third-party content requests.
+Server-rendered pages, no visitor accounts, no tracking cookies and a single cookieless visit count from Cloudflare.
 
 The museum is built from its own content and code.
 
@@ -151,6 +151,16 @@ bun run deploy   # Build and publish with Wrangler
 `wrangler.jsonc` defines the Worker, entry point and assets directory. No extra deployment flags or repository secrets are needed for the standard deployment.
 
 The live site publishes from `main` through Cloudflare Workers Builds. Forks can deploy into their own Cloudflare accounts and connect their own domains.
+
+### Visitor analytics
+
+Visits are counted by Cloudflare Web Analytics, read from the same Worker deployment. It answers the questions the project actually needs: how many people came, which pages they read, which sites sent them and which country they connected from. It is cookieless, sets nothing on the reader's device and reports aggregate numbers rather than people.
+
+1. In the Cloudflare dashboard open **Analytics & Logs → Web Analytics**, add the site (`tamu.one` or the `workers.dev` hostname) and copy its beacon token.
+2. Add the token to the build as `VITE_CF_ANALYTICS_TOKEN` — in Workers Builds under **Settings → Build variables**, or in a local `.env` file.
+3. Rebuild or redeploy. The token is public: it identifies the site, not a person.
+
+Without the variable the beacon script is never added and the site collects nothing. Reports appear in Web Analytics a few minutes after the first visits; the same page shows top pages, referrers, countries, browsers and Core Web Vitals.
 
 ---
 

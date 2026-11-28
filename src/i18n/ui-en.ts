@@ -92,6 +92,11 @@ export const en = {
     readingEyebrow: "FROM THE KNOWLEDGE LIBRARY",
     readingTitle: "Stories worth discovering",
     browse: "Browse the library",
+    pathEyebrow: "A PATH THROUGH THE ARCHIVE",
+    pathTitle: "Start at the beginning",
+    pathIntro:
+      "New to the archive? These chapters are written to be read in order — a single story that begins with the earliest written record and carries on to the present.",
+    pathCta: "Begin the reading path",
     communityEyebrow: "OUR HERITAGE IS A SHARED RESPONSIBILITY",
     communityTitleA: "Every memory is a thread.",
     communityTitleB: "Every voice belongs.",
@@ -132,14 +137,30 @@ export const en = {
     note: "A growing collection. Each introduction identifies its sources, evidentiary limits and community-review status.",
     categoriesLabel: "Article categories",
     sortLabel: "Sort articles",
+    startEyebrow: "NEW HERE? START HERE",
+    startTitle: "Read the archive as one story",
+    startIntro:
+      "The library is a path, not a shelf. These opening chapters follow the Tamu story from the first written records to the villages and festivals of the present, and each one picks up where the last left off.",
+    startCta: "Begin with the first chapter",
+    foundIn: "Found in",
   },
   article: {
     back: "Knowledge library",
     introduction: "Research introduction",
     share: "Share",
     copied: "Link copied",
-    inThis: "IN THIS ARTICLE",
+    inThis: "IN THIS CHAPTER",
     contents: "CONTENTS",
+    chapter: "Chapter",
+    minuteRead: "min read",
+    previous: "Previous chapter",
+    searchInChapter: "Search this chapter",
+    searchPlaceholder: "A name, a place, a word…",
+    searchEmpty: "Nothing in this chapter matches that yet.",
+    matchOne: "passage",
+    matchMany: "passages",
+    nextEyebrow: "WHERE THE STORY GOES NEXT",
+    readNext: "Read the next chapter",
     references: "References",
     transparency: "Research transparency",
     lastReviewed: "Last reviewed:",
@@ -284,7 +305,7 @@ export const en = {
       "Language is the clearest measure of the loss. Tamu Kyi is being replaced by Nepali and English, not only in the cities but increasingly in the villages, and each generation keeps fewer of its words. When a language goes quiet, the words for kinship, for ritual and for the landscape go with it. Translation can give you the meaning of a word, but it cannot give you the world that word belonged to.",
       "The second loss is harder to see. A young Gurung who wants to know where the clan names come from, or what the Ghale kings actually ruled, goes online and finds the same three paragraphs copied from site to site — often without a source, sometimes confidently wrong. The serious scholarship exists: Bista, Pignède, Höfer, Messerschmidt, Mumford, Regmi, the regimental histories. But it is scattered across libraries, out of print, written mostly in English and expensive to obtain. A student in Pokhara, a Gurkha family in Aldershot and a teenager in Hong Kong should not have to rebuild a heritage out of broken links.",
       "So this site is an attempt to put the record in one place, in both languages, and to show its working. I write in English and in Nepali because a heritage explained only in the language of the academy is a heritage only half returned; the Nepali pages are written as Nepali prose, not as a summary of the English. Where the sources disagree, the page says so. Where nothing is known, the page says nothing rather than inventing a name, a date or an event.",
-      "It is also deliberately unfinished. TAMU is independent and self-funded: no advertising, no tracking, no paywall and no institution deciding what may be said. It is meant to be corrected by the people it describes — a village name spelled properly, a family account that differs from the book, a photograph credited to the right person. I do not want this to be the final word on anything. I want it to be the first place a young Tamu looks, and the place where the sources are waiting at the bottom of the page.",
+      "It is also deliberately unfinished. TAMU is independent and self-funded: no advertising, no paywalls, no tracking cookies — only a cookieless count of which pages are read — and no institution deciding what may be said. It is meant to be corrected by the people it describes — a village name spelled properly, a family account that differs from the book, a photograph credited to the right person. I do not want this to be the final word on anything. I want it to be the first place a young Tamu looks, and the place where the sources are waiting at the bottom of the page.",
       "If you are Gurung and have been meaning to ask an elder about a village, a clan or a song, do it this year. If you are not Gurung and have come to understand your neighbours, welcome — the archive is for you as well. What is written here is not mine. It belongs to the people who lived it, and it is being kept for the people who come next.",
     ],
     founderName: "Vishal Gurung",
@@ -313,7 +334,7 @@ export const en = {
     recordEyebrow: "THE RECORD",
     recordTitle: "Open, credited, correctable",
     recordP1:
-      "The museum is an ordinary website with an uncommon standard: no accounts, no tracking, no paywall. Photographs are hosted here and carry their creator, licence and original file. Article text and imagery are reviewed with the community rather than about them.",
+      "The museum is an ordinary website with an uncommon standard: no accounts, no tracking cookies, no paywall; visits are counted without cookies. Photographs are hosted here and carry their creator, licence and original file. Article text and imagery are reviewed with the community rather than about them.",
     recordP2:
       "The source code is public under the Apache License 2.0, and every change to it moves through an issue and a pull request — the same way corrections to the content do.",
     maintained: "Built and maintained by",
@@ -321,7 +342,7 @@ export const en = {
       { label: "Collections", value: "Five" },
       { label: "Photographs", value: "All credited" },
       { label: "Code licence", value: "Apache 2.0" },
-      { label: "Accounts, ads, trackers", value: "None" },
+      { label: "Accounts, ads, tracking cookies", value: "None" },
     ],
     contactEyebrow: "GET INVOLVED",
     contactTitle: "Heritage grows through conversation.",
@@ -386,7 +407,7 @@ export const en = {
       {
         question: "Is anything tracked or sold?",
         answer:
-          "No accounts, no analytics, no advertising, no tracking cookies. The privacy page describes the small amount of infrastructure logging that exists and how to have your contribution removed.",
+          "No accounts, no advertising, no tracking cookies, and nothing is sold. Visits are counted with Cloudflare's cookieless, aggregate analytics — no profiles, no cross-site tracking. The privacy page explains exactly what is measured and how to have your contribution removed.",
       },
       {
         question: "Can I contribute a recording or a family photograph?",
@@ -747,7 +768,7 @@ Anything else:
     privacy: {
       title: "Privacy",
       description:
-        "What TAMU does and does not collect: no accounts, no analytics, no advertising, no tracking cookies.",
+        "What TAMU does and does not collect: no accounts, no advertising, no tracking cookies, and only a cookieless count of visits.",
     },
     terms: {
       title: "Terms of use",
