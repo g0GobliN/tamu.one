@@ -45,11 +45,15 @@ Kohla and Khola Sothar are names encountered in wider discussion of ancestral pl
 
 ## [en] Seventeen ridges, one history
 
-Khola Sothar — ‘seventeen rivers’ or ‘seventeen ridges’ depending on how the term is read — names a confederation of Gurung areas rather than a single territory. Its member groups were distributed across the hills of central Nepal, and the confederation’s business was collective: settling disputes, organising defence, regulating relations between clans and presenting a common front to neighbouring powers. It was not a state with a capital and a bureaucracy, and it did not survive as one. What it left behind is a political vocabulary: the idea that Gurung areas share interests, that decisions can be made collectively, and that a council of elders can speak for more than one village. Modern organisations draw on that vocabulary even when their structure is entirely new.
+Khola Sothar — ‘seventeen rivers’ or ‘seventeen ridges’ depending on how the term is read — names a confederation of Gurung areas rather than a single territory. Its member groups were distributed across the hills of central Nepal, and the confederation’s business was collective: settling disputes, organising defence, regulating relations between clans and presenting a common front to neighbouring powers.
+
+It was not a state with a capital and a bureaucracy, and it did not survive as one. What it left behind is a political vocabulary: the idea that Gurung areas share interests, that decisions can be made collectively, and that a council of elders can speak for more than one village. Modern organisations draw on that vocabulary even when their structure is entirely new.
 
 ## [ne] सत्र क्षेत्र, एउटै इतिहास
 
-खोला सोर्थर — शब्द कसरी पढिन्छ भन्नेअनुसार “सत्र नदी” वा “सत्र क्षेत्र” — एउटै भूभागको नाम होइन, गुरुङ क्षेत्रहरूको संघको नाम हो। यसका सदस्य समूह मध्य नेपालका पहाडभर छरिएका थिए, र संघको काम सामूहिक थियो: विवाद टुङ्ग्याउने, रक्षा आयोजना गर्ने, क्लेबीचको सम्बन्ध नियमित गर्ने र छिमेकी शक्तिसामु साझा मोर्चा प्रस्तुत गर्ने। यो राजधानी र कर्मचारीतन्त्र भएको राज्य थिएन, र त्यसरी बाँच्न सकेन। यसले छोडेको कुरा राजनीतिक शब्दावली हो: गुरुङ क्षेत्रका साझा स्वार्थ छन्, निर्णय सामूहिक रूपमा लिन सकिन्छ, र ज्येष्ठको परिषद्ले एक गाउँभन्दा बढीका लागि बोल्न सक्छ। आधुनिक संस्थाले संरचना नै नयाँ भए पनि त्यही शब्दावलीमा टेक्छन्।
+खोला सोर्थर — शब्द कसरी पढिन्छ भन्नेअनुसार “सत्र नदी” वा “सत्र क्षेत्र” — एउटै भूभागको नाम होइन, गुरुङ क्षेत्रहरूको संघको नाम हो। यसका सदस्य समूह मध्य नेपालका पहाडभर छरिएका थिए, र संघको काम सामूहिक थियो: विवाद टुङ्ग्याउने, रक्षा आयोजना गर्ने, क्लेबीचको सम्बन्ध नियमित गर्ने र छिमेकी शक्तिसामु साझा मोर्चा प्रस्तुत गर्ने।
+
+यो राजधानी र कर्मचारीतन्त्र भएको राज्य थिएन, र त्यसरी बाँच्न सकेन। यसले छोडेको कुरा राजनीतिक शब्दावली हो: गुरुङ क्षेत्रका साझा स्वार्थ छन्, निर्णय सामूहिक रूपमा लिन सकिन्छ, र ज्येष्ठको परिषद्ले एक गाउँभन्दा बढीका लागि बोल्न सक्छ। आधुनिक संस्थाले संरचना नै नयाँ भए पनि त्यही शब्दावलीमा टेक्छन्।
 
 ## [en] Names on a map and names in a story
 

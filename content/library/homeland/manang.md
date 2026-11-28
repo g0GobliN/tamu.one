@@ -12,9 +12,9 @@ image: manang
 sources:
   - mumford
 titleEn: Manang: neighbours and shared landscapes
-summaryEn: A village-level view of cultural and religious relationships in Gyasumdo.
+summaryEn: A village-level view of cultural and religious relationships in Gyasumdo, in northern Manang.
 titleNe: मनाङ: छिमेकी र साझा भूदृश्य
-summaryNe: ग्यासुम्दोमा सांस्कृतिक र धार्मिक सम्बन्धको गाउँ-स्तरीय दृष्टि।
+summaryNe: मनाङको उत्तरी भेग, ग्यासुम्दोमा सांस्कृतिक र धार्मिक सम्बन्धको गाउँ-स्तरीय दृष्टि।
 ---
 
 ## [en] Starting with a situated account

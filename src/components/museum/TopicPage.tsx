@@ -1,4 +1,4 @@
-import { ArrowRight, ArrowUpRight } from "lucide-react";
+import { ArrowRight, ArrowUpRight, BookOpen } from "lucide-react";
 import { articles } from "@/data/heritage";
 import { getMedia } from "@/data/media";
 import { bookSlugs } from "@/data/book";
@@ -33,6 +33,10 @@ export function TopicPage({ topicKey }: { topicKey: TopicKey }) {
     return left - right;
   });
 
+  /** The book's chapters and the library's own articles are listed separately. */
+  const inBook = chapters.filter((a) => bookSlugs.includes(a.slug));
+  const offBook = chapters.filter((a) => !bookSlugs.includes(a.slug));
+
   return (
     <main>
       <section className={`topic-hero ${photo ? "" : "topic-plain"}`}>
@@ -54,6 +58,7 @@ export function TopicPage({ topicKey }: { topicKey: TopicKey }) {
           {topic.body.map((p) => (
             <p key={p}>{p}</p>
           ))}
+          <h3 className="theme-list-title">{ui.topic.themesTitle}</h3>
           <div className="theme-list">
             {topic.themes.map((t) =>
               t.slug ? (
@@ -69,7 +74,8 @@ export function TopicPage({ topicKey }: { topicKey: TopicKey }) {
                   </h3>
                   <p>{t.text}</p>
                   <span className="theme-cta">
-                    {ui.topic.readChapter} <ArrowRight size={15} />
+                    {bookSlugs.includes(t.slug) ? ui.topic.readChapter : ui.topic.readArticle}{" "}
+                    <ArrowRight size={15} />
                   </span>
                 </AppLink>
               ) : (
@@ -91,15 +97,15 @@ export function TopicPage({ topicKey }: { topicKey: TopicKey }) {
             {ui.book.backToBook} <ArrowUpRight size={16} />
           </AppLink>
         </div>
-        {chapters.length ? (
-          <ol className="book-chapters">
-            {chapters.map((article) => {
-              const index = bookSlugs.indexOf(article.slug);
-              return (
+        {inBook.length ? (
+          <>
+            <h3 className="hub-group-title">{ui.topic.bookChaptersTitle}</h3>
+            <ol className="book-chapters">
+              {inBook.map((article) => (
                 <li key={article.slug}>
                   <AppLink to="/library/$slug" params={{ slug: article.slug }}>
                     <span className="book-chapter-number">
-                      {index >= 0 ? String(index + 1).padStart(2, "0") : "—"}
+                      {String(bookSlugs.indexOf(article.slug) + 1).padStart(2, "0")}
                     </span>
                     <div>
                       <strong>{article.title}</strong>
@@ -108,12 +114,32 @@ export function TopicPage({ topicKey }: { topicKey: TopicKey }) {
                     <ArrowUpRight size={18} />
                   </AppLink>
                 </li>
-              );
-            })}
-          </ol>
-        ) : (
-          <p className="research-note">{ui.common.preparing}</p>
-        )}
+              ))}
+            </ol>
+          </>
+        ) : null}
+        {offBook.length ? (
+          <>
+            <h3 className="hub-group-title">{ui.topic.moreInLibrary}</h3>
+            <ol className="book-chapters">
+              {offBook.map((article) => (
+                <li key={article.slug}>
+                  <AppLink to="/library/$slug" params={{ slug: article.slug }}>
+                    <span className="book-chapter-number chapter-mark" aria-hidden="true">
+                      <BookOpen size={15} strokeWidth={1.6} />
+                    </span>
+                    <div>
+                      <strong>{article.title}</strong>
+                      <small>{article.summary}</small>
+                    </div>
+                    <ArrowUpRight size={18} />
+                  </AppLink>
+                </li>
+              ))}
+            </ol>
+          </>
+        ) : null}
+        {!chapters.length && <p className="research-note">{ui.common.preparing}</p>}
         <p className="book-note">{ui.topic.bookNote}</p>
       </section>
     </main>

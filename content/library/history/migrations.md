@@ -46,7 +46,9 @@ The exact starting points, dates and path of ancient population movements remain
 
 ## [en] Routes through the passes
 
-Movement in the Gurung past ran along a few corridors. The Kali Gandaki and Marsyangdi valleys connected the Tibetan plateau to the middle hills and the plains beyond; the passes north of Manang and Mustang carried salt, grain, wool and pilgrims; the ridges between the valleys carried herds to summer pastures and families to new fields. A move from one valley to the next could be a day’s walk or a generation’s work, and it rarely meant abandoning the old place: households kept land, graves and shrine obligations in one village while living in another. This is why Gurung settlement looks less like a spreading wave than like a network of connected places, each with a story about who came from where and which family stayed behind.
+Movement in the Gurung past ran along a few corridors. The Kali Gandaki and Marsyangdi valleys connected the Tibetan plateau to the middle hills and the plains beyond; the passes north of Manang and Mustang carried salt, grain, wool and pilgrims; the ridges between the valleys carried herds to summer pastures and families to new fields.
+
+A move from one valley to the next could be a day’s walk or a generation’s work, and it rarely meant abandoning the old place: households kept land, graves and shrine obligations in one village while living in another. This is why Gurung settlement looks less like a spreading wave than like a network of connected places, each with a story about who came from where and which family stayed behind.
 
 ## [ne] भञ्ज्याङ हुँदैका बाटो
 
