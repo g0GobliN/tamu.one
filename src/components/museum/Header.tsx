@@ -1,5 +1,5 @@
 import { useLocation } from "@tanstack/react-router";
-import { useState } from "react";
+import { useState, type MouseEvent } from "react";
 import { Search, Menu, X, ArrowUpRight, Mountain } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { AppLink } from "./AppLink";
@@ -82,11 +82,15 @@ export function Header() {
   const ui = useUi();
 
   // On the landing page the home link already matches the current route, so the
-  // router has nothing to navigate to and the click does nothing at all. Take the
-  // reader back to the top instead.
-  const goHome = () => {
+  // router has nothing to navigate to and the click does nothing at all. Stop that
+  // navigation and take the reader back to the top of the page instead.
+  const goHome = (event: MouseEvent<HTMLAnchorElement>) => {
     setOpen(false);
-    if (current === "/") window.scrollTo({ top: 0, behavior: "smooth" });
+    if (current !== "/") return;
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0)
+      return;
+    event.preventDefault();
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
