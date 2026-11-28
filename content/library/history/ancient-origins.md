@@ -1,0 +1,69 @@
+---
+slug: ancient-origins
+category: History
+region: Himalayan region
+regionNe: हिमाली क्षेत्र
+period: Deep history
+periodNe: गहिरो इतिहास
+reviewed: 25 November 2026
+reviewedNe: २५ नोभेम्बर २०२६
+evidence: Scholarly interpretation
+image: mountains
+imageNote: Present-day Annapurna landscape; not evidence of an ancestral migration.
+imageNoteNe: आजको अन्नपूर्ण भूदृश्य; पुर्ख्यौली बसाइँसराइको प्रमाण होइन।
+sources:
+  - glottolog
+  - evans
+titleEn: Origins beyond a single story
+summaryEn: What Sino-Tibetan language relationships reveal—and what they cannot establish about Gurung ancestry.
+titleNe: एउटै कथाभन्दा परको उत्पत्ति
+summaryNe: चिनियाँ-तिब्बती भाषा-सम्बन्धले के देखाउँछ — र गुरुङ पुर्ख्यौलीबारे के प्रमाणित गर्न सक्दैन।
+---
+
+## [en] Languages are not populations
+
+Glottolog places Gurung within the Sino-Tibetan language family. A linguistic family describes relationships between languages. It does not identify an exact birthplace for every speaker’s ancestors, nor establish an uninterrupted ethnic identity stretching back to the origin of that family.
+
+## [ne] भाषा जनसङ्ख्या होइन
+
+ग्लोटोलगले गुरुङलाई चिनियाँ-तिब्बती भाषा परिवारभित्र राख्छ। भाषा परिवारले भाषाहरूबीचको सम्बन्ध बताउँछ। यसले हरेक वक्ताका पुर्खाको ठ्याक्कै जन्मस्थान वा त्यो परिवारको उत्पत्तिसम्म अटुट जातीय पहिचान प्रमाणित गर्दैन।
+
+## [en] Different kinds of evidence
+
+Archaeology, historical linguistics, oral narratives and population genetics answer different questions. Christopher Evans’s work around Kohla connects archaeological investigation with community ethnohistory, rather than treating one kind of evidence as a substitute for another.
+
+## [ne] फरक प्रमाणका किसिम
+
+पुरातत्त्व, ऐतिहासिक भाषाविज्ञान, मौखिक कथा र जनसङ्ख्या आनुवंशिकीले फरक प्रश्नको उत्तर दिन्छन्। कोह्ला आसपास Christopher Evans को कामले पुरातात्त्विक अन्वेषणलाई सामुदायिक नृवंश-इतिहाससँग जोड्छ, एउटा प्रमाणलाई अर्कोको विकल्प बनाउँदैन।
+
+## [en] What remains unresolved
+
+A precise ancient homeland, a single migration date and direct descent from a named ancient population are not established by the sources presented here. Yellow River, Tibetan Plateau or Qiang connections require their own critical research; they should not be repeated as settled Gurung genealogy.
+
+## [ne] के अनिर्णीत छ
+
+यहाँ प्रस्तुत स्रोतले ठ्याक्कै प्राचीन मातृभूमि, एउटै बसाइँसराइको मिति र नाम खुलेको प्राचीन जनसमूहबाट सिधा वंशावली स्थापित गर्दैनन्। पहेँलो नदी, तिब्बती पठार वा च्याङसँगको सम्बन्धका लागि आफ्नै आलोचनात्मक अनुसन्धान चाहिन्छ; तिनलाई टुङ्गिएको गुरुङ वंशावलीका रूपमा दोहोर्‍याउनु हुँदैन।
+
+## [en] The archaeological silence
+
+The deep past of the Gurung is largely undocumented in the archaeological sense. There are no excavated Gurung capitals, no inscribed royal archives, no cemetery sequence published with radiocarbon dates that could anchor a chronology. What exists is scattered: stone structures and terraces whose dates are uncertain, place names that may preserve older settlement patterns, and comparisons with neighbouring regions where more work has been done. This silence is not evidence that nothing happened; it reflects where research money and archaeological attention have gone, and the fact that hill settlements are hard to excavate and easy to disturb. Any account of origins that claims certainty is therefore overreaching, and the honest position is to describe the competing stories and the thin evidence behind each.
+
+## [ne] पुरातात्त्विक मौनता
+
+गुरुङको गहिरो अतीत पुरातात्त्विक अर्थमा धेरै हदसम्म अभिलेखित छैन। खनेको गुरुङ राजधानी छैन, शिलालेख भएको राजकीय अभिलेख छैन, रेडियोकार्बन मितिसहित प्रकाशित चिहान-क्रम छैन जसले कालक्रम बाँध्न सकोस्। जो छ, छरिएको छ: मिति अनिश्चित ढुङ्गाका संरचना र आँगन, पुरानो बस्तीको ढाँचा जोगाउन सक्ने ठाउँका नाम, र बढी काम भएका छिमेकी क्षेत्रसँगको तुलना। यो मौनता केही भएन भन्ने प्रमाण होइन; यसले अनुसन्धानको पैसा र पुरातात्त्विक ध्यान कहाँ गयो, र पहाडी बस्ती खन्न गाह्रो र बिगार्न सजिलो हुन्छ भन्ने देखाउँछ। त्यसैले निश्चितता दाबी गर्ने कुनै पनि उत्पत्ति-कथा बढी दाबी गरिरहेको हुन्छ, र इमानदार अडान भनेको प्रतिस्पर्धी कथा र हरेकपछाडिको पातलो प्रमाण वर्णन गर्नु हो।
+
+## [en] What the pye can and cannot say
+
+The pye recitations contain the community’s own account of where it came from, and they are the most important indigenous historical source. They name places, describe migrations and list the ancestors who founded clans and settlements. But they are ritual texts, not chronicles: they were transmitted orally, they vary between specialists, they use poetic compression and they are concerned with legitimacy as much as with sequence. A place name in a pye may be a real location, a mythical one, or a real place invested with a story that has moved. Reading them historically therefore requires comparison between versions, comparison with the landscape and comparison with other sources, and it produces probabilities rather than dates.
+
+## [ne] प्येले भन्न सक्ने र नसक्ने
+
+प्ये पाठमा समुदायको आफ्नै उत्पत्ति-विवरण छ, र ती सबैभन्दा महत्त्वपूर्ण स्वदेशी ऐतिहासिक स्रोत हुन्। तिनले ठाउँको नाम लिन्छन्, बसाइँसराइ वर्णन गर्छन् र क्ले तथा बस्ती स्थापना गर्ने पुर्खाको सूची दिन्छन्। तर ती कर्मकाण्डी पाठ हुन्, इतिहास होइन: मौखिक रूपमा सरेका, विशेषज्ञअनुसार फरक पर्ने, काव्यिक संक्षेप प्रयोग गर्ने, र क्रमजत्तिकै वैधतामा पनि चासो राख्ने। प्येमा आउने ठाउँको नाम वास्तविक स्थान, पौराणिक स्थान, वा कथा सरेर आएको वास्तविक ठाउँ हुन सक्छ। त्यसैले तिनलाई ऐतिहासिक रूपमा पढ्न संस्करणहरूबीच, भूदृश्यसँग र अरू स्रोतसँग तुलना चाहिन्छ, र त्यसले मिति होइन, सम्भावना दिन्छ।
+
+## [en] Dating a migration without documents
+
+Linguists, archaeologists and historians use different clocks, and they rarely agree to the year. Glottochronology and the comparative study of the Tamangic languages suggest a separation measured in centuries or more; the study of loanwords can bracket contact with Tibetan and Nepali; place names and land grants give termini ante quos for settlement in particular valleys. None of these yields a date for ‘the Gurung arrival’, because there was probably no single arrival: the formation of the community was a long process of movement, intermarriage and political incorporation. The useful question is not when the Gurung reached Nepal but how the groups that became Gurung came to share a language, a set of clans and a story about themselves.
+
+## [ne] दस्तावेजबिना बसाइँसराइको मिति
+
+भाषाविद्, पुरातत्त्वविद् र इतिहासकार फरक घडी प्रयोग गर्छन्, र वर्षमा विरलै सहमत हुन्छन्। तामाङ्गिक भाषाहरूको तुलनात्मक अध्ययनले शताब्दी वा बढीको पृथकीकरण देखाउँछ; सापटी शब्दको अध्ययनले तिब्बती र नेपालीसँगको सम्पर्कको समय-सीमा बाँध्न सक्छ; ठाउँका नाम र जग्गा-दानले कुनै उपत्यकामा बसोबासको मिति-पूर्व सीमा दिन्छ। यीमध्ये कुनैले “गुरुङ आगमन” को मिति दिँदैन, किनकि एउटै आगमन थिएन होला: समुदायको निर्माण आवागमन, अन्तरविवाह र राजनीतिक समावेशीकरणको लामो प्रक्रिया थियो। उपयोगी प्रश्न — गुरुङ नेपाल कहिले आए होइन, गुरुङ बनेका समूहले भाषा, क्ले-समूह र आफूबारेको कथा कसरी साझा गर्न थाले भन्ने हो।

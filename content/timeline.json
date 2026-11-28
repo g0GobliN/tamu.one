@@ -1,0 +1,715 @@
+[
+  {
+    "year": "Deep oral time",
+    "sort": -20000,
+    "era": "Ancient",
+    "slugs": ["before-the-hills", "migrations"],
+    "en": {
+      "title": "Nine ancestors, seven ancestresses",
+      "text": "The pye recitations begin with Khè Ku, the nine paternal ancestors, and Mhā Ngi, the seven maternal ancestors, from whom the Tamu are said to descend. These are genealogical and ritual figures rather than dated individuals, and the tradition gives them no calendar year. Their importance is social: they establish that the community is one family whose descent can be recited."
+    },
+    "ne": {
+      "title": "नौ पुर्खा, सात पुर्खी आमा",
+      "text": "प्ये पाठ Khè Ku का नौ पितृपक्षीय पुर्खा र Mhā Ngi का सात मातृपक्षीय पुर्खीबाट सुरु हुन्छ, जसबाट तामुको वंश चलेको भनिन्छ। ती मिति भएका ऐतिहासिक व्यक्ति होइनन्, वंश र कर्मकाण्डका आधार-पुरुष हुन्, र परम्पराले तिनलाई कुनै संवत् दिँदैन। तिनको महत्त्व सामाजिक छ — समुदाय एउटै परिवार हो र त्यो वंश गाएर भन्न सकिन्छ भन्ने कुरा तिनले स्थापित गर्छन्।"
+    }
+  },
+  {
+    "year": "Before farming",
+    "sort": -12000,
+    "era": "Ancient",
+    "slugs": ["before-the-hills", "seasonal-herding"],
+    "en": {
+      "title": "Hunters, herders and the peopling of the slope",
+      "text": "Long before terraces, the southern slope of the Himalaya was settled by small groups who hunted, gathered and kept animals. No excavation has yet identified these first inhabitants as Tamu, and the pye remembers this world in images rather than dates. What can be said is that the middle hills have been lived in for a very long time, and that the ancestors of today’s hill peoples were part of that deep settlement."
+    },
+    "ne": {
+      "title": "सिकारी, गोठालो र पाखोमा बसोबास",
+      "text": "पाखो बनाउनुअघि नै हिमालयको दक्षिणी काखमा साना समूह बसोबास गर्थे, जो सिकार, सङ्कलन र पशुपालनमा बाँच्थे। कुनै उत्खननले ती पहिलो बासिन्दालाई तामु भनेर चिनेको छैन, र प्येले त्यो संसारलाई मितिभन्दा बिम्बमा सम्झिन्छ। यति भन्न सकिन्छ — मध्य पहाड धेरै लामो समयदेखि मानिसको बसोबासमा छ, र आजका पहाडी जनताका पुर्खा त्यही गहिरो बसोबासको अंश हुन्।"
+    }
+  },
+  {
+    "year": "c. 1500–500 BCE",
+    "sort": -3000,
+    "era": "Ancient",
+    "slugs": ["before-the-hills", "terraces-and-crops"],
+    "en": {
+      "title": "The first hill farmers",
+      "text": "Farming settlements appear in several parts of Nepal in this broad period, and the crops that later defined hill life — barley, millet, buckwheat — belong to a very old agricultural package. Terraces, iron tools and permanent villages came gradually, not in a single revolution. The evidence is thin and unevenly distributed, so this date range describes a region-wide process rather than a Tamu event."
+    },
+    "ne": {
+      "title": "पहिलो पहाडी किसान",
+      "text": "यही फराकिलो कालखण्डमा नेपालका विभिन्न भेगमा कृषि बस्ती देखिन थाल्छन्, र पछि पहाडी जीवनको पहिचान बनेका बाली — जौ, कोदो, फापर — धेरै पुरानो कृषि-समूहसँगै आउँछन्। पाखो, फलामे औजार र स्थायी गाउँ क्रमशः आए, एउटै क्रान्तिमा होइन। प्रमाण पातलो र असमान रूपमा फैलिएको छ, त्यसैले यो मिति तामु घटना होइन, क्षेत्रभरिको प्रक्रिया बुझ्नुपर्छ।"
+    }
+  },
+  {
+    "year": "Before written records",
+    "sort": -1000,
+    "era": "Ancient",
+    "slugs": ["ancient-origins", "migrations", "tamu-kyi", "before-the-hills"],
+    "en": {
+      "title": "Ancestors cross the Himalaya",
+      "text": "Language and oral tradition link Tamu ancestors with Tibeto-Burman peoples to the north, and the pye remembers journeys through high places, lakes and passes. Comparative linguistics places Gurung within the Tamangic group, beside Tamang, Thakali, Manange and Nar-Phu, which points to a shared history somewhere across the plateau. No source gives a date for the crossing, and the tradition itself describes a long dispersal rather than one expedition."
+    },
+    "ne": {
+      "title": "पुर्खाले हिमालय पार गर्छन्",
+      "text": "भाषा र मौखिक परम्पराले तामु पुर्खालाई उत्तरका तिब्बत-बर्मेली जनतासँग जोड्छ, र प्येले उच्च भेग, ताल र भञ्ज्याङ हुँदै गरिएका यात्रा सम्झिन्छ। तुलनात्मक भाषाविज्ञानले गुरुङलाई तामाङ, थकाली, मनाङ्गे र Nar-Phu सँगै तामाङ्गिक समूहमा राख्छ, जसले कतै तिब्बती पठारपारि साझा इतिहास देखाउँछ। पार गरेको मिति कुनै स्रोतले दिँदैन, र परम्परा आफैँले एउटै अभियान होइन, लामो बसाइँसराइ सम्झिन्छ।"
+    }
+  },
+  {
+    "year": "Chronicle time",
+    "sort": -500,
+    "era": "Ancient",
+    "slugs": ["kirat-and-the-chronicles", "how-history-is-known"],
+    "en": {
+      "title": "Kirat kings remembered in the valley",
+      "text": "Nepal’s later chronicles describe a Kirat dynasty ruling the Kathmandu Valley before the Licchavis, beginning with Yalamber and lasting, in different versions, twenty-eight to thirty-two reigns. The lists were compiled more than a thousand years afterwards and disagree about both names and dates. They preserve a traditional chronology of the valley, not a documentary record of the middle hills."
+    },
+    "ne": {
+      "title": "उपत्यकामा किरात राजा सम्झिए",
+      "text": "नेपालका पछिल्ला वंशावलीले लिच्छविअघि काठमाडौँ उपत्यकामा किरात राजवंश शासन गरेको वर्णन गर्छन् — Yalamber बाट सुरु भई, संस्करणअनुसार २८ देखि ३२ पुस्तासम्म। यी सूची हजार वर्षभन्दा पछि तयार भएका हुन् र नाम तथा मितिमा आपसमै मिल्दैनन्। तिनले उपत्यकाको परम्परागत कालक्रम जोगाउँछन्, मध्य पहाडको अभिलेख होइनन्।"
+    }
+  },
+  {
+    "year": "c. 1st–4th century CE",
+    "sort": 200,
+    "era": "Ancient",
+    "slugs": ["kirat-and-the-chronicles"],
+    "en": {
+      "title": "The end of the Kirat line and the first inscriptions",
+      "text": "The chronicles end Kirat rule with a last king overthrown by a new dynasty, and the Licchavi period begins. A statue of Jayavarma dated to about 185 CE and the great Changu Narayan inscription of Manadeva from 464 CE are the earliest contemporary documents in Nepal. They describe a literate valley state of land grants, shrines and officials — and say nothing at all about Gurungs."
+    },
+    "ne": {
+      "title": "किरात वंशको अन्त्य र पहिला अभिलेख",
+      "text": "वंशावलीअनुसार अन्तिम किरात राजालाई हटाएर नयाँ वंश आउँछ र लिच्छवि काल सुरु हुन्छ। करिब ईस्वी १८५ को Jayavarma को मूर्ति र ईस्वी ४६४ को चाँगुनारायणस्थित Manadeva को अभिलेख नेपालका पहिला समकालीन लिखित अभिलेख हुन्। तिनले भूमिदान, देवालय र अधिकारीहरूको साक्षर उपत्यका राज्य देखाउँछन् — र गुरुङबारे केही भन्दैनन्।"
+    }
+  },
+  {
+    "year": "c. 7th–9th centuries",
+    "sort": 600,
+    "era": "Ancient",
+    "slugs": ["kyirong-and-the-north", "migrations"],
+    "en": {
+      "title": "The Kyirong road and the Tibetan horizon",
+      "text": "The Tibetan empire expands across the plateau and into the Himalayan passes, and the corridor through Kyirong and Rasuwa becomes one of the main routes between Tibet and the Kathmandu Valley. Trade in salt, wool and grain, Buddhist pilgrimage and Tibetan political influence all travelled the same trails. For communities on the southern slope, the north became a permanent neighbour rather than a distant origin."
+    },
+    "ne": {
+      "title": "क्यिरोङ बाटो र तिब्बती क्षितिज",
+      "text": "तिब्बती साम्राज्य पठारभर र हिमाली भञ्ज्याङसम्म फैलिन्छ, र क्यिरोङ तथा रसुवा हुँदै जाने बाटो तिब्बत र काठमाडौँ उपत्यकाबीचको मुख्य मार्ग बन्छ। नुन, ऊन र अन्नको व्यापार, बौद्ध तीर्थयात्रा र तिब्बती राजनीतिक प्रभाव एउटै बाटो हुँदै आउँछन्। दक्षिणी काखका समुदायका लागि उत्तर दुर्लभ उत्पत्ति होइन, स्थायी छिमेकी बन्छ।"
+    }
+  },
+  {
+    "year": "c. 500–1000 CE",
+    "sort": 700,
+    "era": "Ancient",
+    "slugs": ["khola-sothar", "how-history-is-known", "before-the-hills"],
+    "en": {
+      "title": "Kohla and the old villages",
+      "text": "Kohla — Kohla Sombre, or Kohla Sonthar — is remembered as an ancestral Tamu settlement at around 3,300 metres, divided into three sites above the later villages. Archaeological survey led by Christopher Evans with Gurung communities recorded ruins, forts and terraces there, though a single excavation season could not date the settlement firmly. It remains the best-known place where oral memory and physical remains can be studied together."
+    },
+    "ne": {
+      "title": "कोह्ला र पुराना गाउँहरू",
+      "text": "कोह्ला — कोह्ला सोम्ब्रे वा कोह्ला सोन्थार — करिब ३,३०० मिटर उचाइमा रहेको पुर्ख्यौली तामु बस्तीका रूपमा सम्झिन्छ, जो पछिका गाउँहरूमाथि तीन स्थलमा फैलिएको थियो। Christopher Evans को नेतृत्वमा गुरुङ समुदायसँगै गरिएको पुरातात्त्विक सर्वेक्षणले त्यहाँ भग्नावशेष, किल्ला र पाखो भेट्यो, तर एउटै सिजनको उत्खननले बस्तीको मिति पक्का गर्न सकेन। मौखिक सम्झना र भौतिक अवशेष सँगै पढ्न सकिने सबैभन्दा परिचित ठाउँ त्यही हो।"
+    }
+  },
+  {
+    "year": "Early centuries",
+    "sort": 900,
+    "era": "Ancient",
+    "slugs": ["ritual-specialists", "pye-oral-literature", "buddhism-and-bon"],
+    "en": {
+      "title": "Pachyu and klyepri traditions take shape",
+      "text": "The Tamu ritual world of oral texts, healing, sacrifice and soul guidance forms the oldest documented layer of Gurung religion. Pachyu and klyepri specialists recite genealogies, describe the journey of the dead and negotiate with spirits, and their knowledge is transmitted through training rather than writing. How old these traditions are cannot be dated, but their vocabulary and imagery preserve a world older than either Buddhism or the Nepali state."
+    },
+    "ne": {
+      "title": "पाच्यु र क्ल्येप्री परम्परा बन्छन्",
+      "text": "मौखिक पाठ, उपचार, बलि र आत्मा-मार्गदर्शनको तामु कर्मकाण्डी संसार गुरुङ धर्मको सबैभन्दा पुरानो अभिलेखित तह बन्छ। पाच्यु र क्ल्येप्री विशेषज्ञले वंश गाउँछन्, मृतकको यात्रा वर्णन गर्छन् र आत्मासँग मोलमोलाई गर्छन्; तिनको ज्ञान लेखाइभन्दा तालिमबाट हस्तान्तरण हुन्छ। यी परम्परा कति पुराना हुन् भन्ने मिति लगाउन सकिँदैन, तर तिनका शब्द र बिम्बले बौद्ध वा नेपाली राज्यभन्दा पुरानो संसार जोगाएका छन्।"
+    }
+  },
+  {
+    "year": "c. 12th–14th centuries",
+    "sort": 1100,
+    "era": "Kingdoms",
+    "slugs": ["kirat-and-the-chronicles", "hill-kingdoms"],
+    "en": {
+      "title": "Khas Malla power in the west",
+      "text": "The Khas Malla kings rule western Nepal from their capital at Sinja, issuing inscriptions in a form of Khas that becomes modern Nepali. Their expansion spreads Khas language, caste ideas and administrative practice across the hills, and their kingdom later fragments into the many Baise and Chaubisi states. Gurung areas lay at the eastern edge of this world: in contact with Khas power, trading with it and sometimes serving it, but not absorbed by it."
+    },
+    "ne": {
+      "title": "पश्चिममा खस मल्ल शक्ति",
+      "text": "खस मल्ल राजाले सिञ्जास्थित राजधानीबाट पश्चिम नेपालमा शासन गर्छन् र आफ्ना अभिलेख कर्णालीको खस भाषामा लेखाउँछन्, जुन पछि आधुनिक नेपाली बन्छ। तिनको विस्तारले खस भाषा, जातीय सोच र प्रशासनिक अभ्यास पहाडभर फैलाउँछ, र राज्य पछि बाइसे-चौबीसे राज्यहरूमा टुक्रिन्छ। गुरुङ क्षेत्र यो संसारको पूर्वी छेउमा पर्थ्यो — खस शक्तिसँग सम्पर्क, व्यापार र कहिलेकाहीँ सेवा, तर त्यसमा विलीन होइन।"
+    }
+  },
+  {
+    "year": "c. 13th–15th centuries",
+    "sort": 1250,
+    "era": "Kingdoms",
+    "slugs": ["ghale-kings", "ghale-traditions", "hill-kingdoms"],
+    "en": {
+      "title": "Ghale chiefs and hill forts",
+      "text": "Traditions remember Ghale chiefs ruling from fortified hilltops in Kaski and Lamjung, with sites such as Armalakot above the Madi and a fortress in the Lamjung forest at over ten thousand feet. These were small courts, not empires: a raja, a handful of officials, a few tax-paying villages and a great deal of local autonomy. The ruins survive; their dates and the names of their builders do not."
+    },
+    "ne": {
+      "title": "घले मुखिया र पहाडी किल्ला",
+      "text": "परम्पराले कास्की र लमजुङका किल्लामा बसेर शासन गर्ने घले मुखियालाई सम्झिन्छ — मादीमाथिको अर्मलाकोट र लमजुङको जङ्गलमा दस हजार फिटभन्दा माथिको एउटा किल्ला तिनमा पर्छन्। ती साम्राज्य होइनन्, साना दरबार थिए: एक राजा, केही अधिकारी, केही कर तिर्ने गाउँ र धेरै स्थानीय स्वायत्तता। भग्नावशेष बाँकी छन्, तर तिनका मिति र बनाउनेको नाम छैन।"
+    }
+  },
+  {
+    "year": "c. 1300–1600",
+    "sort": 1400,
+    "era": "Kingdoms",
+    "slugs": ["ghale-traditions", "hill-kingdoms", "lamjung", "clans"],
+    "en": {
+      "title": "Ghale leadership and hill kingdoms",
+      "text": "Ghale chiefs are remembered as early rulers, and the kingdoms of Kaski and Lamjung rise with large Gurung populations. Gurung villages kept their own headmen, clan councils and priests, while the court reached them mainly through tribute, labour demands and disputes. Over these centuries the Char Jat and Sora Jat clan order, the Rodhi, terraced farming and high-pasture herding became the everyday framework of Tamu life."
+    },
+    "ne": {
+      "title": "घले नेतृत्व र पहाडी राज्यहरू",
+      "text": "घले मुख्याहरू प्रारम्भिक शासकका रूपमा सम्झिन्छन्, र ठूलो गुरुङ जनसङ्ख्या भएका कास्की तथा लमजुङ राज्य उदाउँछन्। गुरुङ गाउँले आफ्नै मुखिया, क्ले परिषद् र पुरोहित राख्छन्, जबकि दरबारसँगको सम्बन्ध मुख्यतः भेटी, श्रम र विवादको रूपमा आउँछ। यिनै शताब्दीमा चार जात र सोर्ह जातको क्ले-व्यवस्था, रोदी, पाखो खेत र उच्च चरनको गोठालो दैनिक जीवनको ढाँचा बन्छ।"
+    }
+  },
+  {
+    "year": "14th–15th centuries",
+    "sort": 1440,
+    "era": "Kingdoms",
+    "slugs": ["kirat-and-the-chronicles", "how-history-is-known"],
+    "en": {
+      "title": "The chronicles are compiled",
+      "text": "The Gopal Raj Vamshavali is compiled in Sanskrit during the Malla period, and later family and temple vamshavalis repeat and reshape its material. These texts fix the valley’s sacred geography and the legitimacy of its rulers, and they preserve the only surviving king-lists from before the inscriptions. Reading them as literature as well as record is the beginning of Nepali historiography."
+    },
+    "ne": {
+      "title": "वंशावलीहरू तयार हुन्छन्",
+      "text": "गोपाल राज वंशावली मल्ल कालमा संस्कृतमा तयार हुन्छ, र पछि परिवार तथा मन्दिरका वंशावलीले त्यसैको सामग्री दोहोर्‍याएर बदल्छन्। यी पाठले उपत्यकाको पवित्र भूगोल र शासकको वैधता स्थिर गर्छन्, र अभिलेखअघिका एकमात्र बाँकी राजा-सूची जोगाउँछन्। तिनलाई अभिलेखका साथै साहित्यका रूपमा पढ्नु नै नेपाली इतिहासलेखनको सुरुवात हो।"
+    }
+  },
+  {
+    "year": "c. 1493",
+    "sort": 1493,
+    "era": "Kingdoms",
+    "slugs": ["ghale-kings", "hill-kingdoms", "lamjung"],
+    "en": {
+      "title": "Lamjung and Kaski take shape",
+      "text": "Chronicle traditions describe Jagdeva of Nuwakot and his seven sons, the murder of Kalu Sah after the people of Lamjung invited him to rule, and the choice of the youngest son, Yasobam, as their king. Local histories of Kaski give different dates and name different founders, including Bichitra Khan and Kulmandan Shah. The stories agree on the sequence — Ghale chiefs first, a Khas-Shah line later — and disagree on almost everything else."
+    },
+    "ne": {
+      "title": "लमजुङ र कास्की बन्छन्",
+      "text": "वंशावली परम्पराले नुवाकोटका Jagdeva र उनका सात छोरा, लमजुङका मानिसले बोलाएपछि Kalu Sah को हत्या, र कान्छा छोरा Yasobam लाई राजा बनाइएको कथा भन्छ। कास्कीका स्थानीय इतिहासले फरक मिति र फरक संस्थापक दिन्छन् — Bichitra Khan र Kulmandan Shah तिनमा पर्छन्। कथाहरू क्रममा मिल्छन् — पहिले घले मुखिया, पछि खस-शाह वंश — र बाँकी लगभग सबैमा फरक पर्छन्।"
+    }
+  },
+  {
+    "year": "Centuries",
+    "sort": 1500,
+    "era": "Kingdoms",
+    "slugs": ["clans", "rodhi", "seasonal-herding", "terraces-and-crops", "marriage-and-family"],
+    "en": {
+      "title": "Clans, Rodhi and village life",
+      "text": "Char Jat and Sora Jat clans, terraced farms, high-pasture herding and the Rodhi shape everyday society across the Gurung hills. Labour is exchanged rather than hired, marriages are arranged between families and clans, and ritual duties pass down particular lineages. The household, not the kingdom, is the basic unit of social life, and most of what mattered to people never reached a court record."
+    },
+    "ne": {
+      "title": "क्ले, रोदी र गाउँको जीवन",
+      "text": "चार जात र सोर्ह जात क्ले, पाखो खेत, उच्च चरनको गोठालो र रोदीले गुरुङ पहाडभर दैनिक समाज घडाउँछन्। काम ज्यालाभन्दा साटासाट हुन्छ, विवाह परिवार र क्लेबीच मिलाइन्छ, र कर्मकाण्डी जिम्मेवारी निश्चित वंशमा सर्छ। आधारभूत सामाजिक इकाइ दरबार होइन घरपरिवार हो, र मानिसलाई महत्त्वपूर्ण लाग्ने धेरै कुरा कुनै दरबारको अभिलेखमा कहिल्यै पुगेन।"
+    }
+  },
+  {
+    "year": "1559",
+    "sort": 1559,
+    "era": "Kingdoms",
+    "slugs": ["ghale-kings", "hill-kingdoms"],
+    "en": {
+      "title": "Gorkha is founded",
+      "text": "A younger son of the Lamjung line takes Gorkha and establishes the small kingdom from which Nepal will later be unified. For two centuries Gorkha remains one hill state among many, recruiting soldiers and taxing villages in the same way as its neighbours. Its rise matters retrospectively: the dynasty that will absorb Kaski, Lamjung and the Gurung hills begins here."
+    },
+    "ne": {
+      "title": "गोरखाको स्थापना",
+      "text": "लमजुङ वंशका कान्छा छोराले गोरखा लिएर त्यो सानो राज्य स्थापना गर्छ, जहाँबाट पछि नेपाल एकीकरण हुन्छ। दुई शताब्दीसम्म गोरखा अरू पहाडी राज्यजस्तै एउटा सानो राज्य रहन्छ, जसले छिमेकीकै जस्तै सिपाही भर्ती र गाउँमा कर लगाउँछ। यसको उदय पछिबाट महत्त्वपूर्ण बन्छ: कास्की, लमजुङ र गुरुङ पहाडलाई गाभ्ने वंश यहीँबाट सुरु हुन्छ।"
+    }
+  },
+  {
+    "year": "1768",
+    "sort": 1768,
+    "era": "Nepal state",
+    "slugs": ["unified-nepal-and-muluki-ain", "history-timeline", "gurkha-history"],
+    "en": {
+      "title": "Unification of Nepal",
+      "text": "Prithvi Narayan Shah of Gorkha takes the Kathmandu Valley and, with his successors, absorbs the surrounding hill states, including Kaski and Lamjung. Gurungs become subjects of one kingdom with a single administration, taxation system and legal order based in Kathmandu. Regmi’s documentary research shows that early Gorkha recruitment favoured Magars and Khasas, and that Gurung soldiers entered the army gradually rather than all at once."
+    },
+    "ne": {
+      "title": "नेपालको एकीकरण",
+      "text": "गोर्खाका Prithvi Narayan Shah ले काठमाडौँ उपत्यका लिन्छन् र उनका उत्तराधिकारीले कास्की र लमजुङसमेत वरपरका पहाडी राज्य गाभ्छन्। गुरुङ काठमाडौँबाट चल्ने एउटै प्रशासन, कर र कानुन भएको राज्यका प्रजा बन्छन्। Regmi को अभिलेख-अनुसन्धानले सुरुमा गोरखाले मगर र खसलाई बढी भर्ती गरेको र गुरुङ सिपाही सेनामा क्रमशः आएको देखाउँछ, एकैचोटि होइन।"
+    }
+  },
+  {
+    "year": "1786",
+    "sort": 1786,
+    "era": "Kingdoms",
+    "slugs": ["kaski-state", "ghale-forts"],
+    "en": {
+      "title": "Kaski is absorbed by Gorkha",
+      "text": "Prithvi Narayan Shah's successors take the Kaski kingdom, ending the Ghale ruling line at Kaskikot and folding its land, forts and temple patronage into the expanding Gorkha state. The conquest does not erase local institutions: land grants are reissued and the old families often serve the new administration."
+    },
+    "ne": {
+      "title": "कास्की गोर्खामा गाभिन्छ",
+      "text": "पृथ्वीनारायण शाहका उत्तराधिकारीले कास्की राज्य लिन्छन्, कास्कीकोटको घले शासक-लहर अन्त्य गर्दै यसको जग्गा, किल्ला र मन्दिर-संरक्षण विस्तारशील गोर्खा राज्यमा गाभ्छन्। विजयले स्थानीय संस्था मेटाउँदैन: जग्गा-दान पुनः जारी हुन्छ र पुराना परिवार प्रायः नयाँ प्रशासनमा सेवा गर्छन्।"
+    }
+  },
+  {
+    "year": "1793",
+    "sort": 1793,
+    "era": "Nepal state",
+    "slugs": ["first-outsiders", "how-history-is-known"],
+    "en": {
+      "title": "The first British embassy",
+      "text": "Captain William Kirkpatrick leads a British embassy to Kathmandu and later publishes an account of the kingdom. His observations, and the reports that followed, are the first sustained European descriptions of Nepal and its peoples, written from the capital and based on informants rather than fieldwork. They mark the beginning of the written record in which Gurungs appear, however imperfectly."
+    },
+    "ne": {
+      "title": "पहिलो बेलायती दूतावास",
+      "text": "क्याप्टेन William Kirkpatrick को नेतृत्वमा बेलायती दूतावास काठमाडौँ आउँछ र पछि राज्यको विवरण प्रकाशित हुन्छ। उनका अवलोकन र त्यसपछिका प्रतिवेदन नेपाल र यहाँका जनताबारे पहिला निरन्तर युरोपेली वर्णन हुन्, जो राजधानीबाट र सूचनादातामार्फत लेखिए, क्षेत्रीय कामबाट होइन। गुरुङ देखिने लिखित अभिलेखको सुरुवात त्यहीँबाट हुन्छ, अपूर्ण भए पनि।"
+    }
+  },
+  {
+    "year": "1814–1816",
+    "sort": 1814,
+    "era": "Gurkha era",
+    "slugs": ["gurkha-history", "world-wars"],
+    "en": {
+      "title": "Anglo-Nepal war",
+      "text": "British and Nepali armies fight across the foothills and the western frontier, and the campaigns at Nalapani, Jaithak and Malaun become famous in Britain for the defence put up by hill soldiers. The Treaty of Sugauli ends the war, cedes territory and opens the way for British recruitment from Nepal. The Gurkha story, which would shape Gurung migration for two centuries, begins here."
+    },
+    "ne": {
+      "title": "अङ्ग्रेज-नेपाल युद्ध",
+      "text": "बेलायती र नेपाली सेना तराईका फेद र पश्चिमी सीमामा लड्छन्, र नालापानी, जैथक तथा मलाउनका युद्ध बेलायतमा पहाडी सिपाहीको प्रतिरक्षाका लागि प्रसिद्ध बन्छन्। सुगौली सन्धिले युद्ध अन्त्य गर्छ, भूभाग छोड्छ र नेपालबाट बेलायती भर्तीको बाटो खोल्छ। दुई शताब्दी गुरुङ बसाइँसराइलाई आकार दिने गोर्खा कथा यहीँ सुरु हुन्छ।"
+    }
+  },
+  {
+    "year": "1815",
+    "sort": 1815,
+    "era": "Gurkha era",
+    "slugs": ["british-regiments", "gorkha-service"],
+    "en": {
+      "title": "The first Gurkha regiments are raised",
+      "text": "The East India Company raises the Sirmoor, Kumaon and Assam battalions from Nepali soldiers who fought in the war of 1814–16. Regimental depots, recruiting officers and pensions turn hill military service into a career that families will follow for generations."
+    },
+    "ne": {
+      "title": "पहिलो गोर्खा रेजिमेन्ट खडा",
+      "text": "ईस्ट इन्डिया कम्पनीले १८१४–१६ को युद्धमा लडेका नेपाली सिपाहीबाट सिर्मूर, कुमाऊँ र आसाम बटालियन खडा गर्छ। रेजिमेन्टल डिपो, भर्ती अधिकारी र पेन्सनले पहाडी सैन्य सेवालाई पुस्तौँसम्म पछ्याइने पेसा बनाउँछ।"
+    }
+  },
+  {
+    "year": "1819",
+    "sort": 1819,
+    "era": "Nepal state",
+    "slugs": ["first-outsiders", "how-history-is-known"],
+    "en": {
+      "title": "Hamilton describes the peoples of Nepal",
+      "text": "Francis Buchanan Hamilton publishes An Account of the Kingdom of Nepal, whose opening chapter surveys the country’s tribes and lists the Gurungs among the peoples of the Gorkha territories. His account is detailed on crops, dress and customs and unreliable on numbers and origins, but it is the fullest early description of Gurung life by an outsider and is still quoted by historians."
+    },
+    "ne": {
+      "title": "Hamilton ले नेपालका जनताको वर्णन गर्छन्",
+      "text": "Francis Buchanan Hamilton ले An Account of the Kingdom of Nepal प्रकाशित गर्छन्, जसको पहिलो अध्यायले देशका जातजातिको सर्वेक्षण गर्दै गुरुङलाई गोरखाका प्रदेशका जनतामध्ये गन्छ। उनको विवरण बाली, पोसाक र चलनमा विस्तृत तर सङ्ख्या र उत्पत्तिमा अविश्वसनीय छ, तैपनि बाहिरी व्यक्तिले गुरुङ जीवनबारे लेखेको सबैभन्दा पूर्ण प्रारम्भिक विवरण यही हो र इतिहासकारले अझै उद्धृत गर्छन्।"
+    }
+  },
+  {
+    "year": "1847–1855",
+    "sort": 1847,
+    "era": "Nepal state",
+    "slugs": ["first-outsiders", "pye-oral-literature"],
+    "en": {
+      "title": "Hodgson’s ethnographic notes",
+      "text": "Brian Houghton Hodgson, British Resident in Kathmandu, fills notebooks with languages, manuscripts, routes, settlements and the “customs and manners of Gurungs”. His papers, now in the British Library, sit between the envoy’s report and modern ethnography: comparative, curious and only partly published. They remain one of the most important unpublished sources for nineteenth-century Himalayan life."
+    },
+    "ne": {
+      "title": "Hodgson का नृवंश-टिप्पणी",
+      "text": "काठमाडौँका बेलायती रेसिडेन्ट Brian Houghton Hodgson ले भाषा, पाण्डुलिपि, बाटो, बस्ती र “गुरुङका चलन तथा व्यवहार” का नोटबुक भर्छन्। अहिले ब्रिटिस लाइब्रेरीमा रहेका ती कागज दूतको प्रतिवेदन र आधुनिक नृवंशविज्ञानबीचको पुल हुन् — तुलनात्मक, जिज्ञासु र आंशिक रूपमा मात्र प्रकाशित। उन्नाइसौँ शताब्दीको हिमाली जीवनका लागि ती अझै सबैभन्दा महत्त्वपूर्ण अप्रकाशित स्रोतमध्ये पर्छन्।"
+    }
+  },
+  {
+    "year": "1854",
+    "sort": 1854,
+    "era": "Nepal state",
+    "slugs": ["unified-nepal-and-muluki-ain", "clans"],
+    "en": {
+      "title": "The Muluki Ain legal code",
+      "text": "Nepal’s first national code ranks every community within a single caste order and fixes different rules and punishments for each rank. Gurungs are classed among the matwali, the “liquor-drinking” groups, below the sacred-thread castes but above the enslaved and “untouchable” categories. The classification shapes status, land and social ambition for a century, and its effects are still argued over."
+    },
+    "ne": {
+      "title": "मुलुकी ऐन",
+      "text": "नेपालको पहिलो राष्ट्रिय कानुनले हरेक समुदायलाई एउटै जातीय क्रमभित्र राख्छ र हरेक तहका लागि फरक नियम तथा दण्ड तोक्छ। गुरुङलाई मतवाली (“रक्सी पिउने”) समूहमा राखिन्छ — जनैधारी जातभन्दा तल, तर दास र “अछूत” कोटिभन्दा माथि। यो वर्गीकरणले एक शताब्दी हैसियत, जग्गा र सामाजिक महत्त्वाकाङ्क्षा घडाउँछ, र यसका प्रभावमा अझै बहस हुन्छ।"
+    }
+  },
+  {
+    "year": "1857",
+    "sort": 1857,
+    "era": "Gurkha era",
+    "slugs": ["british-regiments"],
+    "en": {
+      "title": "Sirmoor holds the ridge at Delhi",
+      "text": "During the Indian rebellion the Sirmoor battalion, raised in 1815, holds a position on the ridge outside Delhi and loses heavily. The action becomes one of the founding stories of the Gurkha regiments and cements their reputation in British service."
+    },
+    "ne": {
+      "title": "सिर्मूरले दिल्लीको डाँडा राख्छ",
+      "text": "भारतीय विद्रोहका बेला १८१५ मा खडा भएको सिर्मूर बटालियनले दिल्लीबाहिरको डाँडामा स्थान राख्छ र ठूलो क्षति बेहोर्छ। यो कारबाही गोर्खा रेजिमेन्टका स्थापना-कथामध्ये बन्छ र बेलायती सेवामा तिनको प्रतिष्ठा सुदृढ गर्छ।"
+    }
+  },
+  {
+    "year": "19th century",
+    "sort": 1880,
+    "era": "Gurkha era",
+    "slugs": ["darjeeling-sikkim", "gurung-labour-india"],
+    "en": {
+      "title": "Moving east to India",
+      "text": "Families settle in Darjeeling, Sikkim and Assam, and around the Indian Army cantonments, following work in the tea gardens, on the roads and in the regiments. These migrations create Gurung communities outside Nepal that keep their own festivals, associations and clan ties. They also begin the pattern of multiple homelands that defines Gurung life today."
+    },
+    "ne": {
+      "title": "पूर्वतिर भारत",
+      "text": "परिवार दार्जिलिङ, सिक्किम र आसाम तथा भारतीय सेनाका छाउनीवरपर बसोबास गर्छन्, चिया बगान, सडक र रेजिमेन्टको काम पछ्याउँदै। यी बसाइँसराइले नेपालबाहिर आफ्नै चाड, संस्था र क्ले-साइनो भएका गुरुङ समुदाय बनाउँछन्। आजको गुरुङ जीवनलाई परिभाषित गर्ने बहु-मातृभूमिको ढाँचा पनि यहीँबाट सुरु हुन्छ।"
+    }
+  },
+  {
+    "year": "1890",
+    "sort": 1890,
+    "era": "Gurkha era",
+    "slugs": ["first-outsiders", "gurkha-history"],
+    "en": {
+      "title": "The recruiting officer writes it down",
+      "text": "Eden Vansittart’s Notes on Gurkhas, enlarged into Notes on Nepal (1896) and the official Gurkhas handbooks, describe the customs, physique and home districts of each recruiting community. They preserve details of houses, festivals and clan names that are hard to find elsewhere, and they also fix the “martial race” idea that made Gurungs visible to the colonial state chiefly as soldiers."
+    },
+    "ne": {
+      "title": "भर्ती अधिकारीले लेखे",
+      "text": "Eden Vansittart का Notes on Gurkhas, पछि Notes on Nepal (१८९६) र आधिकारिक Gurkhas ह्यान्डबुकका रूपमा विस्तारित, ले हरेक भर्ती समुदायका चलन, शरीर र गृह जिल्ला वर्णन गर्छन्। तिनले घर, चाड र क्लेका नामजस्ता अन्यत्र दुर्लभ विवरण जोगाउँछन्, र “योद्धा जाति” को धारणा पनि स्थिर गर्छ, जसले औपनिवेशिक राज्यको नजरमा गुरुङलाई मुख्यतः सिपाहीका रूपमा देखायो।"
+    }
+  },
+  {
+    "year": "1914–1918",
+    "sort": 1914,
+    "era": "Gurkha era",
+    "slugs": ["world-wars"],
+    "en": {
+      "title": "First World War",
+      "text": "Gurung soldiers fight in France, Gallipoli, Egypt and Mesopotamia, in a war far from the hills and often in conditions the recruiters had never described. Letters, pensions and casualty lists reach villages that had previously known war mainly as frontier skirmishing. The experience deepens the link between military service, family income and community status."
+    },
+    "ne": {
+      "title": "पहिलो विश्वयुद्ध",
+      "text": "गुरुङ सिपाही फ्रान्स, ग्यालिपोली, इजिप्ट र मेसोपोटामियामा लड्छन् — पहाडबाट धेरै टाढा, र भर्ती अधिकारीले कहिल्यै वर्णन नगरेका अवस्थामा। चिठी, पेन्सन र मृत्यु-सूची ती गाउँसम्म पुग्छन्, जसले युद्धलाई सीमाको सानो भिडन्तका रूपमा मात्र चिनेका थिए। यो अनुभवले सैनिक सेवा, पारिवारिक आय र सामुदायिक हैसियतबीचको बन्धन अझ गाढा बनाउँछ।"
+    }
+  },
+  {
+    "year": "1915",
+    "sort": 1915,
+    "era": "Gurkha era",
+    "slugs": ["british-regiments"],
+    "en": {
+      "title": "Kulbir Thapa wins the Victoria Cross",
+      "text": "At Fauquissart in France, Kulbir Thapa of the 3rd Gurkha Rifles rescues wounded men under fire and returns for a comrade he had left behind. He becomes the first Gurkha soldier awarded the Victoria Cross."
+    },
+    "ne": {
+      "title": "Kulbir Thapa ले भिक्टोरिया क्रस जित्छन्",
+      "text": "फ्रान्सको फाउकिसारमा ३रे गोर्खा राइफल्सका Kulbir Thapa ले गोलीबारीबीच घाइतेलाई बचाउँछन् र छोडेका साथीलाई फर्केर ल्याउँछन्। उनी भिक्टोरिया क्रस पाउने पहिलो गोर्खा सिपाही बन्छन्।"
+    }
+  },
+  {
+    "year": "1939–1945",
+    "sort": 1939,
+    "era": "Gurkha era",
+    "slugs": ["world-wars", "notable-gurungs", "gurkha-rights"],
+    "en": {
+      "title": "Second World War",
+      "text": "Gurung soldiers fight in Burma, North Africa and Italy, and several receive the Victoria Cross. The war expands the Gurkha establishment, brings new recruits from the hills and leaves thousands of families dependent on pay and pensions. It also produces the generation of veterans who would later campaign for equal treatment in Britain."
+    },
+    "ne": {
+      "title": "दोस्रो विश्वयुद्ध",
+      "text": "गुरुङ सिपाही बर्मा, उत्तर अफ्रिका र इटलीमा लड्छन्, र केहीले भिक्टोरिया क्रस पाउँछन्। युद्धले गोर्खा स्थापना विस्तार गर्छ, पहाडबाट नयाँ भर्ती ल्याउँछ र हजारौँ परिवारलाई तलब तथा पेन्सनमा निर्भर बनाउँछ। यसले त्यो भेटेरन पुस्ता पनि जन्माउँछ, जसले पछि बेलायतमा समान व्यवहारका लागि अभियान चलाउनेछ।"
+    }
+  },
+  {
+    "year": "1942",
+    "sort": 1942,
+    "era": "Gurkha era",
+    "slugs": ["burma-malaya"],
+    "en": {
+      "title": "Malaya falls and Burma is lost",
+      "text": "Japanese forces take Malaya and Singapore, and the British army, including Gurkha battalions, retreats from Burma to India through jungle and monsoon. Thousands are killed, captured or missing, and the survivors carry the campaign for the rest of their lives."
+    },
+    "ne": {
+      "title": "मलाया पतन र बर्मा गुमाइन्छ",
+      "text": "जापानी सेनाले मलाया र सिङ्गापुर लिन्छ, र गोर्खा बटालियनसहित बेलायती सेना जङ्गल र मनसुन हुँदै बर्माबाट भारततिर पछि हट्छ। हजारौँ मारिन्छन्, बन्दी बन्छन् वा बेपत्ता हुन्छन्, र बाँचेकाले त्यो अभियान जीवनभर बोक्छन्।"
+    }
+  },
+  {
+    "year": "1945",
+    "sort": 1945,
+    "era": "Gurkha era",
+    "slugs": ["british-regiments", "burma-malaya"],
+    "en": {
+      "title": "Lachhiman Gurung wins the Victoria Cross",
+      "text": "In Burma, Lachhiman Gurung of the 4th Gurkha Rifles holds a trench alone after losing a hand, keeping the enemy at bay until relief arrives. His award becomes one of the best-known stories of Gurkha service in the Second World War."
+    },
+    "ne": {
+      "title": "Lachhiman Gurung ले भिक्टोरिया क्रस जित्छन्",
+      "text": "बर्मामा ४थ गोर्खा राइफल्सका Lachhiman Gurung ले एक हात गुमाएपछि पनि एउटै खाडलमा एक्लै टिकेर शत्रुलाई रोक्छन्, सहयोग नआउन्जेल। उनको पदक दोस्रो विश्वयुद्धमा गोर्खा सेवाको सबैभन्दा परिचित कथामध्ये बन्छ।"
+    }
+  },
+  {
+    "year": "1947",
+    "sort": 1947,
+    "era": "Gurkha era",
+    "slugs": ["gurkha-rights", "gurungs-hong-kong"],
+    "en": {
+      "title": "The regiments divide",
+      "text": "At Indian independence the Gurkha regiments are split between Britain and India, and individual soldiers choose which army to join. Families follow the regiments to new stations in Malaya, Hong Kong, Borneo and Britain. The partition of the regiments also partitions the diaspora, sending different branches of the same clan to different countries."
+    },
+    "ne": {
+      "title": "रेजिमेन्ट बाँडिन्छन्",
+      "text": "भारतीय स्वतन्त्रतासँगै गोर्खा रेजिमेन्ट बेलायत र भारतबीच बाँडिन्छन्, र हरेक सिपाहीले कुन सेनामा जाने छान्छ। परिवार रेजिमेन्टसँगै मलाया, हङकङ, बोर्नियो र बेलायतका नयाँ छाउनीमा जान्छन्। रेजिमेन्टको यो बाँडफाँटले प्रवासलाई पनि बाँड्छ — एउटै क्लेका फरक शाखा फरक देशमा पुग्छन्।"
+    }
+  },
+  {
+    "year": "1948–1960",
+    "sort": 1948,
+    "era": "Gurkha era",
+    "slugs": ["burma-malaya"],
+    "en": {
+      "title": "The Malayan Emergency",
+      "text": "Gurkha battalions spend more than a decade patrolling the Malayan jungle against a communist insurgency, working with local police and rural communities. The brigade's headquarters moves to Malaya and later to Hong Kong, where garrison life produces a Nepali world of its own."
+    },
+    "ne": {
+      "title": "मलाया इमर्जेन्सी",
+      "text": "गोर्खा बटालियन एक दशकभन्दा बढी मलायाको जङ्गलमा साम्यवादी विद्रोहविरुद्ध गस्ती गर्छन्, स्थानीय प्रहरी र ग्रामीण समुदायसँग काम गर्दै। ब्रिगेडको मुख्यालय मलाया र पछि हङकङ सर्छ, जहाँ छाउनी-जीवनले आफ्नै नेपाली संसार बनाउँछ।"
+    }
+  },
+  {
+    "year": "1951",
+    "sort": 1951,
+    "era": "Modern",
+    "slugs": ["modern-nepal-1950-2015"],
+    "en": {
+      "title": "End of Rana rule",
+      "text": "The century of Rana rule ends and Nepal begins to open to the outside world. Schools, health posts, roads and government offices slowly reach hill districts such as Kaski, Lamjung, Syangja and Gorkha. For the first time, significant numbers of Gurung children begin to attend modern schools, and a new educated generation starts to write about its own society."
+    },
+    "ne": {
+      "title": "राणा शासनको अन्त्य",
+      "text": "राणा शासनको शताब्दी अन्त्य हुन्छ र नेपाल बाहिरी संसारतिर खुल्न थाल्छ। विद्यालय, स्वास्थ्य चौकी, सडक र सरकारी कार्यालय बिस्तारै कास्की, लमजुङ, स्याङ्जा र गोरखाजस्ता पहाडी जिल्लासम्म पुग्छन्। पहिलो पटक उल्लेख्य सङ्ख्यामा गुरुङ बालबालिका आधुनिक विद्यालय जान थाल्छन्, र नयाँ शिक्षित पुस्ताले आफ्नै समाजबारे लेख्न सुरु गर्छ।"
+    }
+  },
+  {
+    "year": "1960–1990",
+    "sort": 1960,
+    "era": "Modern",
+    "slugs": ["modern-nepal-1950-2015", "tamu-kyi"],
+    "en": {
+      "title": "Panchayat years",
+      "text": "Under the Panchayat system the state promotes one language, one national culture and one dress, and schools teach only in Nepali. Tamu Kyi is pushed out of public life, and many Gurungs later describe this period as the moment their language began to be lost at home. At the same time, roads, tourism and military pensions bring cash and new expectations to the villages."
+    },
+    "ne": {
+      "title": "पञ्चायतका वर्षहरू",
+      "text": "पञ्चायत व्यवस्थामा राज्यले एउटै भाषा, एउटै राष्ट्रिय संस्कृति र एउटै पोसाकको प्रवर्द्धन गर्छ, र विद्यालयमा नेपाली मात्र पढाइन्छ। तामु क्यि सार्वजनिक जीवनबाट हटाइन्छ, र धेरै गुरुङले यही समयलाई घरभित्रै भाषा हराउन थालेको क्षणका रूपमा सम्झिन्छन्। सँगै सडक, पर्यटन र सैनिक पेन्सनले गाउँमा नगद र नयाँ अपेक्षा ल्याउँछन्।"
+    }
+  },
+  {
+    "year": "1966",
+    "sort": 1966,
+    "era": "Modern",
+    "slugs": ["fieldwork-century", "clans", "marriage-and-family"],
+    "en": {
+      "title": "Pignède’s Gurung monograph",
+      "text": "Bernard Pignède publishes Les Gurungs, the first comprehensive ethnographic study of Gurung society, covering clan organisation, kinship, marriage, ritual specialists and household life. He dies young, and the book circulates for decades mainly in French before its English translation in 1993. Nearly every later study of Gurungs builds on it, including the work that challenges parts of it."
+    },
+    "ne": {
+      "title": "Pignède को गुरुङ अध्ययन",
+      "text": "Bernard Pignède ले Les Gurungs प्रकाशित गर्छन् — गुरुङ समाजको क्ले-व्यवस्था, साइनो, विवाह, कर्मकाण्डी विशेषज्ञ र घरेलु जीवन समेट्ने पहिलो व्यापक नृवंश-अध्ययन। उनी कान्छो उमेरमै मृत्यु हुन्छन्, र पुस्तक दशकौँ मुख्यतः फ्रेन्चमा चल्छ; सन् १९९३ मा अङ्ग्रेजी अनुवाद आउँछ। पछिका लगभग सबै गुरुङ अध्ययनले त्यसैमा टेकेर अघि बढ्छन्, त्यसका केही भागलाई चुनौती दिने कामसमेत समेटेर।"
+    }
+  },
+  {
+    "year": "1976",
+    "sort": 1976,
+    "era": "Modern",
+    "slugs": ["fieldwork-century", "population"],
+    "en": {
+      "title": "Measuring the Gurung household",
+      "text": "Alan Macfarlane, working with Indrabahadur Gurung, publishes Resources and Population, one of the first demographic studies of a Himalayan community. Household size, marriage age, fertility, mortality and migration are counted rather than assumed, and the results change how Gurung family life is described. The later Guide to the Gurungs turns the material into an accessible account for general readers."
+    },
+    "ne": {
+      "title": "गुरुङ घरपरिवारको गणना",
+      "text": "Alan Macfarlane ले Indrabahadur Gurung सँगै काम गर्दै Resources and Population प्रकाशित गर्छन् — हिमाली समुदायको पहिला जनसाङ्ख्यिक अध्ययनमध्ये एक। घरपरिवारको आकार, विवाहको उमेर, प्रजनन, मृत्यु र बसाइँसराइ अनुमान होइन, गणना गरिन्छ, र नतिजाले गुरुङ पारिवारिक जीवनको वर्णन बदल्छ। पछिको Guide to the Gurungs ले त्यही सामग्रीलाई सामान्य पाठकका लागि सुलभ बनाउँछ।"
+    }
+  },
+  {
+    "year": "1986",
+    "sort": 1986,
+    "era": "Modern",
+    "slugs": ["annapurna-conservation", "ghandruk", "herding-and-trade"],
+    "en": {
+      "title": "Annapurna Conservation Area begins",
+      "text": "A community-based conservation project starts in Ghandruk and grows into Nepal’s largest protected area, combining forest protection, trekking management and local development. Gurung villages become both wardens and beneficiaries of a landscape they had farmed and grazed for centuries. Tourism brings income, and also new pressures on land, labour and ritual life."
+    },
+    "ne": {
+      "title": "अन्नपूर्ण संरक्षण क्षेत्र सुरु",
+      "text": "घान्द्रुकबाट सामुदायिक संरक्षण परियोजना सुरु भई नेपालको सबैभन्दा ठूलो संरक्षित क्षेत्र बन्छ, जसले वन संरक्षण, पदयात्रा व्यवस्थापन र स्थानीय विकास जोड्छ। गुरुङ गाउँ शताब्दीयौँदेखि खेती र गोठालो गरेको भूदृश्यको संरक्षक र लाभग्राही दुवै बन्छ। पर्यटनले आय ल्याउँछ, अनि जग्गा, श्रम र कर्मकाण्डी जीवनमा नयाँ दबाब पनि।"
+    }
+  },
+  {
+    "year": "1987",
+    "sort": 1987,
+    "era": "Modern",
+    "slugs": ["dhorpatan-herding"],
+    "en": {
+      "title": "Dhorpatan becomes a hunting reserve",
+      "text": "The high valley and its pastures are declared Nepal's only hunting reserve, regulated for trophy hunting and conservation. Herders' access to grazing and forest is brought under new rules, and tourism becomes part of the local economy."
+    },
+    "ne": {
+      "title": "ढोरपाटन सिकार आरक्ष बन्छ",
+      "text": "उच्च उपत्यका र त्यसका चरन नेपालको एकमात्र सिकार आरक्ष घोषित हुन्छ, ट्रफी-सिकार र संरक्षणका लागि नियमन गरिएको। गोठालाको चरन र वनमा पहुँच नयाँ नियममुनि आउँछ, र पर्यटन स्थानीय अर्थतन्त्रको अंश बन्छ।"
+    }
+  },
+  {
+    "year": "1989",
+    "sort": 1989,
+    "era": "Modern",
+    "slugs": ["fieldwork-century", "buddhism-and-bon", "kyirong-and-the-north"],
+    "en": {
+      "title": "Himalayan Dialogue",
+      "text": "Stan Mumford publishes an ethnography of Gyasumdo that treats Tibetan lamas and Gurung shamans as interlocutors rather than curiosities. The book documents the northern edge of the Gurung area, the politics of religious knowledge and the way Ghale and shamanic narratives survive inside a Buddhist order. It makes the relationship between the two traditions a central question for the next generation of researchers."
+    },
+    "ne": {
+      "title": "Himalayan Dialogue",
+      "text": "Stan Mumford ले ग्यासुम्दोको नृवंश-अध्ययन प्रकाशित गर्छन्, जसले तिब्बती लामा र गुरुङ ढामीलाई जिज्ञासाका वस्तु होइन, संवादका सहभागीका रूपमा लिन्छ। पुस्तकले गुरुङ क्षेत्रको उत्तरी छेउ, धार्मिक ज्ञानको राजनीति र बौद्ध व्यवस्थाभित्र घले तथा ढामी-कथन कसरी बाँचिरहन्छ देखाउँछ। यसले दुई परम्पराबीचको सम्बन्धलाई अर्को पुस्ताका अनुसन्धानकर्ताका लागि केन्द्रीय प्रश्न बनाउँछ।"
+    }
+  },
+  {
+    "year": "1990",
+    "sort": 1990,
+    "era": "Modern",
+    "slugs": ["identity-movement", "gurung-organisations", "fieldwork-century"],
+    "en": {
+      "title": "Democracy and the identity movement",
+      "text": "The restoration of multiparty democracy allows indigenous organisations to work openly, and Gurung associations begin publishing, teaching Tamu Kyi and celebrating Lhosar in public. Researchers such as Judith Pettigrew begin new fieldwork on ritual, gender and landscape. The decade marks the point where Gurung history starts to be written mainly by Gurungs."
+    },
+    "ne": {
+      "title": "लोकतन्त्र र पहिचान आन्दोलन",
+      "text": "बहुदलीय लोकतन्त्रको पुनर्स्थापनाले आदिवासी संस्थालाई खुला काम गर्न बाटो दिन्छ, र गुरुङ संस्थाले प्रकाशन, तामु क्यि पढाइ र सार्वजनिक ल्होसार सुरु गर्छन्। Judith Pettigrew जस्ता अनुसन्धानकर्ताले कर्मकाण्ड, लिङ्ग र भूदृश्यमा नयाँ क्षेत्रीय काम सुरु गर्छन्। गुरुङ इतिहास मुख्यतः गुरुङ आफैँले लेख्न थाल्ने मोड यही दशक हो।"
+    }
+  },
+  {
+    "year": "1997",
+    "sort": 1997,
+    "era": "Gurkha era",
+    "slugs": ["gurungs-hong-kong", "gurkha-rights"],
+    "en": {
+      "title": "Hong Kong handover",
+      "text": "The British Gurkha base in Hong Kong closes with the handover to China, and many Gurung families who had made their lives there move to Britain or return to Nepal. The closure ends one of the oldest overseas garrison communities and begins a new dispersal. It is also a reminder that Gurkha history is a history of families, not only of regiments."
+    },
+    "ne": {
+      "title": "हङकङ हस्तान्तरण",
+      "text": "चीनलाई हङकङ हस्तान्तरणसँगै बेलायती गोर्खा आधार बन्द हुन्छ, र त्यहाँ जीवन बनाएका धेरै गुरुङ परिवार बेलायत वा नेपाल फर्कन्छन्। यो बन्दले सबैभन्दा पुराना विदेशी छाउनी समुदायमध्ये एकको अन्त्य गरी नयाँ छरिएको जीवन सुरु गर्छ। यो सम्झना पनि हो — गोर्खा इतिहास रेजिमेन्टको मात्र होइन, परिवारको पनि इतिहास हो।"
+    }
+  },
+  {
+    "year": "2002",
+    "sort": 2002,
+    "era": "Modern",
+    "slugs": [
+      "tamu-lhosar",
+      "tamu-calendar",
+      "lhosar-worldwide",
+      "ritual-year",
+      "identity-movement"
+    ],
+    "en": {
+      "title": "Lhosar becomes a public holiday",
+      "text": "Tamu Lhosar on the 15th of Poush is recognised as a national holiday in Nepal, and the Gurung are formally listed among the country’s recognised indigenous nationalities. Public celebration grows quickly in Kathmandu, Pokhara and abroad. Recognition does not by itself keep a language alive, but it changes what can be taught, performed and claimed in public."
+    },
+    "ne": {
+      "title": "ल्होसार सार्वजनिक बिदा",
+      "text": "पुष १५ को तामु ल्होसार नेपालमा राष्ट्रिय बिदाका रूपमा मान्यता पाउँछ, र गुरुङ देशका मान्यता प्राप्त आदिवासी जनजातिमा औपचारिक रूपमा सूचीबद्ध हुन्छन्। काठमाडौँ, पोखरा र विदेशमा सार्वजनिक उत्सव छिटो बढ्छ। मान्यताले भाषा आफैँ जोगाइदिँदैन, तर के पढाउन, प्रस्तुत गर्न र सार्वजनिक रूपमा दाबी गर्न सकिन्छ भन्ने बदल्छ।"
+    }
+  },
+  {
+    "year": "2009",
+    "sort": 2009,
+    "era": "Gurkha era",
+    "slugs": ["gurkha-rights", "united-kingdom", "first-outsiders"],
+    "en": {
+      "title": "Right to settle in Britain",
+      "text": "After a long public campaign, the British government agrees that most Gurkha veterans who retired before 1997 may settle in the United Kingdom. A new Nepali and Gurung community grows in towns such as Aldershot, Farnborough, Reading and Ashford. Settlement brings pensions, schools and safety, and also language barriers and the difficulty of keeping Tamu traditions alive for children born abroad."
+    },
+    "ne": {
+      "title": "बेलायतमा बस्ने अधिकार",
+      "text": "लामो सार्वजनिक अभियानपछि बेलायती सरकारले १९९७ अघि अवकाश पाएका अधिकांश गोर्खा भेटेरनलाई बेलायतमा बस्ने अधिकार दिन्छ। Aldershot, Farnborough, Reading र Ashford जस्ता सहरमा नयाँ नेपाली तथा गुरुङ समुदाय बन्छ। बसोबासले पेन्सन, विद्यालय र सुरक्षा ल्याउँछ, अनि भाषाको अवरोध र विदेशमा जन्मेका बालबालिकालाई तामु परम्परा जोगाउने कठिनाइ पनि।"
+    }
+  },
+  {
+    "year": "2014",
+    "sort": 2014,
+    "era": "Modern",
+    "slugs": ["kyirong-and-the-north", "herding-and-trade"],
+    "en": {
+      "title": "The northern road reopens to trade",
+      "text": "The Rasuwagadhi crossing on the old Kyirong route opens for bilateral trade with China and becomes an international border point in 2017. Trucks replace mule caravans, and the corridor’s importance shifts from salt and grain to manufactured goods and travel. A flash flood destroys the Miteri bridge in July 2025, showing how fragile the route remains."
+    },
+    "ne": {
+      "title": "उत्तरी बाटो व्यापारमा खुल्छ",
+      "text": "पुरानो क्यिरोङ बाटोको रसुवागढी नाका चीनसँग द्विपक्षीय व्यापारका लागि खुल्छ र सन् २०१७ मा अन्तर्राष्ट्रिय सीमा नाका बन्छ। ट्रकले खच्चरको कारभान प्रतिस्थापन गर्छ, र कोरिडोरको महत्त्व नुन-अन्नबाट औद्योगिक वस्तु र यात्रातिर सर्छ। सन् २०२५ जुलाईको बाढीले मितेरी पुल बगाउँछ, जसले यो बाटो अझै कति नाजुक छ देखाउँछ।"
+    }
+  },
+  {
+    "year": "2015",
+    "sort": 2015,
+    "era": "Modern",
+    "slugs": ["earthquake-2015", "modern-nepal-1950-2015"],
+    "en": {
+      "title": "Earthquake and a new constitution",
+      "text": "The Gorkha earthquake kills thousands, damages Gurung villages and destroys temples, schools and houses across the homeland. Reconstruction is slow, uneven and largely organised by families and community associations rather than the state. Months later Nepal adopts a federal constitution, and most Gurung areas are placed in Gandaki Province."
+    },
+    "ne": {
+      "title": "भूकम्प र नयाँ संविधान",
+      "text": "गोर्खा भूकम्पले हजारौँको ज्यान लिन्छ र गुरुङ गाउँ, मन्दिर, विद्यालय र घर ध्वस्त पार्छ। पुनर्निर्माण ढिलो, असमान र धेरै हदसम्म राज्यभन्दा परिवार तथा सामुदायिक संस्थाले चलाएको हुन्छ। केही महिनापछि नेपालले सङ्घीय संविधान अपनाउँछ, र अधिकांश गुरुङ क्षेत्र गण्डकी प्रदेशमा पर्छन्।"
+    }
+  },
+  {
+    "year": "2018",
+    "sort": 2018,
+    "era": "Modern",
+    "slugs": ["fieldwork-century", "pye-oral-literature", "how-history-is-known"],
+    "en": {
+      "title": "The Pe corpus and fifty years of film",
+      "text": "Simon Strickland’s Materials for the Study of Gurung Pe publishes hundreds of ritual texts in transcription and translation, while Sarah Harrison and Alan Macfarlane’s The World of the Gurungs draws on five decades of observation and film. Together they mark a new phase: the archive of Gurung life becomes deep enough to compare across generations. It also raises hard questions about secrecy, ownership and consent."
+    },
+    "ne": {
+      "title": "प्ये सङ्ग्रह र पचास वर्षको फिल्म",
+      "text": "Simon Strickland को Materials for the Study of Gurung Pe ले सयौँ कर्मकाण्डी पाठ लिप्यन्तरण र अनुवादसहित प्रकाशित गर्छ, र Sarah Harrison तथा Alan Macfarlane को The World of the Gurungs पाँच दशकको अवलोकन र फिल्ममा आधारित हुन्छ। दुवैले नयाँ चरण देखाउँछन्: गुरुङ जीवनको अभिलेख पुस्तान्तर तुलना गर्न सकिने गहिराइमा पुग्छ। यसले गोपनीयता, स्वामित्व र सहमतिका कठिन प्रश्न पनि उठाउँछ।"
+    }
+  },
+  {
+    "year": "2024",
+    "sort": 2024,
+    "era": "Modern",
+    "slugs": ["tamu-script", "gurung-khema"],
+    "en": {
+      "title": "Gurung Khema enters Unicode",
+      "text": "Unicode 16.0 includes the Gurung Khema script as an encoded block, so it can be typed, stored and displayed on ordinary devices without special fonts. Encoding is a technical step, not a revival, but it removes a practical barrier for schools, publishers and software."
+    },
+    "ne": {
+      "title": "गुरुङ खेमा युनिकोडमा",
+      "text": "युनिकोड १६.० ले गुरुङ खेमा लिपिलाई इन्कोडेड ब्लकका रूपमा समावेश गर्छ, त्यसैले विशेष फन्टबिना साधारण यन्त्रमा टाइप, भण्डारण र देखाउन सकिन्छ। इन्कोडिङ पुनर्जीवन होइन, प्राविधिक कदम हो, तर विद्यालय, प्रकाशक र सफ्टवेयरका लागि व्यावहारिक अवरोध हटाउँछ।"
+    }
+  },
+  {
+    "year": "Today",
+    "sort": 2026,
+    "era": "Modern",
+    "slugs": [
+      "gurungs-new-york",
+      "gurung-khema",
+      "gurung-women",
+      "fieldwork-century",
+      "tamu-kyi-grammar",
+      "being-tamu-today"
+    ],
+    "en": {
+      "title": "A worldwide Tamu community",
+      "text": "Gurungs live in Nepal, India, Britain, Hong Kong, the United States and beyond, and work to keep language and culture alive across borders. Community schools, Lhosar gatherings, language documentation and new writing in Nepali, English and Gurung Khema are all part of that effort. The 2021 census records more than half a million Gurungs in Nepal alone, and the number of people researching their own history keeps growing."
+    },
+    "ne": {
+      "title": "विश्वव्यापी तामु समुदाय",
+      "text": "गुरुङ नेपाल, भारत, बेलायत, हङकङ, अमेरिका र अन्यत्र बस्छन्, र सीमापार भाषा तथा संस्कृति जोगाउन काम गर्छन्। सामुदायिक विद्यालय, ल्होसार भेला, भाषा-अभिलेख र नेपाली, अङ्ग्रेजी तथा गुरुङ खेमामा नयाँ लेखाइ त्यही प्रयासका अङ्ग हुन्। २०२१ को जनगणनाले नेपालमै पाँच लाखभन्दा बढी गुरुङ गन्छ, र आफ्नै इतिहास खोज्ने मानिसको सङ्ख्या बढ्दै छ।"
+    }
+  }
+]

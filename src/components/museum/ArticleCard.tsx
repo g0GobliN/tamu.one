@@ -1,12 +1,15 @@
 import { ArrowUpRight, BookOpen } from "lucide-react";
 import { getMedia } from "@/data/media";
 import type { LocalizedArticle } from "@/i18n/content";
-import { useUi } from "@/i18n";
+import { useLocale, useUi } from "@/i18n";
+import { localizeMedia } from "@/i18n/media-ne";
 import { AppLink } from "./AppLink";
 
 export function ArticleCard({ article: a }: { article: LocalizedArticle }) {
   const ui = useUi();
-  const photo = a.image ? getMedia(a.image) : undefined;
+  const locale = useLocale();
+  const item = a.image ? getMedia(a.image) : undefined;
+  const photo = item ? localizeMedia(item, locale) : undefined;
   return (
     <AppLink
       to="/library/$slug"

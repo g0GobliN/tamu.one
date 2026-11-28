@@ -1,0 +1,173 @@
+{
+  "key": "culture",
+  "image": "festival",
+  "categories": ["Culture", "Spirituality"],
+  "en": {
+    "eyebrow": "COLLECTION 02 · CULTURE",
+    "title": "A living culture",
+    "intro": "Traditions carried across generations — in song and dance, in ritual specialists, and in everyday community life.",
+    "lead": "Not a museum piece — a way of living.",
+    "body": [
+      "Gurung culture is practised, argued over and renewed. Festivals like Tamu Lhosar bring families together; ritual specialists keep sacred knowledge; young people find new ways to belong. What follows from one generation to the next is not a fixed list of customs but a set of arguments about how to live: which rites must be kept, which songs are worth teaching, which parts of the old dress and food belong to a village and which to a stage.",
+      "The year itself is a cultural document. Lunar months, agricultural tasks, ancestor offerings and dances are woven together, so that a festival is at once a religious occasion, an economic decision and a family reunion. Alongside the calendar runs the life cycle: birth, initiation, marriage, house-building and death, each with its own specialists, exchanges and restrictions. Much of this work is done by women, whose labour and knowledge hold households together and whose songs carry histories that written records ignore.",
+      "Religious life varies from place to place, blending ancestral practice with Buddhist and Hindu traditions in local ways. A household may keep a pachyu, invite a lama, observe Lhosar and join Dashain without feeling any contradiction, while a neighbouring family may have abandoned some of these and revived others. The identity movement of the last thirty years has made such choices more self-conscious, and the result is not one Gurung culture but a family of local cultures, each with its own keepers.",
+      "This collection therefore describes practice rather than decreeing it. Where an account is local, it says so; where specialists disagree, the disagreement stays visible; and where a tradition is changing, the change is recorded as part of the tradition rather than as its end."
+    ],
+    "themes": [
+      {
+        "title": "The ritual year",
+        "text": "Lunar months, first fruits, ancestor offerings and the long season of Ghatu: how the Gurung year actually runs.",
+        "slug": "ritual-year"
+      },
+      {
+        "title": "Ghatu",
+        "text": "A performance tradition of movement, music and memory.",
+        "slug": "ghatu"
+      },
+      {
+        "title": "Rodhi",
+        "text": "A space for young people to gather, cooperate and socialise.",
+        "slug": "rodhi"
+      },
+      {
+        "title": "Pachyu & Ghyabre",
+        "text": "Ritual specialists who guide the living and the dead.",
+        "slug": "ritual-specialists"
+      },
+      {
+        "title": "Tamu Lhosar",
+        "text": "The new year, celebrated by communities at home and abroad.",
+        "slug": "tamu-lhosar"
+      },
+      {
+        "title": "Music & instruments",
+        "text": "Work songs, Rodhi exchanges, laments and the drums that call the spirits.",
+        "slug": "musical-instruments"
+      },
+      {
+        "title": "Dress & ornament",
+        "text": "Cloth, jewellery, weaving and what people choose to wear to show belonging.",
+        "slug": "traditional-dress"
+      },
+      {
+        "title": "Food & the feast",
+        "text": "Dhindo, sisnu, millet raksi and the obligations created by feeding a village.",
+        "slug": "gurung-food"
+      },
+      {
+        "title": "Everyday heritage",
+        "text": "Weaving, bamboo work and the crafts that furnished a household.",
+        "slug": "weaving-and-bamboo"
+      },
+      {
+        "title": "Oral literature",
+        "text": "Pe / Pye, specialist knowledge and the people who transmit it.",
+        "slug": "pye-oral-literature"
+      },
+      {
+        "title": "Festivals beyond Lhosar",
+        "text": "Chandi Purnima, Ghatu Purnima and the rites that hold a village.",
+        "slug": "minor-festivals"
+      },
+      {
+        "title": "Women, ritual and economy",
+        "text": "Farming, lament, Ghatu, jewellery and the burden of migration.",
+        "slug": "women-ritual-economy"
+      },
+      {
+        "title": "The road of the dead",
+        "text": "Pae, the soul's journey and the long funeral.",
+        "slug": "death-rites"
+      },
+      {
+        "title": "Klepri lineages",
+        "text": "Knowledge kept in families, and the specialists being lost.",
+        "slug": "klepri-lineages"
+      }
+    ]
+  },
+  "ne": {
+    "eyebrow": "सङ्ग्रह ०२ · संस्कृति",
+    "title": "जीवित संस्कृति",
+    "intro": "पुस्तौँदेखि बोकिएका परम्परा — गीत र नृत्यमा, कर्मकाण्डी विशेषज्ञमा, र दैनिक सामुदायिक जीवनमा।",
+    "lead": "सङ्ग्रहालयको वस्तु होइन — जिउने तरिका।",
+    "body": [
+      "गुरुङ संस्कृति अभ्यास गरिन्छ, बहस गरिन्छ र नयाँ बनाइन्छ। तामु ल्होसारजस्ता चाडले परिवार जोड्छन्; कर्मकाण्डी विशेषज्ञले पवित्र ज्ञान राख्छन्; युवाले अपनत्व जनाउने नयाँ बाटो खोज्छन्। पुस्ताबाट पुस्तामा सर्ने कुरा स्थिर चलनको सूची होइन, जिउने तरिकाबारेको बहस हो: कुन विधि राख्ने, कुन गीत सिकाउने, पुरानो पोसाक र खाना गाउँको हो कि मञ्चको।",
+      "वर्ष आफैँ सांस्कृतिक दस्तावेज हो। चान्द्र महिना, खेतीको काम, पुर्खालाई अर्पण र नाच एकअर्कामा गाँसिएका छन्, त्यसैले एउटा चाड एकैचोटि धार्मिक अवसर, आर्थिक निर्णय र पारिवारिक भेला हुन्छ। यसैसँगै जीवनचक्र चल्छ: जन्म, संस्कार, विवाह, घर बनाउने र मृत्यु — हरेकसँग आफ्नै विशेषज्ञ, साटासाट र निषेध। यीमध्ये धेरै काम महिलाले गर्छन्, जसको श्रम र ज्ञानले घर धान्छ, र जसका गीतले लिखित अभिलेखले बेवास्ता गरेका इतिहास बोक्छन्।",
+      "धार्मिक जीवन ठाउँअनुसार फरक पर्छ — पुर्ख्यौली अभ्यासमा बौद्ध र हिन्दु परम्परा स्थानीय तरिकाले मिसिएका छन्। एउटा घरले पाच्यु राख्ने, लामा बोलाउने, ल्होसार मनाउने र दसैँमा सहभागी हुने — यी सबैमा कुनै विरोध नदेख्न सक्छ, जबकि छिमेकी परिवारले केही छोडेर अरू पुनर्जीवित गरेको हुन सक्छ। पछिल्लो तीस वर्षको पहिचान आन्दोलनले यस्ता छनोटलाई अझ सचेत बनाएको छ, र नतिजा एउटै गुरुङ संस्कृति होइन, आ-आफ्ना रक्षक भएका स्थानीय संस्कृतिहरूको परिवार हो।",
+      "त्यसैले यो सङ्ग्रह अभ्यासको वर्णन गर्छ, आदेश दिँदैन। विवरण स्थानीय हो भने त्यो भनिन्छ; विशेषज्ञ असहमत छन् भने असहमति देखिन्छ; र परम्परा बदलिँदै छ भने त्यो परिवर्तन परम्पराकै अंशका रूपमा रेकर्ड गरिन्छ, उसको अन्त्यका रूपमा होइन।"
+    ],
+    "themes": [
+      {
+        "title": "कर्मकाण्डी वर्ष",
+        "text": "चान्द्र महिना, पहिलो बाली, पुर्खालाई अर्पण र घाटुको लामो सिजन: गुरुङ वर्ष वास्तवमा कसरी चल्छ।",
+        "slug": "ritual-year"
+      },
+      {
+        "title": "घाटु",
+        "text": "गति, सङ्गीत र सम्झनाको प्रस्तुति परम्परा।",
+        "slug": "ghatu"
+      },
+      {
+        "title": "रोदी",
+        "text": "युवा भेला हुने, सहकार्य गर्ने र सामाजिक हुने ठाउँ।",
+        "slug": "rodhi"
+      },
+      {
+        "title": "पाच्यु र घ्याब्रे",
+        "text": "जीवित र मृतक दुवैलाई मार्ग देखाउने कर्मकाण्डी विशेषज्ञ।",
+        "slug": "ritual-specialists"
+      },
+      {
+        "title": "तामु ल्होसार",
+        "text": "स्वदेश र प्रवासका समुदायले मनाउने नयाँ वर्ष।",
+        "slug": "tamu-lhosar"
+      },
+      {
+        "title": "सङ्गीत र वाद्ययन्त्र",
+        "text": "कामका गीत, रोदीका सवाल-जवाफ, विलाप र आत्मा बोलाउने ध्याङ्ग्रो।",
+        "slug": "musical-instruments"
+      },
+      {
+        "title": "पोसाक र गहना",
+        "text": "कपडा, गहना, बुनाइ र अपनत्व देखाउन लगाइने पोसाक।",
+        "slug": "traditional-dress"
+      },
+      {
+        "title": "खाना र भोज",
+        "text": "ढिँडो, सिस्नु, कोदोको रक्सी र गाउँलाई खुवाउँदा बन्ने दायित्व।",
+        "slug": "gurung-food"
+      },
+      {
+        "title": "दैनिक सम्पदा",
+        "text": "बुनाइ, बाँसको काम र घर सजाउने शिल्प।",
+        "slug": "weaving-and-bamboo"
+      },
+      {
+        "title": "मौखिक साहित्य",
+        "text": "प्ये, विशेष ज्ञान र त्यो हस्तान्तरण गर्ने मानिसहरू।",
+        "slug": "pye-oral-literature"
+      },
+      {
+        "title": "ल्होसारबाहिरका चाड",
+        "text": "चण्डी पूर्णिमा, घाटु पूर्णिमा र गाउँ धान्ने विधि।",
+        "slug": "minor-festivals"
+      },
+      {
+        "title": "महिला, कर्मकाण्ड र अर्थतन्त्र",
+        "text": "खेती, विलाप, घाटु, गहना र बसाइँसराइको भार।",
+        "slug": "women-ritual-economy"
+      },
+      {
+        "title": "मृतकको बाटो",
+        "text": "पाए, आत्माको यात्रा र लामो अन्त्येष्टि।",
+        "slug": "death-rites"
+      },
+      {
+        "title": "क्ल्येप्री लहर",
+        "text": "परिवारमा राखिएको ज्ञान र हराइरहेका विशेषज्ञ।",
+        "slug": "klepri-lineages"
+      }
+    ]
+  }
+}

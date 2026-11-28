@@ -1,10 +1,13 @@
 import { ArrowUpRight, Camera, ExternalLink } from "lucide-react";
 import { media } from "@/data/media";
-import { useUi } from "@/i18n";
+import { useLocale, useUi } from "@/i18n";
+import { localizeMedia } from "@/i18n/media-ne";
 import { AppLink } from "./AppLink";
 
 export function Credits() {
   const ui = useUi();
+  const locale = useLocale();
+  const photos = media.map((item) => localizeMedia(item, locale));
   return (
     <main className="credits-page">
       <header className="credits-hero">
@@ -28,7 +31,7 @@ export function Credits() {
       </section>
 
       <ul className="credit-grid">
-        {media.map((photo) => (
+        {photos.map((photo) => (
           <li key={photo.id} className="credit-card">
             <img src={photo.url} alt={photo.title} loading="lazy" width={1600} height={1067} />
             <div className="credit-body">

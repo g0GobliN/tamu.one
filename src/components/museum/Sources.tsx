@@ -1,9 +1,12 @@
 import { sources } from "@/data/heritage";
 import { media } from "@/data/media";
-import { useUi } from "@/i18n";
+import { useLocale, useUi } from "@/i18n";
+import { localizeMedia, sourceKindLabel } from "@/i18n/media-ne";
 
 export function Sources() {
   const ui = useUi();
+  const locale = useLocale();
+  const photos = media.map((item) => localizeMedia(item, locale));
   return (
     <main className="prose-page">
       <span className="eyebrow">{ui.sources.eyebrow}</span>
@@ -17,13 +20,13 @@ export function Sources() {
             </strong>
             {s.title}
             <br />
-            <small>{s.kind}</small>
+            <small>{sourceKindLabel(locale, s.kind)}</small>
           </a>
         ))}
       </div>
       <h2>{ui.sources.photographs}</h2>
       <div className="source-list">
-        {media.map((m) => (
+        {photos.map((m) => (
           <a
             key={m.id}
             href={`https://commons.wikimedia.org/wiki/File:${m.file}`}

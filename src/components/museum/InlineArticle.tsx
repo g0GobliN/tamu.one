@@ -1,12 +1,15 @@
 import { sources } from "@/data/heritage";
 import { getMedia } from "@/data/media";
 import type { LocalizedArticle } from "@/i18n/content";
-import { useUi } from "@/i18n";
+import { useLocale, useUi } from "@/i18n";
+import { localizeMedia } from "@/i18n/media-ne";
 import { AppLink } from "./AppLink";
 
 export function InlineArticle({ article: a }: { article: LocalizedArticle }) {
   const ui = useUi();
-  const photo = a.image ? getMedia(a.image) : undefined;
+  const locale = useLocale();
+  const item = a.image ? getMedia(a.image) : undefined;
+  const photo = item ? localizeMedia(item, locale) : undefined;
   const refs = a.sourceIds
     .map((id) => sources.find((s) => s.id === id))
     .filter((s) => s !== undefined);

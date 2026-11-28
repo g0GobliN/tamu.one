@@ -1,4 +1,9 @@
+/**
+ * The timeline. Events live in `content/timeline.json` with both languages per
+ * entry; `era` stays an English key because the interface labels it.
+ */
 export type Era = "Ancient" | "Kingdoms" | "Nepal state" | "Gurkha era" | "Modern";
+
 export interface TimelineEvent {
   year: string;
   sort: number;
@@ -7,174 +12,38 @@ export interface TimelineEvent {
   text: string;
   slugs: string[];
 }
+
+export interface TimelineEventText {
+  title: string;
+  text: string;
+}
+
+interface TimelineRecord {
+  year: string;
+  sort: number;
+  era: Era;
+  slugs: string[];
+  en: TimelineEventText;
+  ne: TimelineEventText;
+}
+
+const rawTimeline = import.meta.glob("/content/timeline.json", {
+  eager: true,
+  import: "default",
+}) as Record<string, TimelineRecord[]>;
+
+const timelineRecords = Object.values(rawTimeline)[0];
+if (!timelineRecords) throw new Error("content/timeline.json not found");
+
 export const eras: Era[] = ["Ancient", "Kingdoms", "Nepal state", "Gurkha era", "Modern"];
-export const timeline: TimelineEvent[] = [
-  {
-    year: "Before written records",
-    sort: -1000,
-    era: "Ancient",
-    title: "Ancestors cross the Himalaya",
-    text: "Language and oral tradition link Tamu ancestors with Tibeto-Burman peoples to the north. Pe ritual texts remember journeys through high places.",
-    slugs: ["ancient-origins", "migrations", "tamu-kyi"],
-  },
-  {
-    year: "c. 500–1000 CE",
-    sort: 700,
-    era: "Ancient",
-    title: "Kohla and the old villages",
-    text: "Kohla (Kohla Sombre) is remembered as an ancestral Tamu settlement. Archaeological work has studied its ruins.",
-    slugs: ["khola-sothar", "how-history-is-known"],
-  },
-  {
-    year: "Early centuries",
-    sort: 900,
-    era: "Ancient",
-    title: "Pachyu and Klehpri traditions take shape",
-    text: "The Tamu ritual world of oral texts, healing and soul guidance forms the oldest layer of Gurung religion.",
-    slugs: ["ritual-specialists", "pye-oral-literature", "buddhism-and-bon"],
-  },
-  {
-    year: "c. 1300–1600",
-    sort: 1400,
-    era: "Kingdoms",
-    title: "Ghale leadership and hill kingdoms",
-    text: "Ghale chiefs are remembered as early rulers. The kingdoms of Kaski and Lamjung rise with large Gurung populations.",
-    slugs: ["ghale-traditions", "hill-kingdoms", "lamjung"],
-  },
-  {
-    year: "Centuries",
-    sort: 1500,
-    era: "Kingdoms",
-    title: "Clans, Rodhi and village life",
-    text: "Char Jat and Sora Jat clans, terraced farms, high-pasture herding and the Rodhi shape everyday society.",
-    slugs: ["clans", "rodhi", "seasonal-herding", "terraces-and-crops"],
-  },
-  {
-    year: "1768",
-    sort: 1768,
-    era: "Nepal state",
-    title: "Unification of Nepal",
-    text: "Prithvi Narayan Shah of Gorkha unites the hill kingdoms. Gurungs serve in the new army.",
-    slugs: ["unified-nepal-and-muluki-ain", "history-timeline"],
-  },
-  {
-    year: "1814–1816",
-    sort: 1814,
-    era: "Gurkha era",
-    title: "Anglo-Nepal war",
-    text: "The British meet hill soldiers in battle and begin recruiting them. The Gurkha story begins.",
-    slugs: ["gurkha-history"],
-  },
-  {
-    year: "1854",
-    sort: 1854,
-    era: "Nepal state",
-    title: "The Muluki Ain legal code",
-    text: "Nepal’s first national code ranks every group in a caste order, shaping Gurung status for a century.",
-    slugs: ["unified-nepal-and-muluki-ain"],
-  },
-  {
-    year: "19th century",
-    sort: 1880,
-    era: "Gurkha era",
-    title: "Moving east to India",
-    text: "Families settle in Darjeeling, Sikkim and Assam, and in Indian Army towns.",
-    slugs: ["darjeeling-sikkim", "gurung-labour-india"],
-  },
-  {
-    year: "1914–1918",
-    sort: 1914,
-    era: "Gurkha era",
-    title: "First World War",
-    text: "Gurung soldiers fight in France, Gallipoli and the Middle East.",
-    slugs: ["world-wars"],
-  },
-  {
-    year: "1939–1945",
-    sort: 1939,
-    era: "Gurkha era",
-    title: "Second World War",
-    text: "Gurung soldiers fight in Burma, North Africa and Italy. Several receive the Victoria Cross.",
-    slugs: ["world-wars", "notable-gurungs"],
-  },
-  {
-    year: "1947",
-    sort: 1947,
-    era: "Gurkha era",
-    title: "The regiments divide",
-    text: "At Indian independence the Gurkha regiments are split between Britain and India.",
-    slugs: ["gurkha-rights"],
-  },
-  {
-    year: "1951",
-    sort: 1951,
-    era: "Modern",
-    title: "End of Rana rule",
-    text: "Nepal opens up. Schools and roads slowly reach Gurung hill districts.",
-    slugs: ["modern-nepal-1950-2015"],
-  },
-  {
-    year: "1960–1990",
-    sort: 1960,
-    era: "Modern",
-    title: "Panchayat years",
-    text: "One language and one national culture are promoted; Tamu Kyi is pushed out of schools.",
-    slugs: ["modern-nepal-1950-2015", "tamu-kyi"],
-  },
-  {
-    year: "1986",
-    sort: 1986,
-    era: "Modern",
-    title: "Annapurna Conservation Area begins",
-    text: "A community-based conservation project starts in Ghandruk and grows into Nepal’s largest protected area.",
-    slugs: ["annapurna-conservation", "ghandruk"],
-  },
-  {
-    year: "1990",
-    sort: 1990,
-    era: "Modern",
-    title: "Democracy and the identity movement",
-    text: "New freedoms allow Gurung organisations to grow and to revive language, religion and Lhosar.",
-    slugs: ["identity-movement", "gurung-organisations"],
-  },
-  {
-    year: "1997",
-    sort: 1997,
-    era: "Gurkha era",
-    title: "Hong Kong handover",
-    text: "The British Gurkha base in Hong Kong closes; many Gurung families had made lives there.",
-    slugs: ["gurungs-hong-kong"],
-  },
-  {
-    year: "2002",
-    sort: 2002,
-    era: "Modern",
-    title: "Lhosar becomes a public holiday",
-    text: "Tamu Lhosar on the 15th of Poush is recognised as a national holiday in Nepal.",
-    slugs: ["tamu-lhosar", "tamu-calendar", "lhosar-worldwide"],
-  },
-  {
-    year: "2009",
-    sort: 2009,
-    era: "Gurkha era",
-    title: "Right to settle in Britain",
-    text: "Gurkha veterans who retired before 1997 win the right to settle in the UK.",
-    slugs: ["gurkha-rights", "united-kingdom"],
-  },
-  {
-    year: "2015",
-    sort: 2015,
-    era: "Modern",
-    title: "Earthquake and a new constitution",
-    text: "The Gorkha earthquake hits Gurung villages; months later Nepal adopts a federal constitution.",
-    slugs: ["earthquake-2015", "modern-nepal-1950-2015"],
-  },
-  {
-    year: "Today",
-    sort: 2026,
-    era: "Modern",
-    title: "A worldwide Tamu community",
-    text: "Gurungs live in Nepal, India, Britain, Hong Kong, the US and beyond, and work to keep language and culture alive.",
-    slugs: ["gurungs-new-york", "gurung-khema", "gurung-women"],
-  },
-];
+
+export const timeline: TimelineEvent[] = timelineRecords.map((record) => ({
+  year: record.year,
+  sort: record.sort,
+  era: record.era,
+  title: record.en.title,
+  text: record.en.text,
+  slugs: record.slugs,
+}));
+
+export const timelineNe: TimelineEventText[] = timelineRecords.map((record) => record.ne);

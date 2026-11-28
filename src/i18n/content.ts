@@ -1,29 +1,27 @@
-import { articles, type Article, type Category, type Evidence } from "@/data/heritage";
-import { topics as englishTopics, type Topic } from "@/data/topics";
-import { eras as englishEras, timeline as englishTimeline } from "@/data/timeline";
+import {
+  articles,
+  recordsBySlug,
+  type Article,
+  type Category,
+  type Evidence,
+} from "@/data/heritage";
+import { topics as englishTopics, topicTextNe, type Topic, type TopicKey } from "@/data/topics";
+import { eras as englishEras, timeline as englishTimeline, timelineNe } from "@/data/timeline";
 import { privacyPage, termsPage } from "@/data/legal";
 
 import { defaultLocale, type Locale } from "./locales";
 import { getUi } from ".";
-import { ne } from "./content-ne";
-import type { LocaleContent, TopicText } from "./content-types";
+import { legalNe } from "./legal-ne";
+import type { TopicText } from "./content-types";
 
-const contentByLocale: Record<Exclude<Locale, "en">, LocaleContent> = { ne };
-
-export function getContent(locale: Locale): LocaleContent | undefined {
-  if (locale === "en") return undefined;
-  return contentByLocale[locale];
-}
-
-/** A topic page in the requested language, falling back to the English source. */
-export function getTopic(locale: Locale, key: keyof typeof englishTopics): Topic {
+/** A collection page in the requested language. */
+export function getTopic(locale: Locale, key: TopicKey): Topic {
   const english = englishTopics[key];
-  const translated = getContent(locale)?.topics[key];
-  if (!translated) return english;
-  return { ...english, ...translated };
+  if (locale === defaultLocale) return english;
+  return { ...english, ...topicTextNe[key] };
 }
 
-export function getTopicText(locale: Locale, key: keyof typeof englishTopics): TopicText {
+export function getTopicText(locale: Locale, key: TopicKey): TopicText {
   const t = getTopic(locale, key);
   return {
     eyebrow: t.eyebrow,
@@ -37,12 +35,11 @@ export function getTopicText(locale: Locale, key: keyof typeof englishTopics): T
 
 /** The timeline in the requested language. `era` stays an English key for filtering. */
 export function getTimeline(locale: Locale) {
-  const translated = getContent(locale)?.timeline;
-  if (!translated) return englishTimeline;
-  return englishTimeline.map((event) => {
-    const text = translated.find((e) => e.sort === event.sort);
-    return text ? { ...event, year: text.year, title: text.title, text: text.text } : event;
-  });
+  if (locale === defaultLocale) return englishTimeline;
+  return englishTimeline.map((event, index) => ({
+    ...event,
+    ...(timelineNe[index] ?? {}),
+  }));
 }
 
 export function getEras(locale: Locale) {
@@ -51,25 +48,10 @@ export function getEras(locale: Locale) {
 }
 
 export function getLegal(locale: Locale): { privacy: typeof privacyPage; terms: typeof termsPage } {
-  const translated = getContent(locale)?.legal;
-  if (!translated) return { privacy: privacyPage, terms: termsPage };
+  if (locale === defaultLocale) return { privacy: privacyPage, terms: termsPage };
   return {
-    privacy: {
-      ...privacyPage,
-      eyebrow: translated.privacy.eyebrow,
-      title: translated.privacy.title,
-      updated: translated.privacy.updated,
-      intro: translated.privacy.intro,
-      sections: translated.privacy.sections,
-    },
-    terms: {
-      ...termsPage,
-      eyebrow: translated.terms.eyebrow,
-      title: translated.terms.title,
-      updated: translated.terms.updated,
-      intro: translated.terms.intro,
-      sections: translated.terms.sections,
-    },
+    privacy: { ...privacyPage, ...legalNe.privacy },
+    terms: { ...termsPage, ...legalNe.terms },
   };
 }
 
@@ -86,33 +68,29 @@ export interface LocalizedArticle extends Omit<Article, "category" | "evidence">
 }
 
 /**
- * An article in the requested language. Titles and summaries are translated for every
- * article; a `sections` translation replaces the English body when one exists.
+ * An article in the requested language. Both languages come from the same
+ * library file, so a section, its title and its metadata are always in step.
  */
 export function getArticle(article: Article, locale: Locale): LocalizedArticle {
-  const translated = getContent(locale)?.articles[article.slug];
+  const record = recordsBySlug.get(article.slug);
   const ui = getUi(locale);
-  if (!translated) {
-    return {
-      ...article,
-      category: ui.labels.categories[article.category],
-      evidence: ui.labels.evidence[article.evidence],
-      rawCategory: article.category,
-      rawEvidence: article.evidence,
-      bodyTranslated: locale === defaultLocale,
-    };
-  }
-  const sections = translated.sections;
+  const text = locale === defaultLocale ? record?.en : record?.ne;
+  const imageNote = locale === defaultLocale ? record?.en.imageNote : record?.ne.imageNote;
   return {
     ...article,
-    title: translated.title,
-    summary: translated.summary,
-    sections: sections ?? article.sections,
+    title: text?.title ?? article.title,
+    summary: text?.summary ?? article.summary,
+    sections: text?.sections ?? article.sections,
     category: ui.labels.categories[article.category],
     evidence: ui.labels.evidence[article.evidence],
+    region: locale === defaultLocale ? article.region : (record?.regionNe ?? article.region),
+    period: locale === defaultLocale ? article.period : (record?.periodNe ?? article.period),
+    reviewed:
+      locale === defaultLocale ? article.reviewed : (record?.reviewedNe ?? article.reviewed),
+    ...(imageNote ? { imageNote } : {}),
     rawCategory: article.category,
     rawEvidence: article.evidence,
-    bodyTranslated: locale === defaultLocale || Boolean(sections),
+    bodyTranslated: Boolean(text),
   };
 }
 
