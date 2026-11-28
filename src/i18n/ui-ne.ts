@@ -148,6 +148,7 @@ export const ne: Ui = {
     inThis: "यो अध्यायभित्र",
     contents: "विषयसूची",
     chapter: "अध्याय",
+    chapterPicker: "अध्याय छान्नुहोस्",
     minuteRead: "मिनेट पढाइ",
     previous: "अघिल्लो अध्याय",
     searchInChapter: "यो अध्यायभित्र खोज्नुहोस्",

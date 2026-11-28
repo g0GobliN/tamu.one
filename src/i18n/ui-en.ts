@@ -158,6 +158,7 @@ export const en = {
     inThis: "IN THIS CHAPTER",
     contents: "CONTENTS",
     chapter: "Chapter",
+    chapterPicker: "Jump to a chapter",
     minuteRead: "min read",
     previous: "Previous chapter",
     searchInChapter: "Search this chapter",
