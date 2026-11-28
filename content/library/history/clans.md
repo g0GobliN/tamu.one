@@ -26,9 +26,11 @@ summaryNe: गुरुङ समाज लामो समयदेखि क�
 
 ## [en] What a clan is
 
-Ask a Gurung family where they are from and the answer often arrives as a clan name before a village. A clan is a group of families who trace descent through the father's line to a shared ancestor, and that membership has traditionally decided who may marry whom, which ritual duties a family carries and how people introduce themselves to one another.
+Ask a Gurung family where they are from and the answer often arrives as a clan name before a village. Not "Lamjung", but a name; not a district, but a line of ancestors. Only afterwards, if you are still listening, does the village come.
 
-It is not a club you join or a label you choose. Membership is inherited, it arrives with obligations, and it follows a person from birth through marriage to the funeral rites that place them back among their ancestors. Everything else in this chapter follows from that single fact.
+A clan is a group of families who trace descent through the father's line to a shared ancestor, and that membership has traditionally decided who may marry whom, which ritual duties a family carries and how people introduce themselves to one another. It is not a club you join or a label you choose. Membership is inherited, it arrives with obligations, and it follows a person from birth through marriage to the funeral rites that place them back among their ancestors.
+
+That is why the clan is the right place for this book to begin its account of Gurung society. A village is a place people live; a clan is a set of people who owe each other things across villages, across districts and now across countries. Everything else in this chapter follows from that single fact.
 
 ## [ne] क्ले भनेको के हो
 
@@ -38,13 +40,17 @@ It is not a club you join or a label you choose. Membership is inherited, it arr
 
 ## [en] Four clans and sixteen clans
 
-The best-known description divides the community twice, into four clans and into sixteen. The Char Jat, the "four clans", are named in Nepali as **Ghale, Ghotane** (also written Ghodane), **Lama and Lamichhane**, and in Tamu Kyi as **Kle, Kon** (or Gono), **Lam and Lem** (or Khré). Pignède notes that Gurungs in the west of the homeland say _plon_ for Lamichhane and _kon_ for Ghotane, and the older vamshavalis speak instead of _song-gi_, the three peoples — **lama, lema and kona/kone** — with the **Kle** as a separate chiefly line divided into **samri klye, relde klye and kh-hyaldi klye**.
+The best-known description divides the community twice, into four clans and into sixteen, and the description has been repeated so often that it is worth slowing down over it.
 
-The Sora Jat is harder because the lists differ. Dor Bahadur Bista prints eighteen names and introduces them with "include": **Ghyabre, Kyabchhe, Kurumchhe, Jangre, Thorje, Dorjali, Rilami, Foju, Chormi, Pom, Thin, Migi, Khatra, Yoj, Paingi, Kholali, Sogun and Thorjami**. The older histories and the pa-chyu's songs speak instead of the **ku-gi**, the nine peoples: **krommchhain, yobachhain, nhansin, phijon, chormi, rhilla, yoja, p-hhachyu and kepchhain**, to which Pignède's informants added **mahpcae, kercae, klihbri, lehne and thimce**.
+The Char Jat, the "four clans", are named in Nepali as **Ghale, Ghotane** (also written Ghodane), **Lama and Lamichhane**, and in Tamu Kyi as **Kle, Kon** (or Gono), **Lam and Lem** (or Khré). Pignède notes that Gurungs in the west of the homeland say _plon_ for Lamichhane and _kon_ for Ghotane, and the older vamshavalis speak instead of _song-gi_, the three peoples — **lama, lema and kona/kone** — with the **Kle** as a separate chiefly line divided into **samri klye, relde klye and kh-hyaldi klye**.
+
+The Sora Jat, the sixteen, is harder because the lists differ. Dor Bahadur Bista prints eighteen names and introduces them with "include": **Ghyabre, Kyabchhe, Kurumchhe, Jangre, Thorje, Dorjali, Rilami, Foju, Chormi, Pom, Thin, Migi, Khatra, Yoj, Paingi, Kholali, Sogun and Thorjami**. The older histories and the pa-chyu's songs speak instead of the **ku-gi**, the nine peoples: **krommchhain, yobachhain, nhansin, phijon, chormi, rhilla, yoja, p-hhachyu and kepchhain**, to which Pignède's informants added **mahpcae, kercae, klihbri, lehne and thimce**.
 
 A third list, in the vamshavalis Macfarlane examined, gives exactly sixteen names — **Daria, Danuwar, Bramu, Murmi, Hanjhi, Kumal, Hayu, Chepang, Khapang, Pahari, Neware Kumal, Panchhari, Kusalya, Palahari, Musahari and Hurkya** — most of which belong to neighbouring hill peoples rather than to Gurung clans. The names are set out in full, with their sources, in the clan-origins article.
 
-Three lists, then, and none of them quite agrees with the others. That disagreement is not a defect in the record; it is the record.
+Three lists, then, and none of them quite agrees with the others. The four and the sixteen are not a tidy taxonomy that everyone remembers the same way; they are accounts recorded at different times, in different valleys, from people with different reasons for telling them. That disagreement is not a defect in the record. It is the record.
+
+The lists are also a reminder of how much of this knowledge was recorded by outsiders. Bista was a Nepali anthropologist writing in the twentieth century; Pignède was a French ethnographer in the 1950s; Macfarlane worked in the 1970s with Indrabahadur Gurung, whose own knowledge of the vamshavalis shaped what could be read. The names in the lists therefore passed through several languages before reaching this page, and each passage left its mark on the spelling.
 
 ## [ne] चार जात र सोर्ह जात
 
@@ -58,9 +64,11 @@ Three lists, then, and none of them quite agrees with the others. That disagreem
 
 ## [en] A debated ranking
 
-Later writers tried to arrange those lists into an order, and in the twentieth century some presented the four clans as higher in rank than the sixteen. Researchers and many Gurungs have questioned that ranking. Some argue it was shaped by the Hindu caste ideas of the Nepali state rather than by older Tamu custom, and that the tidy hierarchy belongs to nineteenth-century administration more than to village life. Macfarlane and Gurung's guide treats the issue as local history and ongoing discussion rather than settled fact.
+Later writers tried to arrange those lists into an order, and in the twentieth century some presented the four clans as higher in rank than the sixteen. That ranking fitted the way Nepali society was imagined at the time: a small group of chiefly clans, then a larger body beneath them.
 
-A ranking built from outside ideas is still a ranking people live with. That is why the next question is not what the list says but what these names do today.
+Researchers and many Gurungs have questioned it. Some argue that the ranking was shaped by the Hindu caste ideas of the Nepali state rather than by any older Tamu custom — that a society which regulated marriage by clan, not by caste, was given a hierarchy it had never needed. Others observe that the ranking appears in colonial and Nepali administrative writing before it appears in village practice. Macfarlane and Gurung's guide treats the issue as local history and ongoing discussion rather than settled fact, which is the right register for a question this old and this close to people's standing.
+
+A ranking built from outside ideas is still a ranking people live with, and that is why the argument has not gone away. What matters for a reader coming to this cold is that the lists and their order are evidence of a debate, not a table of social rank that can be trusted at a glance. And the next question is not what the list says but what these names do today.
 
 ## [ne] विवादित श्रेणी
 
@@ -70,7 +78,9 @@ A ranking built from outside ideas is still a ranking people live with. That is 
 
 ## [en] Clans today
 
-For many families a clan name is still a link to ancestors and to a home village, even when everyone in the room shares the surname Gurung. It decides who is a brother and who is a stranger at a wedding, who carries what at a funeral, and which shrine a household is expected to support. Recording local clan names and their stories is one way communities keep this knowledge alive, and it matters most where migration has scattered a clan across several countries.
+For many families a clan name is still a link to ancestors and to a home village, even when everyone in the room shares the surname Gurung. It decides who is a brother and who is a stranger at a wedding. It decides who carries what at a funeral, which shrine a household is expected to support, and which family a young man's parents will visit first when a marriage is being discussed.
+
+In the hills, that knowledge was once held by everyone and needed no explanation. In Kathmandu, and more sharply abroad, it has become something that has to be taught. Parents explain the clan to children who have never seen the village; organisations collect clan genealogies and publish them; elders are recorded before their knowledge goes. Recording local clan names and their stories is one way communities keep this knowledge alive, and it matters most where migration has scattered a clan across several countries.
 
 The words used for all this, though, are not interchangeable, and mixing them causes much of the confusion outsiders bring to the subject.
 
@@ -82,9 +92,11 @@ The words used for all this, though, are not interchangeable, and mixing them ca
 
 ## [en] Kle, thar and gotra: three words for related things
 
-English-language writing on Gurung society uses "clan", "lineage", "thar" and "gotra" almost interchangeably. Kle is the Tamu term for the exogamous descent group — the group a person must marry outside of. Thar is the Nepali word for surname or family name, and many Gurungs use "Gurung" itself as a thar while keeping a clan name alongside it. Gotra is a Brahminical concept, a named ancestral lineage used to regulate marriage among caste Hindus, and it reached other communities through the legal and social pressure of the Nepali state.
+English-language writing on Gurung society uses "clan", "lineage", "thar" and "gotra" almost interchangeably, and the confusion is not trivial.
 
-Calling kle a gotra is therefore a translation with a history, and it implies a Brahminical system Gurung clans never were. The safest usage names the Tamu term first and explains the Nepali one, and the difference is not pedantry: it is the difference between a system a community made and one imposed on it. With the words sorted out, the stories behind them can be told.
+Kle is the Tamu term for the exogamous descent group — the group a person must marry outside of. Thar is the Nepali word for surname or family name, and many Gurungs use "Gurung" itself as a thar while keeping a clan name alongside it. Gotra is a Brahminical concept, a named ancestral lineage used to regulate marriage among caste Hindus, and it reached other communities through the legal and social pressure of the Nepali state.
+
+Calling kle a gotra is therefore a translation with a history. It implies a Brahminical system that Gurung clans never were, and it quietly suggests that the community's own organisation is a local version of a Hindu template rather than something it made. The safest usage names the Tamu term first and explains the Nepali one, and the difference is not pedantry: it is the difference between a system a community made and one imposed on it. With the words sorted out, the stories behind them can be told.
 
 ## [ne] क्ले, थर र गोत्र: सम्बन्धित तीन शब्द
 
@@ -94,9 +106,13 @@ Calling kle a gotra is therefore a translation with a history, and it implies a 
 
 ## [en] Where clan stories come from
 
-Every clan has an origin story, and the stories do not agree. Some trace a founding ancestor to a place in Tibet, some to a village in the hills, some to a meeting between a local lineage and an incoming family; some explain the clan name as a nickname, a mistake or a gift from a ruler. The Char Jat are sometimes described as the older or higher group and the Sora Jat as later or lower, a ranking that many Gurungs and most recent scholars reject as a product of nineteenth-century caste thinking.
+Every clan has an origin story, and the stories do not agree. Some trace a founding ancestor to a place in Tibet, some to a village in the hills, some to a meeting between a local lineage and an incoming family. Some explain the clan name as a nickname, a mistake, or a gift from a ruler. The Char Jat are sometimes described as the older or higher group and the Sora Jat as later or lower, a ranking that many Gurungs and most recent scholars reject as a product of nineteenth-century caste thinking.
 
-What the stories share is a function. They explain who may marry whom, where a family belongs and which ritual duties it holds, and they place a household inside a landscape of ancestors and shrines. Their value lies there, not in a chronology that could be arranged into one tree — and the first place that function shows is marriage.
+What the stories share is a function rather than a chronology. They explain who may marry whom, where a family belongs and which ritual duties it holds, and they place a household inside a landscape of ancestors and shrines. A clan without a story is a clan without a place, and a place without a clan is a shrine nobody is responsible for.
+
+Their value lies in that function, not in a sequence of events that could be arranged into a single tree. Attempts to do so have foundered on exactly the problem the lists show: the stories were never meant to be a chronicle, and asking them to be one produces contradictions that are not really contradictions. The first place the function shows is marriage.
+
+The legal history behind the word explains the confusion. Nepal's Muluki Ain, the old legal code, classified the country's peoples into a hierarchy of castes and tribes, and communities were assigned a position in it whether or not they had ever organised themselves that way. A concept like gotra arrived with that framework, and it has been used ever since by officials, priests and families who needed a recognised term for something the state would understand.
 
 ## [ne] क्लेका कथा कहाँबाट आउँछन्
 
@@ -106,9 +122,11 @@ What the stories share is a function. They explain who may marry whom, where a f
 
 ## [en] Marriage, exogamy and the meaning of the rule
 
-The core rule is exogamy: a person should marry outside their own kle. Because clan membership passes through the father, the rule excludes a whole category of relatives at once, and it is reinforced by the further prohibition on marrying close kin on the mother's side. Elders say breaking the rule brings misfortune, and the sanction is social rather than legal: no court, no fine, but a family that finds itself explained in lowered voices.
+The core rule is exogamy: a person should marry outside their own kle. Because clan membership passes through the father, the rule excludes a whole category of relatives at once, and it is reinforced by the further prohibition on marrying close kin on the mother's side.
 
-In practice the rule is read locally. Some villages allow marriages others would refuse, some families accept a union after negotiation and ritual reparation, and urban and diaspora couples may marry across clan, caste and nationality with little reference to it. The existence of the rule matters as much as its enforcement, because it defines the boundary of the kindred — and those boundaries are drawn on the ground as well as in the family.
+Elders say breaking the rule brings misfortune — illness, barrenness, a run of deaths — and the sanction is social rather than legal. There is no court, no fine, no register; there is a family that finds itself explained in lowered voices, and children who grow up hearing why a certain marriage was not allowed.
+
+In practice the rule is read locally. Some villages allow marriages others would refuse. Some families accept a union after negotiation and ritual reparation, with offerings made and the matter formally closed. Urban and diaspora couples may marry across clan, caste and nationality with little reference to the rule at all, and a marriage that would have caused a scandal in a village in 1970 may pass without comment in Kathmandu or London. The existence of the rule matters as much as its enforcement, because it defines the boundary of the kindred — and those boundaries are drawn on the ground as well as in the family.
 
 ## [ne] विवाह, बहिर्विवाह र नियमको अर्थ
 
@@ -118,9 +136,13 @@ In practice the rule is read locally. Some villages allow marriages others would
 
 ## [en] Clan and place
 
-Clans are not evenly distributed. Particular kle are associated with particular villages or clusters of villages, and a family's claim to land, to a shrine or to a seat at a festival may rest on clan memory rather than on a document. Migration splits clans across districts and countries: a clan that once had one ceremonial centre may now have branches in Pokhara, Kathmandu, Sikkim, Britain and the United States, each keeping a version of the same duties.
+Clans are not evenly distributed. Particular kle are associated with particular villages or clusters of villages, and a family's claim to land, to a shrine or to a seat at a festival may rest on clan memory rather than on a document. A village may be described as belonging to one clan even when several live there, because one holds the older claim.
 
-When a branch builds a house or sponsors a Lhosar it asserts that the clan still exists as a group, which is why clan associations rather than villages often become the most durable institutions of diaspora life. How many people all this describes is the next question the book has to answer.
+Migration splits clans across districts and countries. A clan that once had one ceremonial centre may now have branches in Pokhara, Kathmandu, Sikkim, Britain and the United States, each keeping a version of the same duties and each convinced, in a mild way, that it keeps them properly. Weddings between branches that have not met in two generations still work, because the rule that makes them kin also tells them how to behave.
+
+When a branch builds a house or sponsors a Lhosar it asserts that the clan still exists as a group. That is why clan associations rather than villages often become the most durable institutions of diaspora life: a village can be left, but a clan can be reconvened in a hired hall. How many people all this describes — and where they live now — is the next question the book has to answer.
+
+Clan associations are one answer to that distance, and they are a revealing one. They exist to do what a village did without being a village: they organise funerals for members far from home, keep a list of who belongs, sponsor a Lhosar programme, and settle the occasional dispute about a marriage that a village council would once have handled. In doing so they turn a descent group into a voluntary institution, which is both how a clan survives emigration and how it begins to change.
 
 ## [ne] क्ले र ठाउँ
 
