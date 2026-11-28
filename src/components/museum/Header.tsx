@@ -81,10 +81,18 @@ export function Header() {
   const current = stripLocale(pathname);
   const ui = useUi();
 
+  // On the landing page the home link already matches the current route, so the
+  // router has nothing to navigate to and the click does nothing at all. Take the
+  // reader back to the top instead.
+  const goHome = () => {
+    setOpen(false);
+    if (current === "/") window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <header className="museum-header">
       <div className="header-inner">
-        <AppLink to="/" className="brand" onClick={() => setOpen(false)}>
+        <AppLink to="/" className="brand" onClick={goHome}>
           <Mountain size={30} strokeWidth={1.2} />
           <span>
             TAMU<small>{ui.brand.small}</small>
