@@ -1,14 +1,18 @@
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { articles } from "@/data/heritage";
 import { getMedia } from "@/data/media";
+import { bookSlugs } from "@/data/book";
 import type { TopicKey } from "@/data/topics";
 import { getArticle, getTopic } from "@/i18n/content";
 import { useLocale, useUi } from "@/i18n";
 import { localizeMedia } from "@/i18n/media-ne";
-import { InlineArticle } from "./InlineArticle";
-import { ReadingLayout } from "./ReadingLayout";
 import { AppLink } from "./AppLink";
 
+/**
+ * A collection page orients and points into the book: what the collection is,
+ * its themes, and its chapters in reading order. The prose itself is only ever
+ * read in the chapter reader at `/library/<slug>`.
+ */
 export function TopicPage({ topicKey }: { topicKey: TopicKey }) {
   const locale = useLocale();
   const ui = useUi();
@@ -18,6 +22,16 @@ export function TopicPage({ topicKey }: { topicKey: TopicKey }) {
   const list = articles
     .filter((a) => topic.categories.includes(a.category))
     .map((a) => getArticle(a, locale));
+
+  /** Book chapters first, in reading order; anything else keeps library order. */
+  const chapters = [...list].sort((a, b) => {
+    const left = bookSlugs.indexOf(a.slug);
+    const right = bookSlugs.indexOf(b.slug);
+    if (left < 0 && right < 0) return 0;
+    if (left < 0) return 1;
+    if (right < 0) return -1;
+    return left - right;
+  });
 
   return (
     <main>
@@ -43,16 +57,21 @@ export function TopicPage({ topicKey }: { topicKey: TopicKey }) {
           <div className="theme-list">
             {topic.themes.map((t) =>
               t.slug ? (
-                <a key={t.title} href={`#read-${t.slug}`} className="theme-card theme-link">
+                <AppLink
+                  key={t.title}
+                  to="/library/$slug"
+                  params={{ slug: t.slug }}
+                  className="theme-card theme-link"
+                >
                   <h3>
                     {t.title}
                     <ArrowUpRight size={18} />
                   </h3>
                   <p>{t.text}</p>
                   <span className="theme-cta">
-                    {ui.topic.readBelow} <ArrowRight size={15} />
+                    {ui.topic.readChapter} <ArrowRight size={15} />
                   </span>
-                </a>
+                </AppLink>
               ) : (
                 <div key={t.title} className="theme-card">
                   <h3>{t.title}</h3>
@@ -64,29 +83,39 @@ export function TopicPage({ topicKey }: { topicKey: TopicKey }) {
           </div>
         </div>
       </section>
-      <ReadingLayout
-        toc={[
-          {
-            id: "topic-articles",
-            title: topic.title,
-            items: list.map((a) => ({
-              id: `read-${a.slug}`,
-              title: a.title.split(":")[0] ?? a.title,
-            })),
-          },
-        ]}
-      >
-        <section id="topic-articles" className="ency-chapter">
-          {list.length ? (
-            list.map((a) => <InlineArticle key={a.slug} article={a} />)
-          ) : (
-            <p className="research-note">{ui.common.preparing}</p>
-          )}
-          <AppLink to="/library" className="text-link">
-            {ui.common.allArticles} <ArrowRight size={17} />
+
+      <section className="hub-chapters">
+        <div className="section-heading">
+          <h2>{ui.topic.chaptersTitle}</h2>
+          <AppLink to="/journey" className="text-link">
+            {ui.book.backToBook} <ArrowUpRight size={16} />
           </AppLink>
-        </section>
-      </ReadingLayout>
+        </div>
+        {chapters.length ? (
+          <ol className="book-chapters">
+            {chapters.map((article) => {
+              const index = bookSlugs.indexOf(article.slug);
+              return (
+                <li key={article.slug}>
+                  <AppLink to="/library/$slug" params={{ slug: article.slug }}>
+                    <span className="book-chapter-number">
+                      {index >= 0 ? String(index + 1).padStart(2, "0") : "—"}
+                    </span>
+                    <div>
+                      <strong>{article.title}</strong>
+                      <small>{article.summary}</small>
+                    </div>
+                    <ArrowUpRight size={18} />
+                  </AppLink>
+                </li>
+              );
+            })}
+          </ol>
+        ) : (
+          <p className="research-note">{ui.common.preparing}</p>
+        )}
+        <p className="book-note">{ui.topic.bookNote}</p>
+      </section>
     </main>
   );
 }

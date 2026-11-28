@@ -6,7 +6,7 @@ export const Route = createFileRoute("/journey")({
   head: () =>
     pageHead(
       "The Journey",
-      "A guided path through the Gurung story: names, origins, homeland, culture, language and diaspora — with links to each full article.",
+      "The Gurung story as one book in seven parts — from the first written record to the villages, festivals and families of today.",
       "/journey",
     ),
   component: Journey,

@@ -92,11 +92,11 @@ export const en = {
     readingEyebrow: "FROM THE KNOWLEDGE LIBRARY",
     readingTitle: "Stories worth discovering",
     browse: "Browse the library",
-    pathEyebrow: "A PATH THROUGH THE ARCHIVE",
+    pathEyebrow: "THE BOOK",
     pathTitle: "Start at the beginning",
     pathIntro:
-      "New to the archive? These chapters are written to be read in order — a single story that begins with the earliest written record and carries on to the present.",
-    pathCta: "Begin the reading path",
+      "Seven parts, written to be read in order — one story that begins with the earliest written record and carries on to the present.",
+    pathCta: "Open the book",
     communityEyebrow: "OUR HERITAGE IS A SHARED RESPONSIBILITY",
     communityTitleA: "Every memory is a thread.",
     communityTitleB: "Every voice belongs.",
@@ -106,8 +106,10 @@ export const en = {
     exploreAria: "Explore collections",
   },
   topic: {
-    readBelow: "Read below",
+    readChapter: "Read this chapter",
     inCollection: "In this collection",
+    chaptersTitle: "Chapters in this collection",
+    bookNote: "These chapters also appear in the book, in reading order.",
   },
   library: {
     eyebrow: "TAMU · CONNECTED KNOWLEDGE",
@@ -145,7 +147,6 @@ export const en = {
     foundIn: "Found in",
   },
   article: {
-    back: "Knowledge library",
     introduction: "Research introduction",
     share: "Share",
     copied: "Link copied",
@@ -193,43 +194,54 @@ export const en = {
     periodsLabel: "Periods",
     related: "RELATED STORIES",
   },
-  journey: {
-    eyebrow: "A GUIDED PATH",
-    title: "The Journey",
+  book: {
+    eyebrow: "THE BOOK",
+    title: "The Tamu story, in order",
     intro:
-      "The whole Tamu story in six chapters. Read it from start to finish as one continuous story.",
-    chapters: [
-      {
+      "One continuous book in seven parts, from the first written record to the villages, festivals and families of today. Read it straight through, or open any chapter that calls to you.",
+    contents: "Contents",
+    startCta: "Start at chapter one",
+    backToBook: "The book",
+    partWord: "Part",
+    chaptersWord: "chapters",
+    partNote: "Each chapter picks up where the last one stopped.",
+    browseNote: "Prefer to wander? Browse the library",
+    parts: {
+      record: {
+        title: "Before the record",
+        intro:
+          "How the Gurungs first entered writing, and what the earliest accounts can and cannot tell us.",
+      },
+      who: {
         title: "Who are the Tamu?",
         intro:
           "Begin with our names, our clans and our numbers — who the Gurung people are, in Nepal and around the world.",
       },
-      {
+      origins: {
         title: "Where we come from",
         intro:
           "Origins, migrations and the ancestral places remembered in ritual and investigated by researchers.",
       },
-      {
+      homeland: {
         title: "The places we call home",
         intro:
           "Villages and valleys beneath Annapurna, Lamjung and Manang — the landscapes that shaped our way of life.",
       },
-      {
+      culture: {
         title: "A living culture",
         intro:
           "Festivals, dress, ritual specialists and performance — traditions practised and renewed today.",
       },
-      {
+      language: {
         title: "Our language",
         intro:
           "Tamu Kyi — its relationships, its village voices, and the work of keeping it alive.",
       },
-      {
+      beyond: {
         title: "Beyond the mountains",
-        intro:
-          "Gurkha service, migration and new communities — the Tamu story carried across the world.",
+        intro: "Service, migration and new communities — the Tamu story carried across the world.",
       },
-    ],
+    },
   },
   sources: {
     eyebrow: "FOLLOW THE EVIDENCE",
@@ -719,7 +731,7 @@ Anything else:
     journey: {
       title: "The Journey",
       description:
-        "A guided path through the Gurung story: names, origins, homeland, culture, language and diaspora — with links to each full article.",
+        "The Gurung story as one book in seven parts — from the first written record to the villages, festivals and families of today.",
     },
     timeline: {
       title: "Timeline",

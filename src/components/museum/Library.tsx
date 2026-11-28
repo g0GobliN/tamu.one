@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ArrowRight, Search, SlidersHorizontal, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { getArticles } from "@/i18n/content";
-import { readingPath } from "@/data/reading-path";
+import { bookSlugs } from "@/data/book";
 import { useLocale, useUi } from "@/i18n";
 import { ArticleCard } from "./ArticleCard";
 import { AppLink } from "./AppLink";
@@ -45,7 +45,7 @@ export function Library({ variant = "library" }: { variant?: "library" | "archiv
     );
     return section ? `${ui.library.foundIn}: ${section.title}` : undefined;
   };
-  const startChapters = readingPath
+  const startChapters = bookSlugs
     .slice(0, 5)
     .flatMap((slug) => list.filter((article) => article.slug === slug).slice(0, 1));
   const readingQuietly = !needle && category === "All" && region === "All" && evidence === "All";

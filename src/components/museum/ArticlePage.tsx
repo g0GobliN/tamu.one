@@ -5,7 +5,7 @@ import { getArticleBySlug, getArticles } from "@/i18n/content";
 import { useLocale, useUi } from "@/i18n";
 import { sources } from "@/data/heritage";
 import { getMedia } from "@/data/media";
-import { readingPath } from "@/data/reading-path";
+import { bookPlace, bookSlugs } from "@/data/book";
 import { localizeMedia } from "@/i18n/media-ne";
 import { ArticleCard } from "./ArticleCard";
 import { AppLink } from "./AppLink";
@@ -141,9 +141,10 @@ export function ArticlePage({ slug }: { slug: string }) {
 
   const item = a.image ? getMedia(a.image) : undefined;
   const photo = item ? localizeMedia(item, locale) : undefined;
-  const position = readingPath.indexOf(a.slug);
-  const previousSlug = position > 0 ? readingPath[position - 1] : undefined;
-  const nextSlug = position >= 0 ? readingPath[position + 1] : undefined;
+  const position = bookSlugs.indexOf(a.slug);
+  const place = bookPlace(a.slug);
+  const previousSlug = position > 0 ? bookSlugs[position - 1] : undefined;
+  const nextSlug = position >= 0 ? bookSlugs[position + 1] : undefined;
   const previous = previousSlug ? getArticleBySlug(previousSlug, locale) : undefined;
   const next = nextSlug ? getArticleBySlug(nextSlug, locale) : undefined;
   const minutes = Math.max(2, Math.round(wordCount(a.sections) / 220));
@@ -161,8 +162,8 @@ export function ArticlePage({ slug }: { slug: string }) {
       <article className="reading">
         <header className="reading-heading">
           <div className="reading-topline">
-            <AppLink to="/library" className="text-link">
-              <ArrowLeft size={15} /> {ui.article.back}
+            <AppLink to="/journey" className="text-link">
+              <ArrowLeft size={15} /> {ui.book.backToBook}
             </AppLink>
             {previous && (
               <AppLink to="/library/$slug" params={{ slug: previous.slug }} className="text-link">
@@ -170,15 +171,20 @@ export function ArticlePage({ slug }: { slug: string }) {
               </AppLink>
             )}
           </div>
+          {place && (
+            <AppLink to="/journey" className="part-label">
+              {ui.book.partWord} {place.partIndex + 1} · {ui.book.parts[place.part.key].title}
+            </AppLink>
+          )}
           <span className="eyebrow">
             {a.category} · {a.region}
           </span>
           <h1>{a.title}</h1>
           <p className="reading-lead">{a.summary}</p>
           <div className="reading-meta">
-            {position >= 0 && (
+            {place && (
               <span className="chapter-number">
-                {ui.article.chapter} {String(position + 1).padStart(2, "0")}
+                {ui.article.chapter} {String(place.chapter).padStart(2, "0")} / {place.total}
               </span>
             )}
             <span>
