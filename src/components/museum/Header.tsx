@@ -5,6 +5,34 @@ import { Button } from "@/components/ui/button";
 import { AppLink } from "./AppLink";
 import { localeMeta, locales, pathFor, stripLocale, useLocale, useUi } from "@/i18n";
 
+const READING_PLACE_KEY = "tamu:lang-scroll";
+
+/**
+ * Switching language is a full page load, which normally lands at the top.
+ * Remember the section the reader is in and how far into it they have read, so
+ * the other edition opens at the same passage.
+ */
+function rememberReadingPlace(rest: string) {
+  try {
+    let section = -1;
+    let sectionTop = 0;
+    const y = window.scrollY;
+    document.querySelectorAll<HTMLElement>("section[id^='section-']").forEach((el) => {
+      const top = el.getBoundingClientRect().top + y;
+      if (top <= y + 120) {
+        section = Number(el.id.slice("section-".length));
+        sectionTop = top;
+      }
+    });
+    sessionStorage.setItem(
+      READING_PLACE_KEY,
+      JSON.stringify({ rest, y, section, offset: y - sectionTop }),
+    );
+  } catch {
+    // No session storage: the switch falls back to opening at the top.
+  }
+}
+
 export const navItems = [
   { to: "/journey", key: "journey" },
   { to: "/timeline", key: "timeline" },
@@ -32,6 +60,7 @@ function LanguageSwitcher() {
           <a
             key={code}
             href={pathFor(code, rest)}
+            onClick={() => rememberReadingPlace(rest)}
             hrefLang={meta.htmlLang}
             lang={meta.htmlLang}
             className={active ? "active" : ""}

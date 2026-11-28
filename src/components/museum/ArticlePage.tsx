@@ -295,7 +295,39 @@ export function ArticlePage({ slug }: { slug: string }) {
               <SectionText text={s.text} sectionKey={`${i}-${s.title}`} query={needle} />
             </section>
           ))}
+        </div>
 
+        {place && !next && (
+          <div className="next-chapter end-of-book">
+            <span className="eyebrow">{ui.article.endEyebrow}</span>
+            <h2>{ui.article.endTitle}</h2>
+            <p>{ui.article.endText}</p>
+            <div className="end-of-book-links">
+              <AppLink to="/journey" className="text-link">
+                {ui.article.backToContents} <ArrowUpRight size={16} />
+              </AppLink>
+              <AppLink to="/library" className="text-link">
+                {ui.article.browseLibrary} <ArrowUpRight size={16} />
+              </AppLink>
+            </div>
+          </div>
+        )}
+
+        {next && (
+          <AppLink to="/library/$slug" params={{ slug: next.slug }} className="next-chapter">
+            <span className="eyebrow">{ui.article.nextEyebrow}</span>
+            <small>
+              {ui.article.chapter} {String(position + 2).padStart(2, "0")}
+            </small>
+            <h2>{next.title}</h2>
+            <p>{next.summary}</p>
+            <span className="next-chapter-cta">
+              {ui.article.readNext} <ArrowRight size={17} />
+            </span>
+          </AppLink>
+        )}
+
+        <div className="reading-body reading-evidence">
           <section id="references" className="sources-block">
             <span className="eyebrow">{ui.article.evidenceEyebrow}</span>
             <h2>{ui.article.sourcesTitle}</h2>
@@ -343,36 +375,6 @@ export function ArticlePage({ slug }: { slug: string }) {
             </AppLink>
           </div>
         </div>
-
-        {place && !next && (
-          <div className="next-chapter end-of-book">
-            <span className="eyebrow">{ui.article.endEyebrow}</span>
-            <h2>{ui.article.endTitle}</h2>
-            <p>{ui.article.endText}</p>
-            <div className="end-of-book-links">
-              <AppLink to="/journey" className="text-link">
-                {ui.article.backToContents} <ArrowUpRight size={16} />
-              </AppLink>
-              <AppLink to="/library" className="text-link">
-                {ui.article.browseLibrary} <ArrowUpRight size={16} />
-              </AppLink>
-            </div>
-          </div>
-        )}
-
-        {next && (
-          <AppLink to="/library/$slug" params={{ slug: next.slug }} className="next-chapter">
-            <span className="eyebrow">{ui.article.nextEyebrow}</span>
-            <small>
-              {ui.article.chapter} {String(position + 2).padStart(2, "0")}
-            </small>
-            <h2>{next.title}</h2>
-            <p>{next.summary}</p>
-            <span className="next-chapter-cta">
-              {ui.article.readNext} <ArrowRight size={17} />
-            </span>
-          </AppLink>
-        )}
       </article>
 
       <section className="reading-section">

@@ -2781,6 +2781,11 @@ html[lang="ne"] .collection-number {
   padding-top: 2rem;
 }
 
+/* The evidence now follows the next chapter, whose own margin sets the gap. */
+.reading-evidence .sources-block {
+  margin-top: 0;
+}
+
 .sources-block h2 {
   font-size: 1.7rem;
   margin-bottom: 1rem;
