@@ -13,7 +13,7 @@ import { useEffect, type ReactNode } from "react";
 import { Header } from "@/components/museum/Header";
 import { Footer } from "@/components/museum/Footer";
 import { AppLink } from "@/components/museum/AppLink";
-import { localeFromPath, useUi } from "@/i18n";
+import { localeFromPath, stripLocale, useUi } from "@/i18n";
 import { analyticsHeadScripts } from "@/lib/analytics";
 import appCss from "../styles.css?url";
 
@@ -71,6 +71,60 @@ function ErrorComponent({ error, reset }: ErrorComponentProps) {
       </div>
     </div>
   );
+}
+
+const READING_PLACE_KEY = "tamu:lang-scroll";
+
+interface ReadingPlace {
+  rest: string;
+  y: number;
+  section: number;
+  offset: number;
+}
+
+/** Puts the reader back on the passage they left when they switched language. */
+function LanguageScrollRestore() {
+  useEffect(() => {
+    let saved: ReadingPlace | null = null;
+    try {
+      const raw = sessionStorage.getItem(READING_PLACE_KEY);
+      if (!raw) return;
+      sessionStorage.removeItem(READING_PLACE_KEY);
+      saved = JSON.parse(raw) as ReadingPlace;
+    } catch {
+      return;
+    }
+    const target = saved;
+    if (!target || target.rest !== stripLocale(window.location.pathname)) return;
+
+    const restore = () => {
+      const section =
+        target.section >= 0 ? document.getElementById(`section-${target.section}`) : null;
+      const top = section
+        ? section.getBoundingClientRect().top + window.scrollY + target.offset
+        : target.y;
+      const max = document.documentElement.scrollHeight - window.innerHeight;
+      // The site scrolls smoothly for anchor links; a restored place should not animate.
+      const root = document.documentElement;
+      const previous = root.style.scrollBehavior;
+      root.style.scrollBehavior = "auto";
+      window.scrollTo(0, Math.max(0, Math.min(top, max)));
+      root.style.scrollBehavior = previous;
+    };
+
+    // Layout settles in stages: hydration, then webfonts and the cover image.
+    restore();
+    const frame = requestAnimationFrame(restore);
+    const settle = window.setTimeout(restore, 350);
+    window.addEventListener("load", restore, { once: true });
+    return () => {
+      cancelAnimationFrame(frame);
+      window.clearTimeout(settle);
+      window.removeEventListener("load", restore);
+    };
+  }, []);
+
+  return null;
 }
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
@@ -143,6 +197,7 @@ function RootComponent() {
       <Header />
       <Outlet />
       <Footer />
+      <LanguageScrollRestore />
     </QueryClientProvider>
   );
 }
