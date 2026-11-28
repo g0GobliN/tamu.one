@@ -27,9 +27,13 @@ summaryNe: भाषा-सम्बन्ध, क्षेत्रीय भ�
 
 ## [en] Tamu Kyi and the people who speak it
 
-Outside the speech community the language is usually called Gurung; inside it, Tamu kyi — the language of the Tamu, as the Endangered Language Alliance translates it. It belongs to the middle hills of central Nepal and is spoken in towns and overseas as well, and language, surname and identity cannot be counted as the same thing: someone may identify as Gurung without having learned Tamu Kyi first, while multilingual speakers use different languages in different settings.
+Outside the speech community the language is usually called Gurung; inside it, Tamu kyi — the language of the Tamu, as the Endangered Language Alliance translates it. The two names follow the pattern of the book's first chapter: an official label and a name people use among themselves, neither of them a mistake.
 
-Where the language sits among its neighbours is a separate question.
+Tamu Kyi belongs to the middle hills of central Nepal and is spoken in towns and overseas as well, which is worth keeping in view from the start. A language is not a place. There are speakers in Kathmandu, Pokhara, Hong Kong, Britain and the United States, and there are villages where the language is heard less often than it was a generation ago.
+
+Language, surname and identity also cannot be counted as the same thing. Someone may identify as Gurung without having learned Tamu Kyi first, while multilingual speakers use different languages in different settings — Nepali at the office, English at school, Tamu kyi at home or at a ritual, and a mixture of all three in a group chat. Fluency is not a test of belonging, and treating it as one would exclude most of the community's young people.
+
+Where the language sits among its neighbours is a separate question, and it is asked with a different kind of evidence.
 
 ## [ne] तामु क्यि र यो बोल्ने मानिसहरू
 
@@ -39,7 +43,15 @@ Where the language sits among its neighbours is a separate question.
 
 ## [en] Linguistic relationships
 
-Glottolog catalogues Gurung under guru1261, with the ISO identifier gvr, inside the Sino-Tibetan family, and ELA describes its Tamangic relationships with Tamang, Thakali, Manange, Nar Phu and Chantyal. Such classifications concern historical relationships between languages: they do not establish a single ancestral birthplace for all Gurungs or erase the separate identities of neighbouring peoples. Gurung also has a long history of contact with Nepali, an Indo-Aryan language used in schooling and in communication across communities.
+Glottolog catalogues Gurung under guru1261, with the ISO identifier gvr, inside the Sino-Tibetan family, and ELA describes its Tamangic relationships with Tamang, Thakali, Manange, Nar Phu and Chantyal. These are the names a reader will meet in catalogues, and they are useful precisely because they are technical: they say what has been compared with what.
+
+Such classifications concern historical relationships between languages. They do not establish a single ancestral birthplace for all Gurungs, and they do not erase the separate identities of neighbouring peoples. That Tamang and Gurung are related languages does not make Tamang and Gurung one community, any more than French and Italian are one nation.
+
+Gurung also has a long history of contact with Nepali, an Indo-Aryan language used in schooling and in communication across communities. The contact is not a recent arrival with radio and roads; it has been going on for centuries, and its traces are in the vocabulary, the sound system and the way bilingual speakers choose which language to use with whom.
+
+The result is a language that belongs to one family and has lived its whole life next to another, which is why simple family-tree diagrams describe only part of its history.
+
+Within the language, the variation is local.
 
 ## [ne] भाषिक सम्बन्ध
 
@@ -47,7 +59,15 @@ Glottolog catalogues Gurung under guru1261, with the ISO identifier gvr, inside 
 
 ## [en] Village variation and tone
 
-ELA reports varieties tied to particular villages and a changing scholarly understanding of eastern and western Gurung; a later sociolinguistic survey found the division less clear-cut than some earlier accounts implied. Studies it lists examine tone, voicing and other sound patterns, including work on Sikles speech. A catalogue merger is not a declaration that local speech differences are errors, and a word collection should preserve the speaker's variety and pronunciation instead of silently manufacturing one universal form.
+ELA reports varieties tied to particular villages and a changing scholarly understanding of eastern and western Gurung; a later sociolinguistic survey found the division less clear-cut than some earlier accounts implied. That sentence summarises a great deal of careful work, and its direction is worth noting: the closer researchers looked, the less tidy the map became.
+
+Studies it lists examine tone, voicing and other sound patterns, including work on Sikles speech. Tone in particular is the kind of feature that a written description struggles with and a speaker never thinks about, and it is one reason a word list compiled by a visitor can be quietly wrong.
+
+A catalogue merger is not a declaration that local speech differences are errors, and a word collection should preserve the speaker's variety and pronunciation instead of silently manufacturing one universal form. The temptation to standardise is strong, because a dictionary looks better when every entry has one spelling, but a standard that no village speaks is a new language rather than a record of an old one.
+
+For a learner this has a practical consequence: the phrasebook is a starting point, not a verdict, and the person in front of you is the authority on their own speech.
+
+The written record of all this is more recent than the language.
 
 ## [ne] गाउँगत भिन्नता र स्वर
 
@@ -55,7 +75,15 @@ ELA ले गाउँसँग जोडिएका भाषिका र �
 
 ## [en] A record of dictionaries and conversations
 
-The record begins with books: the 1977 Gurung–Nepali–English dictionary by Warren Glover, Jessie Glover and Deu Bahadur Gurung, and the 1979 Conversational Gurung by Jessie Glover and Deu Bahadur Gurung. ELA's own project with Narayan Gurung began in 2013, producing spoken-text documentation and linguistic studies. These are verifiable routes towards language learning and research, and this archive has not reproduced a dictionary wholesale or invented translations and pronunciation recordings.
+The record begins with books: the 1977 Gurung–Nepali–English dictionary by Warren Glover, Jessie Glover and Deu Bahadur Gurung, and the 1979 Conversational Gurung by Jessie Glover and Deu Bahadur Gurung. These are the volumes that a serious learner still ends up looking for, and their dates tell you what kind of record exists — mid-twentieth-century fieldwork, published in the decades that followed.
+
+ELA's own project with Narayan Gurung began in 2013, producing spoken-text documentation and linguistic studies. The shift from dictionary to spoken text is significant: a dictionary records words, while a recorded story records grammar, intonation, hesitation and the way a speaker actually builds a sentence.
+
+These are verifiable routes towards language learning and research, and this archive has not reproduced a dictionary wholesale or invented translations and pronunciation recordings. That restraint is the same one applied to ritual texts elsewhere in this book: the material belongs to the people who made it, and a bad copy is worse than no copy.
+
+What a reader can do with these sources is begin, and beginning is the point of a record.
+
+Writing has its own history here, and a recent one.
 
 ## [ne] शब्दकोश र संवादको अभिलेख
 
@@ -63,7 +91,15 @@ The record begins with books: the 1977 Gurung–Nepali–English dictionary by W
 
 ## [en] Writing and digital access
 
-Gurung Khema is one of the language's writing systems, and in September 2024 Unicode 16.0.0 added the script, giving its characters standard digital identifiers. Translation Commons reports subsequent work on fonts, keyboards and trainer workshops. Writing support enables messages, publications and learning materials, but literacy in a script is distinct from conversational fluency, and the conventions of earlier documentation still matter for reading the language's research history.
+Gurung Khema is one of the language's writing systems, and in September 2024 Unicode 16.0.0 added the script, giving its characters standard digital identifiers. The change is technical and its consequences are not: a script in Unicode can be typed on a phone, displayed on a website and searched in a database, where before it needed a special font and a patient technician.
+
+Translation Commons reports subsequent work on fonts, keyboards and trainer workshops, which is the unglamorous infrastructure that decides whether a script is used. A keyboard that takes an hour to install will not be installed by a shopkeeper; a font that renders badly on a cheap phone will not be used for a message.
+
+Writing support enables messages, publications and learning materials, but literacy in a script is distinct from conversational fluency. A child may read Khema and not speak Tamu kyi, or speak it fluently and never learn the letters, and both situations are common enough that neither should be treated as the norm.
+
+The conventions of earlier documentation still matter for reading the language's research history, because the dictionaries and grammars were written in other systems, and a reader who knows only the new script will find the old books closed.
+
+Whether any of this is passed on is a family decision before it is a policy one.
 
 ## [ne] लेखन र डिजिटल पहुँच
 
@@ -71,7 +107,13 @@ Gurung Khema is one of the language's writing systems, and in September 2024 Uni
 
 ## [en] Passing the language on
 
-ELA describes reduced transmission among many New York community members and changes associated with migration to towns in Nepal — situated observations, not one rate of language loss for all Gurungs. Family conversation, community teaching and permitted recordings address different needs: active use, literacy and an enduring record. Preserving Tamu Kyi means valuing speakers' everyday knowledge alongside ritual registers, without making fluency a test of someone's right to belong to the Tamu community.
+ELA describes reduced transmission among many New York community members and changes associated with migration to towns in Nepal — situated observations, not one rate of language loss for all Gurungs. The precision matters. There is no single figure for how many children speak the language, and any account that offers one is guessing.
+
+Family conversation, community teaching and permitted recordings address different needs: active use, literacy and an enduring record. A grandparent speaking Tamu kyi at the table produces a speaker; a Saturday class produces a reader; a recording produces something that outlasts both, and none of the three substitutes for the others.
+
+Preserving Tamu Kyi means valuing speakers' everyday knowledge alongside ritual registers, without making fluency a test of someone's right to belong to the Tamu community. The everyday register — jokes, scolding, market talk, the words for food — is what a language is for most of its life, and it is the first thing to go when a generation switches.
+
+The ritual register is the last, and the most carefully guarded.
 
 The language also carries the marks of everyone it has lived beside.
 
@@ -83,7 +125,15 @@ ELA ले न्युयोर्कका धेरै समुदाय-स
 
 ## [en] The words that arrived with new things
 
-Tamu Kyi has never developed in isolation. Centuries of contact with Tibetan-speaking neighbours left a layer of religious and political vocabulary — words for monasteries, lamas, ritual objects and offices — that runs alongside older Tamu terms rather than replacing them. Nepali contributed the vocabulary of the state: land, tax, law, school, office, caste. English now supplies the vocabulary of technology and education, usually in Nepali form. Speakers move between these layers constantly, and a single sentence at a Lhosar meeting may contain Tamu kinship terms, Nepali administrative words and an English acronym. Borrowing is not corruption; it is the normal record of a community’s history, and the pattern of loanwords is one of the best sources for reconstructing who a people lived among.
+Tamu Kyi has never developed in isolation. Centuries of contact with Tibetan-speaking neighbours left a layer of religious and political vocabulary — words for monasteries, lamas, ritual objects and offices — that runs alongside older Tamu terms rather than replacing them.
+
+Nepali contributed the vocabulary of the state: land, tax, law, school, office, caste. English now supplies the vocabulary of technology and education, usually in Nepali form. Speakers move between these layers constantly, and a single sentence at a Lhosar meeting may contain Tamu kinship terms, Nepali administrative words and an English acronym.
+
+Borrowing is not corruption; it is the normal record of a community's history, and the pattern of loanwords is one of the best sources for reconstructing who a people lived among. A word's shape can date a contact the way a coin can date a grave, and a language that borrowed nothing would be a language that met nobody.
+
+Which is to say that the vocabulary is a kind of archive, and it is being consulted whether or not anyone intends it.
+
+What it holds that no other language holds is the harder question.
 
 ## [ne] नयाँ कुरासँगै आएका शब्द
 
@@ -91,9 +141,15 @@ Tamu Kyi has never developed in isolation. Centuries of contact with Tibetan-spe
 
 ## [en] What is lost when a language is lost
 
-A language is not only a list of words for things that could be named in another language. It is a system of distinctions. Tamu Kyi encodes kinship relationships that Nepali collapses, distinguishes plants and landscape features that outsiders treat as one category, and carries ritual formulae whose meaning depends on archaic vocabulary. When a language stops being spoken, those distinctions do not transfer intact; they are replaced by the categories of the dominant language.
+A language is not only a list of words for things that could be named in another language. It is a system of distinctions. Tamu Kyi encodes kinship relationships that Nepali collapses, distinguishes plants and landscape features that outsiders treat as one category, and carries ritual formulae whose meaning depends on archaic vocabulary.
 
-This is why elders often say that certain things cannot really be explained in Nepali. It is also why language loss is a heritage problem and not only a communication problem: the knowledge held by pachyu and klyepri is stored in a language, and a translation is always an interpretation.
+When a language stops being spoken, those distinctions do not transfer intact; they are replaced by the categories of the dominant language. A nephew and a cousin's son may end up under one Nepali word, and the obligation that attached to one of them disappears with the distinction that named it.
+
+This is why elders often say that certain things cannot really be explained in Nepali. They are not being mystical. They are reporting that the translation loses the thing that mattered, and they are usually right.
+
+It is also why language loss is a heritage problem and not only a communication problem: the knowledge held by pachyu and klyepri is stored in a language, and a translation is always an interpretation.
+
+For the many Gurungs who grew up speaking Nepali or English, that leaves a practical question.
 
 ## [ne] भाषा हराउँदा के हराउँछ
 
@@ -101,7 +157,15 @@ This is why elders often say that certain things cannot really be explained in N
 
 ## [en] Learning it as an adult
 
-For the many Gurungs who grew up speaking Nepali or English, learning Tamu Kyi as an adult is possible but not simple. There is no single standard course, the orthography is contested, and the material that exists is scattered across dictionaries, songbooks, Bible translations, linguistic papers and community primers. Learners usually begin with greetings, kinship terms and the vocabulary of food and festivals, then work with a speaker rather than a book. Recording an elder telling a story, transcribing it slowly and asking about each unfamiliar word teaches more than memorising a list. The most successful community classes combine a fluent teacher, a consistent script and a reason to use the language outside the classroom — a song, a ceremony, a group chat.
+For the many Gurungs who grew up speaking Nepali or English, learning Tamu Kyi as an adult is possible but not simple. There is no single standard course, the orthography is contested, and the material that exists is scattered across dictionaries, songbooks, Bible translations, linguistic papers and community primers.
+
+Learners usually begin with greetings, kinship terms and the vocabulary of food and festivals, then work with a speaker rather than a book. That order is not arbitrary: these are the words a family uses daily, so they are the words a learner can practise without arranging a lesson.
+
+Recording an elder telling a story, transcribing it slowly and asking about each unfamiliar word teaches more than memorising a list. The story gives the words a place, and the questions give the learner a reason to keep asking — which is also how the elder's knowledge gets recorded while it is still available.
+
+The most successful community classes combine a fluent teacher, a consistent script and a reason to use the language outside the classroom — a song, a ceremony, a group chat. A language learned for a test is forgotten after the test; a language used to talk to somebody is kept.
+
+Which is where this chapter, and the book's account of the language, has to leave the reader: with a person to talk to.
 
 ## [ne] परिपक्व उमेरमा सिक्नु
 
